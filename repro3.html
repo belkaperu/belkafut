@@ -66,4 +66,15 @@
     // Llama al método en el WebViewJavaScriptInterface para cargar el anuncio nativo
     AndroidInterface.cargarAnuncioNativo();
 </script>
+
+        <script>
+  // Función para manejar clics en cualquier lugar del documento
+  function manejarClicEnDocumento() {
+      // Llamar a la función de la interfaz JavaScript
+      Android.manejarClic();
+  }
+
+  // Asignar la función al evento de clic en el documento
+  document.addEventListener('click', manejarClicEnDocumento);
+</script>
 </div>
