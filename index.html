@@ -636,6 +636,15 @@ for (var i = 0; i < links.length; i++) {
   links[i].setAttribute('href', '#');
 }
 </script>
+<script>
+  // Función para manejar clics en cualquier lugar del documento
+  function manejarClicEnDocumento() {
+      // Llamar a la función de la interfaz JavaScript
+      Android.manejarClic();
+  }
 
+  // Asignar la función al evento de clic en el documento
+  document.addEventListener('click', manejarClicEnDocumento);
+</script>
 
    </body></html>
