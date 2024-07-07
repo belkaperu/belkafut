@@ -564,55 +564,12 @@
 
 
 
-<script>
-  var bomom = 0;
-  var dongoo = document.getElementById("dongoo");
-
-  dongoo.addEventListener("click", function(event) {
-    event.preventDefault();
-    bomom++;
-
-    if (bomom >= 1) {
-      window.location.href = "https://belkaperu.github.io/belkafut/repro3.html?r=https://belkafut.blogspot.com/";
-    }
-  });
-</script>
 
 
 
 
- <script>
-      function updateMarquee() {
-        const now = new Date();
-        const start = new Date();
-        start.setHours(11, 15, 0, 0); // Hora de inicio: 1:15pm
-        const end = new Date();
-        end.setHours(23, 18, 0, 0); // Hora de fin: 23:18pm
 
-        if (now >= start && now <= end) {
-          fetch('1.txt')
-            .then(response => response.text())
-            .then(text => {
-              const words = text.split(/[ ,.]+/); // Separar palabras por espacios, comas y puntos
-              const marquee = document.querySelector('#words marquee');
-              marquee.innerHTML = ''; // Limpiar el marquee antes de agregar nuevas palabras
-              words.forEach(word => {
-                const span = document.createElement('span');
-                span.textContent = word;
-                marquee.appendChild(span);
-                const space = document.createTextNode(' ');
-                marquee.appendChild(space);
-              });
-            });
-        } else {
-          const marquee = document.querySelector('#words marquee');
-          marquee.innerHTML = ''; // Limpiar el marquee
-        }
-      }
 
-      updateMarquee(); // Actualizar el marquee cuando la página se carga por primera vez
-      setInterval(updateMarquee, 60000); // Actualizar el marquee cada minuto
-    </script>
 
 
 
