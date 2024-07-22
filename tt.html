@@ -12,17 +12,19 @@
 <body>
     <div id="player"></div>
     <script>
-        // Función para obtener dinámicamente la URL m3u8 desde el servicio
         function obtenerURLm3u8() {
-            return fetch('https://sv1.streamtp.live/global1.php?stream=tyc_sports')
-                .then(response => response.text())  // Suponiendo que el servicio devuelve la URL como texto
+            // URL a la que deseas hacer la solicitud (reemplaza con tu URL m3u8)
+            const url = 'https://sv1.streamtp.live/global1.php?stream=tyc_sports';
+            const proxyUrl = 'https://cors-anywhere.herokuapp.com/' + url;
+            
+            return fetch(proxyUrl)
+                .then(response => response.text())
                 .catch(error => {
                     console.error('Error al obtener la URL m3u8:', error);
                     return null;
                 });
         }
 
-        // Función principal para inicializar el reproductor
         function inicializarReproductor() {
             obtenerURLm3u8().then(playbackURL => {
                 if (playbackURL) {
@@ -56,7 +58,6 @@
             });
         }
 
-        // Llamar a la función para inicializar el reproductor al cargar la página
         inicializarReproductor();
     </script>
 </body>
