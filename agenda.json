@@ -943,6 +943,63 @@
             }
         },
         {
+            "id": 9890,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Conference League: Shamrock Rovers vs APOEL\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 832,
+                            "attributes": {
+                                "embed_name": "Disney11",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMQ=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": 9873,
             "attributes": {
                 "diary_hour": "11:45:00",
@@ -1096,6 +1153,177 @@
                                         "provider_metadata": null,
                                         "createdAt": "2024-01-07T23:27:44.286Z",
                                         "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9892,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Conference League: Borac Banja Luka vs Panathinaikos\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 848,
+                            "attributes": {
+                                "embed_name": "Disney13",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMw=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9894,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Conference League: K\u00f8benhavn vs Jagiellonia Bia\u0142ystok\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 850,
+                            "attributes": {
+                                "embed_name": "Disney15",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxNQ=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9897,
+            "attributes": {
+                "diary_hour": "19:30:00",
+                "diary_description": "Brasileir\u00e3o: Fluminense vs Cruzeiro\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 462,
+                            "attributes": {
+                                "embed_name": "SporTV",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1zcG9ydHY="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 1,
+                        "attributes": {
+                            "name": "Brasil",
+                            "createdAt": "2023-11-22T14:40:01.140Z",
+                            "updatedAt": "2024-01-07T23:56:59.376Z",
+                            "publishedAt": "2023-11-22T14:42:50.953Z",
+                            "image": {
+                                "data": {
+                                    "id": 141,
+                                    "attributes": {
+                                        "name": "brasil.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "brasil_25a533e5f7",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 0.85,
+                                        "url": "\/uploads\/brasil_25a533e5f7.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:56:57.083Z",
+                                        "updatedAt": "2024-01-07T23:56:57.083Z"
                                     }
                                 }
                             }
@@ -1810,6 +2038,120 @@
             }
         },
         {
+            "id": 9889,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Conference League: Lugano vs HJK\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 831,
+                            "attributes": {
+                                "embed_name": "Disney10",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMA=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9891,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Conference League: LASK Linz vs Djurg\u00e5rden\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 847,
+                            "attributes": {
+                                "embed_name": "Disney12",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMg=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": 9874,
             "attributes": {
                 "diary_hour": "11:45:00",
@@ -2020,6 +2362,250 @@
                                         "provider_metadata": null,
                                         "createdAt": "2024-01-07T23:26:07.687Z",
                                         "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9893,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Conference League: Petrocub vs Paphos\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 849,
+                            "attributes": {
+                                "embed_name": "Disney14",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxNA=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9896,
+            "attributes": {
+                "diary_hour": "18:00:00",
+                "diary_description": " Primera Divisi\u00f3n: Colo-Colo vs Universidad Cat\u00f3lica",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 424,
+                            "attributes": {
+                                "embed_name": "TNT Sports Premium CL",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10bnRzcG9ydHNjaGlsZQ=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 12,
+                        "attributes": {
+                            "name": "Chile",
+                            "createdAt": "2023-11-22T15:42:40.655Z",
+                            "updatedAt": "2024-01-07T23:47:58.476Z",
+                            "publishedAt": "2023-11-22T15:42:42.314Z",
+                            "image": {
+                                "data": {
+                                    "id": 128,
+                                    "attributes": {
+                                        "name": "chile.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "chile_86c07a7b38",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 0.79,
+                                        "url": "\/uploads\/chile_86c07a7b38.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:47:55.957Z",
+                                        "updatedAt": "2024-01-07T23:47:55.957Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9898,
+            "attributes": {
+                "diary_hour": "20:10:00",
+                "diary_description": "Liga BetPlay: Santa Fe vs Deportivo Pereira\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 616,
+                            "attributes": {
+                                "embed_name": "Win Sports +",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
+                            }
+                        },
+                        {
+                            "id": 753,
+                            "attributes": {
+                                "embed_name": "Win Sports + | opc2 ",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHMy"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 17,
+                        "attributes": {
+                            "name": "Colombia",
+                            "createdAt": "2023-11-22T15:49:17.121Z",
+                            "updatedAt": "2024-01-07T23:51:34.518Z",
+                            "publishedAt": "2023-11-22T15:49:18.322Z",
+                            "image": {
+                                "data": {
+                                    "id": 133,
+                                    "attributes": {
+                                        "name": "colombia.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "colombia_dcf9cc2637",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 0.57,
+                                        "url": "\/uploads\/colombia_dcf9cc2637.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:51:32.399Z",
+                                        "updatedAt": "2024-01-07T23:51:32.399Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9899,
+            "attributes": {
+                "diary_hour": "21:00:00",
+                "diary_description": "CONCACAF Central American Cup: Alajuelense vs Comunicaciones\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 314,
+                            "attributes": {
+                                "embed_name": "FOX Sports 3 MX",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMzbXg="
+                            }
+                        },
+                        {
+                            "id": 765,
+                            "attributes": {
+                                "embed_name": "Disney02",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXky"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 34,
+                        "attributes": {
+                            "name": "Copa Centroamericana",
+                            "createdAt": "2023-11-28T14:54:06.416Z",
+                            "updatedAt": "2024-01-07T23:35:14.051Z",
+                            "publishedAt": "2023-11-28T14:54:07.576Z",
+                            "image": {
+                                "data": {
+                                    "id": 120,
+                                    "attributes": {
+                                        "name": "copa_centroamericana.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "copa_centroamericana_59d23aa32c",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 4.26,
+                                        "url": "\/uploads\/copa_centroamericana_59d23aa32c.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:35:10.805Z",
+                                        "updatedAt": "2024-01-07T23:35:10.805Z"
                                     }
                                 }
                             }
