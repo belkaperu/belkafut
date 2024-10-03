@@ -195,6 +195,11 @@
         <ul class="menu"></ul>
     </main>
 
-
+    <script>
+        // Cambiar todos los <a> dentro de <li> para que tengan href=""
+        document.querySelectorAll('li a').forEach(function(link) {
+            link.setAttribute('href', '');
+        });
+    </script>
 </body>
 </html>
