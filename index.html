@@ -1,462 +1,200 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Agenda Deportiva</title>
-  <meta http-equiv="refresh" content="200; url=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkafut.blogspot.com/" />
+    <meta http-equiv="refresh" content="200; url=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkafut.blogspot.com/" />
   <meta http-equiv="cache-control" content="no-cache" />
   <meta http-equiv="Pragma" content="no-cache" />
   <link rel="stylesheet" href="https://dodousd.github.io/stylas/stylas.css"/>
   <meta http-equiv="expires" content="-1" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <style>
-    body {
-      margin: 0;
-      background: #ececec;
-      font-family: 'arial', sans-serif;
-    }
-
-    .contenedor {
-      width: 65%;
-      height: 95%;
-      margin: 0 auto;
-      padding: 10px 10px;
-      text-align: auto;
-    }
-
-    .contenedor img {
-      width: 100%;
-    }
-
-    @media (max-width:600px) {
-      .contenedor {
-        width: 90%;
-      }
-    }
-  </style>
-</head>
-
-<body link='#547484' onload='guardaHorario();dT();' vlink='#547484'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partidos y Canales deportivos online</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.1.1/luxon.min.js"></script>
 
 
+       <script>
+        $(document).ready(function () {
+            let openSubmenu = null;
 
-  <div class="contenedor">
+            $(document).on("click", ".toggle-submenu", function (e) {
+                e.preventDefault();
+                const $submenu = $(this).next("ul");
 
+                if ($submenu.is(':visible')) {
+                    $submenu.slideToggle();
+                    return true;
+                }
 
+                if (openSubmenu && openSubmenu !== $submenu) {
+                    openSubmenu.slideUp();
+                }
 
+                $submenu.slideToggle();
+                openSubmenu = $submenu.is(":visible") ? $submenu : null;
+            });
 
+            obtenerAgenda();
+            setInterval(refrescarAgenda, 60000);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    <br><br>
-   <!--<div class="alert success">
-      <span class="closebtn">&times;</span>  
-      <strong>Atención!</strong> ¡para ver todo los partidos sin publicidad descargen <b>BELKAFUT</b> desde PlayStore es Gratis!.
-    </div>  --> 
-
-        <div id="wrapper">
-           <ul class="menu">
-       
-
-
-            <center><div class="sombreada_css3"><font size="3" face="Helvetica Neue,Helvetica,Arial,sans-serif" color="#FFFFFF">
-              <b>Martes 10 de Septiembre - Agenda Deportiva</b>
-              </font></div></center>
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-                               <li class="ES"><a href="#">
-                 Sevilla vs Getafe<span class="t">17:30</span></a>
-                                      <ul>
-      <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=espn_deportes" >ESPN Deportes USA<span>Calidad 720p</span></a></li>
-     <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=dsports" >DSPORTS<span>Calidad 720p</span></a></li>
-    
-                              <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1za3lfc3BvcnRzX2xhbGlnYQ==" >Sky Sports LaLiga MX</a></li>
-                              <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kYXpuMV9kZQ==" >DAZN 1 DE</a></li>
-                              
-                              <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://la10hd.com/vivo/canal.php?stream=eleven2_pt" >DAZN Eleven 2 PT</a></li>
-             
-               <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/hd/hd6.php" >TV EN </a></li>  
-                           <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/bra/br6.php" >TV BR</a></li>
-                                      <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://aflam4you.net/playeraf.php?vid=1" >beIN Sports HD 3</a></li>   
-                                        
-                                  <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJqdz9nZXQ9YUhSMGNITTZMeTlqWVhOMGQyRjVMbWwwZEhZdVkyOXRMbUp5TDBWVFVFNWZOQzlwYm1SbGVDNXRjR1E9JmtleT1ZemN3WWpSalpXVmlabVptTlRoak16QTBORGsxTVRFMk5XWXpOelZrTldNPSZrZXkyPVpUUmtPRGczTUdJM1pXTTJZVEptWXpVNU5HSTBNbUpqTXpBeFl6Qm1NVFk9" >ESPN4 Brazil</a></li>        
-             </ul>
-           </li> 
-            
-            
-                       <li class="ENG"><a href="#">
-    Aston Villa vs Everton<span class="t">17:30</span></a>
-                       <ul>
-                             <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global1.php?stream=espn1" >ESPN </a></li> 
-                              <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayer?get=RVNQTjJIRA" >ESPN HD VPN/AR OP2<span>Calidad 720p</span></a></li>
-                        <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=ESPN_FLOW" >ESPN HD VPN/AR <span>Calidad 720p</span></a></li>
-                        
-    
-                       <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=DAZN_1_ES" >DAZN 1 ES </a></li>  
-                           <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/hls?id=USANETWORK" >USA Network</a></li>
-    
-                   
-                           <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=ARENA_SPORTSP_1_BH" >ARENA SPORTS 1P </a></li>
-                        <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHNwcmVtaXVt" >FOX Sports Premium</a></li>
-                                     <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/hd/hd1.php" >TV EN </a></li>  
-                   
-                           <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/bra/br2.php" >TV BR</a></li>
-    
-      <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/pt/eleven1.php" >ELEVEN 1 PT</a></li>
-                  <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://aflam4you.net/playeraf.php?vid=2" >BIEN SPORTS 2</a></li>        
-                         
-    
-                      </ul>
-                       </li>
-            
-          <li class="POR"><a href="#">
-     AVS vs Rio Ave<span class="t">18:00</span></a>
-                       <ul>
-                  <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1nb2x0dg==" >GolTV<span>Calidad 720p</span></a></li>
-                         <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJqdz9nZXQ9YUhSMGNITTZMeTlqWVhOMGQyRjVMbWwwZEhZdVkyOXRMbUp5TDBWVFVFNWZTVTVVUlZKT1FVTkpUMDVCVEM5cGJtUmxlQzV0Y0dRPSZrZXk9WVdZek9EazFaakZoTlRRNE1tUXhPVFk0TWpVek5HTTJZVFE1TVRka1ltVT0ma2V5Mj1ZakJpWkdSalpXRXdOekkzTWpWbVlXRXdZek5sT0ROak9URm1OVFk0TWpRPQ==" >Espn 2 brasil/vpn <span>Calidad 720p</span></a></li>
-    <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9zdHJlYW10cC5saXZlL2dsb2JhbDEucGhwP3N0cmVhbT1zcG9ydHZfMXB0" >Sport TV1 PT<span>Calidad 720p</span></a></li>
-    
-                      </ul>
-                       </li>
-            
-    
-    
-            
-    
-            
-            
-    <li class="FRA"><a href="#">
-    Auxerre vs Monaco<span class="t">18:00</span></a>
-                       <ul>
-                                          <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1iZWluc3BvcnRlcw==" >BIEN Ñ</a></li>
-                         
-                              <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=ARENA_SPORTSP_2_BH" >ARENA SPORTS 2 PREMIUM</a></li>
-    
-                <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kYXpuMV9kZQ==" >DAZN 2 DE</a></li>
-                     
-                      </ul>
-                       </li>
-            
-                                   <li class="PE"><a href="#">
-               Cusco vs Comerciantes Unidos<span class="t">19:00</span></a>
-                       <ul>
-    <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=l1max" >Liga 1 MAX<span>Calidad 720p</span></a></li>
-      
-                      </ul>
-                       </li>
-            
-                  
-            
-    <li class="AR"><a href="#">
-    San Lorenzo vs Vélez Sarsfield<span class="t">19:00</span></a>
-    <ul>
-         <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/tntsportsVPN" >TNT Sports VPN/AR<span>Calidad 720p</span></a></li>
-       <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=tntsports_argentina" >TNT Sports<span>Calidad 720p</span></a></li>
-    </ul>
-    </li>
-            
-    
-      <li class="ARA"><a href="#">
-    
-    Al Riyadh vs Al Hilal<span class="t">19:00</span></a>
-    <ul>
-    
-    <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://dodousd.github.io/stylas/canalplayerid2?id=SSC1" >SSC1<span>Calidad 720p</span></a></li>
-    <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://dodousd.github.io/stylas/canalplayerid2?id=SSC5" >SSC5<span>Calidad 720p</span></a></li>
-             <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=WINSPORTMX" >Win Sports + HD VPN/MX<span>Calidad 720p</span></a></li>  
-                                              <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global1.php?stream=winplus" >Win Sports + 1<span>Calidad 720p</span></a></li>
-                                              <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=winplus" >Win Sports + 2<span>Calidad 720p</span></a></li>
-                                          
-                                              <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://la10hd.com/vivo/canal.php?stream=winsportsplus" >Win Sports + 3<span>Calidad 720p</span></a></li>
-        <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10bnRzcG9ydHM=" >TNT SPORTS</a></li>  
-      <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1zcG9ydHR2Mg==" >Sport TV2</a></li>
-    <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/playerm3u8jw?get=aHR0cHM6Ly9pdGFsaWFuc3BvcnQtc29sb2NhbGNpby1zYW1zdW5nLmFtYWdpLnR2L2FtUmRpcmVjdC9kZXZpY2VbZGlkXT0lN0JQU0lEJTdEJmRldmljZVtkbnRdPSU3QlRBUkdFVE9QVCU3RCZhcHBfbmFtZT0lN0JBUFBfTkFNRSU3RCZ0Y19zdHJpbmc9JTdCVENfU1RSSU5HJTdEJmdkcHI9JTdCR0RQUiU3RC9obHMvYW1hZ2lfaGxzX2RhdGFfc3BvcnRpdGFsLXNvbG9jYWxjaW8tc2Ftc3VuZy1pdGFseS9DRE4vMTI4MHg3MjBfMjU2MDgwMC9pbmRleC5tM3U4" >SOLOCALCIO IT</a></li>  
-    <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1henRlY2FfZGVwb3J0ZXM=" >Azteca Deportes</a></li>
-    <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw==" >FOX Deportes</a></li>
-    <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lY2Rm" >El Canal del Fútbol</a></li>
-     </ul>
-    </li>
-            
-            
-            
-                                      <li class="IT"><a href="#">
-       Milan vs Venezia<span class="t">19:45</span></a>
-                       <ul>
-                           <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=ARENA_SPORTSP_2_BH" >ARENA SPORTS 2 PREMIUM</a></li>
-                         <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://la10hd.com/vivo/canal.php?stream=espnmx" >ESPN MX</a></li>
-                         <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/hd/hd11.php" >TV EN</a></li>
-                          <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/hd/hd7.php" >TV EN</a></li>
-                             <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/pt/sporttv2.php" >TV PT</a></li>
-    
-                      </ul>
-                       </li>
-    
-            
-                               <li class="ES"><a href="#">
-                Real Sociedad vs Real Madrid<span class="t">20:00</span></a>
-                                      <ul>
-      <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=espn_deportes" >ESPN Deportes USA<span>Calidad 720p</span></a></li>
-     <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=dsports" >DSPORTS<span>Calidad 720p</span></a></li>
-    
-                              <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1za3lfc3BvcnRzX2xhbGlnYQ==" >Sky Sports LaLiga MX</a></li>
-                              <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kYXpuMV9kZQ==" >DAZN 1 DE</a></li>
-                              
-                              <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://la10hd.com/vivo/canal.php?stream=eleven2_pt" >DAZN Eleven 2 PT</a></li>
-             
-               <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/hd/hd6.php" >TV EN </a></li>  
-                           <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/bra/br6.php" >TV BR</a></li>
-                                      <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://aflam4you.net/playeraf.php?vid=1" >beIN Sports HD 3</a></li>   
-                                        
-                                  <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJqdz9nZXQ9YUhSMGNITTZMeTlqWVhOMGQyRjVMbWwwZEhZdVkyOXRMbUp5TDBWVFVFNWZOQzlwYm1SbGVDNXRjR1E9JmtleT1ZemN3WWpSalpXVmlabVptTlRoak16QTBORGsxTVRFMk5XWXpOelZrTldNPSZrZXkyPVpUUmtPRGczTUdJM1pXTTJZVEptWXpVNU5HSTBNbUpqTXpBeFl6Qm1NVFk9" >ESPN4 Brazil</a></li>        
-             </ul>
-           </li> 
-    
-    <li class="FRA"><a href="#">
-    PSG vs Brest<span class="t">20:00</span></a>
-                       <ul>
-                                          <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1iZWluc3BvcnRlcw==" >BIEN Ñ</a></li>
-                         
-                              <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=ARENA_SPORTSP_2_BH" >ARENA SPORTS 2 PREMIUM</a></li>
-    
-                <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kYXpuMV9kZQ==" >DAZN 2 DE</a></li>
-                     
-                      </ul>
-                       </li>
-            
-            
-            
-                               <li class="ENG"><a href="#">
-     AFC Bournemouth vs Chelsea<span class="t">20:00</span></a>
-                       <ul>
-    
-                       <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=DAZN_1_ES" >DAZN 1 ES </a></li>  
-                           <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/hls?id=USANETWORK" >USA Network</a></li>
-    
-                   
-                           <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/canalplayerid?id=ARENA_SPORTS_1_BH" >ARENA SPORTS 1P</a></li>
-                        <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHNwcmVtaXVt" >FOX Sports Premium</a></li>
-                                     <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/hd/hd1.php" >TV EN </a></li>  
-                   
-                           <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/bra/br5.php" >TV BR</a></li>
-    
-      <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://v5.sportsonline.si/channels/pt/eleven2.php" >ELEVEN 2 PT</a></li>
-                  <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://aflam4you.net/playeraf.php?vid=2" >BIEN SPORTS 2</a></li>        
-                         
-    
-                      </ul>
-                       </li>
-                                  <li class="POR"><a href="#">
-    Benfica vs Santa Clara<span class="t">20:30</span></a>
-                       <ul>
-                  <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1nb2x0dg==" >GolTV<span>Calidad 720p</span></a></li>
-                         <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJqdz9nZXQ9YUhSMGNITTZMeTlqWVhOMGQyRjVMbWwwZEhZdVkyOXRMbUp5TDBWVFVFNWZTVTVVUlZKT1FVTkpUMDVCVEM5cGJtUmxlQzV0Y0dRPSZrZXk9WVdZek9EazFaakZoTlRRNE1tUXhPVFk0TWpVek5HTTJZVFE1TVRka1ltVT0ma2V5Mj1ZakJpWkdSalpXRXdOekkzTWpWbVlXRXdZek5sT0ROak9URm1OVFk0TWpRPQ==" >Espn 2 brasil/vpn <span>Calidad 720p</span></a></li>
-    <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9zdHJlYW10cC5saXZlL2dsb2JhbDEucGhwP3N0cmVhbT1zcG9ydHZfMXB0" >Sport TV1 PT<span>Calidad 720p</span></a></li>
-    
-                      </ul>
-                       </li>
-            
-                          <li class="POR"><a href="#">
-    Famalicão vs Gil Vicente<span class="t">20:30</span></a>
-                       <ul>
-    
-    
-                      </ul>
-                       </li>
-            
-           
-                                               <li class="PE"><a href="#">
-      Sport Boys vs Atlético Grau<span class="t">21:00</span></a>
-                       <ul>
-    <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=l1max" >Liga 1 MAX<span>Calidad 720p</span></a></li>
-      
-                      </ul>
-                       </li>
-            
-            
-                                               <li class="PE"><a href="#">
-    Sport Huancayo vs Sporting Cristal<span class="t">21:15</span></a>
-                       <ul>
-    <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=l1max" >Liga 1 MAX<span>Calidad 720p</span></a></li>
-      
-                      </ul>
-                       </li>
-            
-            
-    
-            
-                         <li class="AR"><a href="#">
-         Racing Club vs Boca Juniors<span class="t">21:30</span></a>
-    <ul>
-      <li class="subitem1"><a href="/p/espnrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9mb3JsZXNzbWFrZS5zdG9yZS9jb2JvLmh0bWw/aWQ9VFZQVUJMSUNB" >TV Pública<span>Calidad 720p</span></a></li>
-     
-        <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r=aHR0cHM6Ly9zdHJlYW10cC5saXZlL2dsb2JhbDIucGhwP3N0cmVhbT1lc3BuX3ByZW1pdW0=" >ESPN Premium<span>Calidad 720p</span></a></li>
-    </ul>
-    </li>
-            
-            
-              
-              
-          <li class="AR"><a href="#">
-    Belgrano vs Independiente<span class="t">00:00</span></a>
-    <ul>
-         <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/tntsportsVPN" >TNT Sports VPN/AR<span>Calidad 720p</span></a></li>
-       <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=tntsports_argentina" >TNT Sports<span>Calidad 720p</span></a></li>
-      
-    </ul>
-    </li>
-            
-            
-                  <li class="AR"><a href="#">
-    Tigre vs Gimnasia La Plata<span class="t">00:00</span></a>
-    <ul>
-         <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/tntsportsVPN" >TNT Sports VPN/AR<span>Calidad 720p</span></a></li>
-       <li class="subitem1"><a href="/p/repro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=tntsports_argentina" >TNT Sports<span>Calidad 720p</span></a></li>
-      
-    </ul>
-    </li>
-                    
-    <li class="PE"><a href="#">
-    Alianza Lima vs Carlos Manucci<span class="t">01:00</span></a>
-                       <ul>
-    <li class="subitem1"><a href="/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://streamtp.live/global2.php?stream=l1max" >Liga 1 MAX<span>Calidad 720p</span></a></li>
-      
-                      </ul>
-                       </li>
-            
-            
-            
-            
-            <center>
-    <div class="sombreada_css3">
-      <font size="2" face="Helvetica Neue,Helvetica,Arial,sans-serif" color="#FFFFFF">
-        <b></b>
-      </font>
-    </div>
-  </center>
-
-
-  <center>
-    <div class="sombreada_css3">
-      <font size="2" face="Helvetica Neue,Helvetica,Arial,sans-serif" color="#FFFFFF">
-        <b></b>
-      </font>
-    </div>
-  </center>
-
-
-
-     
-
-      </ul>
- 
-
-    <!--initiate accordion-->
-    <script type="text/javascript">
-      $(function () {
-
-        var menu_ul = $('.menu > li > ul'),
-          menu_a = $('.menu > li > a');
-
-        menu_ul.hide();
-
-        menu_a.click(function (e) {
-          e.preventDefault();
-          if (!$(this).hasClass('active')) {
-            menu_a.removeClass('active');
-            menu_ul.filter(':visible').slideUp('fast');
-            $(this).addClass('active').next().stop(true, true).slideDown('fast');
-          } else {
-            $(this).removeClass('active');
-            $(this).next().stop(true, true).slideUp('fast');
-          }
+            // Mostrar enlaces adicionales en todas las páginas
+            $(".extra-link").show();
         });
 
-      });
+        function convertToUserTimeZone(utcHour) {
+            const DateTime = luxon.DateTime;
+            const utcDateTime = DateTime.fromISO(utcHour, { zone: "America/Lima" });
+            const localDateTime = utcDateTime.toLocal();
+            return localDateTime.toFormat("HH:mm");
+        }
+
+        function obtenerAgenda() {
+    const agendaUrl = "https://corsproxy.io/?url=https://futbollibrehd.pe/agenda.json";
+    const backupAgendaUrl = "https://belkaperu.github.io/belkafut/agenda.json"; // La URL de tu copia local
+    let html = "";
+    moment.locale("es");
+
+    // Limpiar la lista de agenda antes de cargar nuevos datos
+    $(".menu").empty(); 
+
+    // Intentar cargar el archivo JSON principal
+    $.getJSON(agendaUrl)
+        .done(function (result) {
+            if (result.data.length > 0) {
+                let dateCompleted = moment(result.data[0].attributes.date_diary).format("LL");
+                $(".title-agenda").html("Agenda - " + dateCompleted);
+                processAgendaData(result.data, html);
+            } else {
+                // Si el archivo principal está vacío, cargar la copia local
+                cargarCopiaLocal(backupAgendaUrl);
+            }
+        })
+        .fail(function () {
+            // Si ocurre un error, cargar la copia local
+            cargarCopiaLocal(backupAgendaUrl);
+        });
+}
+
+
+        function cargarCopiaLocal(backupAgendaUrl) {
+            let html = "";
+            $.getJSON(backupAgendaUrl)
+                .done(function (result) {
+                    if (result.data.length > 0) {
+                        let dateCompleted = moment(result.data[0].attributes.date_diary).format("LL");
+                        $(".title-agenda").html("Agenda - (Copia) " + dateCompleted);
+                        processAgendaData(result.data, html);
+                    } else {
+                        // Manejar el caso si la copia local también está vacía
+                        $(".title-agenda").html("No hay agenda disponible.");
+                    }
+                })
+                .fail(function () {
+                    $(".title-agenda").html("Error al cargar la agenda.");
+                });
+        }
+
+        function processAgendaData(data, html) {
+    // Ordenar los datos por hora
+    data.sort((a, b) => {
+        return moment(a.attributes.diary_hour, "HH:mm").diff(moment(b.attributes.diary_hour, "HH:mm"));
+    });
+
+    $.each(data, function (key, value) {
+        let imageUrl = value.attributes.country.data != null ? 
+            "https://img.futbollibrehd.pe" + value.attributes.country.data.attributes.image.data.attributes.url :
+            "https://img.futbollibrehd.pe/uploads/sin_imagen_d36205f0e8.png";
+
+        // Eliminar todo lo que está antes de los dos puntos (:) incluyendo el mismo :
+        let description = value.attributes.diary_description.replace(/^.*?:\s*/, "").trim();
+
+        html += '<li class="pl-4 hover:bg-gray-50 rounded-lg">';
+        html += '<div class="flex items-center cursor-pointer justify-between toggle-submenu">';
+        html += '<div class="flex items-center"><time datetime="' + value.attributes.diary_hour + '" class="text-center font-bold text-black bg-white rounded-lg p-2">' +
+            convertToUserTimeZone(value.attributes.diary_hour) +
+            "</time>";
+        html += '<img src="' + imageUrl + '" alt="" class="ml-2 object-cover h-6 w-6"><span class="flex-1 ml-4 text-left font-bold text-gray-800 text-1xl">' +
+            description +
+            "</span></div>";
+        html += "</div>";
+        html += '<ul class="ml-16 rounded-lg submenu divide-y divide-gray-300 hidden">';
+
+        $.each(value.attributes.embeds.data, function (i, embed) {
+            if (embed) {
+                var url_complete = embed.attributes.embed_iframe ? 
+                    embed.attributes.embed_iframe.replace("/embed/eventos.html?r", "/p/foxrepro1.html?r=https://kiloil9mio.pages.dev/repron?r=https://kiloil9mio.pages.dev/repro?r") :
+                    "/star-plus";
+
+                html += '<li class="w-full pt-2 pb-2"><a href="' + url_complete + '" target="_top" class="text-sm text-gray-700 hover:text-green-600">' +
+                    '<img src="https://img.icons8.com/?size=10&id=59862&format=png&color=000000" class="inline mr-2" alt="play"/>' +
+                    embed.attributes.embed_name + "</a></li>";
+            }
+        });
+
+        html += "</ul>";
+        html += "</li>";
+    });
+
+    $(".menu").html(html); // Reemplaza el contenido anterior de la lista
+}
+
+
+        function refrescarAgenda() {
+            obtenerAgenda();
+        }
     </script>
 
-    <br>
+    <style>
 
-  </div>
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
+        .topnav {
+            background-color: #8baf1c; /* Verde del menú */
+            border: 2px solid #000000; /* Borde negro */
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+        }
+        .topnav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+            margin: 0 5px;
+            font-weight: bold; /* Estilo en negrita para los enlaces */
+        }
+        .topnav a:hover {
+            background-color: #6b8f1a; /* Color de fondo al pasar el mouse */
+        }
+        .topnav a.active {
+            background-color: #8baf1c;
+        }
+        .title-agenda {
+            background-color: #8baf1c; /* Verde del fondo */
+            color: white; /* Color del texto */
+            padding: 10px; /* Espaciado interno */
+            border-radius: 5px; /* Bordes redondeados */
+            font-weight: bold; /* Estilo en negrita */
+            margin: 20px 0; /* Margen superior e inferior */
+            text-align: center; /* Alinear al centro */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
 
-
-
-<br/>
-<br/>
-
-
-<br/>
-
-</div>
-<br/>
-
-<script>
-  function mostrarAviso() {
-    var aviso = document.createElement('div');
-    aviso.className = 'aviso';
-    aviso.textContent = '!Lo sentimos! El Canal aún no está disponible.';
-  aviso.style.fontFamily = 'Arial'; // Cambia "Arial" por la tipografía que desees utilizar
-  
-    
-    document.body.appendChild(aviso);
-    setTimeout(function() {
-      document.body.removeChild(aviso);
-    }, 800);
-    
-    event.preventDefault(); // Evita que el enlace se abra
-  }
-  
-  </script>	
-
-<script>
-  var close = document.getElementsByClassName("closebtn");
-  var i;
-  
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function(){
-      var div = this.parentElement;
-      div.style.opacity = "0";
-      setTimeout(function(){ div.style.display = "none"; }, 600);
-    }
-  }
-  </script>
+   
+    <main class="p-4">
+        <h1 class="text-3xl font-semibold text-center mb-4"></h1>
+        <div class="title-agenda"></div>
+        <ul class="menu"></ul>
+    </main>
 
 
- </body></html>
+</body>
+</html>
