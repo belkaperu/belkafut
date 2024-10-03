@@ -1,54 +1,62 @@
 {
     "data": [
         {
-            "id": 9850,
+            "id": 9882,
             "attributes": {
-                "diary_hour": "20:00:00",
-                "diary_description": "Ascenso MX: \tAtl\u00e9tico Morelia vs Celaya",
-                "date_diary": "2024-10-02",
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Europa League: PAOK vs FCSB\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 785,
+                            "id": 789,
                             "attributes": {
-                                "embed_name": "ESPN2 MX",
+                                "embed_name": "Disney05",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMm14"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk1"
+                            }
+                        },
+                        {
+                            "id": 856,
+                            "attributes": {
+                                "embed_name": "Arena Sports 6",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czY=\n"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 5,
+                        "id": 37,
                         "attributes": {
-                            "name": "M\u00e9xico",
-                            "createdAt": "2023-11-22T15:15:54.001Z",
-                            "updatedAt": "2024-01-07T23:56:44.462Z",
-                            "publishedAt": "2023-11-22T15:16:00.799Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 140,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "bandera.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "bandera_fbc29cb609",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.04,
-                                        "url": "\/uploads\/bandera_fbc29cb609.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:56:40.086Z",
-                                        "updatedAt": "2024-01-07T23:56:40.086Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -58,70 +66,54 @@
             }
         },
         {
-            "id": 9842,
+            "id": 9864,
             "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Sturm Graz vs Club Brugge\n",
-                "date_diary": "2024-10-02",
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: Qaraba\u011f vs Malm\u00f6 FF\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 772,
+                            "id": 815,
                             "attributes": {
-                                "embed_name": "ESPN6",
+                                "embed_name": "Disney06",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNw=="
-                            }
-                        },
-                        {
-                            "id": 818,
-                            "attributes": {
-                                "embed_name": "Disney08",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk4"
-                            }
-                        },
-                        {
-                            "id": 294,
-                            "attributes": {
-                                "embed_name": "Arena Sports 4",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czQ="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk2"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 37,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -131,78 +123,62 @@
             }
         },
         {
-            "id": 9841,
+            "id": 9860,
             "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Dinamo Zagreb vs Monaco\n",
-                "date_diary": "2024-10-02",
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: Hoffenheim vs Dynamo Kyiv\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 862,
+                            "id": 313,
                             "attributes": {
-                                "embed_name": "ESPN4",
+                                "embed_name": "FOX Sports 2 MX",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNA=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMybXg="
                             }
                         },
                         {
-                            "id": 819,
+                            "id": 765,
                             "attributes": {
-                                "embed_name": "Disney09",
+                                "embed_name": "Disney02",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk5"
-                            }
-                        },
-                        {
-                            "id": 298,
-                            "attributes": {
-                                "embed_name": "Arena Sports 1",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czE="
-                            }
-                        },
-                        {
-                            "id": 813,
-                            "attributes": {
-                                "embed_name": "DAZN Eleven 5 PT",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lbGV2ZW41X3B0"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXky"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 37,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -212,94 +188,70 @@
             }
         },
         {
-            "id": 9838,
+            "id": 9862,
             "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Aston Villa vs Bayern M\u00fcnchen\n",
-                "date_diary": "2024-10-02",
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: R\u012bgas FS vs Galatasaray\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 773,
+                            "id": 746,
                             "attributes": {
-                                "embed_name": "ESPN7",
+                                "embed_name": "ESPN",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9kZXBvcnRlc2Z1dGdvbC5jb20vY2FuYWxlcy90di5waHA\/c3Q9ZXNwbjc="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
                             }
                         },
                         {
-                            "id": 655,
+                            "id": 837,
                             "attributes": {
-                                "embed_name": "Fox Sports ",
+                                "embed_name": "ESPN Movil",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHM="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuLmh0bWw="
                             }
                         },
                         {
-                            "id": 905,
+                            "id": 784,
                             "attributes": {
-                                "embed_name": "ESPN7 Movil",
+                                "embed_name": "Disney04",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuNy5odG1s"
-                            }
-                        },
-                        {
-                            "id": 831,
-                            "attributes": {
-                                "embed_name": "Disney10",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMA=="
-                            }
-                        },
-                        {
-                            "id": 236,
-                            "attributes": {
-                                "embed_name": "Arena Sports 2P",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czJw"
-                            }
-                        },
-                        {
-                            "id": 394,
-                            "attributes": {
-                                "embed_name": "DAZN 1 DE",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kYXpuMV9kZQ=="
+                                "embed_iframe": "\/embed\/eventos?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk0"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 37,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -309,78 +261,22 @@
             }
         },
         {
-            "id": 9836,
+            "id": 9887,
             "attributes": {
                 "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Lille vs Real Madrid\n",
-                "date_diary": "2024-10-02",
+                "diary_description": "UEFA Conference League: Chelsea vs Gent\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 892,
+                            "id": 276,
                             "attributes": {
-                                "embed_name": "M. Liga de Campeones",
+                                "embed_name": "Arena Sports 3P",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL21wZC9kcm0ucGhwP3VybD1hSFIwY0hNNkx5OXNhWFpsTVRJdFpHRnphQzVqWkc1ekxtTmtiaTV2Y21GdVoyVjBkaTV2Y21GdVoyVXVaWE12YUhCV2ExQkJha1pHY0VVelNsTkpTMWt6VTFrdFVTOHhOekkzT1RJek16azFMekV3TkRRMk9UVXhOeTh4TXpJd09EazROVGN2T0RjdlkyMWhaaTl5TVRKZmJXTmhiWEJsYjI1bGN5OWtZWE5vWDJocFoyZ3ViWEJrJms9T0RVd1l6RmhORE13TXprMlkyVTBNalUxWmpNNU1ESmlaakZtTkdVNE9UYzZNamsxWWpGa1lqazNOMlk1TkdSbVltSmhNREV5TURjek9UQXhZVEF4T1dJPQ=="
-                            }
-                        },
-                        {
-                            "id": 370,
-                            "attributes": {
-                                "embed_name": "ESPN2",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMg=="
-                            }
-                        },
-                        {
-                            "id": 659,
-                            "attributes": {
-                                "embed_name": "Fox Sports 3",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMz"
-                            }
-                        },
-                        {
-                            "id": 899,
-                            "attributes": {
-                                "embed_name": "ESPN2 Movil",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuMi5odG1s"
-                            }
-                        },
-                        {
-                            "id": 848,
-                            "attributes": {
-                                "embed_name": "Disney13",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMw=="
-                            }
-                        },
-                        {
-                            "id": 206,
-                            "attributes": {
-                                "embed_name": "TUDN USA",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10dWRu"
-                            }
-                        },
-                        {
-                            "id": 755,
-                            "attributes": {
-                                "embed_name": "UniM\u00e1s",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT11bmltYXM="
-                            }
-                        },
-                        {
-                            "id": 237,
-                            "attributes": {
-                                "embed_name": "Arena Sports 1P",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czFw"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czNw"
                             }
                         },
                         {
@@ -395,32 +291,32 @@
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 36,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 115,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "ecl.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "ecl_b0125746a9",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
                                     }
                                 }
                             }
@@ -430,46 +326,322 @@
             }
         },
         {
-            "id": 9839,
+            "id": 9888,
             "attributes": {
                 "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Liverpool vs Bologna",
-                "date_diary": "2024-10-02",
+                "diary_description": "UEFA Conference League: Fiorentina vs The New Saints",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 907,
+                            "id": 314,
                             "attributes": {
-                                "embed_name": "M. Liga de Campeones 6",
+                                "embed_name": "FOX Sports 3 MX",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL21wZC9kcm0ucGhwP3VybD1hSFIwY0hNNkx5OXNhWFpsTVRJdFpHRnphQzVqWkc1ekxtTmtiaTV2Y21GdVoyVjBkaTV2Y21GdVoyVXVaWE12Y2kxV2VHRnBUblkwWjJkV04zbEhOelUzVDNwWVFTOHhOekkzT1RJek5EQTBMekV3TkRRMk9UVXhOeTh4TXpJd09EazROVGN2T1RJdlkyMWhaaTl5TVRKZmJXTmhiWEJsYjI1bGN6WXZaR0Z6YUY5b2FXZG9MbTF3WkE9PSZrPU9EVXdZekZoTkRNd016azJZMlUwTWpVMVpqTTVNREppWmpGbU5HVTRPVGM2TWprMVlqRmtZamszTjJZNU5HUm1ZbUpoTURFeU1EY3pPVEF4WVRBeE9XST0="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMzbXg="
                             }
                         },
                         {
-                            "id": 746,
+                            "id": 295,
                             "attributes": {
-                                "embed_name": "ESPN",
+                                "embed_name": "Arena Sports 5",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czU="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9866,
+            "attributes": {
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: Maccabi Tel Aviv vs Midtjylland\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 818,
+                            "attributes": {
+                                "embed_name": "Disney08",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk4"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9880,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Europa League: Union Saint-Gilloise vs Bod\u00f8 \/ Glimt",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 862,
+                            "attributes": {
+                                "embed_name": "ESPN4",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNA=="
                             }
                         },
                         {
-                            "id": 847,
+                            "id": 783,
                             "attributes": {
-                                "embed_name": "Disney12",
+                                "embed_name": "Disney03",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMg=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkz"
                             }
                         },
                         {
-                            "id": 837,
+                            "id": 863,
                             "attributes": {
-                                "embed_name": "ESPN Movil",
+                                "embed_name": "ESPN4 Movil",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuLmh0bWw="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuNC5odG1s"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9867,
+            "attributes": {
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: Lazio vs Nice\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 819,
+                            "attributes": {
+                                "embed_name": "Disney09",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk5"
+                            }
+                        },
+                        {
+                            "id": 107,
+                            "attributes": {
+                                "embed_name": "Fox Sports MX",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHNteA=="
+                            }
+                        },
+                        {
+                            "id": 812,
+                            "attributes": {
+                                "embed_name": "DAZN Eleven 4 PT",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lbGV2ZW40X3B0"
+                            }
+                        },
+                        {
+                            "id": 809,
+                            "attributes": {
+                                "embed_name": "CBS Sports Network",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1jYnNfc3BvcnRzX25ldHdvcms="
+                            }
+                        },
+                        {
+                            "id": 236,
+                            "attributes": {
+                                "embed_name": "Arena Sports 2P",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czJw"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9885,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Europa League: Be\u015fikta\u015f vs Eintracht Frankfurt\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 670,
+                            "attributes": {
+                                "embed_name": "ESPN3",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
+                            }
+                        },
+                        {
+                            "id": 818,
+                            "attributes": {
+                                "embed_name": "Disney08",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk4"
+                            }
+                        },
+                        {
+                            "id": 897,
+                            "attributes": {
+                                "embed_name": "ESPN3 Movil",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuMy5odG1s"
                             }
                         },
                         {
@@ -492,32 +664,32 @@
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 37,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -527,110 +699,70 @@
             }
         },
         {
-            "id": 9844,
+            "id": 9881,
             "attributes": {
-                "diary_hour": "17:15:00",
-                "diary_description": "Copa do Brasil: Atl\u00e9tico Mineiro vs Vasco da Gama\n",
-                "date_diary": "2024-10-02",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": []
-                },
-                "country": {
-                    "data": {
-                        "id": 1,
-                        "attributes": {
-                            "name": "Brasil",
-                            "createdAt": "2023-11-22T14:40:01.140Z",
-                            "updatedAt": "2024-01-07T23:56:59.376Z",
-                            "publishedAt": "2023-11-22T14:42:50.953Z",
-                            "image": {
-                                "data": {
-                                    "id": 141,
-                                    "attributes": {
-                                        "name": "brasil.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "brasil_25a533e5f7",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 0.85,
-                                        "url": "\/uploads\/brasil_25a533e5f7.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:56:57.083Z",
-                                        "updatedAt": "2024-01-07T23:56:57.083Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 9849,
-            "attributes": {
-                "diary_hour": "21:15:00",
-                "diary_description": "CONCACAF Central American Cup: Herediano vs Motagua\n",
-                "date_diary": "2024-10-02",
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Europa League: Rangers vs Olympique Lyonnais\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 170,
+                            "id": 746,
                             "attributes": {
-                                "embed_name": "FOX Sports Premium",
+                                "embed_name": "ESPN",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHNwcmVtaXVt"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
                             }
                         },
                         {
-                            "id": 314,
+                            "id": 784,
                             "attributes": {
-                                "embed_name": "FOX Sports 3 MX",
+                                "embed_name": "Disney04",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMzbXg="
+                                "embed_iframe": "\/embed\/eventos?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk0"
+                            }
+                        },
+                        {
+                            "id": 837,
+                            "attributes": {
+                                "embed_name": "ESPN Movil",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuLmh0bWw="
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 34,
+                        "id": 37,
                         "attributes": {
-                            "name": "Copa Centroamericana",
-                            "createdAt": "2023-11-28T14:54:06.416Z",
-                            "updatedAt": "2024-01-07T23:35:14.051Z",
-                            "publishedAt": "2023-11-28T14:54:07.576Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 120,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "copa_centroamericana.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "copa_centroamericana_59d23aa32c",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 4.26,
-                                        "url": "\/uploads\/copa_centroamericana_59d23aa32c.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:35:10.805Z",
-                                        "updatedAt": "2024-01-07T23:35:10.805Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -640,54 +772,54 @@
             }
         },
         {
-            "id": 9851,
+            "id": 9868,
             "attributes": {
-                "diary_hour": "17:00:00",
-                "diary_description": "Copa Ecuador: LDU Quito vs El Nacional",
-                "date_diary": "2024-10-02",
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Conference League: Molde vs Larne\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 766,
+                            "id": 831,
                             "attributes": {
-                                "embed_name": "Dsports Eventos",
+                                "embed_name": "Disney10",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRzX2V2ZW50b3MK"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMA=="
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 13,
+                        "id": 36,
                         "attributes": {
-                            "name": "Ecuador",
-                            "createdAt": "2023-11-22T15:42:56.252Z",
-                            "updatedAt": "2024-01-07T23:48:11.367Z",
-                            "publishedAt": "2023-11-22T15:42:57.903Z",
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
                             "image": {
                                 "data": {
-                                    "id": 129,
+                                    "id": 115,
                                     "attributes": {
-                                        "name": "ecuador.png",
+                                        "name": "ecl.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "ecuador_6b5e87e044",
+                                        "hash": "ecl_b0125746a9",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 0.91,
-                                        "url": "\/uploads\/ecuador_6b5e87e044.png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:48:09.254Z",
-                                        "updatedAt": "2024-01-07T23:48:09.254Z"
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
                                     }
                                 }
                             }
@@ -697,11 +829,125 @@
             }
         },
         {
-            "id": 9843,
+            "id": 9870,
             "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "Championship: Bristol City vs Sheffield Wednesday\n",
-                "date_diary": "2024-10-02",
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Conference League: Noah vs Mlad\u00e1 Boleslav\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 847,
+                            "attributes": {
+                                "embed_name": "Disney12",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMg=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9871,
+            "attributes": {
+                "diary_hour": "11:45:00",
+                "diary_description": " UEFA Conference League: Dinamo Minsk vs Hearts\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 848,
+                            "attributes": {
+                                "embed_name": "Disney13",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMw=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9873,
+            "attributes": {
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Conference League: Cercle Brugge vs St. Gallen\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
@@ -714,45 +960,37 @@
                                 "embed_link": null,
                                 "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxNQ=="
                             }
-                        },
-                        {
-                            "id": 466,
-                            "attributes": {
-                                "embed_name": "Sport TV1",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1zcG9ydHR2MQ=="
-                            }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 8,
+                        "id": 36,
                         "attributes": {
-                            "name": "Inglaterra",
-                            "createdAt": "2023-11-22T15:34:59.892Z",
-                            "updatedAt": "2024-01-07T23:52:57.434Z",
-                            "publishedAt": "2023-11-22T15:35:01.179Z",
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
                             "image": {
                                 "data": {
-                                    "id": 135,
+                                    "id": 115,
                                     "attributes": {
-                                        "name": "inglaterra.png",
+                                        "name": "ecl.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "inglaterra_823176495f",
+                                        "hash": "ecl_b0125746a9",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 0.53,
-                                        "url": "\/uploads\/inglaterra_823176495f.png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:52:55.261Z",
-                                        "updatedAt": "2024-01-07T23:52:55.261Z"
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
                                     }
                                 }
                             }
@@ -762,94 +1000,102 @@
             }
         },
         {
-            "id": 9837,
+            "id": 9878,
             "attributes": {
                 "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Benfica vs Atl\u00e9tico Madrid\n",
-                "date_diary": "2024-10-02",
+                "diary_description": "UEFA Europa League: Porto vs Manchester United\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 517,
+                            "id": 746,
                             "attributes": {
-                                "embed_name": "M. Liga de Campeones 2",
+                                "embed_name": "ESPN",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos?r=aHR0cHM6Ly9sYTEyaGQuY29tL21wZC9kcm0ucGhwP3VybD1hSFIwY0hNNkx5OXNhWFpsTVRJdFpHRnphQzVqWkc1ekxtTmtiaTV2Y21GdVoyVjBkaTV2Y21GdVoyVXVaWE12YVhFMFYwcGhlak15WDFaVmNqZDRUbEU1WlhGMWR5OHhOekkzT1RJek16azFMekV3TkRRMk9UVXhOeTh4TXpJd09EazROVGN2T0RndlkyMWhaaTl5TVRKZmJXTmhiWEJsYjI1bGN6SXZaR0Z6YUY5b2FXZG9MbTF3WkE9PSZrPU9EVXdZekZoTkRNd016azJZMlUwTWpVMVpqTTVNREppWmpGbU5HVTRPVGM2TWprMVlqRmtZamszTjJZNU5HUm1ZbUpoTURFeU1EY3pPVEF4WVRBeE9XST0="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
                             }
                         },
                         {
-                            "id": 670,
+                            "id": 107,
                             "attributes": {
-                                "embed_name": "ESPN3",
+                                "embed_name": "Fox Sports MX",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHNteA=="
                             }
                         },
                         {
-                            "id": 849,
+                            "id": 837,
                             "attributes": {
-                                "embed_name": "Disney14",
+                                "embed_name": "ESPN Movil",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxNA=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuLmh0bWw="
                             }
                         },
                         {
-                            "id": 897,
+                            "id": 745,
                             "attributes": {
-                                "embed_name": "ESPN3 Movil",
+                                "embed_name": "Disney01",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9kaXNuZXkuaHRtbA=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkx"
                             }
                         },
                         {
-                            "id": 295,
+                            "id": 206,
                             "attributes": {
-                                "embed_name": "Arena Sports 5",
+                                "embed_name": "TUDN USA",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czU="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10dWRu"
                             }
                         },
                         {
-                            "id": 809,
+                            "id": 755,
                             "attributes": {
-                                "embed_name": "CBS Sports Network",
+                                "embed_name": "UniM\u00e1s",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1jYnNfc3BvcnRzX25ldHdvcms="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT11bmltYXM="
+                            }
+                        },
+                        {
+                            "id": 236,
+                            "attributes": {
+                                "embed_name": "Arena Sports 2P",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czJw"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 37,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -859,62 +1105,322 @@
             }
         },
         {
-            "id": 9840,
+            "id": 9879,
             "attributes": {
                 "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: RB Leipzig vs Juventus\n",
-                "date_diary": "2024-10-02",
+                "diary_description": "UEFA Europa League: Viktoria Plze\u0148 vs Ludogorets\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 908,
+                            "id": 765,
                             "attributes": {
-                                "embed_name": "M. Liga de Campeones 5",
+                                "embed_name": "Disney02",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos?r=aHR0cHM6Ly9sYTEyaGQuY29tL21wZC9kcm0ucGhwP3VybD1hSFIwY0hNNkx5OXNhWFpsTVRJdFpHRnphQzVqWkc1ekxtTmtiaTV2Y21GdVoyVjBkaTV2Y21GdVoyVXVaWE12VDB4clNuTnNPR3RxZWw5NmJVeFVXalo1WldoNFVTOHhOekkzT1RJek5EQTBMekV3TkRRMk9UVXhOeTh4TXpJd09EazROVGN2T1RFdlkyMWhaaTl5TVRKZmJXTmhiWEJsYjI1bGN6VXZaR0Z6YUY5b2FXZG9MbTF3WkE9PSZrPU9EVXdZekZoTkRNd016azJZMlUwTWpVMVpqTTVNREppWmpGbU5HVTRPVGM2TWprMVlqRmtZamszTjJZNU5HUm1ZbUpoTURFeU1EY3pPVEF4WVRBeE9XST0="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXky"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9883,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Europa League: Twente vs Fenerbah\u00e7e\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 815,
+                            "attributes": {
+                                "embed_name": "Disney06",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk2"
                             }
                         },
                         {
-                            "id": 672,
+                            "id": 810,
                             "attributes": {
-                                "embed_name": "ESPN5",
+                                "embed_name": "DAZN Eleven 2 PT",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNQ=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lbGV2ZW4yX3B0"
                             }
                         },
                         {
-                            "id": 909,
+                            "id": 298,
                             "attributes": {
-                                "embed_name": "CalienteTV 5",
+                                "embed_name": "Arena Sports 1",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWxlcy5waHA\/c3RyZWFtPWV2ZW50b3M1"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czE="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9884,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Europa League: Elfsborg vs Roma\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 816,
+                            "attributes": {
+                                "embed_name": "Disney07",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk3"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9859,
+            "attributes": {
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: Ferencv\u00e1ros vs Tottenham Hotspur\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 704,
+                            "attributes": {
+                                "embed_name": "ESPN MX",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
                             }
                         },
                         {
-                            "id": 832,
+                            "id": 206,
                             "attributes": {
-                                "embed_name": "Disney11",
+                                "embed_name": "TUDN USA",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMQ=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10dWRu"
                             }
                         },
                         {
-                            "id": 904,
+                            "id": 297,
                             "attributes": {
-                                "embed_name": "ESPN5 Movil",
+                                "embed_name": "Arena Sports 2",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuNS5odG1s"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czI="
                             }
                         },
                         {
-                            "id": 276,
+                            "id": 811,
                             "attributes": {
-                                "embed_name": "Arena Sports 3P",
+                                "embed_name": "DAZN Eleven 3 PT",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czNw"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lbGV2ZW4zX3B0\n"
+                            }
+                        },
+                        {
+                            "id": 745,
+                            "attributes": {
+                                "embed_name": "Disney01",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkx"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9886,
+            "attributes": {
+                "diary_hour": "14:00:00",
+                "diary_description": "UEFA Europa League: Athletic Club vs AZ\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 370,
+                            "attributes": {
+                                "embed_name": "ESPN2",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMg=="
+                            }
+                        },
+                        {
+                            "id": 819,
+                            "attributes": {
+                                "embed_name": "Disney09",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk5"
+                            }
+                        },
+                        {
+                            "id": 899,
+                            "attributes": {
+                                "embed_name": "ESPN2 Movil",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuMi5odG1s"
+                            }
+                        },
+                        {
+                            "id": 170,
+                            "attributes": {
+                                "embed_name": "FOX Sports Premium",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHNwcmVtaXVt"
                             }
                         },
                         {
@@ -929,32 +1435,32 @@
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 37,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -964,16 +1470,24 @@
             }
         },
         {
-            "id": 9846,
+            "id": 9861,
             "attributes": {
-                "diary_hour": "19:00:00",
-                "diary_description": "CONCACAF Central American Cup: \u00c1guila vs Real Estel\u00ed",
-                "date_diary": "2024-10-02",
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: Slavia Praha vs Ajax\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
+                        {
+                            "id": 370,
+                            "attributes": {
+                                "embed_name": "ESPN2",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMg=="
+                            }
+                        },
                         {
                             "id": 170,
                             "attributes": {
@@ -983,43 +1497,59 @@
                             }
                         },
                         {
-                            "id": 314,
+                            "id": 899,
                             "attributes": {
-                                "embed_name": "FOX Sports 3 MX",
+                                "embed_name": "ESPN2 Movil",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMzbXg="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuMi5odG1s"
+                            }
+                        },
+                        {
+                            "id": 294,
+                            "attributes": {
+                                "embed_name": "Arena Sports 4",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czQ="
+                            }
+                        },
+                        {
+                            "id": 783,
+                            "attributes": {
+                                "embed_name": "Disney03",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkz"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 34,
+                        "id": 37,
                         "attributes": {
-                            "name": "Copa Centroamericana",
-                            "createdAt": "2023-11-28T14:54:06.416Z",
-                            "updatedAt": "2024-01-07T23:35:14.051Z",
-                            "publishedAt": "2023-11-28T14:54:07.576Z",
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
                             "image": {
                                 "data": {
-                                    "id": 120,
+                                    "id": 116,
                                     "attributes": {
-                                        "name": "copa_centroamericana.png",
+                                        "name": "uefael.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "copa_centroamericana_59d23aa32c",
+                                        "hash": "uefael_2b6c82aa64",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 4.26,
-                                        "url": "\/uploads\/copa_centroamericana_59d23aa32c.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:35:10.805Z",
-                                        "updatedAt": "2024-01-07T23:35:10.805Z"
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
                                     }
                                 }
                             }
@@ -1029,24 +1559,194 @@
             }
         },
         {
-            "id": 9845,
+            "id": 9863,
             "attributes": {
-                "diary_hour": "18:30:00",
-                "diary_description": "MLS: Columbus Crew vs Inter Miami\n",
-                "date_diary": "2024-10-02",
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: Real Sociedad vs Anderlecht\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 667,
+                            "id": 670,
                             "attributes": {
-                                "embed_name": "MLS Pass",
+                                "embed_name": "ESPN3",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1tbHM="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
                             }
                         },
+                        {
+                            "id": 789,
+                            "attributes": {
+                                "embed_name": "Disney05",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk1"
+                            }
+                        },
+                        {
+                            "id": 897,
+                            "attributes": {
+                                "embed_name": "ESPN3 Movil",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuMy5odG1s"
+                            }
+                        },
+                        {
+                            "id": 787,
+                            "attributes": {
+                                "embed_name": "ESPN4 MX",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNG14"
+                            }
+                        },
+                        {
+                            "id": 296,
+                            "attributes": {
+                                "embed_name": "Arena Sports 3",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czM="
+                            }
+                        },
+                        {
+                            "id": 810,
+                            "attributes": {
+                                "embed_name": "DAZN Eleven 2 PT",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lbGV2ZW4yX3B0"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9865,
+            "attributes": {
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Europa League: Olympiakos Piraeus vs Sporting Braga\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 862,
+                            "attributes": {
+                                "embed_name": "ESPN4",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNA=="
+                            }
+                        },
+                        {
+                            "id": 816,
+                            "attributes": {
+                                "embed_name": "Disney07",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk3"
+                            }
+                        },
+                        {
+                            "id": 863,
+                            "attributes": {
+                                "embed_name": "ESPN4 Movil",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuNC5odG1s"
+                            }
+                        },
+                        {
+                            "id": 804,
+                            "attributes": {
+                                "embed_name": "DAZN Eleven 1 PT",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lbGV2ZW4xX3B0"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "UEFA Europa League",
+                            "createdAt": "2023-11-30T05:01:42.926Z",
+                            "updatedAt": "2024-01-07T23:27:46.844Z",
+                            "publishedAt": "2023-11-30T05:01:44.247Z",
+                            "image": {
+                                "data": {
+                                    "id": 116,
+                                    "attributes": {
+                                        "name": "uefael.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uefael_2b6c82aa64",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/uefael_2b6c82aa64.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:27:44.286Z",
+                                        "updatedAt": "2024-01-07T23:27:44.286Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9876,
+            "attributes": {
+                "diary_hour": "13:00:00",
+                "diary_description": "Liga Profesional Saud\u00ed: Al Akhdoud vs Al Ittihad\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
                         {
                             "id": 774,
                             "attributes": {
@@ -1054,37 +1754,53 @@
                                 "embed_link": null,
                                 "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw=="
                             }
+                        },
+                        {
+                            "id": 635,
+                            "attributes": {
+                                "embed_name": "Azteca Deportes",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1henRlY2FfZGVwb3J0ZXM="
+                            }
+                        },
+                        {
+                            "id": 466,
+                            "attributes": {
+                                "embed_name": "Sport TV1",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1zcG9ydHR2MQ=="
+                            }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 19,
+                        "id": 24,
                         "attributes": {
-                            "name": "Estados Unidos",
-                            "createdAt": "2023-11-22T18:04:29.927Z",
-                            "updatedAt": "2024-01-07T23:46:22.789Z",
-                            "publishedAt": "2023-11-22T18:04:31.112Z",
+                            "name": "Arabia Saudita",
+                            "createdAt": "2023-11-24T12:55:08.381Z",
+                            "updatedAt": "2023-11-24T12:55:09.652Z",
+                            "publishedAt": "2023-11-24T12:55:09.649Z",
                             "image": {
                                 "data": {
-                                    "id": 126,
+                                    "id": 47,
                                     "attributes": {
-                                        "name": "estados-unidos-de-america.png",
+                                        "name": "arabia-saudita.png",
                                         "alternativeText": null,
                                         "caption": null,
-                                        "width": 64,
-                                        "height": 64,
+                                        "width": 128,
+                                        "height": 128,
                                         "formats": null,
-                                        "hash": "estados_unidos_de_america_b400fc18c4",
+                                        "hash": "arabia_saudita_82c6f9c376",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.29,
-                                        "url": "\/uploads\/estados_unidos_de_america_b400fc18c4.png",
+                                        "size": 1.26,
+                                        "url": "\/uploads\/arabia_saudita_82c6f9c376.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:46:20.342Z",
-                                        "updatedAt": "2024-01-07T23:46:20.342Z"
+                                        "createdAt": "2023-11-24T12:55:05.330Z",
+                                        "updatedAt": "2023-11-24T12:55:05.330Z"
                                     }
                                 }
                             }
@@ -1094,11 +1810,68 @@
             }
         },
         {
-            "id": 9848,
+            "id": 9874,
             "attributes": {
-                "diary_hour": "19:45:00",
-                "diary_description": "Copa do Brasil: Flamengo vs Corinthians\n",
-                "date_diary": "2024-10-02",
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Conference League: Heidenheim vs Olimpija\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 295,
+                            "attributes": {
+                                "embed_name": "Arena Sports 5",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czU="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9877,
+            "attributes": {
+                "diary_hour": "13:00:00",
+                "diary_description": "Liga Profesional Saud\u00ed: Al Wehda vs Al Feiha\n",
+                "date_diary": "2024-10-03",
                 "channels": {
                     "data": []
                 },
@@ -1107,32 +1880,146 @@
                 },
                 "country": {
                     "data": {
-                        "id": 1,
+                        "id": 24,
                         "attributes": {
-                            "name": "Brasil",
-                            "createdAt": "2023-11-22T14:40:01.140Z",
-                            "updatedAt": "2024-01-07T23:56:59.376Z",
-                            "publishedAt": "2023-11-22T14:42:50.953Z",
+                            "name": "Arabia Saudita",
+                            "createdAt": "2023-11-24T12:55:08.381Z",
+                            "updatedAt": "2023-11-24T12:55:09.652Z",
+                            "publishedAt": "2023-11-24T12:55:09.649Z",
                             "image": {
                                 "data": {
-                                    "id": 141,
+                                    "id": 47,
                                     "attributes": {
-                                        "name": "brasil.png",
+                                        "name": "arabia-saudita.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 128,
+                                        "height": 128,
+                                        "formats": null,
+                                        "hash": "arabia_saudita_82c6f9c376",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.26,
+                                        "url": "\/uploads\/arabia_saudita_82c6f9c376.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2023-11-24T12:55:05.330Z",
+                                        "updatedAt": "2023-11-24T12:55:05.330Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9869,
+            "attributes": {
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Conference League: Legia Warszawa vs Real Betis\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 832,
+                            "attributes": {
+                                "embed_name": "Disney11",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMQ=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "brasil_25a533e5f7",
+                                        "hash": "ecl_b0125746a9",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 0.85,
-                                        "url": "\/uploads\/brasil_25a533e5f7.png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:56:57.083Z",
-                                        "updatedAt": "2024-01-07T23:56:57.083Z"
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9872,
+            "attributes": {
+                "diary_hour": "11:45:00",
+                "diary_description": "UEFA Conference League: Astana vs Ba\u010dka Topola\n",
+                "date_diary": "2024-10-03",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 849,
+                            "attributes": {
+                                "embed_name": "Disney14",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxNA=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "UEFA Europa Conference League",
+                            "createdAt": "2023-11-30T04:53:37.445Z",
+                            "updatedAt": "2024-01-07T23:26:12.325Z",
+                            "publishedAt": "2023-11-30T04:53:40.782Z",
+                            "image": {
+                                "data": {
+                                    "id": 115,
+                                    "attributes": {
+                                        "name": "ecl.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "ecl_b0125746a9",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 1.84,
+                                        "url": "\/uploads\/ecl_b0125746a9.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:26:07.687Z",
+                                        "updatedAt": "2024-01-07T23:26:07.687Z"
                                     }
                                 }
                             }
