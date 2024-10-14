@@ -250,7 +250,7 @@
                 .done(function (result) {
                     if (result.data.length > 0) {
                         let dateCompleted = moment(result.data[0].attributes.date_diary).format("LL");
-                        $(".title-agenda").html("Agenda - (Copia) " + dateCompleted);
+                        $(".title-agenda").html("Agenda " + dateCompleted);
                         processAgendaData(result.data, html);
                     } else {
                         // Manejar el caso si la copia local también está vacía
