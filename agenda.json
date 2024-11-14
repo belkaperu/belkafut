@@ -1,54 +1,160 @@
 {
     "data": [
         {
-            "id": 10475,
+            "id": 11326,
             "attributes": {
-                "diary_hour": "19:30:00",
-                "diary_description": "Copa Libertadores: Atl\u00e9tico Mineiro vs River Plate (Semifinal-Ida)",
-                "date_diary": "2024-10-22",
+                "diary_hour": "14:45:00",
+                "diary_description": "UEFA Nations League: Grecia vs Inglaterra\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 746,
+                            "id": 206,
                             "attributes": {
-                                "embed_name": "ESPN",
+                                "embed_name": "TUDN USA",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9zdHJlYW10cC5saXZlL2dsb2JhbDEucGhwP3N0cmVhbT10dWRuX3VzYQ=="
                             }
                         },
                         {
-                            "id": 655,
+                            "id": 469,
                             "attributes": {
-                                "embed_name": "Fox Sports ",
+                                "embed_name": "Sport TV4",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHM="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly92NS5zcG9ydHNvbmxpbmUuc2kvY2hhbm5lbHMvcHQvc3BvcnR0djQucGhw"
                             }
                         },
                         {
-                            "id": 837,
+                            "id": 820,
                             "attributes": {
-                                "embed_name": "ESPN Movil",
+                                "embed_name": "DAZN 2 DE",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuLmh0bWw="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly92NS5zcG9ydHNvbmxpbmUuc2kvY2hhbm5lbHMvaGQvaGQzLnBocA=="
                             }
                         },
                         {
-                            "id": 803,
+                            "id": 798,
                             "attributes": {
-                                "embed_name": "beIN Sports Espa\u00f1ol",
+                                "embed_name": "FOX Sports 1 USA",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1iZWluc3BvcnRlcw=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHN1c2E="
                             }
-                        },
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 56,
+                        "attributes": {
+                            "name": "UEFA Nations League",
+                            "createdAt": "2024-02-08T12:55:31.947Z",
+                            "updatedAt": "2024-02-08T12:55:36.376Z",
+                            "publishedAt": "2024-02-08T12:55:36.375Z",
+                            "image": {
+                                "data": {
+                                    "id": 183,
+                                    "attributes": {
+                                        "name": "UEFA Nations League.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "UEFA_Nations_League_6dc162dcd3",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 3.3,
+                                        "url": "\/uploads\/UEFA_Nations_League_6dc162dcd3.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-02-08T12:55:28.945Z",
+                                        "updatedAt": "2024-02-08T12:55:28.945Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 11328,
+            "attributes": {
+                "diary_hour": "16:00:00",
+                "diary_description": "Eliminatorias Sudamericanas: Venezuela vs Brasil\n",
+                "date_diary": "2024-11-14",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
                         {
-                            "id": 704,
+                            "id": 628,
                             "attributes": {
-                                "embed_name": "ESPN MX",
+                                "embed_name": "Movistar Deportes",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1tb3Zpc3Rhcg=="
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 48,
+                        "attributes": {
+                            "name": "Sudamerica",
+                            "createdAt": "2024-01-17T07:58:28.790Z",
+                            "updatedAt": "2024-01-17T07:58:30.757Z",
+                            "publishedAt": "2024-01-17T07:58:30.754Z",
+                            "image": {
+                                "data": {
+                                    "id": 176,
+                                    "attributes": {
+                                        "name": "sudamerica.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "sudamerica_bb8a052445",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 3.71,
+                                        "url": "\/uploads\/sudamerica_bb8a052445.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-17T07:58:25.905Z",
+                                        "updatedAt": "2024-01-17T07:58:25.905Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 11314,
+            "attributes": {
+                "diary_hour": "04:10:00",
+                "diary_description": "Eliminatorias Asia: Australia vs Arabia Saudita\n",
+                "date_diary": "2024-11-14",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 796,
+                            "attributes": {
+                                "embed_name": "ESPN NL",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly92NS5zcG9ydHNvbmxpbmUuc2kvY2hhbm5lbHMvaGQvaGQzLnBocA=="
                             }
                         },
                         {
@@ -58,118 +164,37 @@
                                 "embed_link": null,
                                 "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkx"
                             }
-                        },
-                        {
-                            "id": 236,
-                            "attributes": {
-                                "embed_name": "Arena Sports 2P",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czJw"
-                            }
-                        },
-                        {
-                            "id": 466,
-                            "attributes": {
-                                "embed_name": "Sport TV1",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1zcG9ydHR2MQ=="
-                            }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 55,
+                        "id": 63,
                         "attributes": {
-                            "name": "Copa Libertadores",
-                            "createdAt": "2024-02-06T12:14:59.467Z",
-                            "updatedAt": "2024-02-06T12:15:00.695Z",
-                            "publishedAt": "2024-02-06T12:15:00.694Z",
+                            "name": "Eliminatorias ASIA",
+                            "createdAt": "2024-03-21T12:26:14.781Z",
+                            "updatedAt": "2024-03-21T12:26:16.959Z",
+                            "publishedAt": "2024-03-21T12:26:16.957Z",
                             "image": {
                                 "data": {
-                                    "id": 182,
+                                    "id": 194,
                                     "attributes": {
-                                        "name": "copa_libertadores.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "copa_libertadores_f60faf808a",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 2.5,
-                                        "url": "\/uploads\/copa_libertadores_f60faf808a.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-02-06T12:14:56.951Z",
-                                        "updatedAt": "2024-02-06T12:14:56.951Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10478,
-            "attributes": {
-                "diary_hour": "20:15:00",
-                "diary_description": "Liga 1: Alianza Lima vs Sport Huancayo\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 230,
-                            "attributes": {
-                                "embed_name": "Liga1max",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
-                            }
-                        },
-                        {
-                            "id": 830,
-                            "attributes": {
-                                "embed_name": "L1max",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2Z28ucGUvc3cuaHRtbD9nZXQ9aHR0cHM6Ly9mdXRib2xsaWJyZXR2Z28ucGUvcmVwcm8vbGlnYTFtYXguaHRtbA=="
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 2,
-                        "attributes": {
-                            "name": "Per\u00fa",
-                            "createdAt": "2023-11-22T14:50:06.355Z",
-                            "updatedAt": "2023-11-22T18:05:40.140Z",
-                            "publishedAt": "2023-11-22T15:10:18.533Z",
-                            "image": {
-                                "data": {
-                                    "id": 28,
-                                    "attributes": {
-                                        "name": "peru.png",
+                                        "name": "eliminatoriasasia.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 128,
                                         "height": 128,
                                         "formats": null,
-                                        "hash": "peru_ddc4e685cf",
+                                        "hash": "eliminatoriasasia_f115415bc0",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 0.87,
-                                        "url": "\/uploads\/peru_ddc4e685cf.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/eliminatoriasasia_f115415bc0.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2023-11-22T17:57:17.008Z",
-                                        "updatedAt": "2023-11-22T18:05:27.397Z"
+                                        "createdAt": "2024-03-21T12:26:11.572Z",
+                                        "updatedAt": "2024-03-21T12:26:11.572Z"
                                     }
                                 }
                             }
@@ -179,254 +204,11 @@
             }
         },
         {
-            "id": 10460,
+            "id": 11318,
             "attributes": {
-                "diary_hour": "12:00:00",
-                "diary_description": "LaLiga 2: Real Oviedo vs Mirand\u00e9s\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 356,
-                            "attributes": {
-                                "embed_name": "LaLiga TV Hypermotion",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL21wZC9kcm0ucGhwP3VybD1hSFIwY0hNNkx5OXZkSFJpTG14cGRtVXVZMll1ZDNjdVlXbDJMV05rYmk1dVpYUXZaSFZpTFc1cGRISnZMMnhwZG1VdlkyeHBaVzUwY3k5a1lYTm9MMlZ1WXk5MGRUQTJkblZpWjJZNUwyOTFkQzkyTVM4M05qWTRaalEzWkRJNFpUTTBOVGszT1dNd056SmxNell4WmpOa00yTmxNeTlqWlc1akxtMXdaQT09Jms9Tm1Rd09HSXlOalZoTmpZek9XVXpNbVJoTjJNNE9EQmtOVFE1TVdVelpESTZNR001TWpVMU5tTmhNVFJpT1RWbU16WTNPVGt6TnpFd1pUZGpabUpqT1RRPQ=="
-                            }
-                        },
-                        {
-                            "id": 815,
-                            "attributes": {
-                                "embed_name": "Disney06",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk2"
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 7,
-                        "attributes": {
-                            "name": "Espa\u00f1a",
-                            "createdAt": "2023-11-22T15:34:02.037Z",
-                            "updatedAt": "2024-08-15T19:18:48.458Z",
-                            "publishedAt": "2023-11-22T15:34:03.379Z",
-                            "image": {
-                                "data": {
-                                    "id": 138,
-                                    "attributes": {
-                                        "name": "espana.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "espana_a8510f9b5f",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 0.51,
-                                        "url": "\/uploads\/espana_a8510f9b5f.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:55:12.045Z",
-                                        "updatedAt": "2024-08-15T16:50:04.760Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10461,
-            "attributes": {
-                "diary_hour": "13:00:00",
-                "diary_description": "Liga 1: Atl\u00e9tico Grau vs Deportivo Garcilaso\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 230,
-                            "attributes": {
-                                "embed_name": "Liga1max",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
-                            }
-                        },
-                        {
-                            "id": 830,
-                            "attributes": {
-                                "embed_name": "L1max",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2Z28ucGUvc3cuaHRtbD9nZXQ9aHR0cHM6Ly9mdXRib2xsaWJyZXR2Z28ucGUvcmVwcm8vbGlnYTFtYXguaHRtbA=="
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 2,
-                        "attributes": {
-                            "name": "Per\u00fa",
-                            "createdAt": "2023-11-22T14:50:06.355Z",
-                            "updatedAt": "2023-11-22T18:05:40.140Z",
-                            "publishedAt": "2023-11-22T15:10:18.533Z",
-                            "image": {
-                                "data": {
-                                    "id": 28,
-                                    "attributes": {
-                                        "name": "peru.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 128,
-                                        "height": 128,
-                                        "formats": null,
-                                        "hash": "peru_ddc4e685cf",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 0.87,
-                                        "url": "\/uploads\/peru_ddc4e685cf.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2023-11-22T17:57:17.008Z",
-                                        "updatedAt": "2023-11-22T18:05:27.397Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10458,
-            "attributes": {
-                "diary_hour": "11:45:00",
-                "diary_description": "UEFA Champions League: Milan vs Club Brugge\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 746,
-                            "attributes": {
-                                "embed_name": "ESPN",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
-                            }
-                        },
-                        {
-                            "id": 655,
-                            "attributes": {
-                                "embed_name": "Fox Sports ",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHM="
-                            }
-                        },
-                        {
-                            "id": 206,
-                            "attributes": {
-                                "embed_name": "TUDN USA",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10dWRu"
-                            }
-                        },
-                        {
-                            "id": 837,
-                            "attributes": {
-                                "embed_name": "ESPN Movil",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuLmh0bWw="
-                            }
-                        },
-                        {
-                            "id": 784,
-                            "attributes": {
-                                "embed_name": "Disney04",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk0"
-                            }
-                        },
-                        {
-                            "id": 755,
-                            "attributes": {
-                                "embed_name": "UniM\u00e1s",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT11bmltYXM="
-                            }
-                        },
-                        {
-                            "id": 237,
-                            "attributes": {
-                                "embed_name": "Arena Sports 1P",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czFw"
-                            }
-                        },
-                        {
-                            "id": 394,
-                            "attributes": {
-                                "embed_name": "DAZN 1 DE",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kYXpuMV9kZQ=="
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 33,
-                        "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
-                            "image": {
-                                "data": {
-                                    "id": 188,
-                                    "attributes": {
-                                        "name": "UEFA_Champions_L.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10464,
-            "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Arsenal vs Shakhtar Donetsk\n",
-                "date_diary": "2024-10-22",
+                "diary_hour": "10:00:00",
+                "diary_description": "UEFA Nations League: Kazajst\u00e1n vs Austria\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
@@ -437,63 +219,63 @@
                             "attributes": {
                                 "embed_name": "ESPN3",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJoZD9nZXQ9UlZOUVRqTQ=="
                             }
                         },
                         {
-                            "id": 832,
+                            "id": 466,
                             "attributes": {
-                                "embed_name": "Disney11",
+                                "embed_name": "Sport TV1",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMQ=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9zdHJlYW10cC5saXZlL2dsb2JhbDEucGhwP3N0cmVhbT1zcG9ydHZfMXB0"
                             }
                         },
                         {
-                            "id": 897,
+                            "id": 872,
                             "attributes": {
-                                "embed_name": "ESPN3 Movil",
+                                "embed_name": "FOX Sports 2 USA",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuMy5odG1s"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMyX3VzYQ=="
                             }
                         },
                         {
-                            "id": 298,
+                            "id": 783,
                             "attributes": {
-                                "embed_name": "Arena Sports 1",
+                                "embed_name": "Disney03",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czE="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkz"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 56,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Nations League",
+                            "createdAt": "2024-02-08T12:55:31.947Z",
+                            "updatedAt": "2024-02-08T12:55:36.376Z",
+                            "publishedAt": "2024-02-08T12:55:36.375Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 183,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "UEFA Nations League.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "UEFA_Nations_League_6dc162dcd3",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 3.3,
+                                        "url": "\/uploads\/UEFA_Nations_League_6dc162dcd3.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-02-08T12:55:28.945Z",
+                                        "updatedAt": "2024-02-08T12:55:28.945Z"
                                     }
                                 }
                             }
@@ -503,70 +285,62 @@
             }
         },
         {
-            "id": 10466,
+            "id": 11322,
             "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Aston Villa vs Bologna\n",
-                "date_diary": "2024-10-22",
+                "diary_hour": "14:30:00",
+                "diary_description": "Primera Divisi\u00f3n: Boston River vs Rampla Juniors\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 862,
+                            "id": 451,
                             "attributes": {
-                                "embed_name": "ESPN4",
+                                "embed_name": "VTV Plus",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNA=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9kZXBvcnRlc2Z1dGdvbC5jb20vY2FuYWwyLnBocD9zdHJlYW09VlRW"
                             }
                         },
                         {
-                            "id": 818,
+                            "id": 724,
                             "attributes": {
-                                "embed_name": "Disney08",
+                                "embed_name": "GOLTV",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk4"
-                            }
-                        },
-                        {
-                            "id": 863,
-                            "attributes": {
-                                "embed_name": "ESPN4 Movil",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuNC5odG1s"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9zdHJlYW10cC5saXZlL2dsb2JhbDEucGhwP3N0cmVhbT1ldmVudG9zNg=="
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 16,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "Uruguay",
+                            "createdAt": "2023-11-22T15:49:02.025Z",
+                            "updatedAt": "2024-01-07T23:51:20.902Z",
+                            "publishedAt": "2023-11-22T15:49:03.589Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 132,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "uruguay.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "uruguay_e2b9597af8",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 0.8,
+                                        "url": "\/uploads\/uruguay_e2b9597af8.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-01-07T23:51:18.898Z",
+                                        "updatedAt": "2024-01-07T23:51:18.898Z"
                                     }
                                 }
                             }
@@ -576,54 +350,62 @@
             }
         },
         {
-            "id": 10470,
+            "id": 11324,
             "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "LaLiga 2: CD Castellon vs Granada\n",
-                "date_diary": "2024-10-22",
+                "diary_hour": "14:45:00",
+                "diary_description": "UEFA Nations League: B\u00e9lgica vs Italia\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 356,
+                            "id": 394,
                             "attributes": {
-                                "embed_name": "LaLiga TV Hypermotion",
+                                "embed_name": "DAZN 1 DE",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL21wZC9kcm0ucGhwP3VybD1hSFIwY0hNNkx5OXZkSFJpTG14cGRtVXVZMll1ZDNjdVlXbDJMV05rYmk1dVpYUXZaSFZpTFc1cGRISnZMMnhwZG1VdlkyeHBaVzUwY3k5a1lYTm9MMlZ1WXk5MGRUQTJkblZpWjJZNUwyOTFkQzkyTVM4M05qWTRaalEzWkRJNFpUTTBOVGszT1dNd056SmxNell4WmpOa00yTmxNeTlqWlc1akxtMXdaQT09Jms9Tm1Rd09HSXlOalZoTmpZek9XVXpNbVJoTjJNNE9EQmtOVFE1TVdVelpESTZNR001TWpVMU5tTmhNVFJpT1RWbU16WTNPVGt6TnpFd1pUZGpabUpqT1RRPQ=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kYXpuMV9kZQ=="
+                            }
+                        },
+                        {
+                            "id": 466,
+                            "attributes": {
+                                "embed_name": "Sport TV1",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9zdHJlYW10cC5saXZlL2dsb2JhbDEucGhwP3N0cmVhbT1zcG9ydHZfMXB0"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 7,
+                        "id": 56,
                         "attributes": {
-                            "name": "Espa\u00f1a",
-                            "createdAt": "2023-11-22T15:34:02.037Z",
-                            "updatedAt": "2024-08-15T19:18:48.458Z",
-                            "publishedAt": "2023-11-22T15:34:03.379Z",
+                            "name": "UEFA Nations League",
+                            "createdAt": "2024-02-08T12:55:31.947Z",
+                            "updatedAt": "2024-02-08T12:55:36.376Z",
+                            "publishedAt": "2024-02-08T12:55:36.375Z",
                             "image": {
                                 "data": {
-                                    "id": 138,
+                                    "id": 183,
                                     "attributes": {
-                                        "name": "espana.png",
+                                        "name": "UEFA Nations League.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "espana_a8510f9b5f",
+                                        "hash": "UEFA_Nations_League_6dc162dcd3",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 0.51,
-                                        "url": "\/uploads\/espana_a8510f9b5f.png",
+                                        "size": 3.3,
+                                        "url": "\/uploads\/UEFA_Nations_League_6dc162dcd3.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:55:12.045Z",
-                                        "updatedAt": "2024-08-15T16:50:04.760Z"
+                                        "createdAt": "2024-02-08T12:55:28.945Z",
+                                        "updatedAt": "2024-02-08T12:55:28.945Z"
                                     }
                                 }
                             }
@@ -633,62 +415,54 @@
             }
         },
         {
-            "id": 10473,
+            "id": 11315,
             "attributes": {
-                "diary_hour": "18:00:00",
-                "diary_description": "Liga 1: Melgar vs UTC Cajamarca",
-                "date_diary": "2024-10-22",
+                "diary_hour": "07:00:00",
+                "diary_description": "Eliminatorias Asia: Corea del Norte vs Ir\u00e1n\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 230,
+                            "id": 745,
                             "attributes": {
-                                "embed_name": "Liga1max",
+                                "embed_name": "Disney01",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
-                            }
-                        },
-                        {
-                            "id": 830,
-                            "attributes": {
-                                "embed_name": "L1max",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2Z28ucGUvc3cuaHRtbD9nZXQ9aHR0cHM6Ly9mdXRib2xsaWJyZXR2Z28ucGUvcmVwcm8vbGlnYTFtYXguaHRtbA=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkx"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 2,
+                        "id": 63,
                         "attributes": {
-                            "name": "Per\u00fa",
-                            "createdAt": "2023-11-22T14:50:06.355Z",
-                            "updatedAt": "2023-11-22T18:05:40.140Z",
-                            "publishedAt": "2023-11-22T15:10:18.533Z",
+                            "name": "Eliminatorias ASIA",
+                            "createdAt": "2024-03-21T12:26:14.781Z",
+                            "updatedAt": "2024-03-21T12:26:16.959Z",
+                            "publishedAt": "2024-03-21T12:26:16.957Z",
                             "image": {
                                 "data": {
-                                    "id": 28,
+                                    "id": 194,
                                     "attributes": {
-                                        "name": "peru.png",
+                                        "name": "eliminatoriasasia.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 128,
                                         "height": 128,
                                         "formats": null,
-                                        "hash": "peru_ddc4e685cf",
+                                        "hash": "eliminatoriasasia_f115415bc0",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 0.87,
-                                        "url": "\/uploads\/peru_ddc4e685cf.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/eliminatoriasasia_f115415bc0.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2023-11-22T17:57:17.008Z",
-                                        "updatedAt": "2023-11-22T18:05:27.397Z"
+                                        "createdAt": "2024-03-21T12:26:11.572Z",
+                                        "updatedAt": "2024-03-21T12:26:11.572Z"
                                     }
                                 }
                             }
@@ -698,78 +472,54 @@
             }
         },
         {
-            "id": 10459,
+            "id": 11319,
             "attributes": {
-                "diary_hour": "11:45:00",
-                "diary_description": "UEFA Champions League: Monaco vs Crvena Zvezda\n",
-                "date_diary": "2024-10-22",
+                "diary_hour": "11:15:00",
+                "diary_description": "Eliminatorias Asia: Qatar vs Uzbekist\u00e1n\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 370,
+                            "id": 784,
                             "attributes": {
-                                "embed_name": "ESPN2",
+                                "embed_name": "Disney04",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMg=="
-                            }
-                        },
-                        {
-                            "id": 789,
-                            "attributes": {
-                                "embed_name": "Disney05",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk1"
-                            }
-                        },
-                        {
-                            "id": 899,
-                            "attributes": {
-                                "embed_name": "ESPN2 Movil",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuMi5odG1s"
-                            }
-                        },
-                        {
-                            "id": 298,
-                            "attributes": {
-                                "embed_name": "Arena Sports 1",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czE="
+                                "embed_iframe": "\/embed\/eventos?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk0"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 63,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "Eliminatorias ASIA",
+                            "createdAt": "2024-03-21T12:26:14.781Z",
+                            "updatedAt": "2024-03-21T12:26:16.959Z",
+                            "publishedAt": "2024-03-21T12:26:16.957Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 194,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "eliminatoriasasia.png",
                                         "alternativeText": null,
                                         "caption": null,
-                                        "width": 64,
-                                        "height": 64,
+                                        "width": 128,
+                                        "height": 128,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "eliminatoriasasia_f115415bc0",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/eliminatoriasasia_f115415bc0.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-03-21T12:26:11.572Z",
+                                        "updatedAt": "2024-03-21T12:26:11.572Z"
                                     }
                                 }
                             }
@@ -779,11 +529,198 @@
             }
         },
         {
-            "id": 10457,
+            "id": 11325,
             "attributes": {
-                "diary_hour": "11:00:00",
-                "diary_description": "AFC Champions League: Esteghlal vs Al Nassr\n",
-                "date_diary": "2024-10-22",
+                "diary_hour": "14:45:00",
+                "diary_description": "UEFA Nations League: Francia vs Israel",
+                "date_diary": "2024-11-14",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 468,
+                            "attributes": {
+                                "embed_name": "Sport TV3",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly92NS5zcG9ydHNvbmxpbmUuc2kvY2hhbm5lbHMvcHQvc3BvcnR0djMucGhw"
+                            }
+                        },
+                        {
+                            "id": 296,
+                            "attributes": {
+                                "embed_name": "Arena Sports 3",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9jYW5hbHBsYXllcmlkP2lkPUFSRU5BX1NQT1JUU18xX0JI"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 56,
+                        "attributes": {
+                            "name": "UEFA Nations League",
+                            "createdAt": "2024-02-08T12:55:31.947Z",
+                            "updatedAt": "2024-02-08T12:55:36.376Z",
+                            "publishedAt": "2024-02-08T12:55:36.375Z",
+                            "image": {
+                                "data": {
+                                    "id": 183,
+                                    "attributes": {
+                                        "name": "UEFA Nations League.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "UEFA_Nations_League_6dc162dcd3",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 3.3,
+                                        "url": "\/uploads\/UEFA_Nations_League_6dc162dcd3.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-02-08T12:55:28.945Z",
+                                        "updatedAt": "2024-02-08T12:55:28.945Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 11327,
+            "attributes": {
+                "diary_hour": "14:45:00",
+                "diary_description": "UEFA Nations League: Rep\u00fablica de Irlanda vs Finlandia\n",
+                "date_diary": "2024-11-14",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 470,
+                            "attributes": {
+                                "embed_name": "Sport TV5",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly92NS5zcG9ydHNvbmxpbmUuc2kvY2hhbm5lbHMvcHQvc3BvcnR0djUucGhw"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 56,
+                        "attributes": {
+                            "name": "UEFA Nations League",
+                            "createdAt": "2024-02-08T12:55:31.947Z",
+                            "updatedAt": "2024-02-08T12:55:36.376Z",
+                            "publishedAt": "2024-02-08T12:55:36.375Z",
+                            "image": {
+                                "data": {
+                                    "id": 183,
+                                    "attributes": {
+                                        "name": "UEFA Nations League.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "UEFA_Nations_League_6dc162dcd3",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 3.3,
+                                        "url": "\/uploads\/UEFA_Nations_League_6dc162dcd3.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-02-08T12:55:28.945Z",
+                                        "updatedAt": "2024-02-08T12:55:28.945Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 11316,
+            "attributes": {
+                "diary_hour": "07:45:00",
+                "diary_description": "Primera Divisi\u00f3n: Danubio vs Cerro\n",
+                "date_diary": "2024-11-14",
+                "channels": {
+                    "data": []
+                },
+                "embeds": {
+                    "data": [
+                        {
+                            "id": 451,
+                            "attributes": {
+                                "embed_name": "VTV Plus",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT12dHZwbHVz"
+                            }
+                        },
+                        {
+                            "id": 765,
+                            "attributes": {
+                                "embed_name": "Disney02",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXky"
+                            }
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "id": 16,
+                        "attributes": {
+                            "name": "Uruguay",
+                            "createdAt": "2023-11-22T15:49:02.025Z",
+                            "updatedAt": "2024-01-07T23:51:20.902Z",
+                            "publishedAt": "2023-11-22T15:49:03.589Z",
+                            "image": {
+                                "data": {
+                                    "id": 132,
+                                    "attributes": {
+                                        "name": "uruguay.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 64,
+                                        "height": 64,
+                                        "formats": null,
+                                        "hash": "uruguay_e2b9597af8",
+                                        "ext": ".png",
+                                        "mime": "image\/png",
+                                        "size": 0.8,
+                                        "url": "\/uploads\/uruguay_e2b9597af8.png",
+                                        "previewUrl": null,
+                                        "provider": "local",
+                                        "provider_metadata": null,
+                                        "createdAt": "2024-01-07T23:51:18.898Z",
+                                        "updatedAt": "2024-01-07T23:51:18.898Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 11317,
+            "attributes": {
+                "diary_hour": "09:00:00",
+                "diary_description": "Eliminatorias Asia: Kuwait vs Corea del Sur\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
@@ -794,63 +731,47 @@
                             "attributes": {
                                 "embed_name": "ESPN MX",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly92NS5zcG9ydHNvbmxpbmUuc2kvY2hhbm5lbHMvaGQvaGQzLnBocA=="
                             }
                         },
                         {
-                            "id": 900,
+                            "id": 805,
                             "attributes": {
-                                "embed_name": "ESPN MX Movil",
+                                "embed_name": "ESPN2 NL",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9ldmVudG9zLmh0bWw="
-                            }
-                        },
-                        {
-                            "id": 783,
-                            "attributes": {
-                                "embed_name": "Disney03",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkz"
-                            }
-                        },
-                        {
-                            "id": 128,
-                            "attributes": {
-                                "embed_name": "SSC Sport 1 SA",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL21wZC9kcm0ucGhwP3VybD1hSFIwY0hNNkx5OXpjMk10TVMxbGJtTXVaV1JuWlc1bGVIUmpaRzR1Ym1WMEwyOTFkQzkyTVM5ak5qazJaVFE0TVRsaU5UVTBNVFF6T0RoaE1XRTBPRGRsT0dFME5XTmhNUzlwYm1SbGVDNXRjR1E9Jms9WkRnMFl6TXlOV1l6TmpneE5HWXpPV0ppWlRVNU1EZ3dNamN5WWpFd1l6TTZOVFV3TnpJM1pHVTBZemsyWldZeFpXTm1aamczTkRrd05UUTVNelU0TUdZPQ=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMl9ubA=="
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 40,
+                        "id": 63,
                         "attributes": {
-                            "name": "AFC Champions League",
-                            "createdAt": "2023-12-12T05:11:49.166Z",
-                            "updatedAt": "2024-02-21T15:39:31.557Z",
-                            "publishedAt": "2023-12-12T05:11:50.245Z",
+                            "name": "Eliminatorias ASIA",
+                            "createdAt": "2024-03-21T12:26:14.781Z",
+                            "updatedAt": "2024-03-21T12:26:16.959Z",
+                            "publishedAt": "2024-03-21T12:26:16.957Z",
                             "image": {
                                 "data": {
-                                    "id": 187,
+                                    "id": 194,
                                     "attributes": {
-                                        "name": "afc_champions_L.png",
+                                        "name": "eliminatoriasasia.png",
                                         "alternativeText": null,
                                         "caption": null,
-                                        "width": 64,
-                                        "height": 64,
+                                        "width": 128,
+                                        "height": 128,
                                         "formats": null,
-                                        "hash": "afc_champions_L_e5d321e635",
+                                        "hash": "eliminatoriasasia_f115415bc0",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 3.34,
-                                        "url": "\/uploads\/afc_champions_L_e5d321e635.png",
+                                        "size": 1.77,
+                                        "url": "\/uploads\/eliminatoriasasia_f115415bc0.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:28.401Z",
-                                        "updatedAt": "2024-02-21T15:39:28.401Z"
+                                        "createdAt": "2024-03-21T12:26:11.572Z",
+                                        "updatedAt": "2024-03-21T12:26:11.572Z"
                                     }
                                 }
                             }
@@ -860,92 +781,11 @@
             }
         },
         {
-            "id": 10463,
+            "id": 11320,
             "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: PSG vs PSV\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 773,
-                            "attributes": {
-                                "embed_name": "ESPN7",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNw=="
-                            }
-                        },
-                        {
-                            "id": 657,
-                            "attributes": {
-                                "embed_name": "Fox Sports 2",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMy"
-                            }
-                        },
-                        {
-                            "id": 905,
-                            "attributes": {
-                                "embed_name": "ESPN7 Movil",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuNy5odG1s"
-                            }
-                        },
-                        {
-                            "id": 276,
-                            "attributes": {
-                                "embed_name": "Arena Sports 3P",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czNw"
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 33,
-                        "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
-                            "image": {
-                                "data": {
-                                    "id": 188,
-                                    "attributes": {
-                                        "name": "UEFA_Champions_L.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10465,
-            "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Juventus vs Stuttgart\n",
-                "date_diary": "2024-10-22",
+                "diary_hour": "12:00:00",
+                "diary_description": "UEFA Nations League: Armenia vs Islas Feroe\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
@@ -956,31 +796,7 @@
                             "attributes": {
                                 "embed_name": "ESPN2",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMg=="
-                            }
-                        },
-                        {
-                            "id": 819,
-                            "attributes": {
-                                "embed_name": "Disney09",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk5"
-                            }
-                        },
-                        {
-                            "id": 899,
-                            "attributes": {
-                                "embed_name": "ESPN2 Movil",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuMi5odG1s"
-                            }
-                        },
-                        {
-                            "id": 236,
-                            "attributes": {
-                                "embed_name": "Arena Sports 2P",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czJw"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJoZD9nZXQ9UlZOUVRqSmZRWEpu"
                             }
                         },
                         {
@@ -988,39 +804,55 @@
                             "attributes": {
                                 "embed_name": "DAZN 1 DE",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kYXpuMV9kZQ=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly92NS5zcG9ydHNvbmxpbmUuc2kvY2hhbm5lbHMvaGQvaGQzLnBocA=="
+                            }
+                        },
+                        {
+                            "id": 950,
+                            "attributes": {
+                                "embed_name": "ESPN2 | opc2",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJoZD9nZXQ9UlZOUVRqSmZRWEpu"
+                            }
+                        },
+                        {
+                            "id": 467,
+                            "attributes": {
+                                "embed_name": "Sport TV2",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1zcG9ydHR2Mg=="
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 56,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Nations League",
+                            "createdAt": "2024-02-08T12:55:31.947Z",
+                            "updatedAt": "2024-02-08T12:55:36.376Z",
+                            "publishedAt": "2024-02-08T12:55:36.375Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 183,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "UEFA Nations League.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "UEFA_Nations_League_6dc162dcd3",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 3.3,
+                                        "url": "\/uploads\/UEFA_Nations_League_6dc162dcd3.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
+                                        "createdAt": "2024-02-08T12:55:28.945Z",
+                                        "updatedAt": "2024-02-08T12:55:28.945Z"
                                     }
                                 }
                             }
@@ -1030,541 +862,70 @@
             }
         },
         {
-            "id": 10467,
+            "id": 11323,
             "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Girona vs Slovan Bratislava\n",
-                "date_diary": "2024-10-22",
+                "diary_hour": "14:45:00",
+                "diary_description": "UEFA Nations League: Eslovenia vs Noruega\n",
+                "date_diary": "2024-11-14",
                 "channels": {
                     "data": []
                 },
                 "embeds": {
                     "data": [
                         {
-                            "id": 772,
+                            "id": 370,
                             "attributes": {
-                                "embed_name": "ESPN6",
+                                "embed_name": "ESPN2",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNw=="
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJoZD9nZXQ9UlZOUVRqSmZRWEpu"
                             }
                         },
                         {
-                            "id": 816,
+                            "id": 298,
                             "attributes": {
-                                "embed_name": "Disney07",
+                                "embed_name": "Arena Sports 1",
                                 "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk3"
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czE="
+                            }
+                        },
+                        {
+                            "id": 950,
+                            "attributes": {
+                                "embed_name": "ESPN2 | opc2",
+                                "embed_link": null,
+                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9raWxvaWw5bWlvLnBhZ2VzLmRldi9wbGF5ZXJoZD9nZXQ9UlZOUVRqSmZRWEpu"
                             }
                         }
                     ]
                 },
                 "country": {
                     "data": {
-                        "id": 33,
+                        "id": 56,
                         "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
+                            "name": "UEFA Nations League",
+                            "createdAt": "2024-02-08T12:55:31.947Z",
+                            "updatedAt": "2024-02-08T12:55:36.376Z",
+                            "publishedAt": "2024-02-08T12:55:36.375Z",
                             "image": {
                                 "data": {
-                                    "id": 188,
+                                    "id": 183,
                                     "attributes": {
-                                        "name": "UEFA_Champions_L.png",
+                                        "name": "UEFA Nations League.png",
                                         "alternativeText": null,
                                         "caption": null,
                                         "width": 64,
                                         "height": 64,
                                         "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
+                                        "hash": "UEFA_Nations_League_6dc162dcd3",
                                         "ext": ".png",
                                         "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
+                                        "size": 3.3,
+                                        "url": "\/uploads\/UEFA_Nations_League_6dc162dcd3.png",
                                         "previewUrl": null,
                                         "provider": "local",
                                         "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10468,
-            "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Sturm Graz vs Sporting CP\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 772,
-                            "attributes": {
-                                "embed_name": "ESPN6",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNw=="
-                            }
-                        },
-                        {
-                            "id": 816,
-                            "attributes": {
-                                "embed_name": "Disney07",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXk3"
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 33,
-                        "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
-                            "image": {
-                                "data": {
-                                    "id": 188,
-                                    "attributes": {
-                                        "name": "UEFA_Champions_L.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10469,
-            "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "Championship: Queens Park Rangers vs Coventry City\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 849,
-                            "attributes": {
-                                "embed_name": "Disney14",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxNA=="
-                            }
-                        },
-                        {
-                            "id": 466,
-                            "attributes": {
-                                "embed_name": "Sport TV1",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1zcG9ydHR2MQ=="
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 8,
-                        "attributes": {
-                            "name": "Inglaterra",
-                            "createdAt": "2023-11-22T15:34:59.892Z",
-                            "updatedAt": "2024-01-07T23:52:57.434Z",
-                            "publishedAt": "2023-11-22T15:35:01.179Z",
-                            "image": {
-                                "data": {
-                                    "id": 135,
-                                    "attributes": {
-                                        "name": "inglaterra.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "inglaterra_823176495f",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 0.53,
-                                        "url": "\/uploads\/inglaterra_823176495f.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:52:55.261Z",
-                                        "updatedAt": "2024-01-07T23:52:55.261Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10462,
-            "attributes": {
-                "diary_hour": "14:00:00",
-                "diary_description": "UEFA Champions League: Real Madrid vs Borussia Dortmund\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 746,
-                            "attributes": {
-                                "embed_name": "ESPN",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
-                            }
-                        },
-                        {
-                            "id": 655,
-                            "attributes": {
-                                "embed_name": "Fox Sports ",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHM="
-                            }
-                        },
-                        {
-                            "id": 755,
-                            "attributes": {
-                                "embed_name": "UniM\u00e1s",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT11bmltYXM="
-                            }
-                        },
-                        {
-                            "id": 837,
-                            "attributes": {
-                                "embed_name": "ESPN Movil",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2cGUuY29tL3N3Lmh0bWw\/Z2V0PWh0dHBzOi8vZnV0Ym9sbGlicmV0dnBlLmNvbS9yZXByby9lc3BuLmh0bWw="
-                            }
-                        },
-                        {
-                            "id": 847,
-                            "attributes": {
-                                "embed_name": "Disney12",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxMg=="
-                            }
-                        },
-                        {
-                            "id": 206,
-                            "attributes": {
-                                "embed_name": "TUDN USA",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10dWRu"
-                            }
-                        },
-                        {
-                            "id": 237,
-                            "attributes": {
-                                "embed_name": "Arena Sports 1P",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1hcmVuYXNwb3J0czFw"
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 33,
-                        "attributes": {
-                            "name": "UEFA Champions League",
-                            "createdAt": "2023-11-27T14:41:16.567Z",
-                            "updatedAt": "2024-02-21T15:39:48.643Z",
-                            "publishedAt": "2023-11-27T14:41:19.033Z",
-                            "image": {
-                                "data": {
-                                    "id": 188,
-                                    "attributes": {
-                                        "name": "UEFA_Champions_L.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "UEFA_Champions_L_e95eab40e4",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 1.14,
-                                        "url": "\/uploads\/UEFA_Champions_L_e95eab40e4.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-02-21T15:39:45.812Z",
-                                        "updatedAt": "2024-02-21T15:39:45.812Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10482,
-            "attributes": {
-                "diary_hour": "15:00:00",
-                "diary_description": "Copa Ecuador: Universidad Cat\u00f3lica vs Independiente del Valle",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 766,
-                            "attributes": {
-                                "embed_name": "Dsports Eventos",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEwaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRzX2V2ZW50b3MK"
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 13,
-                        "attributes": {
-                            "name": "Ecuador",
-                            "createdAt": "2023-11-22T15:42:56.252Z",
-                            "updatedAt": "2024-01-07T23:48:11.367Z",
-                            "publishedAt": "2023-11-22T15:42:57.903Z",
-                            "image": {
-                                "data": {
-                                    "id": 129,
-                                    "attributes": {
-                                        "name": "ecuador.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "ecuador_6b5e87e044",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 0.91,
-                                        "url": "\/uploads\/ecuador_6b5e87e044.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:48:09.254Z",
-                                        "updatedAt": "2024-01-07T23:48:09.254Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10471,
-            "attributes": {
-                "diary_hour": "15:15:00",
-                "diary_description": "Liga 1: Los Chankas vs C\u00e9sar Vallejo\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 230,
-                            "attributes": {
-                                "embed_name": "Liga1max",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
-                            }
-                        },
-                        {
-                            "id": 830,
-                            "attributes": {
-                                "embed_name": "L1max",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZXR2Z28ucGUvc3cuaHRtbD9nZXQ9aHR0cHM6Ly9mdXRib2xsaWJyZXR2Z28ucGUvcmVwcm8vbGlnYTFtYXguaHRtbA=="
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 2,
-                        "attributes": {
-                            "name": "Per\u00fa",
-                            "createdAt": "2023-11-22T14:50:06.355Z",
-                            "updatedAt": "2023-11-22T18:05:40.140Z",
-                            "publishedAt": "2023-11-22T15:10:18.533Z",
-                            "image": {
-                                "data": {
-                                    "id": 28,
-                                    "attributes": {
-                                        "name": "peru.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 128,
-                                        "height": 128,
-                                        "formats": null,
-                                        "hash": "peru_ddc4e685cf",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 0.87,
-                                        "url": "\/uploads\/peru_ddc4e685cf.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2023-11-22T17:57:17.008Z",
-                                        "updatedAt": "2023-11-22T18:05:27.397Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10472,
-            "attributes": {
-                "diary_hour": "17:30:00",
-                "diary_description": "Brasileir\u00e3o: Fluminense vs Athletico-PR\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 180,
-                            "attributes": {
-                                "embed_name": "Premiere BR ",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9nb2xhem9oZC5jb20vbXBkLnBocD9pZD1wcmVtaWVyZQ=="
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 1,
-                        "attributes": {
-                            "name": "Brasil",
-                            "createdAt": "2023-11-22T14:40:01.140Z",
-                            "updatedAt": "2024-01-07T23:56:59.376Z",
-                            "publishedAt": "2023-11-22T14:42:50.953Z",
-                            "image": {
-                                "data": {
-                                    "id": 141,
-                                    "attributes": {
-                                        "name": "brasil.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "brasil_25a533e5f7",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 0.85,
-                                        "url": "\/uploads\/brasil_25a533e5f7.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:56:57.083Z",
-                                        "updatedAt": "2024-01-07T23:56:57.083Z"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": 10474,
-            "attributes": {
-                "diary_hour": "19:00:00",
-                "diary_description": "CONCACAF Central American Cup: Motagua vs \u00c1guila\n",
-                "date_diary": "2024-10-22",
-                "channels": {
-                    "data": []
-                },
-                "embeds": {
-                    "data": [
-                        {
-                            "id": 314,
-                            "attributes": {
-                                "embed_name": "FOX Sports 3 MX",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hzcG9ydHMzbXg="
-                            }
-                        },
-                        {
-                            "id": 850,
-                            "attributes": {
-                                "embed_name": "Disney15",
-                                "embed_link": null,
-                                "embed_iframe": "\/embed\/eventos.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kaXNuZXkxNQ=="
-                            }
-                        }
-                    ]
-                },
-                "country": {
-                    "data": {
-                        "id": 34,
-                        "attributes": {
-                            "name": "Copa Centroamericana",
-                            "createdAt": "2023-11-28T14:54:06.416Z",
-                            "updatedAt": "2024-01-07T23:35:14.051Z",
-                            "publishedAt": "2023-11-28T14:54:07.576Z",
-                            "image": {
-                                "data": {
-                                    "id": 120,
-                                    "attributes": {
-                                        "name": "copa_centroamericana.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 64,
-                                        "height": 64,
-                                        "formats": null,
-                                        "hash": "copa_centroamericana_59d23aa32c",
-                                        "ext": ".png",
-                                        "mime": "image\/png",
-                                        "size": 4.26,
-                                        "url": "\/uploads\/copa_centroamericana_59d23aa32c.png",
-                                        "previewUrl": null,
-                                        "provider": "local",
-                                        "provider_metadata": null,
-                                        "createdAt": "2024-01-07T23:35:10.805Z",
-                                        "updatedAt": "2024-01-07T23:35:10.805Z"
+                                        "createdAt": "2024-02-08T12:55:28.945Z",
+                                        "updatedAt": "2024-02-08T12:55:28.945Z"
                                     }
                                 }
                             }
