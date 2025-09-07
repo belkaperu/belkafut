@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reproductor de Canales TV</title>
+    <!-- Cargar JWPlayer desde CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jwplayer/8.22.0/jwplayer.js"></script>
-    <script>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
     <style>
         * {
             margin: 0;
@@ -184,7 +184,9 @@
     <script>
         // Esperar a que JWPlayer esté completamente cargado
         function checkJWPlayerLoaded() {
-            if (typeof jwplayer !== 'undefined' && jwplayer && jwplayer.prototype && jwplayer.prototype.setup) {
+            if (typeof jwplayer !== 'undefined' && jwplayer && typeof jwplayer.prototype.setup === 'function') {
+                // Configurar la clave una vez que JWPlayer esté disponible
+                jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";
                 initApp();
             } else {
                 setTimeout(checkJWPlayerLoaded, 100);
@@ -270,6 +272,9 @@
                     const img = document.createElement("img");
                     img.src = canal.logo || "https://via.placeholder.com/150x80/2a2a4a/ffffff?text=TV";
                     img.alt = canal.title;
+                    img.onerror = function() {
+                        this.src = "https://via.placeholder.com/150x80/2a2a4a/ffffff?text=" + encodeURIComponent(canal.title.substring(0, 10));
+                    };
                     
                     const title = document.createElement("p");
                     title.textContent = canal.title;
@@ -309,13 +314,16 @@
                         item.classList.remove('active');
                     });
                     
-                    document.querySelector(`[data-channel="${channelId}"]`).classList.add('active');
+                    const selectedCard = document.querySelector(`[data-channel="${channelId}"]`);
+                    if (selectedCard) {
+                        selectedCard.classList.add('active');
+                    }
                     
                     // Configurar el reproductor con DRM
                     playerInstance.setup({
                         playlist: [{
                             title: c.title,
-                            image: "",
+                            image: c.logo || "",
                             sources: [{
                                 default: false,
                                 type: "dash",
@@ -348,6 +356,7 @@
                         playerPlaceholder.innerHTML = `
                             <h3>Error al cargar el canal</h3>
                             <p>Intenta seleccionar otro canal o vuelve a intentarlo más tarde</p>
+                            <p style="font-size: 12px; margin-top: 10px;">Detalles: ${e.message || 'Error desconocido'}</p>
                         `;
                     });
                 } else {
@@ -364,13 +373,24 @@
             // Cargar canal desde URL o mostrar mensaje inicial
             if (canalParam && canales[canalParam]) {
                 loadChannel(canalParam);
+            } else if (canalParam) {
+                // Canal en URL pero no existe
+                playerPlaceholder.innerHTML = `
+                    <h3>Canal no disponible</h3>
+                    <p>El canal "${canalParam}" no se encuentra en nuestra lista</p>
+                `;
             }
         }
         
-        // Iniciar verificación de carga de JWPlayer
-        document.addEventListener("DOMContentLoaded", function() {
+        // Iniciar verificación de carga de JWPlayer después de que el DOM esté listo
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+                checkJWPlayerLoaded();
+            });
+        } else {
+            // DOM ya está listo
             checkJWPlayerLoaded();
-        });
+        }
     </script>
 </body>
 </html>
