@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reproductor de Canales TV</title>
-    <!-- Cargar JWPlayer desde CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jwplayer/8.22.0/jwplayer.js"></script>
+    <script>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
     <style>
         * {
             margin: 0;
@@ -184,13 +184,17 @@
     <script>
         // Esperar a que JWPlayer esté completamente cargado
         function checkJWPlayerLoaded() {
-            if (typeof jwplayer !== 'undefined' && jwplayer && typeof jwplayer.prototype.setup === 'function') {
-                // Configurar la clave una vez que JWPlayer esté disponible
-                jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";
+            if (typeof jwplayer !== 'undefined' && jwplayer && jwplayer.prototype && jwplayer.prototype.setup) {
                 initApp();
             } else {
                 setTimeout(checkJWPlayerLoaded, 100);
             }
+        }
+        
+        // Función para obtener parámetros de la URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
         }
         
         // Iniciar la aplicación cuando JWPlayer esté listo
@@ -251,9 +255,8 @@
             // Inicializar el reproductor
             var playerInstance = jwplayer("player");
             
-            // Obtener canal de la URL
-            const params = new URLSearchParams(window.location.search);
-            const canalParam = params.get("channel");
+            // Obtener canal de la URL usando nuestra función mejorada
+            const canalParam = getQueryParam("channel");
             
             // Elementos DOM
             const channelsGrid = document.getElementById("channels-grid");
@@ -272,6 +275,7 @@
                     const img = document.createElement("img");
                     img.src = canal.logo || "https://via.placeholder.com/150x80/2a2a4a/ffffff?text=TV";
                     img.alt = canal.title;
+                    // Manejar error de carga de imagen
                     img.onerror = function() {
                         this.src = "https://via.placeholder.com/150x80/2a2a4a/ffffff?text=" + encodeURIComponent(canal.title.substring(0, 10));
                     };
@@ -374,11 +378,12 @@
             if (canalParam && canales[canalParam]) {
                 loadChannel(canalParam);
             } else if (canalParam) {
-                // Canal en URL pero no existe
+                // Mostrar mensaje de canal no encontrado
                 playerPlaceholder.innerHTML = `
                     <h3>Canal no disponible</h3>
                     <p>El canal "${canalParam}" no se encuentra en nuestra lista</p>
                 `;
+                nowPlaying.textContent = "Canal no disponible";
             }
         }
         
