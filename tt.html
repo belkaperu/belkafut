@@ -1,85 +1,324 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Reproductor HLS con Clappr</title>
-    <meta name="robots" content="noindex" />
-<script src="//cdn.jsdelivr.net/npm/@clappr/player@0.4.0/dist/clappr.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/mux.js@5.6.7/dist/mux.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/shaka-player@2.5.10/dist/shaka-player.compiled.min.js"></script>
-<script src="//cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.external.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/cdnbye-shaka@latest"></script>
-<script src="https://alwingulla.com/88/tag.min.js" data-zone="62702" async data-cfasync="false"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@clappr/player@latest/dist/clappr.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Canales TV</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jwplayer/8.22.0/jwplayer.js"></script>
+    <script>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo"</script>
     <style>
-        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
-        #player { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0f0f1e;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #1a1a2e;
+            border-bottom: 1px solid #2d2d4d;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4cc9f0;
+        }
+        
+        .channel-info {
+            font-size: 1rem;
+            color: #a0a0c0;
+        }
+        
+        .player-container {
+            flex: 1;
+            background: #000;
+            position: relative;
+        }
+        
+        #player {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .player-placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #0a0a1a;
+            z-index: 5;
+        }
+        
+        .player-placeholder h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #4cc9f0;
+        }
+        
+        .player-placeholder p {
+            color: #a0a0c0;
+            text-align: center;
+        }
+        
+        .channel-list {
+            display: flex;
+            overflow-x: auto;
+            padding: 15px;
+            background: #131325;
+            gap: 10px;
+        }
+        
+        .channel-item {
+            min-width: 100px;
+            background: #1e1e3a;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        
+        .channel-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        .channel-item.active {
+            border: 2px solid #4cc9f0;
+        }
+        
+        .channel-item img {
+            width: 100%;
+            height: 60px;
+            object-fit: cover;
+            background: #2a2a4a;
+        }
+        
+        .channel-item p {
+            padding: 8px 5px;
+            font-size: 0.8rem;
+        }
+        
+        @media (max-width: 768px) {
+            .channel-item {
+                min-width: 80px;
+            }
+            
+            .channel-item p {
+                font-size: 0.7rem;
+            }
+        }
     </style>
 </head>
 <body>
-    <div id="player"></div>
+    <div class="container">
+        <div class="top-bar">
+            <div class="logo">TVStream</div>
+            <div class="channel-info" id="channel-info">Selecciona un canal</div>
+        </div>
+        
+        <div class="player-container">
+            <div id="player"></div>
+            <div class="player-placeholder" id="player-placeholder">
+                <h3>Cargando canal...</h3>
+                <p>Por favor espera mientras se carga el contenido</p>
+            </div>
+        </div>
+        
+        <div class="channel-list" id="channel-list">
+            <!-- Los canales se cargarán con JavaScript -->
+        </div>
+    </div>
 
     <script>
-        // Función para obtener la URL HLS
-        function obtenerURLm3u8() {
-            // URL del stream HLS (reemplazar con la URL deseada)
-            const url = 'https://sv1.streamtp.live/global1.php?stream=tyc_sports';
-            // Proxy para evitar problemas de CORS
-            const proxyUrl = 'https://cors-anywhere.herokuapp.com/' + url;
+        // Objeto de canales
+        const canales = {
+            "mtvlive": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/MTV-LIVE-HD/default.mpd",
+                keyId: "acc4581a25ef0cd76f8fd7d826bb2d06",
+                key: "bc006e72e9aab57aca8ae75a83e8f20e",
+                title: "MTV Live",
+                logo: "https://logodownload.org/wp-content/uploads/2013/11/mtv-music-television-logo-1-1.png"
+            },
+            "espn1": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/ESPN-HD/default.mpd",
+                keyId: "bb43112b7b72e9c287da0ecdec8606a7",
+                key: "29e3d2678107f0ab0b35b6537c734f2a",
+                title: "ESPN",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/800px-ESPN_wordmark.svg.png"
+            },
+            "espn2": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/ESPN-2-HD/default.mpd",
+                keyId: "90e2e491c850a49a5ab21bb6fa6b4d24",
+                key: "4d7e33da19b971cef49e35eccdb9de0b",
+                title: "ESPN 2",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/800px-ESPN_wordmark.svg.png"
+            },
+            "goldenedge": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-EDGE-SD/default.mpd",
+                keyId: "98aa90cb620b972a0d0d66a51cdaca56",
+                key: "6e8bd53378356ed7f5103d91efb5e54e",
+                title: "Golden Edge",
+                logo: "https://via.placeholder.com/120x70/2a2a4a/ffffff?text=Golden+Edge"
+            },
+            // Agregar más canales aquí...
+            "foxsports1": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/FOX-SPORTS-HD/default.mpd",
+                keyId: "9e276bd34034a2c4dcf61d74e1242fbf",
+                key: "4b466a4affb61d2672a4194b14e10ef2",
+                title: "Fox Sports",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Fox_sports_logo.svg/640px-Fox_sports_logo.svg.png"
+            },
+            "hbo": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO-HD/default.mpd",
+                keyId: "df18f6a05bab28d89e5dc01d88f4deb8",
+                key: "baceb525467c0db22ba83090616c1ad0",
+                title: "HBO",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/1200px-HBO_logo.svg.png"
+            }
+        };
 
-            return fetch(proxyUrl)
-                .then(response => response.text())
-                .catch(error => {
-                    console.error('Error al obtener la URL m3u8:', error);
-                    return null;
+        // Inicializar el reproductor
+        var playerInstance = jwplayer("player");
+        
+        // Obtener canal de la URL
+        const params = new URLSearchParams(window.location.search);
+        const canal = params.get("channel");
+        
+        // Elementos DOM
+        const channelList = document.getElementById("channel-list");
+        const playerPlaceholder = document.getElementById("player-placeholder");
+        const channelInfo = document.getElementById("channel-info");
+        
+        // Cargar lista de canales
+        function loadChannelList() {
+            // Limpiar lista
+            channelList.innerHTML = '';
+            
+            // Agregar canales a la lista
+            for (const [id, canal] of Object.entries(canales)) {
+                const item = document.createElement("div");
+                item.className = "channel-item";
+                item.dataset.channel = id;
+                
+                const img = document.createElement("img");
+                img.src = canal.logo || "https://via.placeholder.com/100x60/2a2a4a/ffffff?text=TV";
+                img.alt = canal.title;
+                
+                const title = document.createElement("p");
+                title.textContent = canal.title;
+                
+                item.appendChild(img);
+                item.appendChild(title);
+                
+                item.addEventListener("click", () => {
+                    loadChannel(id);
                 });
+                
+                channelList.appendChild(item);
+            }
         }
-
-        // Función para inicializar el reproductor Clappr
-        function inicializarReproductor() {
-            obtenerURLm3u8().then(playbackURL => {
-                if (playbackURL) {
-                    // Configuración del reproductor Clappr
-                    var player = new Clappr.Player({
-                        source: playbackURL,
-                        parentId: "#player",
-                        poster: '', // Puedes especificar una imagen de poster si lo deseas
-                        width: '100%',
-                        height: '100%',
-                        autoPlay: false, // Reproducción automática desactivada
-                        playback: {
-                            hlsjsConfig: {
-                                maxBufferSize: 0, // Tamaño máximo del búfer en bytes (0 para desactivar)
-                                maxBufferLength: 30, // Longitud máxima del búfer en segundos
-                                liveSyncDurationCount: 3 // Número de segmentos a mantener en la lista de reproducción
-                                // Puedes ajustar estas configuraciones según tus necesidades
+        
+        // Cargar un canal específico
+        function loadChannel(channelId) {
+            if (canales[channelId]) {
+                const c = canales[channelId];
+                
+                // Mostrar placeholder
+                playerPlaceholder.style.display = "flex";
+                playerPlaceholder.innerHTML = "<h3>Cargando " + c.title + "...</h3><p>Por favor espera mientras se carga el contenido</p>";
+                
+                // Actualizar URL
+                window.history.replaceState({}, '', `?channel=${channelId}`);
+                
+                // Actualizar información del canal
+                channelInfo.textContent = c.title;
+                
+                // Resaltar canal seleccionado
+                document.querySelectorAll('.channel-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                document.querySelector(`[data-channel="${channelId}"]`).classList.add('active');
+                
+                // Configurar el reproductor
+                playerInstance.setup({
+                    playlist: [{
+                        title: c.title,
+                        image: "",
+                        sources: [{
+                            default: false,
+                            type: "dash",
+                            file: c.file,
+                            drm: {
+                                clearkey: {
+                                    keyId: c.keyId,
+                                    key: c.key
+                                }
                             },
-                            dvrEnabled: false, // DVR desactivado
-                            dvrInUse: false // No se está utilizando DVR
-                        }
-                    });
-
-                    // Manejo de errores del reproductor
-                    player.on(Clappr.Events.PLAYER_ERROR, function(event) {
-                        console.error('Error en el reproductor:', event);
-                    });
-
-                    player.on(Clappr.Events.HLSJS_ERROR, function(event, data) {
-                        console.error('Error en HLSJS:', data);
-                    });
-
-                } else {
-                    console.error('No se pudo obtener la URL m3u8.');
-                }
-            });
+                            label: "0"
+                        }]
+                    }],
+                    width: "100%",
+                    height: "100%",
+                    aspectratio: "16:9",
+                    autostart: true,
+                    cast: {},
+                    sharing: {}
+                });
+                
+                // Ocultar placeholder cuando el reproductor esté listo
+                playerInstance.on('ready', function() {
+                    playerPlaceholder.style.display = "none";
+                });
+                
+                // Manejar errores
+                playerInstance.on('error', function() {
+                    playerPlaceholder.style.display = "flex";
+                    playerPlaceholder.innerHTML = "<h3>Error al cargar el canal</h3><p>Intenta seleccionar otro canal</p>";
+                });
+            } else {
+                // Mostrar error si el canal no existe
+                playerPlaceholder.style.display = "flex";
+                playerPlaceholder.innerHTML = "<h3>Canal no encontrado</h3><p>El canal solicitado no está disponible</p>";
+                channelInfo.textContent = "Canal no encontrado";
+            }
         }
-
-        // Llamar a la función para inicializar el reproductor
-        inicializarReproductor();
+        
+        // Inicializar
+        document.addEventListener("DOMContentLoaded", () => {
+            loadChannelList();
+            
+            // Cargar canal desde URL o mostrar mensaje
+            if (canal && canales[canal]) {
+                loadChannel(canal);
+            } else {
+                playerPlaceholder.innerHTML = "<h3>Selecciona un canal</h3><p>Usa la lista inferior para elegir un canal</p>";
+                channelInfo.textContent = "Selecciona un canal";
+            }
+        });
     </script>
 </body>
 </html>
