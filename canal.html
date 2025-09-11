@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModernTV - Canales en Vivo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: #0f0f1a;
+            color: #fff;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 15px;
+            width: 100%;
+        }
+        
+        .tv-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            margin-bottom: 15px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ff2c6f;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .logo span {
+            color: #00e5ff;
+        }
+        
+        .player-container {
+            position: relative;
+            width: 100%;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            margin-bottom: 15px;
+            transition: all 0.4s ease;
+            height: 600px; /* Altura inicial */
+        }
+        
+        #video-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            transition: height 0.4s ease;
+        }
+        
+        /* Panel lateral de canales - VERTICAL */
+        .channels-sidebar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 19%; /* REDUCIDO: 19% del ancho del reproductor */
+            height: 70%; /* 70% de la altura del iframe */
+            background: rgba(15, 15, 26, 0.95);
+            padding: 15px;
+            transition: all 0.3s ease;
+            z-index: 10;
+            opacity: 0;
+            transform: translateX(-100%);
+            pointer-events: none;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            overflow-y: auto;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .channels-sidebar.visible {
+            opacity: 1;
+            transform: translateX(0);
+            pointer-events: all;
+            box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .channels-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .channels-title i {
+            margin-right: 8px;
+            color: #00e5ff;
+        }
+        
+        .search-container {
+            margin-bottom: 12px;
+            position: relative;
+        }
+        
+        .search-container input {
+            width: 100%;
+            padding: 8px 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .search-container input:focus {
+            outline: none;
+            border-color: #00e5ff;
+        }
+        
+        .channels-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 5px;
+            overflow-y: auto;
+            flex: 1;
+        }
+        
+        .channels-list::-webkit-scrollbar {
+            width: 5px;
+        }
+        
+        .channels-list::-webkit-scrollbar-thumb {
+            background: #ff2c6f;
+            border-radius: 3px;
+        }
+        
+        .channel-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            transform: scale(1);
+            border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            min-height: 50px;
+        }
+        
+        .channel-item:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: scale(1.02);
+        }
+        
+        .channel-item.active {
+            border-color: #ff2c6f;
+            background: rgba(255, 44, 111, 0.2);
+            box-shadow: 0 0 12px rgba(255, 44, 111, 0.5);
+        }
+        
+        .channel-thumb {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #fff;
+            font-weight: bold;
+            flex-shrink: 0;
+            margin-right: 8px;
+        }
+        
+        .channel-info {
+            padding: 6px;
+            text-align: left;
+            flex: 1;
+            overflow: hidden;
+        }
+        
+        .channel-name {
+            font-size: 12px;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .channel-category {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 2px;
+        }
+        
+        .fullscreen-button {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(15, 15, 26, 0.6);
+            border: none;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 30;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .fullscreen-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            z-index: 5;
+        }
+        
+        .placeholder i {
+            font-size: 64px;
+            color: #00e5ff;
+            margin-bottom: 20px;
+        }
+        
+        .placeholder p {
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .control-hint {
+            position: absolute;
+            bottom: 60px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            z-index: 25;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .player-container:hover .control-hint {
+            opacity: 1;
+        }
+        
+        .mouse-detection-area {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 80px; /* Área de detección en el borde izquierdo */
+            height: 100%;
+            z-index: 15;
+        }
+        
+        .mobile-search-btn {
+            display: none;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: rgba(15, 15, 26, 0.6);
+            border: none;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 30;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .player-container {
+                height: 400px; /* Altura más pequeña para móviles */
+            }
+            
+            .channels-sidebar {
+                width: 85%; /* En móviles ocupa más espacio */
+                height: 80%; /* 80% de la altura del iframe */
+            }
+            
+            .channel-item {
+                min-height: 45px;
+            }
+            
+            .channel-thumb {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+            }
+            
+            .channel-name {
+                font-size: 11px;
+            }
+            
+            .mobile-search-btn {
+                display: flex;
+            }
+            
+            .search-container {
+                display: none;
+            }
+            
+            .search-container.mobile-visible {
+                display: block;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .player-container {
+                height: 300px; /* Altura aún más pequeña para móviles pequeños */
+            }
+            
+            .channels-sidebar {
+                width: 90%; /* Más ancho en móviles pequeños */
+            }
+            
+            .mouse-detection-area {
+                width: 50px; /* Área más pequeña en móviles */
+            }
+            
+            .channel-item {
+                min-height: 40px;
+            }
+            
+            .channel-thumb {
+                width: 30px;
+                height: 30px;
+                font-size: 12px;
+            }
+            
+            .channel-name {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+        
+        <div class="player-container" id="player-container">
+            <iframe id="video-iframe"></iframe>
+            
+            <!-- Área de detección de mouse para mostrar/ocultar panel -->
+            <div class="mouse-detection-area" id="mouse-detection-area"></div>
+            
+            <div class="placeholder" id="placeholder">
+                <i class="fas fa-tv"></i>
+                <p>Selecciona un canal para comenzar a ver</p>
+            </div>
+            
+            <button class="fullscreen-button" id="fullscreen-button">
+                <i class="fas fa-expand"></i>
+            </button>
+            
+            <button class="mobile-search-btn" id="mobile-search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            
+            <div class="channels-sidebar" id="channels-sidebar">
+                <div class="channels-title">
+                    <div><i class="fas fa-tv"></i> Todos los canales</div>
+                    <div id="channels-count">0 canales</div>
+                </div>
+                
+                <div class="search-container" id="search-container">
+                    <input type="text" id="channel-search" placeholder="Buscar canal...">
+                </div>
+                
+                <div class="channels-list" id="channels-list">
+                    <!-- Los canales se generarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Lista completa de canales
+        const channels = [
+            { name: "TUDN", url: "https://embed.saohgdasregions.fun/embed2/tudn.html", category: "Deportes" },
+            { name: "Gol Perú", url: "https://embed.saohgdasregions.fun/embed2/golperu.html", category: "Deportes" },
+            { name: "TNT Sports", url: "https://embed.saohgdasregions.fun/embed2/tntsports.html", category: "Deportes" },
+            { name: "ESPN Premium", url: "https://embed.saohgdasregions.fun/embed2/espnpremium.html", category: "Deportes" },
+            { name: "ESPN Premium Argentina", url: "https://embed.saohgdasregions.fun/embed2/espnpremiumargentina.html", category: "Deportes" },
+            { name: "TyC Sports", url: "https://embed.saohgdasregions.fun/embed2/tycsports.html", category: "Deportes" },
+            { name: "Fox Sports", url: "https://embed.saohgdasregions.fun/embed2/foxsports.html", category: "Deportes" },
+            { name: "Fox Sports 2", url: "https://embed.saohgdasregions.fun/embed2/foxsports2.html", category: "Deportes" },
+            { name: "Fox Sports 3", url: "https://embed.saohgdasregions.fun/embed2/foxsports3.html", category: "Deportes" },
+            { name: "Fox Deportes", url: "https://embed.saohgdasregions.fun/embed2/foxdeportes.html", category: "Deportes" },
+            { name: "ESPN", url: "https://embed.saohgdasregions.fun/embed2/espn.html", category: "Deportes" },
+            { name: "ESPN Ar", url: "https://embed.saohgdasregions.fun/embed2/espnar.html", category: "Deportes" },
+            { name: "ESPN Col", url: "https://embed.saohgdasregions.fun/embed2/espncol.html", category: "Deportes" },
+            { name: "ESPN 2", url: "https://embed.saohgdasregions.fun/embed2/espn2.html", category: "Deportes" },
+            { name: "ESPN 3", url: "https://embed.saohgdasregions.fun/embed2/espn3.html", category: "Deportes" },
+            { name: "ESPN 4", url: "https://embed.saohgdasregions.fun/embed2/espn4.html", category: "Deportes" },
+            { name: "ESPN 5", url: "https://embed.saohgdasregions.fun/embed2/espn5.html", category: "Deportes" },
+            { name: "ESPN 6", url: "https://embed.saohgdasregions.fun/embed2/espn6.html", category: "Deportes" },
+            { name: "ESPN 7", url: "https://embed.saohgdasregions.fun/embed2/espn7.html", category: "Deportes" },
+            { name: "DirecTV Sports", url: "https://embed.saohgdasregions.fun/embed2/directvsports.html", category: "Deportes" },
+            { name: "DirecTV Sports 2", url: "https://embed.saohgdasregions.fun/embed2/directvsports2.html", category: "Deportes" },
+            { name: "DirecTV Sports Plus", url: "https://embed.saohgdasregions.fun/embed2/directvsportsplus.html", category: "Deportes" },
+            { name: "Fox Sports México", url: "https://embed.saohgdasregions.fun/embed2/foxsportsmexico.html", category: "Deportes" },
+            { name: "Fox Sports 2 México", url: "https://embed.saohgdasregions.fun/embed2/foxsports2mexico.html", category: "Deportes" },
+            { name: "Fox Sports 3 México", url: "https://embed.saohgdasregions.fun/embed2/foxsports3mexico.html", category: "Deportes" },
+            { name: "ESPN México", url: "https://embed.saohgdasregions.fun/embed2/espnmexico.html", category: "Deportes" },
+            { name: "ESPN 2 México", url: "https://embed.saohgdasregions.fun/embed2/espn2mexico.html", category: "Deportes" },
+            { name: "ESPN 3 México", url: "https://embed.saohgdasregions.fun/embed2/espn3mexico.html", category: "Deportes" },
+            { name: "ESPN 4 México", url: "https://embed.saohgdasregions.fun/embed2/espn4mexico.html", category: "Deportes" },
+            { name: "ESPN 5 México", url: "https://embed.saohgdasregions.fun/embed2/espn5mexico.html", category: "Deportes" },
+            { name: "Tvc Deportes", url: "https://embed.saohgdasregions.fun/embed2/tvcdeportes.html", category: "Deportes" },
+            { name: "Liga 1", url: "https://embed.saohgdasregions.fun/embed2/liga1.html", category: "Deportes" },
+            { name: "Liga 1 Max", url: "https://embed.saohgdasregions.fun/embed2/liga1max.html", category: "Deportes" },
+            { name: "Fox Sports Premium", url: "https://embed.saohgdasregions.fun/embed2/foxsportspremium.html", category: "Deportes" },
+            { name: "Movistar Deportes", url: "https://embed.saohgdasregions.fun/embed2/movistardeportes.html", category: "Deportes" },
+            { name: "DAZN F1", url: "https://embed.saohgdasregions.fun/embed2/daznf1.html", category: "Deportes" },
+            { name: "DAZN La Liga", url: "https://embed.saohgdasregions.fun/embed2/daznlaliga.html", category: "Deportes" },
+            { name: "Movistar Liga de Campeones", url: "https://embed.saohgdasregions.fun/embed2/movistarligadecampeones.html", category: "Deportes" },
+            { name: "Win Sports", url: "https://embed.saohgdasregions.fun/embed2/winsports.html", category: "Deportes" },
+            { name: "Win Sports Plus", url: "https://embed.saohgdasregions.fun/embed2/winsportsplus.html", category: "Deportes" },
+            { name: "BeIN Sports Xtra", url: "https://embed.saohgdasregions.fun/embed2/beinsportsxtra.html", category: "Deportes" },
+            { name: "Movistar La Liga", url: "https://embed.saohgdasregions.fun/embed2/movistarlaliga.html", category: "Deportes" },
+            { name: "NBA", url: "https://embed.saohgdasregions.fun/embed2/nba.html", category: "Deportes" },
+            { name: "Movistar Deportes Es", url: "https://embed.saohgdasregions.fun/embed2/movistardeporteses.html", category: "Deportes" },
+            { name: "Azteca Deportes", url: "https://embed.saohgdasregions.fun/embed2/aztecadeportes.html", category: "Deportes" },
+            { name: "TNT Sports Chile", url: "https://embed.saohgdasregions.fun/embed2/tntsportschile.html", category: "Deportes" },
+            { name: "MLB Network", url: "https://embed.saohgdasregions.fun/embed2/mlbnetwork.html", category: "Deportes" },
+            { name: "Sky Sports México", url: "https://embed.saohgdasregions.fun/embed2/skysportsmexico.html", category: "Deportes" },
+            { name: "Sky Sports Bundesliga", url: "https://embed.saohgdasregions.fun/embed2/skysportsbundesliga.html", category: "Deportes" },
+            { name: "Sky Sports F1", url: "https://embed.saohgdasregions.fun/embed2/skysportsf1.html", category: "Deportes" },
+            { name: "Azteca 7", url: "https://embed.saohgdasregions.fun/embed2/azteca7.html", category: "Entretenimiento" },
+            { name: "Canal 5", url: "https://embed.saohgdasregions.fun/embed2/canal5.html", category: "Entretenimiento" },
+            { name: "Latina", url: "https://embed.saohgdasregions.fun/embed2/latina.html", category: "Entretenimiento" },
+            { name: "America TV", url: "https://embed.saohgdasregions.fun/embed2/americatv.html", category: "Entretenimiento" },
+            { name: "Space", url: "https://embed.saohgdasregions.fun/embed2/space.html", category: "Entretenimiento" },
+            { name: "Warner Channel", url: "https://embed.saohgdasregions.fun/embed2/warnerchannel.html", category: "Entretenimiento" },
+            { name: "TNT", url: "https://embed.saohgdasregions.fun/embed2/tnt.html", category: "Entretenimiento" },
+            { name: "Star Channel", url: "https://embed.saohgdasregions.fun/embed2/starchannel.html", category: "Entretenimiento" },
+            { name: "Cinemax", url: "https://embed.saohgdasregions.fun/embed2/cinemax.html", category: "Películas" },
+            { name: "Cinecanal", url: "https://embed.saohgdasregions.fun/embed2/cinecanal.html", category: "Películas" },
+            { name: "Telefe", url: "https://embed.saohgdasregions.fun/embed2/telefe.html", category: "Entretenimiento" },
+            { name: "El Trece", url: "https://embed.saohgdasregions.fun/embed2/eltrece.html", category: "Entretenimiento" },
+            { name: "Distrito Comedia", url: "https://embed.saohgdasregions.fun/embed2/distritocomedia.html", category: "Entretenimiento" },
+            { name: "Telemundo 51", url: "https://embed.saohgdasregions.fun/embed2/telemundo51.html", category: "Entretenimiento" },
+            { name: "History", url: "https://embed.saohgdasregions.fun/embed2/history.html", category: "Entretenimiento" },
+            { name: "History 2", url: "https://embed.saohgdasregions.fun/embed2/history2.html", category: "Entretenimiento" },
+            { name: "Pasiones", url: "https://embed.saohgdasregions.fun/embed2/pasiones.html", category: "Entretenimiento" },
+            { name: "Azteca Uno", url: "https://embed.saohgdasregions.fun/embed2/aztecauno.html", category: "Entretenimiento" },
+            { name: "Galavision", url: "https://embed.saohgdasregions.fun/embed2/galavision.html", category: "Entretenimiento" },
+            { name: "Tlnovelas", url: "https://embed.saohgdasregions.fun/embed2/tlnovelas.html", category: "Entretenimiento" },
+            { name: "Las Estrellas", url: "https://embed.saohgdasregions.fun/embed2/lasestrellas.html", category: "Entretenimiento" },
+            { name: "SyFy", url: "https://embed.saohgdasregions.fun/embed2/syfy.html", category: "Entretenimiento" },
+            { name: "Caracol", url: "https://embed.saohgdasregions.fun/embed2/caracol.html", category: "Entretenimiento" },
+            { name: "ATV", url: "https://embed.saohgdasregions.fun/embed2/atv.html", category: "Entretenimiento" },
+            { name: "Univision", url: "https://embed.saohgdasregions.fun/embed2/univision.html", category: "Entretenimiento" },
+            { name: "Unicable", url: "https://embed.saohgdasregions.fun/embed2/unicable.html", category: "Entretenimiento" },
+            { name: "FX", url: "https://embed.saohgdasregions.fun/embed2/fx.html", category: "Entretenimiento" },
+            { name: "Golden Plus", url: "https://embed.saohgdasregions.fun/embed2/goldenplus.html", category: "Películas" },
+            { name: "Golden Edge", url: "https://embed.saohgdasregions.fun/embed2/goldenedge.html", category: "Películas" },
+            { name: "Golden Premier", url: "https://embed.saohgdasregions.fun/embed2/goldenpremier.html", category: "Películas" },
+            { name: "Golden Premier 2", url: "https://embed.saohgdasregions.fun/embed2/goldenpremier2.html", category: "Películas" },
+            { name: "TNT Series", url: "https://embed.saohgdasregions.fun/embed2/tntseries.html", category: "Entretenimiento" },
+            { name: "Sony", url: "https://embed.saohgdasregions.fun/embed2/sony.html", category: "Entretenimiento" },
+            { name: "AXN", url: "https://embed.saohgdasregions.fun/embed2/axn.html", category: "Entretenimiento" },
+            { name: "Universal Channel", url: "https://embed.saohgdasregions.fun/embed2/universalchannel.html", category: "Entretenimiento" },
+            { name: "Studio Universal", url: "https://embed.saohgdasregions.fun/embed2/studiouniversal.html", category: "Películas" },
+            { name: "Multipremier", url: "https://embed.saohgdasregions.fun/embed2/multipremier.html", category: "Películas" },
+            { name: "AMC", url: "https://embed.saohgdasregions.fun/embed2/amc.html", category: "Películas" },
+            { name: "Paramount Channel", url: "https://embed.saohgdasregions.fun/embed2/paramountchannel.html", category: "Películas" },
+            { name: "DPelicula", url: "https://embed.saohgdasregions.fun/embed2/dpelicula.html", category: "Películas" },
+            { name: "MTV", url: "https://embed.saohgdasregions.fun/embed2/mtv.html", category: "Entretenimiento" },
+            { name: "Comedy Central", url: "https://embed.saohgdasregions.fun/embed2/comedycentral.html", category: "Entretenimiento" },
+            { name: "Nat Geo", url: "https://embed.saohgdasregions.fun/embed2/natgeo.html", category: "Entretenimiento" },
+            { name: "Animal Planet", url: "https://embed.saohgdasregions.fun/embed2/animalplanet.html", category: "Entretenimiento" },
+            { name: "Discovery Channel", url: "https://embed.saohgdasregions.fun/embed2/discoverychannel.html", category: "Entretenimiento" },
+            { name: "Discovery H&H", url: "https://embed.saohgdasregions.fun/embed2/discoveryhyh.html", category: "Entretenimiento" },
+            { name: "ID Investigation", url: "https://embed.saohgdasregions.fun/embed2/idinvestigation.html", category: "Entretenimiento" },
+            { name: "Discovery A&E", url: "https://embed.saohgdasregions.fun/embed2/discoveryaye.html", category: "Entretenimiento" },
+            { name: "Discovery TLC", url: "https://embed.saohgdasregions.fun/embed2/discoverytlc.html", category: "Entretenimiento" },
+            { name: "Discovery Theater", url: "https://embed.saohgdasregions.fun/embed2/discoverytheater.html", category: "Entretenimiento" },
+            { name: "Discovery World", url: "https://embed.saohgdasregions.fun/embed2/discoveryworld.html", category: "Entretenimiento" },
+            { name: "Everything", url: "https://embed.saohgdasregions.fun/embed2/everything.html", category: "Entretenimiento" },
+            { name: "El Gourmet", url: "https://embed.saohgdasregions.fun/embed2/elgourmet.html", category: "Entretenimiento" },
+            { name: "Disney Jr.", url: "https://embed.saohgdasregions.fun/embed2/disneyjr.html", category: "Infantiles" },
+            { name: "Nick", url: "https://embed.saohgdasregions.fun/embed2/nick.html", category: "Infantiles" },
+            { name: "Nick Jr.", url: "https://embed.saohgdasregions.fun/embed2/nickjr.html", category: "Infantiles" },
+            { name: "Cartoon Network", url: "https://embed.saohgdasregions.fun/embed2/cartoonnetwork.html", category: "Infantiles" },
+            { name: "Cartoonito", url: "https://embed.saohgdasregions.fun/embed2/cartoonito.html", category: "Infantiles" },
+            { name: "Tooncast", url: "https://embed.saohgdasregions.fun/embed2/tooncast.html", category: "Infantiles" },
+            { name: "Discovery Kids", url: "https://embed.saohgdasregions.fun/embed2/discoverykids.html", category: "Infantiles" },
+            { name: "Telemundo Puerto Rico", url: "https://embed.saohgdasregions.fun/embed2/telemundopuertorico.html", category: "Entretenimiento" },
+            { name: "Willax", url: "https://embed.saohgdasregions.fun/embed2/willax.html", category: "Noticias" },
+            { name: "Global TV", url: "https://embed.saohgdasregions.fun/embed2/globaltv.html", category: "Entretenimiento" },
+            { name: "RCN", url: "https://embed.saohgdasregions.fun/embed2/rcn.html", category: "Entretenimiento" },
+            { name: "Antena 3", url: "https://embed.saohgdasregions.fun/embed2/antena3.html", category: "Internacionales" },
+            { name: "TV Pública", url: "https://embed.saohgdasregions.fun/embed2/tvpublica.html", category: "Entretenimiento" },
+            { name: "Disney Channel", url: "https://embed.saohgdasregions.fun/embed2/disneychannel.html", category: "Infantiles" },
+            { name: "TNT Novelas", url: "https://embed.saohgdasregions.fun/embed2/tntnovelas.html", category: "Entretenimiento" },
+            { name: "Universal Cinema", url: "https://embed.saohgdasregions.fun/embed2/universalcinema.html", category: "Películas" },
+            { name: "FM Hot Kids", url: "https://embed.saohgdasregions.fun/embed2/fmhotkids.html", category: "Infantiles" }
+        ];
+
+        const videoIframe = document.getElementById('video-iframe');
+        const placeholder = document.getElementById('placeholder');
+        const channelsList = document.getElementById('channels-list');
+        const fullscreenButton = document.getElementById('fullscreen-button');
+        const channelsSidebar = document.getElementById('channels-sidebar');
+        const channelsCount = document.getElementById('channels-count');
+        const playerContainer = document.getElementById('player-container');
+        const mouseDetectionArea = document.getElementById('mouse-detection-area');
+        const channelSearch = document.getElementById('channel-search');
+        const mobileSearchBtn = document.getElementById('mobile-search-btn');
+        const searchContainer = document.getElementById('search-container');
+        
+        let isFullscreen = false;
+        let sidebarVisible = false;
+        let sidebarTimeout;
+        let originalPlayerHeight = playerContainer.offsetHeight;
+        
+        // Función para cargar un canal
+        function loadChannel(channel) {
+            videoIframe.src = channel.url;
+            placeholder.style.display = 'none';
+            
+            // Marcar el canal activo
+            document.querySelectorAll(".channel-item").forEach(item => {
+                item.classList.remove("active");
+            });
+            
+            const activeChannel = document.querySelector(`.channel-item[data-channel="${channel.name}"]`);
+            if (activeChannel) {
+                activeChannel.classList.add("active");
+                
+                // Desplazar para que el canal activo sea visible
+                activeChannel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+            
+            // Ocultar el panel lateral después de seleccionar un canal
+            hideSidebar();
+        }
+        
+        // Función para generar la lista de canales
+        function generateChannelsList(searchTerm = "") {
+            channelsList.innerHTML = '';
+            
+            const filteredChannels = searchTerm 
+                ? channels.filter(channel => 
+                    channel.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    channel.category.toLowerCase().includes(searchTerm.toLowerCase()))
+                : channels;
+            
+            channelsCount.textContent = `${filteredChannels.length} canales`;
+            
+            filteredChannels.forEach(channel => {
+                const channelElement = document.createElement("div");
+                channelElement.className = "channel-item";
+                channelElement.setAttribute("data-channel", channel.name);
+                
+                // Obtener la primera letra del canal para el thumbnail
+                const firstLetter = channel.name.charAt(0);
+                
+                // Color basado en la categoría
+                const colors = {
+                    "Deportes": "#ff2c6f",
+                    "Entretenimiento": "#00e5ff",
+                    "Películas": "#ff9900",
+                    "Noticias": "#00ff99",
+                    "Infantiles": "#ffcc00",
+                    "Internacionales": "#cc66ff"
+                };
+                
+                const color = colors[channel.category] || "#3b82f6";
+                
+                channelElement.innerHTML = `
+                    <div class="channel-thumb" style="background: linear-gradient(135deg, ${color}, #23234d);">
+                        ${firstLetter}
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-name">${channel.name}</div>
+                        <div class="channel-category">${channel.category}</div>
+                    </div>
+                `;
+                
+                channelElement.addEventListener("click", () => {
+                    loadChannel(channel);
+                });
+                
+                channelsList.appendChild(channelElement);
+            });
+        }
+        
+        // Función para alternar pantalla completa
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                } else if (document.documentElement.mozRequestFullScreen) {
+                    document.documentElement.mozRequestFullScreen();
+                } else if (document.documentElement.webkitRequestFullscreen) {
+                    document.documentElement.webkitRequestFullscreen();
+                } else if (document.documentElement.msRequestFullscreen) {
+                    document.documentElement.msRequestFullscreen();
+                }
+                isFullscreen = true;
+                fullscreenButton.innerHTML = '<i class="fas fa-compress"></i>';
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+                isFullscreen = false;
+                fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
+            }
+        }
+        
+        // Función para mostrar el panel lateral
+        function showSidebar() {
+            clearTimeout(sidebarTimeout);
+            channelsSidebar.classList.add('visible');
+            sidebarVisible = true;
+        }
+        
+        // Función para ocultar el panel lateral
+        function hideSidebar() {
+            sidebarTimeout = setTimeout(() => {
+                channelsSidebar.classList.remove('visible');
+                sidebarVisible = false;
+                // Ocultar también la búsqueda en móviles
+                if (window.innerWidth <= 768) {
+                    searchContainer.classList.remove('mobile-visible');
+                }
+            }, 300); // Pequeño retraso para evitar ocultamiento accidental
+        }
+        
+        // Detectar cambios en el modo pantalla completa
+        document.addEventListener('fullscreenchange', handleFullscreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+        document.addEventListener('msfullscreenchange', handleFullscreenChange);
+        
+        function handleFullscreenChange() {
+            isFullscreen = !!document.fullscreenElement;
+            if (isFullscreen) {
+                fullscreenButton.innerHTML = '<i class="fas fa-compress"></i>';
+            } else {
+                fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
+            }
+        }
+        
+        // Configurar eventos
+        fullscreenButton.addEventListener("click", toggleFullscreen);
+        
+        // Detectar movimiento del mouse en el área izquierda
+        mouseDetectionArea.addEventListener('mouseenter', () => {
+            showSidebar();
+        });
+        
+        mouseDetectionArea.addEventListener('mouseleave', () => {
+            hideSidebar();
+        });
+        
+        // Mantener el panel visible cuando el mouse está sobre él
+        channelsSidebar.addEventListener('mouseenter', () => {
+            clearTimeout(sidebarTimeout);
+        });
+        
+        channelsSidebar.addEventListener('mouseleave', () => {
+            hideSidebar();
+        });
+        
+        // Búsqueda de canales
+        channelSearch.addEventListener('input', (e) => {
+            generateChannelsList(e.target.value);
+        });
+        
+        // Botón de búsqueda para móviles
+        mobileSearchBtn.addEventListener('click', () => {
+            searchContainer.classList.toggle('mobile-visible');
+            if (searchContainer.classList.contains('mobile-visible')) {
+                channelSearch.focus();
+            }
+        });
+        
+        // Atajos de teclado
+        document.addEventListener('keydown', function(e) {
+            // 'F' para pantalla completa
+            if (e.key === 'f' || e.key === 'F') {
+                toggleFullscreen();
+            }
+            // 'ESC' para ocultar panel
+            if (e.key === 'Escape' && sidebarVisible) {
+                hideSidebar();
+            }
+            // 'S' para enfocar búsqueda
+            if ((e.key === 's' || e.key === 'S') && sidebarVisible) {
+                e.preventDefault();
+                channelSearch.focus();
+            }
+        });
+        
+        // Inicializar
+        window.onload = function() {
+            // Guardar la altura original del reproductor
+            originalPlayerHeight = playerContainer.offsetHeight;
+            
+            generateChannelsList();
+            
+            // Cargar el primer canal por defecto
+            if (channels.length > 0) {
+                loadChannel(channels[0]);
+            }
+        };
+    </script>
+</body>
+</html>
