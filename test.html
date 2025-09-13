@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModernTV - Canales en Vivo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="//ssl.p.jwpcdn.com/player/v/8.24.0/jwplayer.js"></script>
+    <script>jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';</script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: #0f0f1a;
+            color: #fff;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 15px;
+            width: 100%;
+        }
+        
+        .tv-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            margin-bottom: 15px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ff2c6f;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .logo span {
+            color: #00e5ff;
+        }
+        
+        .player-container {
+            position: relative;
+            width: 100%;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            margin-bottom: 15px;
+            transition: all 0.4s ease;
+            height: 600px;
+        }
+        
+        #video-player {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 20px;
+        }
+        
+        .jwplayer {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        
+        .channels-sidebar {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 260px;
+            max-height: 60%;
+            background: rgba(15, 15, 26, 0.97);
+            padding: 15px;
+            transition: all 0.3s ease;
+            z-index: 10;
+            opacity: 0;
+            transform: translate(-100%, -50%);
+            pointer-events: none;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            overflow-y: auto;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+            border-left: 3px solid #ff2c6f;
+        }
+        
+        .channels-sidebar.visible {
+            opacity: 1;
+            transform: translate(0, -50%);
+            pointer-events: all;
+            box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        .channels-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .channels-title i {
+            margin-right: 8px;
+            color: #00e5ff;
+        }
+        
+        .channels-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 5px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .channels-list::-webkit-scrollbar {
+            width: 3px;
+        }
+        
+        .channels-list::-webkit-scrollbar-thumb {
+            background: #ff2c6f;
+            border-radius: 3px;
+        }
+        
+        .channel-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            transform: scale(1);
+            border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            padding: 8px;
+        }
+        
+        .channel-item:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: scale(1.02);
+        }
+        
+        .channel-item.active {
+            border-color: #ff2c6f;
+            background: rgba(255, 44, 111, 0.2);
+            box-shadow: 0 0 12px rgba(255, 44, 111, 0.5);
+        }
+        
+        .channel-thumb {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        
+        .channel-info {
+            flex: 1;
+            overflow: hidden;
+        }
+        
+        .channel-name {
+            font-size: 14px;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .channel-category {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 2px;
+        }
+        
+        .channel-info-playing {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: rgba(15, 15, 26, 0.7);
+            padding: 10px 15px;
+            border-radius: 8px;
+            z-index: 20;
+            max-width: 250px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .now-playing-text {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .channel-name-playing {
+            font-size: 14px;
+            font-weight: 600;
+            color: #00e5ff;
+            margin-top: 3px;
+        }
+        
+        .fullscreen-button {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(15, 15, 26, 0.6);
+            border: none;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 30;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .fullscreen-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            z-index: 5;
+        }
+        
+        .placeholder i {
+            font-size: 64px;
+            color: #00e5ff;
+            margin-bottom: 20px;
+        }
+        
+        .placeholder p {
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .categories {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px 0;
+            margin-bottom: 15px;
+            scrollbar-width: thin;
+            scrollbar-color: #ff2c6f transparent;
+        }
+        
+        .categories::-webkit-scrollbar {
+            height: 5px;
+        }
+        
+        .categories::-webkit-scrollbar-thumb {
+            background: #ff2c6f;
+            border-radius: 3px;
+        }
+        
+        .category-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .category-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .category-btn.active {
+            background: rgba(255, 44, 111, 0.3);
+            color: #ff2c6f;
+        }
+        
+        .control-hint {
+            position: absolute;
+            bottom: 60px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            z-index: 25;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .player-container:hover .control-hint {
+            opacity: 1;
+        }
+        
+        .mouse-detection-area {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 100%;
+            z-index: 15;
+        }
+        
+        .channel-search {
+            margin-bottom: 12px;
+            position: relative;
+        }
+        
+        .channel-search input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 20px;
+            padding: 8px 15px;
+            color: #fff;
+            font-size: 14px;
+        }
+        
+        .channel-search i {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .loading-indicator {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 25;
+            color: #00e5ff;
+            font-size: 40px;
+        }
+        
+        .loading-indicator.active {
+            display: block;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .player-container {
+                height: 400px;
+            }
+            
+            .channels-sidebar {
+                width: 220px;
+            }
+            
+            .channel-item {
+                padding: 6px;
+            }
+            
+            .channel-thumb {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+            
+            .channel-name {
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .player-container {
+                height: 300px;
+            }
+            
+            .channels-sidebar {
+                width: 200px;
+                max-height: 70%;
+            }
+            
+            .mouse-detection-area {
+                width: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+  
+        
+        <div class="categories" id="categories">
+            <!-- Las categorías se generarán dinámicamente con JavaScript -->
+        </div>
+        
+        <div class="player-container" id="player-container">
+            <div id="video-player">
+                <div class="placeholder" id="placeholder">
+                    <i class="fas fa-tv"></i>
+                    <p>Selecciona un canal para comenzar a ver</p>
+                </div>
+                <div class="loading-indicator" id="loading-indicator">
+                    <i class="fas fa-circle-notch"></i>
+                </div>
+            </div>
+            
+            <!-- Área de detección de mouse para mostrar/ocultar panel -->
+            <div class="mouse-detection-area" id="mouse-detection-area"></div>
+            
+            <div class="channel-info-playing">
+                <div class="now-playing-text">Reproduciendo:</div>
+                <div class="channel-name-playing" id="current-channel">Selecciona un canal</div>
+            </div>
+            
+            <button class="fullscreen-button" id="fullscreen-button">
+                <i class="fas fa-expand"></i>
+            </button>
+            
+         
+            <div class="channels-sidebar" id="channels-sidebar">
+                <div class="channels-title">
+                    <div><i class="fas fa-tv"></i> Canales</div>
+                    <div id="channels-count">0 canales</div>
+                </div>
+                
+                <div class="channel-search">
+                    <input type="text" id="channel-search-input" placeholder="Buscar canal...">
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <div class="channels-list" id="channels-list">
+                    <!-- Los canales se generarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Lista completa de canales con sus categorías
+        const channels = [
+            // 
+            { id: "espn1", name: "ESPN", category: "", thumb: "E", color: "#ff0000" },
+            { id: "espn2", name: "ESPN 2", category: "", thumb: "E", color: "#ff0000" },
+            { id: "espn3", name: "ESPN 3", category: "", thumb: "E", color: "#ff0000" },
+            { id: "espn4", name: "ESPN Plus", category: "", thumb: "E", color: "#ff0000" },
+            { id: "foxsports1", name: "Fox Sports", category: "", thumb: "F", color: "#ff9900" },
+            { id: "foxsports2", name: "Fox Sports 2", category: "", thumb: "F", color: "#ff9900" },
+            { id: "foxsports3", name: "Fox Sports 3", category: "", thumb: "F", color: "#ff9900" },
+            { id: "tudn", name: "TUDN", category: "", thumb: "T", color: "#00cc00" },
+            { id: "realmadrid", name: "Real Madrid TV", category: "", thumb: "R", color: "#0055ff" },
+            { id: "skysportsre", name: "Sky Sports", category: "", thumb: "S", color: "#8800ff" },
+            { id: "nba", name: "NBA TV", category: "", thumb: "N", color: "#ff5500" },
+            { id: "adrenalina", name: "Adrenalina Sports", category: "", thumb: "A", color: "#ff0066" },
+            
+            // 
+            { id: "milenio", name: "Milenio ", category: "", thumb: "M", color: "#6666ff" },
+            { id: "teleformula", name: "Telefórmula", category: "", thumb: "T", color: "#ff6600" },
+            { id: "elfinanciero", name: "El Financiero", category: "", thumb: "E", color: "#00aa00" },
+            { id: "cnnes", name: "CNN Español", category: "", thumb: "C", color: "#cc0000" },
+            { id: "aljazeera", name: "Al Jazeera", category: "", thumb: "A", color: "#aa5500" },
+            { id: "cnnint", name: "CNN International", category: "", thumb: "C", color: "#cc0000" },
+            { id: "azteca1", name: "Azteca ", category: "", thumb: "A", color: "#00aacc" },
+            { id: "canal2", name: "Canal 2", category: "", thumb: "C", color: "#ff00aa" },
+            { id: "forotv", name: "Foro TV", category: "", thumb: "F", color: "#aa00aa" },
+            
+            // 
+            { id: "canal5", name: "Canal 5", category: "", thumb: "C", color: "#ff00ff" },
+            { id: "azteca7", name: "Azteca 7", category: "", thumb: "A", color: "#00ffcc" },
+            { id: "canal9", name: "Canal 9", category: "", thumb: "C", color: "#ffcc00" },
+            { id: "warner", name: "Warner Channel", category: "", thumb: "W", color: "#0077cc" },
+            { id: "sony", name: "Sony Channel", category: "", thumb: "S", color: "#aa00ff" },
+            { id: "comedycentral", name: "Comedy Central", category: "", thumb: "C", color: "#ff7700" },
+            { id: "fx", name: "FX", category: "", thumb: "F", color: "#00ccff" },
+            { id: "amc", name: "AMC", category: "", thumb: "A", color: "#cc0000" },
+            { id: "axn", name: "AXN", category: "", thumb: "A", color: "#0000cc" },
+            { id: "e", name: "E! Entertainment", category: "", thumb: "E", color: "#ff00aa" },
+            { id: "tlc", name: "TLC", category: "", thumb: "T", color: "#00aaff" },
+            { id: "distritocomedia", name: "Distrito Comedia", category: "", thumb: "D", color: "#ffaa00" },
+            { id: "tnt", name: "TNT", category: "", thumb: "T", color: "#cc00cc" },
+            { id: "tntseries", name: "TNT Series", category: "", thumb: "T", color: "#cc00cc" },
+            { id: "lifetime", name: "Lifetime", category: "", thumb: "L", color: "#ff0066" },
+            { id: "universalchannel", name: "Universal Channel", category: "", thumb: "U", color: "#0077ff" },
+            { id: "universalcomedy", name: "Universal Comedy", category: "", thumb: "U", color: "#0077ff" },
+            { id: "universalcrime", name: "Universal Crime", category: "", thumb: "U", color: "#0077ff" },
+            { id: "usa", name: "USA Network", category: "", thumb: "U", color: "#aa00aa" },
+            
+            // Cine
+            { id: "depelicula", name: "De Película", category: "", thumb: "D", color: "#ff5500" },
+            { id: "depeliculaplus", name: "De Película Plus", category: "", thumb: "D", color: "#ff5500" },
+            { id: "golden", name: "Golden", category: "", thumb: "G", color: "#ffcc00" },
+            { id: "goldenedge", name: "Golden Edge", category: "", thumb: "G", color: "#ffcc00" },
+            { id: "goldenplus", name: "Golden Plus", category: "", thumb: "G", color: "#ffcc00" },
+            { id: "goldenpremier", name: "Golden Premier", category: "", thumb: "G", color: "#ffcc00" },
+            { id: "sonymovies", name: "Sony Movies", category: "", thumb: "S", color: "#aa00ff" },
+            { id: "cinemax", name: "Cinemax", category: "", thumb: "C", color: "#00aaff" },
+            { id: "cinecanal", name: "Cinecanal", category: "", thumb: "C", color: "#ff00aa" },
+            { id: "paramount", name: "Paramount", category: "", thumb: "P", color: "#0066ff" },
+            { id: "hbo", name: "HBO", category: "", thumb: "H", color: "#aa00ff" },
+            { id: "hbo2", name: "HBO 2", category: "", thumb: "H", color: "#aa00ff" },
+            { id: "hboplus", name: "HBO Plus", category: "", thumb: "H", color: "#aa00ff" },
+            { id: "hbofamily", name: "HBO Family", category: "", thumb: "H", color: "#aa00ff" },
+            { id: "hbomundi", name: "HBO Mundi", category: "", thumb: "H", color: "#aa00ff" },
+            { id: "hbopop", name: "HBO Pop", category: "", thumb: "H", color: "#aa00ff" },
+            { id: "hbosignature", name: "HBO Signature", category: "", thumb: "H", color: "#aa00ff" },
+            { id: "hboxtreme", name: "HBO Xtreme", category: "", thumb: "H", color: "#aa00ff" },
+            { id: "space", name: "Space", category: "", thumb: "S", color: "#00ccff" },
+            { id: "tcm", name: "TCM", category: "", thumb: "T", color: "#ff0000" },
+            { id: "filmandarts", name: "Film & Arts", category: "", thumb: "F", color: "#00aacc" },
+            
+            // 
+            { id: "mtv", name: "MTV", category: "", thumb: "M", color: "#ff2c6f" },
+            { id: "mtv80s", name: "MTV 80s", category: "", thumb: "M", color: "#ff2c6f" },
+            { id: "mtvhits", name: "MTV Hits", category: "", thumb: "M", color: "#ff2c6f" },
+            { id: "telehit", name: "Telehit", category: "", thumb: "T", color: "#00ccff" },
+            { id: "telehitmusica", name: "Telehit ", category: "", thumb: "T", color: "#00ccff" },
+            { id: "bandamax", name: "Bandamax", category: "", thumb: "B", color: "#ff6600" },
+            { id: "nickmusic", name: "Nick Music", category: "", thumb: "N", color: "#ff00aa" },
+            
+            // 
+            { id: "disneyjr", name: "Disney Jr", category: "", thumb: "D", color: "#aa00ff" },
+            { id: "dreamworks", name: "Dreamworks", category: "", thumb: "D", color: "#00aaff" },
+            { id: "disneychannel", name: "Disney Channel", category: "", thumb: "D", color: "#aa00ff" },
+            { id: "nickjr", name: "Nick Jr", category: "", thumb: "N", color: "#ff00aa" },
+            { id: "discoverykids", name: "Discovery Kids", category: "", thumb: "D", color: "#00ccff" },
+            { id: "cartoonnetwork", name: "Cartoon Network", category: "", thumb: "C", color: "#00ccff" },
+            { id: "cartoonito", name: "Cartoonito", category: "", thumb: "C", color: "#00ccff" },
+            { id: "nick", name: "Nickelodeon", category: "", thumb: "N", color: "#ff00aa" },
+            { id: "teennick", name: "TeenNick", category: "", thumb: "T", color: "#ff00aa" },
+            { id: "bitme", name: "Bitme", category: "", thumb: "B", color: "#00ffcc" },
+            
+            // 
+            { id: "discovery", name: "Discovery Channel", category: "", thumb: "D", color: "#0055ff" },
+            { id: "animalplanet", name: "Animal Planet", category: "", thumb: "A", color: "#00cc00" },
+            { id: "curiosity", name: "Curiosity", category: "", thumb: "C", color: "#ff5500" },
+            { id: "natgeo", name: "National Geographic", category: "", thumb: "N", color: "#ffcc00" },
+            { id: "history", name: "History Channel", category: "", thumb: "H", color: "#ff0000" },
+            { id: "history2", name: "History 2", category: "", thumb: "H", color: "#ff0000" },
+            { id: "discoveryturbo", name: "Discovery Turbo", category: "", thumb: "D", color: "#0055ff" },
+            { id: "discoveryworld", name: "Discovery World", category: "", thumb: "D", color: "#0055ff" },
+            { id: "id", name: "Investigation Discovery", category: "", thumb: "I", color: "#aa00aa" },
+            { id: "homehealth", name: "Home & Health", category: "", thumb: "H", color: "#00aa00" },
+            { id: "hgtv", name: "HGTV", category: "", thumb: "H", color: "#00cc00" },
+            
+            //  y Variedades
+            { id: "unicable", name: "Unicable", category: "", thumb: "U", color: "#00aacc" },
+            { id: "tlnovelas", name: "TLNovelas", category: "", thumb: "T", color: "#ff00aa" },
+            { id: "telemundo", name: "Telemundo", category: "", thumb: "T", color: "#00ccff" },
+            { id: "tntnovelas", name: "TNT Novelas", category: "", thumb: "T", color: "#cc00cc" },
+            { id: "atreseries", name: "Atreseries", category: "", thumb: "A", color: "#0055ff" },
+            { id: "maschic", name: "Más Chic", category: "", thumb: "M", color: "#ff00cc" },
+            { id: "gourmet", name: "Gourmet", category: "", thumb: "G", color: "#cc0000" },
+            { id: "hola", name: "Hola TV", category: "", thumb: "H", color: "#00cc00" },
+            { id: "tve", name: "TVE", category: "", thumb: "T", color: "#0055ff" },
+            { id: "eurochannel", name: "Eurochannel", category: "", thumb: "E", color: "#0055ff" },
+            { id: "europa", name: "Europa Europa", category: "", thumb: "E", color: "#0055ff" },
+            { id: "dhe", name: "DHE", category: "", thumb: "D", color: "#ff5500" },
+            { id: "foodnet", name: "Food Network", category: "", thumb: "F", color: "#cc0000" },
+            { id: "aye", name: "A&E", category: "", thumb: "A", color: "#0055ff" },
+            { id: "universalpremiere", name: "Universal Premiere", category: "", thumb: "U", color: "#0077ff" },
+            { id: "universalreality", name: "Universal Reality", category: "", thumb: "U", color: "#0077ff" },
+            { id: "universalcinema", name: "Universal Cinema", category: "", thumb: "U", color: "#0077ff" }
+        ];
+
+        // Objeto con la información completa de los canales (DRM, streams, etc.)
+        const canales = {
+            "espn1": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/ESPN-HD/default.mpd",
+                keyId: "bb43112b7b72e9c287da0ecdec8606a7",
+                key: "29e3d2678107f0ab0b35b6537c734f2a"
+            },
+            "espn2": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/ESPN-2-HD/default.mpd",
+                keyId: "90e2e491c850a49a5ab21bb6fa6b4d24",
+                key: "4d7e33da19b971cef49e35eccdb9de0b"
+            },
+            "espn3": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/ESPN-3-HD/default.mpd",
+                keyId: "0355f64277082b903022985035c498ca",
+                key: "7a8ed20a4958398677e2c9ccd5a53a00"
+            },
+            "espn4": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/ESPN-PLUS-HD/default.mpd",
+                keyId: "666607af08b9eeddaae1d6c36a34d689",
+                key: "10fdc24a14e8423f5e5ff03569439b14"
+            },
+            "foxsports1": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/FOX-SPORTS-HD/default.mpd",
+                keyId: "9e276bd34034a2c4dcf61d74e1242fbf",
+                key: "4b466a4affb61d2672a4194b14e10ef2"
+            },
+            "foxsports2": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/FOX-SPORTS-2-HD/default.mpd",
+                keyId: "23986dae03fa883ed8e489cbf70f9ec3",
+                key: "6a42c42732a9dd1da1205971b2c5c535"
+            },
+            "foxsports3": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/FOX-SPORTS-3-HD/default.mpd",
+                keyId: "ed8dd7562fd9f9064bed8d52fa42cc11",
+                key: "d65a22cfe5bfbd33d8d25b183649e44f"
+            },
+            "tudn": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/TUDN-HD/default.mpd",
+                keyId: "2722647f77b44824c432a3c4555830a2",
+                key: "1734befb82f4b438bd84195f6c212e7b"
+            },
+            "realmadrid": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/REAL-MADRID-HD/default.mpd",
+                keyId: "77e93f69c2d4c23e2cf8dc9e892f4ac7",
+                key: "71a786d7774d6df4487494145db485a4"
+            },
+            "skysportsre": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-HD/default.mpd",
+                keyId: "335511dfdf0d03bc06f1fdead5870b5a",
+                key: "1a022fb33ad3de4d4579b04966551488"
+            },
+            "azteca1": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd",
+                keyId: "158b196625b3fa3a6cbd45d081d28995",
+                key: "b955044f81ed40faec97bee0d7a20aea"
+            },
+            "canal2": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/CANAL-2-HD/default.mpd",
+                keyId: "62cc24eaedef1ab322a4d52fd6bf29ad",
+                key: "3f80b04b3e2bf3d8543956882da9dd00"
+            },
+            "forotv": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd",
+                keyId: "ea39b9575f51b840a58bda829f20f38d",
+                key: "9c200a2b120d45e60af506be1d7ad932"
+            },
+            "canal5": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/CANAL-5-HD/default.mpd",
+                keyId: "578f77c2e0fb7b31b1676b75b57fe922",
+                key: "6e5ee266b112e58a0e27e4384b03ed76"
+            },
+            "azteca7": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/AZTECA-7-HD/default.mpd",
+                keyId: "c15a10921bed75a3ec5385e0ecdb6499",
+                key: "4e44df62547a1544a4623418918658d0"
+            },
+            "canal9": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/CANAL-9-HD/default.mpd",
+                keyId: "0bb910a4217a1af19b803e7f120796f9",
+                key: "8d3d83fadfc769674b9c7102109fc466"
+            },
+            "nba": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/NBA-HD/default.mpd",
+                keyId: "a5cd47bba986b233d3731297cb62fdf9",
+                key: "0d067e22a727ae9f264478f5c2ed903a"
+            },
+            "adrenalina": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/ADRENALINA-HD/default.mpd",
+                keyId: "6de0a66b528401c0378c559712f74643",
+                key: "f9a240cea75f585add8405375ad1d787"
+            },
+            "milenio": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/MILENIO-HD/default.mpd",
+                keyId: "a2bffcbe59cee9f1021da53b96dc6e2c",
+                key: "8cbdc79e0a64dd8d1c3b7ea85830bd10"
+            },
+            "teleformula": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/TELEFORMULA-SD/default.mpd",
+                keyId: "c49501c4b1cefd7b0a92935ce1b20be8",
+                key: "1664d2cc6280dd0f268d2d3f28c76665"
+            },
+            "elfinanciero": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/EL-FINANCIERO-HD/default.mpd",
+                keyId: "d3c97fa71d06d0cd4049185c473ec7dd",
+                key: "24da4b34a7ae12920a95ebdccd883e54"
+            },
+            "cnnes": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/CNN-EN-ESPANOL-SD/default.mpd",
+                keyId: "f3a704793810e4848980bf8ebe11ba72",
+                key: "8a761310bfa7436136729b23ea590185"
+            },
+            "aljazeera": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/AL-JAZEERA-HD/default.mpd",
+                keyId: "ba7146a3064f23e9f34a76096509d664",
+                key: "604e9a361c3f7033d930c34ff4d3d830"
+            },
+            "cnnint": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/CNN-HD/default.mpd",
+                keyId: "4514db2f0b4864f56dbf8b14bcdd4022",
+                key: "6cc79244441f942839b867572702364e"
+            },
+            "disneyjr": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/DISNEY-JR-HD/default.mpd",
+                keyId: "d41d2ae9b0d875ba12e97c5a3f3eec82",
+                key: "3a443892e1ad1158c6fd2bf9c9146eb6"
+            },
+            "dreamworks": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/DREAM-WORKS-HD/default.mpd",
+                keyId: "a255e1384db3e9ce7e0349e8aa9b9f77",
+                key: "404cc4fb45f82c9a7dffd3d2496cca20"
+            },
+            "disneychannel": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/DISNEY-CHANNEL-HD/default.mpd",
+                keyId: "f047ea1abdca6f03117454c4de0b6d5b",
+                key: "b038c8c8f114c568956d428e80ae38d7"
+            },
+            "nickjr": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/NICK-JR-HD/default.mpd",
+                keyId: "1ff80f6edca24a644b8f5b4532e908a4",
+                key: "273d66feb7edc254d70d73aecddd31f8"
+            },
+            "discoverykids": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/DISCOVERY-KIDS-HD/default.mpd",
+                keyId: "9201c07931b74c37c4e30a9e96b64c30",
+                key: "8e1ce4f1b1185f64e42f9974cbad1442"
+            },
+            "cartoonnetwork": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/CARTOON-NETWORK-HD/default.mpd",
+                keyId: "85d06ba283f3b18bb14f9f8d59b8fb82",
+                key: "6659fed472544289adee986c1d33fa79"
+            },
+            "cartoonito": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/CARTOONITO-HD/default.mpd",
+                keyId: "3fc370ab08218da5dad9b9644f1df57b",
+                key: "1ddc60916c0efd29990cb1d319e7710a"
+            },
+            "nick": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/NICK-HD/default.mpd",
+                keyId: "294848a1c20273b5546c204b117fd7fe",
+                key: "47b4a3e3b2d5bbd54143a6af43268bbd"
+            },
+            "teennick": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/NICK-2-HD/default.mpd",
+                keyId: "090ab41e4e906a10083af00df6527e6b",
+                key: "afdb3afbc0a6f9161a7ce09d42f0b04a"
+            },
+            "bitme": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/BIT-ME-HD/default.mpd",
+                keyId: "3e7b281c11f0ff1c3f7ed2d02d0879c1",
+                key: "d385b87ade4441d20c5caee2a8e41da7"
+            },
+            "nickmusic": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/NICKTOONS-SD/default.mpd",
+                keyId: "8608f32da7dea96f43011eecab13ac77",
+                key: "ff8574f02a74ea5c1dc836c6a9a00c81"
+            },
+            "unicable": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/UNICABLE-HD/default.mpd",
+                keyId: "f49c809a99d0454981ae6700d25ba0fb",
+                key: "1999b5fbfd058bc1a2acf3d3cdb7a78d"
+            },
+            "tlnovelas": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/TLNOVELAS-HD/default.mpd",
+                keyId: "361d47939a32a35422d13728b7089728",
+                key: "1d26ccbbc3a3b1f3e3f7e4850a54c6f2"
+            },
+            "telemundo": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/TELEMUNDO-HD/default.mpd",
+                keyId: "87234ef8a0328b000941fd18bd75d78e",
+                key: "2bbbeb8783509a4e77e3b79cd7b1869f"
+            },
+            "warner": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/WARNER-HD/default.mpd",
+                keyId: "a62d210f0f907a0ebfb84a790d42780b",
+                key: "590779be25e38a41d817f6ad13f5b070"
+            },
+            "sony": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/SONY-HD/default.mpd",
+                keyId: "47b8d1118047c47ff9d794fca6c9997a",
+                key: "97af829b2dd037fb85550b85b0757685"
+            },
+            "comedycentral": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/COMEDY-CENTRAL-HD/default.mpd",
+                keyId: "2a61b7a7912064acc62a06a6ae22ac5c",
+                key: "5bfb374d644703550f0637532bca0491"
+            },
+            "fx": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/FX-HD/default.mpd",
+                keyId: "8ce1ec3e2402a170cbe13b79ce9bb30f",
+                key: "82fdcfde32cc02673547e58b50e2b5ae"
+            },
+            "amc": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/AMC-HD/default.mpd",
+                keyId: "97cfeda35c2f42d6c2be729ea2945b12",
+                key: "59c1f3c384bd0a25e817539d5fe6e24b"
+            },
+            "axn": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/AXN-HD/default.mpd",
+                keyId: "976d703cb95202a808972c722544fae1",
+                key: "562775b170402c6e2309ff69b9e48e82"
+            },
+            "id": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-ID-HD/default.mpd",
+                keyId: "fb1b6838a477c3e4394534a93ddf5a0f",
+                key: "4b2f779b434b5ab8122da25294d3d7ea"
+            },
+            "space": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/SPACE-HD/default.mpd",
+                keyId: "02849e7ba3c2e527a9a8152ff111fc22",
+                key: "87af284b8fc6be1cbf693f20175671a9"
+            },
+            "e": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/E-Entertainment-HD/default.mpd",
+                keyId: "66a5d89630a3e2263f63f42221a4f3e8",
+                key: "362b8d4aa289042e473ed064a722611b"
+            },
+            "homehealth": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-HOME-AND-HEALTH-HD/default.mpd",
+                keyId: "0765f676e30b1b98386230b52eed3518",
+                key: "326266d16296e3bbe1dfcc274853dadb"
+            },
+            "tlc": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/TLC-HD/default.mpd",
+                keyId: "42ca82249b49382dd7156dd18a292e8c",
+                key: "7c26bb855d762211182e7eac31376aee"
+            },
+            "aye": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/AANDE-HD/default.mpd",
+                keyId: "baef272fb12886463f3b299ac6b4ffa6",
+                key: "bc285ae166674480abb4966f4a306327"
+            },
+            "maschic": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/MAS-CHIC-HD/default.mpd",
+                keyId: "d34ddaabc0756ba2e2f6039b3d7b77a8",
+                key: "2c550cad22032003e94a2533ebea53ea"
+            },
+            "gourmet": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/GOURMET-HD/default.mpd",
+                keyId: "02eabf0cfdc063542f9983dbb2ee66d4",
+                key: "53d20cd604a274dd6f35fd17b9ea2e80"
+            },
+            "hola": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/HOLA-TV-HD/default.mpd",
+                keyId: "3324372c149efbd4755e94a5989f4eef",
+                key: "8ed2cae763c527146b490acb667e3221"
+            },
+            "tve": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/TVE-SD/default.mpd",
+                keyId: "e9c6bff9b7141a1e289061a8334c34cb",
+                key: "c644f57b253c9a81d723fe252c53079a"
+            },
+            "distritocomedia": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/DISTRITO-COMEDIA-HD/default.mpd",
+                keyId: "e69f7cb969df2eef1b60ddea0458bfef",
+                key: "12ec40e04cf8c533cf306321052726a8"
+            },
+            "telehit": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/TELEHIT-SD/default.mpd",
+                keyId: "6ed36c5f7d0775e21f0748dd17520bc9",
+                key: "654256cc5939f6d502969b4fbbc47286"
+            },
+            "mtv": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/MTV-HD/default.mpd",
+                keyId: "ac11ba753fcabc56b965e1801ff8df19",
+                key: "64a7852cc7737515ac71c017f03fdd32"
+            },
+            "telehitmusica": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/TELEHIT-HD/default.mpd",
+                keyId: "ccb3e0cda334a12da75037444d0ccc83",
+                key: "291b1496e0900041f6a1d0e2aeb3314c"
+            },
+            "bandamax": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/BANDAMAX-HD/default.mpd",
+                keyId: "d014b4c7f22d490f56e2d7d3fe125c15",
+                key: "69864ad4b98d06e9fcf2430ed67b6c33"
+            },
+            "tnt": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/TNT-HD/default.mpd",
+                keyId: "dca8597f12f8d6928b55c1291c7bb300",
+                key: "36c8b3f51d474b95f0adad70899343e1"
+            },
+            "tntseries": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/TNT-SERIES-HD/default.mpd",
+                keyId: "8c7c3c7a05812a5245d64c0eced08a41",
+                key: "e56c4dedfa6c51f617cc7c9d2d61f7a8"
+            },
+            "lifetime": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/LIFETIME-HD/default.mpd",
+                keyId: "6561801b75ab25819fc7ede365375df7",
+                key: "3555b344c54204d5f02a753d354d2f8c"
+            },
+            "foodnet": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/FOOD-NET-HD/default.mpd",
+                keyId: "346785646e762ad867fb22f6fdaacc68",
+                key: "777670f96243bb2be7811505fba060f8"
+            },
+            "tntnovelas": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/TNT-NOVELAS-HD/default.mpd",
+                keyId: "b3f9a0375499c62b6f5ff778dc46bb43",
+                key: "c0d7bd6d44c2bd79e46e8dc22e53cceb"
+            },
+            "atreseries": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/ATRES-SERIES-HD/default.mpd",
+                keyId: "2ec74612833c48e4e2bf730aef0f92a5",
+                key: "bf851c48ef13fde3aa7ce6183fb5f861"
+            },
+            "depelicula": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/DE-PELICULA-SD/default.mpd",
+                keyId: "208012d154bf5128dc04433c22e00698",
+                key: "d17913671a71821ed7e4c4937cd2fba5"
+            },
+            "star": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/FOX-HD/default.mpd",
+                keyId: "3c768a448428f7e87aaf69da2a0662b0",
+                key: "7f98805ed862b863d51e93f884161b74"
+            },
+            "depeliculaplus": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/DE-PELICULA-HD/default.mpd",
+                keyId: "70a3ab1ea3c45dd570da2a660ae5eeda",
+                key: "0a9db0e08d0b737e6a64ecaed525d4cb"
+            },
+            "golden": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-SD/default.mpd",
+                keyId: "bc0e4c7dfb10d483357572000180cca5",
+                key: "247351382fcd721f2872c4bda15c5245"
+            },
+            "goldenedge": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-EDGE-SD/default.mpd",
+                keyId: "98aa90cb620b972a0d0d66a51cdaca56",
+                key: "6e8bd53378356ed7f5103d91efb5e54e"
+            },
+            "goldenplus": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-PLUS-HD/default.mpd",
+                keyId: "3555824ee6a09d671a2362f37f5a39b9",
+                key: "f240e5b5e8a27ca8550f23a553451a90"
+            },
+            "goldenpremier": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/GOLDEN-PREMIER-HD/default.mpd",
+                keyId: "34fa35c8323c11cbb83cb381be55bd64",
+                key: "02ccc6ae07d997bdbd8b97865d69bb35"
+            },
+            "sonymovies": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/SONY-MOVIES-HD/default.mpd",
+                keyId: "d6c0b2a5a6d7aa72f6f76f3607364cea",
+                key: "29772b450393146e8d1b56107f5163a2"
+            },
+            "filmandarts": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/FILM-AND-ARTS-HD/default.mpd",
+                keyId: "31107b01ab02c96457fe0a000f3e0569",
+                key: "c024c45d71db474d2fa121729e596ca8"
+            },
+            "tcm": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/TCM-SD/default.mpd",
+                keyId: "5f667f1e6db8de6ac2ce1b710866aeff",
+                key: "c8ea6e60d50c6fe170e46da019d59910"
+            },
+            "cinemax": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/CINEMAX-HD/default.mpd",
+                keyId: "fa6d1b52dd986d8faab9cca6adb8874b",
+                key: "6022259ba9edb1fe66b4507b51e1c12f"
+            },
+            "cinecanal": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/CINECANAL-HD/default.mpd",
+                keyId: "5e87d24ed7b54576895548ffa65eab1d",
+                key: "1e5d7c9e67248af38e48ec56d2241507"
+            },
+            "paramount": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/PARAMOUNT-HD/default.mpd",
+                keyId: "90cc957ead3f42e98b46d14e8c4b08de",
+                key: "3ab7cff1e63b9efc40aa962023b4b6b8"
+            },
+            "europa": {
+                file: "//live1-ott.izzigo.tv/11/out/u/dash/EUROPA-HD/default.mpd",
+                keyId: "23ca6a142d580eb99bd14dda4b023b5d",
+                key: "d0534260b536e85d76efe8576afcf473"
+            },
+            "discovery": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/DISCOVERY-CHANNEL-HD/default.mpd",
+                keyId: "7f2c6d8a46280fe52bf23c5eff6b9abc",
+                key: "85f45d230efd697375da7b373e682053"
+            },
+            "animalplanet": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/ANIMAL-PLANET-HD/default.mpd",
+                keyId: "80833609a69c8647766a2de347512f92",
+                key: "039c1884003d62b4fb55babf944e1523"
+            },
+            "curiosity": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/CURIOSITY-HD/default.mpd",
+                keyId: "310ddeefcec5f96a75faed2a96afd26a",
+                key: "041fe42d066d50d59fc368312647bb2f"
+            },
+            "natgeo": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/NAT-GEO-HD/default.mpd",
+                keyId: "157c0fb2bfdc323521d52ab43b7fa131",
+                key: "6c4af37b6abc72cbcd91aa7716968336"
+            },
+            "history": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HISTORY-CHANNEL-HD/default.mpd",
+                keyId: "1264e3667616b52060028be25404d6a4",
+                key: "470720a6152157a5d3c5de89de1b909c"
+            },
+            "history2": {
+                file: "//live1-ott.izzigo.tv/13/out/u/dash/HISTORY-2-HD/default.mpd",
+                keyId: "14402e6154aafa2b79408ea5c1651b1c",
+                key: "6a38619d21191891d09b357a6b1cabd1"
+            },
+            "discoveryturbo": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/DISCOVERY-TURBO-HD/default.mpd",
+                keyId: "e4bae4a7baa977c5b1a253adc589b6a7",
+                key: "ed5aa984b371395293b2c2a27125509c"
+            },
+            "discoveryworld": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/DISCOVERY-WORLD-HD/default.mpd",
+                keyId: "ff9f289f4bad2b970deb5b9d56acb84a",
+                key: "8f920a61965245ffac8bb0c698845ff5"
+            },
+            "hgtv": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/DISCOVERY-HOME-AND-GARDEN-HD/default.mpd",
+                keyId: "df48ffcd5745ff43498dc58aea2e48f0",
+                key: "65cbdd2bb18093e8ac75662c262d6e0b"
+            },
+            "mtv80s": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/VH1-CLASSIC-SD/default.mpd",
+                keyId: "b2a974d330e42968aa64569bad5352ee",
+                key: "33b9b1bb889195934e9d54b6b104b02a"
+            },
+            "mtvhits": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/MTV-HITS-SD/default.mpd",
+                keyId: "0b5868bc161634a033a19a20f3f3595d",
+                key: "b336c8c6bb249b1a5f89dace8d9889e5"
+            },
+            "hbo": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO-HD/default.mpd",
+                keyId: "df18f6a05bab28d89e5dc01d88f4deb8",
+                key: "baceb525467c0db22ba83090616c1ad0"
+            },
+            "hbo2": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO2-HD/default.mpd",
+                keyId: "09e84fc7ecb71def143cd7e2771f3b35",
+                key: "1a91f2d315fb0593321ba60aa783ec2c"
+            },
+            "hboplus": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO-PLUS-HD/default.mpd",
+                keyId: "861ab989089891d84ad0da296954437c",
+                key: "3bdf94f9fc1888529f8d27d070d38566"
+            },
+            "hbofamily": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO-FAMILY-HD/default.mpd",
+                keyId: "3b1b15c86e64344e8802b06b806957c5",
+                key: "114983add26911b589595d931b505ca5"
+            },
+            "hbomundi": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO-MUNDI-HD/default.mpd",
+                keyId: "ba4052ca5eb6f8ff6b98d47d098b2dec",
+                key: "bb3e4bfa1821d2bdc25c9a0970e4e3b8"
+            },
+            "hbopop": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO-POP-HD/default.mpd",
+                keyId: "bcf36f412fa3d735cea04f7443fbf77c",
+                key: "6ff29fb2d6b7d825eb06004650a0a4ea"
+            },
+            "hbosignature": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO-SIGNATURE-HD/default.mpd",
+                keyId: "5782156290f035ef28ae66cca252eedd",
+                key: "10d8bb6d9f9852747298487ab3c4afa3"
+            },
+            "hboxtreme": {
+                file: "//live1-ott.izzigo.tv/15/out/u/dash/HBO-XTREME-HD/default.mpd",
+                keyId: "bc8d4369fcff86db765db82356b4797c",
+                key: "8a7e801dbc275e3f4e1f43cba648906a"
+            },
+            "universalchannel": {
+                file: "//live1-ott.izzigo.tv/14/out/u/dash/UNIVERSAL-CHANNEL-HD/default.mpd",
+                keyId: "840bcd9ffdd5721c40b0ade4d9b68246",
+                key: "d19d330de1f428d1902bc1629a65c0bf"
+            },
+            "universalcinema": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-CINEMA-HD/default.mpd",
+                keyId: "9ccd5dd0c86a40ed719b83e1801bcd88",
+                key: "6d5e62525837ba9b7e09cfb8716116ba"
+            },
+            "universalcomedy": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-COMEDY-HD/default.mpd",
+                keyId: "92b162b0b1d0dbb1e401f5845b4ce109",
+                key: "83b7ae276784a7f78f4a0c1190974d5c"
+            },
+            "universalcrime": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-CRIME-HD/default.mpd",
+                keyId: "3a908a5d38a9c496ced27faa6bf5ff8e",
+                key: "85a5835a92bd7f87faf5ffbcb8814d33"
+            },
+            "universalpremiere": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-PREMIERE-HD/default.mpd",
+                keyId: "9ccd5dd0c86a40ed719b83e1801bcd88",
+                key: "6d5e62525837ba9b7e09cfb8716116ba"
+            },
+            "universalreality": {
+                file: "//live1-ott.izzigo.tv/12/out/u/dash/UNIVERSAL-REALITY-HD/default.mpd",
+                keyId: "02a02bce7a3c518386e0da4e5ec0188d",
+                key: "071c7cc4c2f33e1e2d3fa3807d1bbbcc"
+            },
+            "eurochannel": {
+                file: "https://csc-axs-edge01.sensa.com.ar/bpk-tv/Eurochannel/default/index.mpd",
+                keyId: "bf1324eab263b72f5d8373a9678e6774",
+                key: "1375cd3390772b03b5136dce1641ba84"
+            },
+            "dhe": {
+                file: "https://csc-axs-edge01.sensa.com.ar/live/eds/DHE/live_dash_cld/DHE.mpd",
+                keyId: "5453180074c0a8ecfe2a21e0cd5f2c1b",
+                key: "1150fd93492ba8609fb94d0a3087b3a5"
+            },
+            "usa": {
+                file: "https://csc-axs-edge01.sensa.com.ar/live/eds/USANetwork/live_dash_cld/USANetwork.mpd",
+                keyId: "3a1e766119c3fb03b095c8e7f0e63139",
+                key: "03932364e1ff6ab68cdc2c1969aee6a5"
+            },
+            "universal": {
+                file: "https://csc-axs-edge01.sensa.com.ar/live/eds/Universal/live_dash_cld/Universal.mpd",
+                keyId: "7c6cc36b9c3f44f37b713ad40483e085",
+                key: "ceaecf70b99780967d97b9eaf6e2ad5f"
+            }
+        };
+
+        const videoPlayer = document.getElementById('video-player');
+        const placeholder = document.getElementById('placeholder');
+        const currentChannelElement = document.getElementById('current-channel');
+        const channelsList = document.getElementById('channels-list');
+        const categoriesContainer = document.getElementById('categories');
+        const fullscreenButton = document.getElementById('fullscreen-button');
+        const channelsSidebar = document.getElementById('channels-sidebar');
+        const channelsCount = document.getElementById('channels-count');
+        const playerContainer = document.getElementById('player-container');
+        const mouseDetectionArea = document.getElementById('mouse-detection-area');
+        const searchInput = document.getElementById('channel-search-input');
+        const loadingIndicator = document.getElementById('loading-indicator');
+        
+        let currentCategory = "";
+        let isFullscreen = false;
+        let sidebarVisible = false;
+        let sidebarTimeout;
+        let originalPlayerHeight = playerContainer.offsetHeight;
+        let playerInstance = null;
+        
+        // Obtener todas las categorías únicas
+        const allCategories = ["", ...new Set(channels.map(channel => channel.category))];
+        
+        // Función para cargar un canal
+        function loadChannel(channel) {
+            const canalReal = canales[channel.id];
+            
+            if (!canalReal) {
+                console.error("Canal no encontrado: ", channel.id);
+                videoPlayer.innerHTML = `
+                    <div class="placeholder">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>Error: Canal no disponible</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            currentChannelElement.textContent = channel.name;
+            placeholder.style.display = 'none';
+            loadingIndicator.classList.add('active');
+            
+            // Detener el reproductor actual si existe
+            if (playerInstance) {
+                playerInstance.remove();
+            }
+            
+            // Crear un nuevo elemento div para el reproductor
+            const playerDiv = document.createElement('div');
+            playerDiv.id = 'jw-player-container';
+            videoPlayer.innerHTML = '';
+            videoPlayer.appendChild(playerDiv);
+            
+            // Inicializar JWPlayer
+            playerInstance = jwplayer("jw-player-container");
+            
+            playerInstance.setup({
+                playlist: [{
+                    title: channel.name,
+                    image: "",
+                    sources: [{
+                        default: false,
+                        type: "dash",
+                        file: canalReal.file,
+                        drm: {
+                            clearkey: {
+                                keyId: canalReal.keyId,
+                                key: canalReal.key
+                            }
+                        },
+                        label: "0"
+                    }]
+                }],
+                width: "100%",
+                height: "100%",
+                aspectratio: "16:9",
+                autostart: true,
+                cast: {}
+            });
+            
+            playerInstance.on('ready', function() {
+                loadingIndicator.classList.remove('active');
+            });
+            
+            playerInstance.on('error', function() {
+                loadingIndicator.classList.remove('active');
+                videoPlayer.innerHTML = `
+                    <div class="placeholder">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>Error al cargar el canal</p>
+                    </div>
+                `;
+            });
+            
+            // Marcar el canal activo
+            document.querySelectorAll(".channel-item").forEach(item => {
+                item.classList.remove("active");
+            });
+            
+            const activeChannel = document.querySelector(`.channel-item[data-channel="${channel.id}"]`);
+            if (activeChannel) {
+                activeChannel.classList.add("active");
+                
+                // Desplazar para que el canal activo sea visible
+                activeChannel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+            
+            // Ocultar el panel lateral después de seleccionar un canal
+            hideSidebar();
+        }
+        
+        // Función para generar la lista de canales
+        function generateChannelsList(category = "Todos", searchTerm = "") {
+            channelsList.innerHTML = '';
+            
+            let filteredChannels = category === "Todos" 
+                ? channels 
+                : channels.filter(channel => channel.category === category);
+            
+            // Aplicar búsqueda si existe
+            if (searchTerm) {
+                filteredChannels = filteredChannels.filter(channel => 
+                    channel.name.toLowerCase().includes(searchTerm.toLowerCase())
+                );
+            }
+            
+            channelsCount.textContent = `${filteredChannels.length} canales`;
+            
+            filteredChannels.forEach(channel => {
+                const channelElement = document.createElement("div");
+                channelElement.className = "channel-item";
+                channelElement.setAttribute("data-channel", channel.id);
+                
+                channelElement.innerHTML = `
+                    <div class="channel-thumb" style="background: linear-gradient(135deg, ${channel.color}, #23234d);">
+                        ${channel.thumb}
+                    </div>
+                    <div class="channel-info">
+                        <div class="channel-name">${channel.name}</div>
+                        <div class="channel-category">${channel.category}</div>
+                    </div>
+                `;
+                
+                channelElement.addEventListener("click", () => {
+                    loadChannel(channel);
+                });
+                
+                channelsList.appendChild(channelElement);
+            });
+        }
+        
+        // Función para generar los botones de categoría
+        function generateCategoryButtons() {
+            categoriesContainer.innerHTML = '';
+            
+            allCategories.forEach(category => {
+                const button = document.createElement("button");
+                button.className = "category-btn";
+                button.textContent = category;
+                if (category === currentCategory) {
+                    button.classList.add("active");
+                }
+                
+                button.addEventListener("click", () => {
+                    currentCategory = category;
+                    generateChannelsList(category, searchInput.value);
+                    
+                    // Actualizar botones activos
+                    document.querySelectorAll(".category-btn").forEach(btn => {
+                        btn.classList.remove("active");
+                    });
+                    button.classList.add("active");
+                });
+                
+                categoriesContainer.appendChild(button);
+            });
+        }
+        
+        // Función para alternar pantalla completa
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                if (playerContainer.requestFullscreen) {
+                    playerContainer.requestFullscreen();
+                } else if (playerContainer.mozRequestFullScreen) {
+                    playerContainer.mozRequestFullScreen();
+                } else if (playerContainer.webkitRequestFullscreen) {
+                    playerContainer.webkitRequestFullscreen();
+                } else if (playerContainer.msRequestFullscreen) {
+                    playerContainer.msRequestFullscreen();
+                }
+                isFullscreen = true;
+                fullscreenButton.innerHTML = '<i class="fas fa-compress"></i>';
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+                isFullscreen = false;
+                fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
+            }
+        }
+        
+        // Función para mostrar el panel lateral
+        function showSidebar() {
+            clearTimeout(sidebarTimeout);
+            channelsSidebar.classList.add('visible');
+            sidebarVisible = true;
+        }
+        
+        // Función para ocultar el panel lateral
+        function hideSidebar() {
+            sidebarTimeout = setTimeout(() => {
+                channelsSidebar.classList.remove('visible');
+                sidebarVisible = false;
+            }, 300);
+        }
+        
+        // Detectar cambios en el modo pantalla completa
+        document.addEventListener('fullscreenchange', handleFullscreenChange);
+        document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+        document.addEventListener('msfullscreenchange', handleFullscreenChange);
+        
+        function handleFullscreenChange() {
+            isFullscreen = !!document.fullscreenElement;
+            if (isFullscreen) {
+                fullscreenButton.innerHTML = '<i class="fas fa-compress"></i>';
+            } else {
+                fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
+            }
+        }
+        
+        // Configurar eventos
+        fullscreenButton.addEventListener("click", toggleFullscreen);
+        
+        // Detectar movimiento del mouse en el área izquierda
+        mouseDetectionArea.addEventListener('mouseenter', () => {
+            showSidebar();
+        });
+        
+        mouseDetectionArea.addEventListener('mouseleave', () => {
+            hideSidebar();
+        });
+        
+        // Mantener el panel visible cuando el mouse está sobre él
+        channelsSidebar.addEventListener('mouseenter', () => {
+            clearTimeout(sidebarTimeout);
+        });
+        
+        channelsSidebar.addEventListener('mouseleave', () => {
+            hideSidebar();
+        });
+        
+        // Búsqueda de canales
+        searchInput.addEventListener('input', () => {
+            generateChannelsList(currentCategory, searchInput.value);
+        });
+        
+        // Atajos de teclado
+        document.addEventListener('keydown', function(e) {
+            // 'F' para pantalla completa
+            if (e.key === 'f' || e.key === 'F') {
+                toggleFullscreen();
+            }
+            // 'ESC' para ocultar panel
+            if (e.key === 'Escape' && sidebarVisible) {
+                hideSidebar();
+            }
+        });
+        
+        // Inicializar
+        window.onload = function() {
+            // Guardar la altura original del reproductor
+            originalPlayerHeight = playerContainer.offsetHeight;
+            
+            generateCategoryButtons();
+            generateChannelsList(currentCategory);
+            
+            // Cargar el primer canal por defecto
+            if (channels.length > 0) {
+                loadChannel(channels[0]);
+            }
+        };
+    </script>
+</body>
+</html>
