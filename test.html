@@ -1463,5 +1463,26 @@
             }
         };
     </script>
+    <script>
+    // Función que la app de Android llamará para notificar el cambio de orientación
+    function updateOrientation(orientation) {
+        const video = document.querySelector('video-player');
+        if (video) {
+            if (orientation === 'landscape') {
+                if (video.requestFullscreen) {
+                    video.requestFullscreen();
+                } else if (video.webkitRequestFullscreen) { /* Safari */
+                    video.webkitRequestFullscreen();
+                }
+            } else if (orientation === 'portrait') {
+                if (document.fullscreenElement) {
+                    document.exitFullscreen();
+                } else if (document.webkitFullscreenElement) { /* Safari */
+                    document.webkitExitFullscreen();
+                }
+            }
+        }
+    }
+</script>
 </body>
 </html>
