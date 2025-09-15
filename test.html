@@ -7,457 +7,508 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="//ssl.p.jwpcdn.com/player/v/8.24.0/jwplayer.js"></script>
     <script>jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';</script>
- <style>
-    * {
-        margin: 0;
-        padding: 0;
-  
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    body {
-        background: #0f0f1a;
-        color: #fff;
-        overflow-x: hidden;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .container {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        max-width: 1600px;
-        margin: 0 auto;
-        padding: 15px;
-        width: 100%;
-    }
-    
-    .tv-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 0;
-        margin-bottom: 15px;
-    }
-    
-    .logo {
-        font-size: 24px;
-        font-weight: 700;
-        color: #ff2c6f;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    
-    .logo span {
-        color: #00e5ff;
-    }
-    
-    .player-container {
-        position: relative;
-        width: 100%;
-        background: #000;
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-        margin-bottom: 15px;
-        transition: all 0.4s ease;
-        height: 600px;
-    }
-    
-    #video-player {
-        width: 100%;
-        height: 100%;
-        background: #000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        font-size: 20px;
-    }
-    
-    .jwplayer {
-        width: 100% !important;
-        height: 100% !important;
-    }
-    
-    .channels-sidebar {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        transform: translateY(-50%);
-        width: 260px;
-        max-height: 60%;
-        background: rgba(15, 15, 26, 0.97);
-        padding: 15px;
-        transition: all 0.3s ease;
-        z-index: 10;
-        opacity: 0;
-        transform: translate(-100%, -50%);
-        pointer-events: none;
-        border-top-right-radius: 12px;
-        border-bottom-right-radius: 12px;
-        overflow-y: auto;
-        backdrop-filter: blur(10px);
-        display: flex;
-        flex-direction: column;
-        border-left: 3px solid #ff2c6f;
-    }
-    
-    .channels-sidebar.visible {
-        opacity: 1;
-        transform: translate(0, -50%);
-        pointer-events: all;
-        box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
-    }
-    
-    .channels-title {
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    
-    .channels-title i {
-        margin-right: 8px;
-        color: #00e5ff;
-    }
-    
-    .channels-list {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        padding: 5px;
-        max-height: 400px;
-        overflow-y: auto;
-    }
-    
-    .channels-list::-webkit-scrollbar {
-        width: 3px;
-    }
-    
-    .channels-list::-webkit-scrollbar-thumb {
-        background: #ff2c6f;
-        border-radius: 3px;
-    }
-    
-    .channel-item {
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 8px;
-        overflow: hidden;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        transform: scale(1);
-        border: 2px solid transparent;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-    
-    .channel-item:hover {
-        background: rgba(255, 255, 255, 0.15);
-        transform: scale(1.02);
-    }
-    
-    .channel-item.active {
-        border-color: #ff2c6f;
-        background: rgba(255, 44, 111, 0.2);
-        box-shadow: 0 0 12px rgba(255, 44, 111, 0.5);
-    }
-    
-    .channel-thumb {
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        color: #fff;
-        font-weight: bold;
-        border-radius: 8px;
-        margin-right: 10px;
-        flex-shrink: 0;
-    }
-    
-    .channel-info {
-        flex: 1;
-        overflow: hidden;
-    }
-    
-    .channel-name {
-        font-size: 14px;
-        font-weight: 600;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    
-    .channel-category {
-        font-size: 11px;
-        color: rgba(255, 255, 255, 0.7);
-        margin-top: 2px;
-    }
-    
-    .channel-info-playing {
-        position: absolute;
-        top: 15px;
-        left: 15px;
-        background: rgba(15, 15, 26, 0.7);
-        padding: 10px 15px;
-        border-radius: 8px;
-        z-index: 20;
-        max-width: 250px;
-        backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    
-    .now-playing-text {
-        font-size: 11px;
-        color: rgba(255, 255, 255, 0.8);
-    }
-    
-    .channel-name-playing {
-        font-size: 14px;
-        font-weight: 600;
-        color: #00e5ff;
-        margin-top: 3px;
-    }
-    
-    .fullscreen-button {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        background: rgba(15, 15, 26, 0.6);
-        border: none;
-        color: #fff;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        z-index: 30;
-        transition: all 0.3s ease;
-        backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    
-    .fullscreen-button:hover {
-        background: rgba(255, 255, 255, 0.1);
-    }
-    
-    .placeholder {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #000;
-        z-index: 5;
-    }
-    
-    .placeholder i {
-        font-size: 64px;
-        color: #00e5ff;
-        margin-bottom: 20px;
-    }
-    
-    .placeholder p {
-        font-size: 20px;
-        color: #fff;
-        text-align: center;
-    }
-    
-    .categories {
-        display: flex;
-        overflow-x: auto;
-        gap: 10px;
-        padding: 10px 0;
-        margin-bottom: 15px;
-        scrollbar-width: thin;
-        scrollbar-color: #ff2c6f transparent;
-    }
-    
-    .categories::-webkit-scrollbar {
-        height: 5px;
-    }
-    
-    .categories::-webkit-scrollbar-thumb {
-        background: #ff2c6f;
-        border-radius: 3px;
-    }
-    
-    .category-btn {
-        background: rgba(255, 255, 255, 0.1);
-        border: none;
-        color: #fff;
-        padding: 8px 15px;
-        border-radius: 20px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        white-space: nowrap;
-    }
-    
-    .category-btn:hover {
-        background: rgba(255, 255, 255, 0.2);
-    }
-    
-    .category-btn.active {
-        background: rgba(255, 44, 111, 0.3);
-        color: #ff2c6f;
-    }
-    
-    .control-hint {
-        position: absolute;
-        bottom: 60px;
-        right: 15px;
-        background: rgba(0, 0, 0, 0.6);
-        padding: 5px 10px;
-        border-radius: 5px;
-        font-size: 12px;
-        z-index: 25;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-    
-    .player-container:hover .control-hint {
-        opacity: 1;
-    }
-    
-    .mouse-detection-area {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50px;
-        height: 100%;
-        z-index: 15;
-    }
-    
-    .channel-search {
-        margin-bottom: 12px;
-        position: relative;
-    }
-    
-    .channel-search input {
-        width: 100%;
-        background: rgba(255, 255, 255, 0.1);
-        border: none;
-        border-radius: 20px;
-        padding: 8px 15px;
-        color: #fff;
-        font-size: 14px;
-    }
-    
-    .channel-search i {
-        position: absolute;
-        right: 15px;
-        top: 50%;
-        transform: translateY(-50%);
-        color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .loading-indicator {
-        display: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 25;
-        color: #00e5ff;
-        font-size: 40px;
-    }
-    
-    .loading-indicator.active {
-        display: block;
-        animation: spin 1s linear infinite;
-    }
-    
-    @keyframes spin {
-        0% { transform: translate(-50%, -50%) rotate(0deg); }
-        100% { transform: translate(-50%, -50%) rotate(360deg); }
-    }
-    
-    @media (max-width: 768px) {
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        body {
+            background: #0f0f1a;
+            color: #fff;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 15px;
+            width: 100%;
+        }
+        
+        .tv-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            margin-bottom: 15px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ff2c6f;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .logo span {
+            color: #00e5ff;
+        }
+        
         .player-container {
-            height: 400px;
+            position: relative;
+            width: 100%;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            margin-bottom: 15px;
+            transition: all 0.4s ease;
+            height: 600px;
+        }
+        
+        #video-player {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 20px;
+        }
+        
+        .jwplayer {
+            width: 100% !important;
+            height: 100% !important;
         }
         
         .channels-sidebar {
-            width: 220px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 260px;
+            max-height: 60%;
+            background: rgba(15, 15, 26, 0.97);
+            padding: 15px;
+            transition: all 0.3s ease;
+            z-index: 10;
+            opacity: 0;
+            transform: translate(-100%, -50%);
+            pointer-events: none;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            overflow-y: auto;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+            border-left: 3px solid #ff2c6f;
+        }
+        
+        .channels-sidebar.visible {
+            opacity: 1;
+            transform: translate(0, -50%);
+            pointer-events: all;
+            box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        .channels-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .channels-title i {
+            margin-right: 8px;
+            color: #00e5ff;
+        }
+        
+        .channels-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 5px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .channels-list::-webkit-scrollbar {
+            width: 3px;
+        }
+        
+        .channels-list::-webkit-scrollbar-thumb {
+            background: #ff2c6f;
+            border-radius: 3px;
         }
         
         .channel-item {
-            padding: 8px; /* Aumentado para mejor espaciado */
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            transform: scale(1);
+            border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            padding: 8px;
+        }
+        
+        .channel-item:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: scale(1.02);
+        }
+        
+        .channel-item.active {
+            border-color: #ff2c6f;
+            background: rgba(255, 44, 111, 0.2);
+            box-shadow: 0 0 12px rgba(255, 44, 111, 0.5);
         }
         
         .channel-thumb {
-            width: 32px; /* Reducido para dar más espacio al texto */
-            height: 32px;
-            font-size: 14px;
-            margin-right: 12px; /* Más espacio entre miniatura y texto */
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-right: 10px;
+            flex-shrink: 0;
         }
         
         .channel-info {
             flex: 1;
-            min-width: 0; /* Permite que el texto se ajuste correctamente */
+            overflow: hidden;
         }
         
         .channel-name {
             font-size: 14px;
-            white-space: normal; /* Permite múltiples líneas */
-            overflow: visible;
-            text-overflow: clip;
-            display: -webkit-box;
-            -webkit-line-clamp: 2; /* Máximo 2 líneas */
-            -webkit-box-orient: vertical;
-            line-height: 1.3;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         
         .channel-category {
             font-size: 11px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .player-container {
-            height: 300px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 2px;
         }
         
-        .channels-sidebar {
-            width: 200px;
-            max-height: 70%;
+        .channel-info-playing {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: rgba(15, 15, 26, 0.7);
+            padding: 10px 15px;
+            border-radius: 8px;
+            z-index: 20;
+            max-width: 250px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .now-playing-text {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .channel-name-playing {
+            font-size: 14px;
+            font-weight: 600;
+            color: #00e5ff;
+            margin-top: 3px;
+        }
+        
+        .fullscreen-button {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(15, 15, 26, 0.6);
+            border: none;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 30;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .fullscreen-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            z-index: 5;
+        }
+        
+        .placeholder i {
+            font-size: 64px;
+            color: #00e5ff;
+            margin-bottom: 20px;
+        }
+        
+        .placeholder p {
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .categories {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px 0;
+            margin-bottom: 15px;
+            scrollbar-width: thin;
+            scrollbar-color: #ff2c6f transparent;
+        }
+        
+        .categories::-webkit-scrollbar {
+            height: 5px;
+        }
+        
+        .categories::-webkit-scrollbar-thumb {
+            background: #ff2c6f;
+            border-radius: 3px;
+        }
+        
+        .category-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .category-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .category-btn.active {
+            background: rgba(255, 44, 111, 0.3);
+            color: #ff2c6f;
+        }
+        
+        .control-hint {
+            position: absolute;
+            bottom: 60px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            z-index: 25;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .player-container:hover .control-hint {
+            opacity: 1;
         }
         
         .mouse-detection-area {
-            width: 30px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 100%;
+            z-index: 15;
         }
         
-        .channel-name {
-            font-size: 13px;
-            -webkit-line-clamp: 2; /* Seguimos limitando a 2 líneas */
+        .channel-search {
+            margin-bottom: 12px;
+            position: relative;
         }
         
-        .channel-thumb {
-            width: 30px;
-            height: 30px;
-            margin-right: 10px;
+        .channel-search input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 20px;
+            padding: 8px 15px;
+            color: #fff;
+            font-size: 14px;
         }
-    }
-</style>
+        
+        .channel-search i {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .loading-indicator {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 25;
+            color: #00e5ff;
+            font-size: 40px;
+        }
+        
+        .loading-indicator.active {
+            display: block;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        
+        /* Estilos para pantalla completa */
+        .player-container:fullscreen {
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+            margin-bottom: 0;
+        }
+        
+        .player-container:fullscreen #video-player {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .player-container:fullscreen .jwplayer {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        
+        /* Ocultar elementos no necesarios en pantalla completa */
+        .player-container:fullscreen .tv-header,
+        .player-container:fullscreen .categories {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .player-container {
+                height: 400px;
+            }
+            
+            .channels-sidebar {
+                width: 220px;
+            }
+            
+            .channel-item {
+                padding: 8px;
+            }
+            
+            .channel-thumb {
+                width: 32px;
+                height: 32px;
+                font-size: 14px;
+                margin-right: 12px;
+            }
+            
+            .channel-info {
+                flex: 1;
+                min-width: 0;
+            }
+            
+            .channel-name {
+                font-size: 14px;
+                white-space: normal;
+                overflow: visible;
+                text-overflow: clip;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                line-height: 1.3;
+            }
+            
+            .channel-category {
+                font-size: 11px;
+            }
+            
+            /* Ajustes específicos para móviles en pantalla completa */
+            .player-container:fullscreen {
+                height: 100vh;
+                border-radius: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .player-container {
+                height: 300px;
+            }
+            
+            .channels-sidebar {
+                width: 200px;
+                max-height: 70%;
+            }
+            
+            .mouse-detection-area {
+                width: 30px;
+            }
+            
+            .channel-name {
+                font-size: 13px;
+                -webkit-line-clamp: 2;
+            }
+            
+            .channel-thumb {
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+            
+            /* Ajustes adicionales para pantalla completa en móviles pequeños */
+            .player-container:fullscreen {
+                height: 100vh;
+            }
+            
+            .player-container:fullscreen .channel-info-playing {
+                top: 10px;
+                left: 10px;
+                padding: 8px 12px;
+            }
+            
+            .player-container:fullscreen .fullscreen-button {
+                top: 10px;
+                right: 10px;
+                width: 35px;
+                height: 35px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-  
+        <div class="tv-header">
+            <div class="logo">Modern<span>TV</span></div>
+        </div>
         
         <div class="categories" id="categories">
             <!-- Las categorías se generarán dinámicamente con JavaScript -->
@@ -486,7 +537,6 @@
                 <i class="fas fa-expand"></i>
             </button>
             
-         
             <div class="channels-sidebar" id="channels-sidebar">
                 <div class="channels-title">
                     <div><i class="fas fa-tv"></i> Canales</div>
@@ -507,7 +557,7 @@
 
     <script>
         // Lista completa de canales con sus categorías
-        const channels = [
+       const channels = [
             // 
             { id: "espn1", name: "ESPN", category: "", thumb: "E", color: "#ff0000" },
             { id: "espn2", name: "ESPN 2", category: "", thumb: "E", color: "#ff0000" },
@@ -1250,7 +1300,7 @@
                 }],
                 width: "100%",
                 height: "100%",
-           stretching: "fill",
+                aspectratio: "16:9",
                 autostart: true,
                 cast: {}
             });
@@ -1406,8 +1456,20 @@
             isFullscreen = !!document.fullscreenElement;
             if (isFullscreen) {
                 fullscreenButton.innerHTML = '<i class="fas fa-compress"></i>';
+                // Ocultar elementos no necesarios en pantalla completa
+                document.querySelector('.tv-header').style.display = 'none';
+                document.querySelector('.categories').style.display = 'none';
+                document.querySelector('.container').style.padding = '0';
+                playerContainer.style.borderRadius = '0';
+                playerContainer.style.marginBottom = '0';
             } else {
                 fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
+                // Mostrar elementos nuevamente
+                document.querySelector('.tv-header').style.display = 'flex';
+                document.querySelector('.categories').style.display = 'flex';
+                document.querySelector('.container').style.padding = '15px';
+                playerContainer.style.borderRadius = '12px';
+                playerContainer.style.marginBottom = '15px';
             }
         }
         
@@ -1466,28 +1528,19 @@
     <script>
     // Función que la app de Android llamará para notificar el cambio de orientación
     function updateOrientation(orientation) {
-        const video = document.querySelector('playerContainer');
-        if (video) {
+        const playerContainer = document.getElementById('player-container');
+        if (playerContainer) {
             if (orientation === 'landscape') {
-                if (video.requestFullscreen) {
-                    video.requestFullscreen();
-                } else if (video.webkitRequestFullscreen) { /* Safari */
-                    video.webkitRequestFullscreen();
+                if (!document.fullscreenElement) {
+                    toggleFullscreen();
                 }
             } else if (orientation === 'portrait') {
                 if (document.fullscreenElement) {
-                    document.exitFullscreen();
-                } else if (document.webkitFullscreenElement) { /* Safari */
-                    document.webkitExitFullscreen();
+                    toggleFullscreen();
                 }
             }
         }
     }
-</script>
+    </script>
 </body>
-
 </html>
-
-
-
-
