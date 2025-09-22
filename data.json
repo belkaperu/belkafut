@@ -94,7 +94,7 @@
         },
         {
           "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
         },
         {
           "name": "3",
@@ -120,17 +120,17 @@
         },
         {
           "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
         },
         {
           "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
         }
       ]
     },
      {
       "name": "CANAL 25",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
+      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/samira_tv.jpg?v=7",
       "servers": [
         {
           "name": "1",
@@ -152,3 +152,4 @@
     }
   ]
 }
+
