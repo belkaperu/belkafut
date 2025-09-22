@@ -6,15 +6,15 @@
       "servers": [
         {
           "name": "1",
-          "url": "http://69.64.57.208/atv/playlist.m3u8"
+          "url": "https://t.northtelecom.org/ABALFADHLTV.m3u8"
         },
         {
           "name": "2", 
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8"
+          "url": "http://41.205.93.154/ABC/index.m3u8"
         },
         {
           "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+          "url": "https://livetv-fa.tubi.video/wmar/playlist.m3u8"
         }
       ]
     },
@@ -24,19 +24,28 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+          "url": "https://stream.4fun.tv:8888/hls/4f.m3u8"
         },
         {
           "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+          "url": "https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8"
         },
         {
           "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+          "url": "https://4muhls.persiana.live/hls/stream.m3u8"
         },
         {
           "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+          "url": "https://pepsi.abntv.live/hls/4spstream.m3u8"
+        },
+             {
+          "name": "5",
+          "url": "https://hls.4utv.live/hls/stream.m3u8"
+        
+            },
+             {
+          "name": "6",
+          "url": "https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8"
         }
       ]
     },
@@ -152,4 +161,5 @@
     }
   ]
 }
+
 
