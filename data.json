@@ -1,0 +1,43 @@
+{
+  "servers": [
+    {
+      "name": "1",
+      "url": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8"
+    },
+    {
+      "name": "2", 
+      "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8"
+    },
+    {
+      "name": "3",
+      "url": "https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8"
+    }
+  ],
+  "channels": [
+    {
+      "name": "Deportes TV",
+      "imageUrl": "https://img.freepik.com/vector-gratis/plantilla-degradado-logotipo-colorido-deporte_23-2147664472.jpg",
+      "streamUrl": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8"
+    },
+    {
+      "name": "Noticias 24",
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/000/627/536/original/vector-news-icon-design.jpg",
+      "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8"
+    },
+    {
+      "name": "Cine Premium",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/83/83519.png",
+      "streamUrl": "https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8"
+    },
+    {
+      "name": "Series HD",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/83/83580.png",
+      "streamUrl": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8"
+    },
+    {
+      "name": "Música Live",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/512/69/69536.png",
+      "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8"
+    }
+  ]
+}
