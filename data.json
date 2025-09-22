@@ -38,108 +38,19 @@
           "name": "4",
           "url": "https://pepsi.abntv.live/hls/4spstream.m3u8"
         },
-             {
+        {
           "name": "5",
           "url": "https://hls.4utv.live/hls/stream.m3u8"
-        
-            },
-             {
+        },
+        {
           "name": "6",
           "url": "https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8"
         }
       ]
     },
-     {
-      "name": "CANAL 25",
+    {
+      "name": "CANAL 26",
       "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        }
-      ]
-    },
-     {
-      "name": "CANAL 25",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        }
-      ]
-    },
-     {
-      "name": "CANAL 25",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        }
-      ]
-    },
-     {
-      "name": "CANAL 25",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
-        }
-      ]
-    },
-     {
-      "name": "CANAL 25",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/samira_tv.jpg?v=7",
       "servers": [
         {
           "name": "1",
@@ -160,100 +71,29 @@
       ]
     },
     {
-      "name": "ENTV",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/entv_algerie.jpg?v=7",
+      "name": "CANAL 27",
+      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
       "servers": [
         {
           "name": "1",
-          "url": "https://t.northtelecom.org/ABALFADHLTV.m3u8"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
-          "name": "2", 
-          "url": "http://41.205.93.154/ABC/index.m3u8"
+          "name": "2",
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "3",
-          "url": "https://livetv-fa.tubi.video/wmar/playlist.m3u8"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
+        },
+        {
+          "name": "4",
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         }
       ]
     },
     {
-      "name": "CANAL 25",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://stream.4fun.tv:8888/hls/4f.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "https://4muhls.persiana.live/hls/stream.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "https://pepsi.abntv.live/hls/4spstream.m3u8"
-        },
-             {
-          "name": "5",
-          "url": "https://hls.4utv.live/hls/stream.m3u8"
-        
-            },
-             {
-          "name": "6",
-          "url": "https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8"
-        }
-      ]
-    },
-     {
-      "name": "CANAL 25",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        }
-      ]
-    },
-     {
-      "name": "CANAL 25",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
-        }
-      ]
-    },
-     {
-      "name": "CANAL 25",
+      "name": "CANAL 28",
       "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
       "servers": [
         {
@@ -274,8 +114,8 @@
         }
       ]
     },
-     {
-      "name": "CANAL 25",
+    {
+      "name": "CANAL 29",
       "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
       "servers": [
         {
@@ -296,8 +136,8 @@
         }
       ]
     },
-     {
-      "name": "CANAL 25",
+    {
+      "name": "CANAL 30",
       "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/samira_tv.jpg?v=7",
       "servers": [
         {
@@ -320,6 +160,3 @@
     }
   ]
 }
-
-
-
