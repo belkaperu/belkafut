@@ -6,11 +6,11 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://t.northtelecom.org/ABALFADHLTV.m3u8"
+          "url": "http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8"
         },
         {
           "name": "2", 
-          "url": "http://41.205.93.154/ABC/index.m3u8"
+          "url": "https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8"
         },
         {
           "name": "3",
@@ -24,19 +24,19 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://stream.4fun.tv:8888/hls/4f.m3u8"
+          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8"
         },
         {
           "name": "2",
-          "url": "https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8"
+          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8"
         },
         {
           "name": "3",
-          "url": "https://4muhls.persiana.live/hls/stream.m3u8"
+          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8"
         },
         {
           "name": "4",
-          "url": "https://pepsi.abntv.live/hls/4spstream.m3u8"
+          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8"
         },
         {
           "name": "5",
@@ -160,3 +160,4 @@
     }
   ]
 }
+
