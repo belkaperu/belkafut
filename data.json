@@ -2,7 +2,7 @@
   "channels": [
     {
       "name": "ENTV",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/entv_algerie.jpg?v=7",
+      "imageUrl": "https://a5.bein-match.tech/broadcast/EqzSJSI-FYYlkwLiyevL3Q/1758752108/1758751854/1/bein4.m3u8",
       "servers": [
         {
           "name": "1",
@@ -172,6 +172,7 @@
     }
   ]
 }
+
 
 
 
