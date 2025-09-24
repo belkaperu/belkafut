@@ -6,7 +6,7 @@
       "servers": [
         {
           "name": "Web 1",
-          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein1",
+          "url": "https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly9sYTE0aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz",
           "type": "webview"
         },
         {
@@ -234,4 +234,5 @@
     }
   ]
 }
+
 
