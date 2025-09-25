@@ -6,17 +6,17 @@
       "servers": [
         {
           "name": "Web 1",
-          "url": "https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly9sYTE0aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz",
+          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly9sYTE0aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz",
           "type": "webview"
         },
         {
           "name": "Web 2", 
-          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein2",
+          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein2",
           "type": "webview"
         },
         {
           "name": "Web 3",
-          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein3",
+          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein3",
           "type": "webview"
         },
         {
@@ -26,17 +26,17 @@
         },
         {
           "name": "Web 5",
-          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein5",
+          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein5",
           "type": "webview"
         },
         {
           "name": "Web 6",
-          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein6",
+          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein6",
           "type": "webview"
         },
         {
           "name": "Web 7",
-          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein7",
+          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein7",
           "type": "webview"
         },
         {
@@ -234,5 +234,6 @@
     }
   ]
 }
+
 
 
