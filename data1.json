@@ -1,278 +1,30 @@
 {
   "canales": [
     {
-      "nombre": "ESPN",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG0XVSHZWDxk2-CMlNlohL1NiPEk6O2bKmp4GmD5Bfmv6rt4tyfXY-oaiCxtPbzgSmQcdVO5gySMpDFJ2mJclrfPUNDyetDJQ0gFVslIUPILWtLah1W92CUv-hs5lu00k6_Nim90hP2uos/h120/espn.png",
-      "categoria": "general",
-      "opciones": [
+      "title": "ESPN",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG0XVSHZWDxk2-CMlNlohL1NiPEk6O2bKmp4GmD5Bfmv6rt4tyfXY-oaiCxtPbzgSmQcdVO5gySMpDFJ2mJclrfPUNDyetDJQ0gFVslIUPILWtLah1W92CUv-hs5lu00k6_Nim90hP2uos/h120/espn.png",
+      "category": "general",
+      "options": [
         {
-          "calidad": "HD",
+          "label": "ESPN HD",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn"
         },
         {
-          "calidad": "GLOBAL HD2",
+          "label": "ESPN GLOBAL HD2",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "calidad": "ESPN MX GLOBAL",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espnmx"
-        },
-        {
-          "calidad": "ESPN MX GLOBAL 2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=espnmx"
-        },
-        {
-          "calidad": "ESPN NL1 HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn_nl1"
-        },
-        {
-          "calidad": "ESPN NL1 HD2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=espn1_nl"
         }
       ]
     },
     {
-      "nombre": "ESPN 2",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhlo8xUKeiHN1pAW-F-12xWVWnL_CVG9t0ynWAIneSfQeIle8yYomzyc2SGZ89XKkGYJ3GWLhJwV1FcSJ4TFY3EztVazm8TyRaZxBML43XxwtqNm5chu-3oMEj6v8W3S2gK2wg2V0NgM/s1600/espn2.jpg",
-      "categoria": "general",
-      "opciones": [
+      "title": "FOX SPORTS",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinKpJEDyd9Imhsxkwkya1Q0-DL1GKs1dJNW_CyD4G-3V8l_1XaAkyEFOFhyphenhyphenEj6Iw1H6Pas4R5buTvx9Tw-qUeMZK3pYakrZWT8b2Bqnspwo_0Cvpo0lPW8WQVUiiIM8QMT1yJ7vhIz49Y/h120/Fox_Sports.png",
+      "category": "deportes",
+      "options": [
         {
-          "calidad": "ESPN 2 GLOBAL HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn2"
-        },
-        {
-          "calidad": "ESPN 2 HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "calidad": "ESPN MX 2 GLOBAL",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn2mx"
-        },
-        {
-          "calidad": "ESPN MX 2 GLOBAL",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn2mx"
-        },
-        {
-          "calidad": "ESPN NL2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn_nl2"
-        },
-        {
-          "calidad": "ESPN NL2 HD2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "nombre": "ESPN 3",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiou7Y2IkpdushU89uLtColXEv-WuPEYZv6uK2uyYji5Zsl-ll8-uFMQ5uNTuwFdLqHB6JagxOIC50Dind_Gy4YjtFOLtS26QGNt3uI1jeL0vWRv6wDUNolMZKjAEhRxLmD13h-1r7nhUE/s1600/espn3.jpg",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "ESPN 3 HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com//vivo/canal.php?stream=espn3"
-        },
-        {
-          "calidad": "ESPN 3 GLOBAL HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn3"
-        },
-        {
-          "calidad": "ESPN MX 3 GLOBAL",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn3mx"
-        },
-        {
-          "calidad": "ESPN 3 MX Global",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn3mx"
-        },
-        {
-          "calidad": "ESPN NL3 HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=espn3_nl"
-        }
-      ]
-    },
-    {
-      "nombre": "ESPN 4.5,6,7",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhFb3LN6WxGGGnHl4b3nnKq7K_vspKmEAozjXPMCJjTPOIuvfCzCKkFAkwHsGM_oCszF7-IqSJCOPhRUxj0BJKPBT7Ge0TxLaqMa1s7Lkqo5tngHRJcHSAzGtneLuXZAv7xd7pvK8To4/h120/ESPN-logo_220.jpg",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "ESPN5 PE HD",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn5"
-        },
-        {
-          "calidad": "ESPN 4 GLOBAL HD",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn4"
-        },
-        {
-          "calidad": "ESPN 5 GLOBAL HD",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn5"
-        },
-        {
-          "calidad": "ESPN 6 GLOBAL HD",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn6"
-        },
-        {
-          "calidad": "ESPN 7 GLOBAL HD",
-          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn7"
-        },
-        {
-          "calidad": "ESPN 4 HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "calidad": "ESPN 5 HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn6"
-        },
-        {
-          "calidad": "ESPN 6 HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn6"
-        },
-        {
-          "calidad": "ESPN 7 HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn7"
-        }
-      ]
-    },
-    {
-      "nombre": "ESPN DEPORTES",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidqlgoL9wuNOIKhmPBNkejsH_XdVLfwxr64lpNzFj6qydnhYFeqMiWYWrb2HN3je6igCvKHNM6gGILRJeuxykdoG7dFkSxbqBbDkfaxhkBXXN96-toP-axODNBf5bLGzaROxyzZZ7JKUw/h120/espn-deportes.jpg",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "ESPN DEPORTES GLOB",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espndeportes"
-        },
-        {
-          "calidad": "ESPN DEPORTES GLOB 2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=espndeportes"
-        }
-      ]
-    },
-    {
-      "nombre": "ESPN PREMIUM",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkbRnkJQeQElm3yDyqAcXvyEKPpT1iFO3-kBQG9Sw8sL9Pj3vE1eP6mcn7QsEqkR3LRtdHeLdai4oEtfm0zQa8x7JmG7UmYH_njF4fSW4vxwMlw9JqWXT0ibV2ceJVKrdMw6EnJr2Dx7f90AuQaWrgC1szFh1rSgjaOkhLiyx9Rs9oE6xprB3c2l0R/s1600/espnpremium.png",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "Espnpremium GLOB HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espnpremium"
-        },
-        {
-          "calidad": "Espnpremium GLOB HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "nombre": "FOX SPORTS",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinKpJEDyd9Imhsxkwkya1Q0-DL1GKs1dJNW_CyD4G-3V8l_1XaAkyEFOFhyphenhyphenEj6Iw1H6Pas4R5buTvx9Tw-qUeMZK3pYakrZWT8b2Bqnspwo_0Cvpo0lPW8WQVUiiIM8QMT1yJ7vhIz49Y/h120/Fox_Sports.png",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "FOX SPORTS 1 HD GLOBAL",
+          "label": "FOX SPORTS 1 HD GLOBAL",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=fox1ar"
-        },
-        {
-          "calidad": "FOX SPORTS 1 HD GLOBAL2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=foxsports"
-        }
-      ]
-    },
-    {
-      "nombre": "FOX SPORTS 2 ar",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi13WTvt-hhrsaZCcGlwo33BycpcRuIE-_bL4xAnKLQVItMbloqJfnte4PQOi4q_9Lv7mbgz_1cxmH5uaVjxVTPM6JQT2j9Qa_0oRnlxoEHOIom5iJjCeu7kaWBO_IBJE0tdUSMhPNup3o/h120/Fox_Sports_2.png",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "FOX SPORTS 2 HD GLOBAL",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=fox2ar"
-        },
-        {
-          "calidad": "FOX SPORTS 2 HD GLOBAL2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=foxsports2"
-        }
-      ]
-    },
-    {
-      "nombre": "FOX SPORTS 3 ar",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2cAo_c6e9id6o8-cu0dqPDQlsBfUN87msPYeg98GaNXNmHoWzZdWBUJWIdAUEjTdaCFz0cOZZFOeB7I7jyR9OO0IXUJY3YueaLXeCvaZqJc03QbZ-aiD4Zxs44YpzS4xz0UZBGBo_j-s/h120/Fox_Sports_3.png",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "FOX SPORTS 3 HD GLOBAL",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=fox3ar"
-        },
-        {
-          "calidad": "FOX SPORTS 3 HD GLOBAL2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=foxsports3"
-        }
-      ]
-    },
-    {
-      "nombre": "FOX SPORTS mex",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4q7lohqnDxcelhGeHTbqd46cj5ZA0FeQvOKBRWTJRy_Mp6q4AiTygHwTn5-WSiZX-qBdLXSSISEcoVPcklxxEDZD2_yWizpvOPqf3A4jXI7Oc2Bc87m0FM_33Y21mslDvkbKX9bKIAcY/h120/foxsportsmexico.png",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "FOX SPORTS Mx/HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=foxsportsmx"
-        },
-        {
-          "calidad": "FOX SPORTS Mx/HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=foxsportsmx"
-        },
-        {
-          "calidad": "FOX SPORTS 2 Mx/HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=foxsports2mx"
-        },
-        {
-          "calidad": "FOX SPORTS 2 Mx/HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=foxsports2mx"
-        },
-        {
-          "calidad": "FOX SPORTS 3 MX",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=foxsports3mx"
-        },
-        {
-          "calidad": "FOX SPORTS 3 Mx/HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=foxsports3mx"
-        }
-      ]
-    },
-    {
-      "nombre": "Foxdeportes",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO-cIdDN8tJzusrqpZEwLDgZxUs2LkDf_2nELrED4R8EQrW3QQka_SoVQBr9x3ZPTF2Q9wlYSkbAd1zzCGqCznBHyOnfTLmVKqfWLt7InQfbqDNaWuTIsv-MAR9-4hh3jzPG8d5WHE-NA/h120/Untitled+1.png",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "FOX DEPORTES",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=fox_deportes_usa"
-        },
-        {
-          "calidad": "FOX DEPORTES HD2",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "nombre": "Fox PREMIUM",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGpXhv6ygY-Oq7QSGGgulvyEdCWPgbnnQ5lwW8C2RqNvH6TeWDTLjcZn3j3V-CxHIUIeiOybmCb_J98QHcYwqFGKTnhvfD6wxn3M9tnCjRLmiyT0BEnFgGmDHP8e97bTFUx7Z2u7vokkY/h120/fxprime.png",
-      "categoria": "general",
-      "opciones": [
-        {
-          "calidad": "FOX PREMIUM HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://dodousd.github.io/stylas/playerros.html?id=FSPMX"
-        },
-        {
-          "calidad": "FOX PREMIUM HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=foxsportspremium"
-        },
-        {
-          "calidad": "FOX PREMIUM HD",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=foxsportspremium"
         }
       ]
     }
-  ],
-  "total_canales": 12,
-  "ultima_actualizacion": "2024-01-01"
+  ]
 }
