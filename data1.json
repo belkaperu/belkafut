@@ -13,6 +13,10 @@
           "label": "ESPN GLOBAL HD2",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=espn"
         },
+             {
+          "label": "ESPN MX HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=espn1"
+        },
         {
           "label": "ESPN MX GLOBAL",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espnmx"
@@ -37,15 +41,19 @@
       "category": "general",
       "options": [
         {
-          "label": "ESPN 2 GLOBAL HD",
+          "label": "ESPN2 GLOBAL HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn2"
         },
         {
-          "label": "ESPN 2 HD",
+          "label": "ESPN2 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn2"
         },
         {
-          "label": "ESPN MX 2 GLOBAL",
+          "label": "ESPN2 MX HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=espn2"
+        },
+        {
+          "label": "ESPN MX2 GLOBAL",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn2mx"
         },
         {
@@ -67,6 +75,7 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiou7Y2IkpdushU89uLtColXEv-WuPEYZv6uK2uyYji5Zsl-ll8-uFMQ5uNTuwFdLqHB6JagxOIC50Dind_Gy4YjtFOLtS26QGNt3uI1jeL0vWRv6wDUNolMZKjAEhRxLmD13h-1r7nhUE/s1600/espn3.jpg",
       "category": "general",
       "options": [
+   
         {
           "label": "ESPN 3 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com//vivo/canal.php?stream=espn3"
@@ -78,6 +87,10 @@
         {
           "label": "ESPN MX 3 GLOBAL",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn3mx"
+        },
+          {
+          "label": "ESPN MX HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=espn3"
         },
         {
           "label": "ESPN 3 MX Global",
@@ -129,6 +142,10 @@
         {
           "label": "ESPN 7 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la12hd.com/vivo/canal.php?stream=espn7"
+        },
+               {
+          "label": "ESPN4 MX HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=espn4"
         }
       ]
     },
@@ -2518,6 +2535,7 @@
     }
   ]
 }
+
 
 
 
