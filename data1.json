@@ -1,0 +1,30 @@
+{
+  "canales": [
+    {
+      "title": "ESPN",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG0XVSHZWDxk2-CMlNlohL1NiPEk6O2bKmp4GmD5Bfmv6rt4tyfXY-oaiCxtPbzgSmQcdVO5gySMpDFJ2mJclrfPUNDyetDJQ0gFVslIUPILWtLah1W92CUv-hs5lu00k6_Nim90hP2uos/h120/espn.png",
+      "category": "general",
+      "options": [
+        {
+          "label": "ESPN HD",
+          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=espn"
+        },
+        {
+          "label": "ESPN GLOBAL HD2",
+          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "title": "FOX SPORTS",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinKpJEDyd9Imhsxkwkya1Q0-DL1GKs1dJNW_CyD4G-3V8l_1XaAkyEFOFhyphenhyphenEj6Iw1H6Pas4R5buTvx9Tw-qUeMZK3pYakrZWT8b2Bqnspwo_0Cvpo0lPW8WQVUiiIM8QMT1yJ7vhIz49Y/h120/Fox_Sports.png",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "FOX SPORTS 1 HD GLOBAL",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=fox1ar"
+        }
+      ]
+    }
+  ]
+}
