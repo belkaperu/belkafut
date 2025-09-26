@@ -343,7 +343,7 @@
       "options": [
         {
           "label": "NBA",
-          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/hls?id=SKY_SPORT_NBA_IT"
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=nba"
         }
       ]
     },
@@ -649,6 +649,10 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQjdHzb-KvRNZDXTkbI-F1cDCyLhnICGBTbhMsYHD90pJozTDQtlmwnBTQBVpvHDyKNclfaYwqoujjWqRaptFOlTK1ftxx-hwZnkEvOpRXx63x_VFISd3VyTC-cp2mTez2eqEFvriUSbg/h120/azteca7.png",
       "category": "general",
       "options": [
+           {
+          "label": "azteca7 HD",
+          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=azteca7"
+        },
         {
           "label": "azteca7",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=azteca7"
@@ -668,7 +672,12 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF3YBg5nRFiObvHUDGzuNzd4llUAbRtM5xS41tO3VrHQS7-Rn_y4EApcUHmEBhHpKL6QMQC0fkwln-2sz_DfUsiHjwUIyJL8piyTi7nQ0KMM4u-aV_9HwqV4qWqTx4-XwLb3uHiMFcdFA/h120/canal5.png",
       "category": "general",
       "options": [
-        {
+        
+          {
+          "label": "canal5 HD",
+          "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=canal5"
+        },
+    {
           "label": "canal5mx",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=canal5"
         },
@@ -1969,7 +1978,7 @@
       "options": [
         {
           "label": "CNN ESPAÑOL",
-          "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9saW5lYXItMzU4LmZyZXF1ZW5jeS5zdHJlYW0vbXQvc3R1ZGlvLzM1OC9obHMvbWFzdGVyL3BsYXlsaXN0Lm0zdTg="
+          "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=cnnes"
         }
       ]
     },
@@ -2558,6 +2567,7 @@
     }
   ]
 }
+
 
 
 
