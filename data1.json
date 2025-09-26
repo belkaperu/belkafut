@@ -2375,7 +2375,7 @@
       "options": [
         {
           "label": "hgtv ",
-          "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/canalplayer?get=SG9sYV9UVg=="
+          "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=hgtv"
         }
       ]
     },
@@ -2386,7 +2386,7 @@
       "options": [
         {
           "label": "HISTORY ",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.ksdjugfsddeports.fun/embed2/history.html"
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=history"
         }
       ]
     },
@@ -2397,7 +2397,7 @@
       "options": [
         {
           "label": "HISTORY 2",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.ksdjugfsddeports.fun/embed2/history2.html"
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=history2"
         }
       ]
     },
@@ -2441,7 +2441,7 @@
       "options": [
         {
           "label": "DISCOVERY turbo ",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly9jbGFyb3ZpZGVvLnBsYXlzaXRvMi5ib3V0aXF1ZS9qdy5odG1sP3VybD1MeTlzWVhSaGJYWnZjMnhwZG1WamJHRnliM1pwWkdWdkxtRnJZVzFoYVhwbFpDNXVaWFF2UTI5dWRHVnVkQzlFUVZOSVgwUkJVMGhmUmtzdlRHbDJaUzlEYUdGdWJtVnNLRVJKVTBOUFZrVlNXVjlVVlZKQ1QxOUlSQ2t2YldGdWFXWmxjM1F1YlhCayZrMT1NMk13WVdVNE1USXhObVUyTUdVMk4ySTNOakptWWpWbU1USXhNRFk0TlRBPSZrMj1ZVGN5TlRBME5EQmhZMlZoTnprNU5qbG1OemxqTnpSbU4yWTVNekV6TW1JPQ=="
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=discoveryturbo"
         }
       ]
     },
@@ -2474,7 +2474,7 @@
       "options": [
         {
           "label": "nacionalwd",
-          "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.ksdjugfsddeports.fun/embed2/natgeo.html"
+          "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/repron.html?r=natgeo"
         }
       ]
     },
@@ -2557,6 +2557,7 @@
     }
   ]
 }
+
 
 
 
