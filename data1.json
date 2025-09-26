@@ -1891,7 +1891,7 @@
       "options": [
         {
           "label": "universaltv ",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly9jbGFyb3ZpZGVvLnJhd2FzZXMuY29tL3Rlc3RpbmcucGhwP3VybD1MeTh4TWpReUxYWnZjeTVrZEhadmRIUXVZMjl0TDBSQlUwZ3ZiV0Z1YVdabGMzUXViWEJrJmsxPVl6a3pZMk5oWmpVMlpHWTJNemxrTURsbE9XRXhZakF4WVROaU9HTmxOVFk9JmsyPU5UQm1NbU13WVdGbU9XVTNaVE14T0dVeFlUSTRaRFF6Wm1VeVpERmlZVEE9"
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=universalchannel"
         }
       ]
     },
@@ -1902,7 +1902,7 @@
       "options": [
         {
           "label": "universalcine",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/telegratis.htm?id=UNIVERSALCINEMA"
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=universal"
         }
       ]
     },
@@ -1913,7 +1913,7 @@
       "options": [
         {
           "label": "universalcrime",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/telegratis.htm?id=UNIVERSALCRIME"
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=universalcrime"
         }
       ]
     },
@@ -1924,7 +1924,7 @@
       "options": [
         {
           "label": "universalcomedy",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/telegratis.htm?id=UNIVERSALCOMEDY"
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=universalcomedy"
         }
       ]
     },
@@ -1935,7 +1935,7 @@
       "options": [
         {
           "label": "universalreal",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/telegratis.htm?id=UNIVERSALREALITY"
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=universalreality"
         }
       ]
     },
@@ -1946,7 +1946,7 @@
       "options": [
         {
           "label": "universalprime",
-          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/telegratis.htm?id=UNIVERSALPREMIERE"
+          "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=universalpremiere"
         }
       ]
     },
@@ -2557,6 +2557,7 @@
     }
   ]
 }
+
 
 
 
