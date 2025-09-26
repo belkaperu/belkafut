@@ -229,6 +229,11 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4q7lohqnDxcelhGeHTbqd46cj5ZA0FeQvOKBRWTJRy_Mp6q4AiTygHwTn5-WSiZX-qBdLXSSISEcoVPcklxxEDZD2_yWizpvOPqf3A4jXI7Oc2Bc87m0FM_33Y21mslDvkbKX9bKIAcY/h120/foxsportsmexico.png",
       "category": "general",
       "options": [
+    {
+          "label": "FOX SPORTS 1 Mx/HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=foxsports1"
+        },
+     
         {
           "label": "FOX SPORTS Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=foxsportsmx"
@@ -237,6 +242,11 @@
           "label": "FOX SPORTS Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=foxsportsmx"
         },
+
+            {
+          "label": "FOX SPORTS 2 Mx/HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=foxsports2"
+        },
         {
           "label": "FOX SPORTS 2 Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp11.com/global1.php?stream=foxsports2mx"
@@ -244,6 +254,10 @@
         {
           "label": "FOX SPORTS 2 Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canal.php?stream=foxsports2mx"
+        },
+            {
+          "label": "FOX SPORTS 3 Mx/HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=foxsports3"
         },
         {
           "label": "FOX SPORTS 3 MX",
@@ -2540,6 +2554,7 @@
     }
   ]
 }
+
 
 
 
