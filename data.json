@@ -5,59 +5,20 @@
       "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/entv_algerie.jpg?v=7",
       "servers": [
         {
-          "name": "Web 1",
-          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly9sYTE0aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz",
-          "type": "webview"
+          "name": "1",
+          "url": "https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8"
         },
         {
-          "name": "Web 2", 
-          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein2",
-          "type": "webview"
+          "name": "2",
+          "url": "https://livetv-fa.tubi.video/wmar/playlist.m3u8"
         },
         {
-          "name": "Web 3",
-          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein3",
-          "type": "webview"
+          "name": "3",
+          "url": "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8"
         },
         {
-          "name": "Web 4",
-          "url": "https://kooora-new.com/albaplayer/bein4",
-          "type": "webview"
-        },
-        {
-          "name": "Web 5",
-          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein5",
-          "type": "webview"
-        },
-        {
-          "name": "Web 6",
-          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein6",
-          "type": "webview"
-        },
-        {
-          "name": "Web 7",
-          "url": "https://kooragratis.blogspot.com/?embed=https://belkaperu.github.io/belkafut/repro3.html?r=https://kooora-new.com/albaplayer/bein7",
-          "type": "webview"
-        },
-        {
-          "name": "Stream 1",
-          "url": "https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8",
-          "type": "stream"
-        },
-        {
-          "name": "Stream 2",
-          "url": "https://livetv-fa.tubi.video/wmar/playlist.m3u8",
-          "type": "stream"
-        },
-        {
-          "name": "Stream 3",
-          "url": "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8",
-          "type": "stream"
-        },
-        {
-          "name": "Stream 4",
-          "url": "https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8",
-          "type": "stream"
+          "name": "4",
+          "url": "https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8"
         }
       ]
     },
@@ -67,38 +28,31 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8",
-          "type": "stream"
+          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8"
         },
         {
           "name": "2",
-          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8",
-          "type": "stream"
+          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8"
         },
         {
           "name": "3",
-          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8",
-          "type": "stream"
+          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8"
         },
         {
           "name": "4",
-          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8",
-          "type": "stream"
+          "url": "https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8"
         },
         {
           "name": "5",
-          "url": "https://hls.4utv.live/hls/stream.m3u8",
-          "type": "stream"
+          "url": "https://hls.4utv.live/hls/stream.m3u8"
         },
         {
           "name": "6",
-          "url": "https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8",
-          "type": "stream"
+          "url": "https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8"
         },
         {
           "name": "7",
-          "url": "https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8",
-          "type": "stream"
+          "url": "https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8"
         }
       ]
     },
@@ -108,23 +62,19 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         }
       ]
     },
@@ -134,23 +84,19 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         }
       ]
     },
@@ -160,23 +106,19 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "2",
-          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8",
-          "type": "stream"
+          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
         },
         {
           "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         }
       ]
     },
@@ -186,23 +128,19 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "3",
-          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8",
-          "type": "stream"
+          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
         },
         {
           "name": "4",
-          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8",
-          "type": "stream"
+          "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
         }
       ]
     },
@@ -212,28 +150,21 @@
       "servers": [
         {
           "name": "1",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "2",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "3",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         },
         {
           "name": "4",
-          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8",
-          "type": "stream"
+          "url": "https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8"
         }
       ]
     }
   ]
 }
-
-
-
