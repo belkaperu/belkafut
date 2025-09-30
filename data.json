@@ -145,7 +145,7 @@
       ]
     },
     {
-      "name": "CANAL 30",
+      "name": "ATV",
       "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/samira_tv.jpg?v=7",
       "servers": [
         {
@@ -158,7 +158,7 @@
         },
         {
           "name": "3",
-          "url": "https://hls-m015-live-aka-canalplus.akamaized.net/live/disk/cnews-clair-ad-hd/hls-v3-hd-clair/cnews-clair-ad-hd.m3u8"
+          "url": "https://d19e55ehz2il4i.cloudfront.net/index.m3u8?PlaylistM3UCL"
         },
         {
           "name": "4",
@@ -169,6 +169,7 @@
     }
   ]
 }
+
 
 
 
