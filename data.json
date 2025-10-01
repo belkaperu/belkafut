@@ -184,12 +184,17 @@
         {
           "name": "1",
           "url": "https://wo.cma.footballii.ir/hls2/b1_high.m3u8"
-        }
+        },
+               {
+          "name": "2",
+          "url": "https://wo.cma.footballii.ir/hls2/b1_high.m3u8"
+        },
       ]
     }
     
   ]
 }
+
 
 
 
