@@ -176,7 +176,7 @@
           "url": "https://stmv1.voxhdnet.com/solartv/solartv/playlist.m3u8?PlaylistM3UCL"
         }
       ]
-    }
+    },
      {
       "name": "Bin Sports 1",
       "imageUrl": "https://whatthelogo.com/storage/logos/bein-sport-1-228697.png",
@@ -190,6 +190,7 @@
     
   ]
 }
+
 
 
 
