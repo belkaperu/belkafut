@@ -177,8 +177,20 @@
         }
       ]
     }
+     {
+      "name": "Bin Sports 1",
+      "imageUrl": "https://whatthelogo.com/storage/logos/bein-sport-1-228697.png",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://wo.cma.footballii.ir/hls2/b1_high.m3u8"
+        }
+      ]
+    }
+    
   ]
 }
+
 
 
 
