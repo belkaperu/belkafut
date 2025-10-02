@@ -2,7 +2,7 @@
   "channels": [
     {
       "name": "ESPN",
-      "imageUrl": "https://assets.stickpng.com/images/5847f1b0cef1014c0b5e485d.png",
+      "imageUrl": "hhttps://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092013/espn_nuevo_logo.png?itok=Dew0aaPw",
       "servers": [
         {
           "name": "1",
@@ -11,6 +11,19 @@
         {
           "name": "2",
           "url": "http://201.217.246.166:8000/play/a099/25199631.m3u8"
+        }
+      ]
+    }  ,  {
+      "name": "ESPN 2",
+      "imageUrl": "https://images.seeklogo.com/logo-png/26/1/espn2-logo-png_seeklogo-261969.png",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://201.217.246.166:8000/play/a098/index.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://201.217.246.166:8000/play/a098/50013491.m3u8"
         }
       ]
     },
@@ -290,6 +303,7 @@
     
   ]
 }
+
 
 
 
