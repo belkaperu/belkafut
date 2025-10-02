@@ -1,12 +1,12 @@
 {
   "channels": [
     {
-      "name": "ENTV",
-      "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/entv_algerie.jpg?v=7",
+      "name": "ESPN",
+      "imageUrl": "https://assets.stickpng.com/images/5847f1b0cef1014c0b5e485d.png",
       "servers": [
         {
           "name": "1",
-          "url": "https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8"
+          "url": "http://201.217.246.166:8000/play/a099/index.m3u8"
         },
         {
           "name": "2",
@@ -298,6 +298,7 @@
     
   ]
 }
+
 
 
 
