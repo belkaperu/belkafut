@@ -2,7 +2,7 @@
   "channels": [
     {
       "name": "ESPN",
-      "imageUrl": "hhttps://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092013/espn_nuevo_logo.png?itok=Dew0aaPw",
+      "imageUrl": "hhttps://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092013/espn_nuevo_logo.png",
       "servers": [
         {
           "name": "1",
@@ -303,6 +303,7 @@
     
   ]
 }
+
 
 
 
