@@ -114,7 +114,7 @@
         },
         {
           "name": "2",
-          "url": "https://cdn.live.br1.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/chunklist.m3u8"
+          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=c4e2&deviceDNT=0&deviceModel=0"
         }
       ]
     },
@@ -398,6 +398,7 @@
     
   ]
 }
+
 
 
 
