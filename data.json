@@ -26,7 +26,24 @@
           "url": "http://201.217.246.166:8000/play/a098/50013491.m3u8"
         }
       ]
+    }, {
+      "name": "(BR) TV Amplitude",
+      "imageUrl": "https://images.seeklogo.com/logo-png/26/1/espn2-logo-png_seeklogo-261969.png",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://201.217.246.166:8000/play/a098/50013491.m3u8"
+        }
+      ]
     },
+
+
+
+    
     {
       "name": "CANAL 25",
       "imageUrl": "https://www.elahmad.com/tv/mobiletv/images/canal_algerie.jpg?v=7",
@@ -303,6 +320,7 @@
     
   ]
 }
+
 
 
 
