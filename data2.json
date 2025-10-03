@@ -3,11 +3,7 @@
       "All",
       "Películas",
       "Series", 
-      "Deportes",
-      "Noticias",
-      "Infantiles",
-      "Música",
-        "Peru"
+      "Deportes"
     ],
     "channels": [
       {
@@ -112,3 +108,4 @@
     ]
 
   }
+
