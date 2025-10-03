@@ -2,7 +2,7 @@
   "channels": [
     {
       "name": "ESPN",
-      "imageUrl": "hhttps://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092013/espn_nuevo_logo.png",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG0XVSHZWDxk2-CMlNlohL1NiPEk6O2bKmp4GmD5Bfmv6rt4tyfXY-oaiCxtPbzgSmQcdVO5gySMpDFJ2mJclrfPUNDyetDJQ0gFVslIUPILWtLah1W92CUv-hs5lu00k6_Nim90hP2uos/h120/espn.png",
       "servers": [
         {
           "name": "1",
@@ -15,7 +15,7 @@
       ]
     }  ,  {
       "name": "ESPN 2",
-      "imageUrl": "https://images.seeklogo.com/logo-png/26/1/espn2-logo-png_seeklogo-261969.png",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhlo8xUKeiHN1pAW-F-12xWVWnL_CVG9t0ynWAIneSfQeIle8yYomzyc2SGZ89XKkGYJ3GWLhJwV1FcSJ4TFY3EztVazm8TyRaZxBML43XxwtqNm5chu-3oMEj6v8W3S2gK2wg2V0NgM/s1600/espn2.jpg",
       "servers": [
         {
           "name": "1",
@@ -320,6 +320,7 @@
     
   ]
 }
+
 
 
 
