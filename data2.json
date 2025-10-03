@@ -1,0 +1,112 @@
+{
+    "categories": [
+      "All",
+      "Películas",
+      "Series", 
+      "Deportes",
+      "Noticias",
+      "Infantiles",
+      "Música"
+    ],
+    "channels": [
+      {
+        "name": "HBO XTREME",
+        "category": "Películas",
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://200.92.227.238:8000/play/a0mu/index.m3u8"
+          }
+        ]
+      },
+      {
+        "name": "HBO Plus HD",
+        "category": "Películas",
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://181.78.106.127:9000/play/ca070/index.m3u8"
+          }
+        ]
+      },
+      {
+        "name": "HBO Family HD",
+        "category": "Series",
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://38.180.133.31:8000/play/a0le/index.m3u8"
+          }
+        ]
+      },
+      {
+        "name": "TLC",
+        "category": "Series",
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://181.78.106.127:9000/play/ca076/index.m3u8"
+          }
+        ]
+      },
+      {
+        "name": "GOLDEN",
+        "category": "Películas",
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://181.78.106.127:9000/play/ca078/index.m3u8"
+          }
+        ]
+      },
+      {
+        "name": "Golden Edge",
+        "category": "Películas",
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://181.78.106.127:9000/play/ca078/index.m3u8"
+          }
+        ]
+      },
+      {
+        "name": "ESPN",
+        "category": "Deportes",
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://example.com/espn.m3u8"
+          }
+        ]
+      },
+      {
+        "name": "Fox Sports",
+        "category": "Deportes", 
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://example.com/foxsports.m3u8"
+          }
+        ]
+      },
+      {
+        "name": "CNN",
+        "category": "Noticias",
+        "imageUrl": "",
+        "servers": [
+          {
+            "name": "1",
+            "url": "http://example.com/cnn.m3u8"
+          }
+        ]
+      }
+    ]
+  }
