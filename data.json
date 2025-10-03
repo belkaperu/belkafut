@@ -40,6 +40,24 @@
         }
       ]
     },
+{
+      "name": "ESPN 4",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhFb3LN6WxGGGnHl4b3nnKq7K_vspKmEAozjXPMCJjTPOIuvfCzCKkFAkwHsGM_oCszF7-IqSJCOPhRUxj0BJKPBT7Ge0TxLaqMa1s7Lkqo5tngHRJcHSAzGtneLuXZAv7xd7pvK8To4/h120/ESPN-logo_220.jpg",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://201.217.246.166:8000/play/a084/index.m3u8"
+        },
+         {
+          "name": "2",
+          "url": "http://201.217.246.166:8000/play/a084/87058962.m3u8"
+        }
+      ]
+    },
+
+
+
+    
     {
       "name": "FOX Sports",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinKpJEDyd9Imhsxkwkya1Q0-DL1GKs1dJNW_CyD4G-3V8l_1XaAkyEFOFhyphenhyphenEj6Iw1H6Pas4R5buTvx9Tw-qUeMZK3pYakrZWT8b2Bqnspwo_0Cvpo0lPW8WQVUiiIM8QMT1yJ7vhIz49Y/h120/Fox_Sports.png",
@@ -349,6 +367,7 @@
     
   ]
 }
+
 
 
 
