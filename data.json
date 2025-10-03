@@ -27,6 +27,19 @@
         }
       ]
     }, {
+      "name": "ESPN 3",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiou7Y2IkpdushU89uLtColXEv-WuPEYZv6uK2uyYji5Zsl-ll8-uFMQ5uNTuwFdLqHB6JagxOIC50Dind_Gy4YjtFOLtS26QGNt3uI1jeL0vWRv6wDUNolMZKjAEhRxLmD13h-1r7nhUE/s1600/espn3.jpg",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://201.217.246.166:8000/play/a09a/index.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://201.217.246.166:8000/play/a09a/37230978.m3u8"
+        }
+      ]
+    }, {
       "name": "(BR) TV Amplitude",
       "imageUrl": "https://images.seeklogo.com/logo-png/26/1/espn2-logo-png_seeklogo-261969.png",
       "servers": [
@@ -320,6 +333,7 @@
     
   ]
 }
+
 
 
 
