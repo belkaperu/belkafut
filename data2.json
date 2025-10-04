@@ -3,7 +3,9 @@
       "All",
       "Películas",
       "Series", 
-      "Deportes"
+      "Deportes",
+       "Noticias",
+        "Educación"
     ],
     "channels": [
       {
@@ -108,4 +110,5 @@
     ]
 
   }
+
 
