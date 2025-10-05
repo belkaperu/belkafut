@@ -18,7 +18,7 @@
     {
       "name": "HBO XTREME",
       "category": "Películas",
-      "imageUrl": "https://seeklogo.com/images/H/hbo-xtreme-logo-D424105400-seeklogo.com.png",
+      "imageUrl": "https://espnpressroom.com/us/files/2023/08/ESPN_RED2-2.png",
       "servers": [
         {
           "name": "1",
@@ -6853,5 +6853,6 @@
     }
   ]
 }
+
 
 
