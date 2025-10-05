@@ -18,7 +18,7 @@
     {
       "name": "HBO XTREME",
       "category": "Películas",
-      "imageUrl": "https://espnpressroom.com/us/files/2023/08/ESPN_RED2-2.png",
+      "imageUrl": "",
       "servers": [
         {
           "name": "1",
@@ -1074,7 +1074,7 @@
     {
       "name": "ESPN",
       "category": "Deportes",
-      "imageUrl": "",
+      "imageUrl": "https://espnpressroom.com/us/files/2023/08/ESPN_RED2-2.png",
       "servers": [
         {
           "name": "1",
@@ -4987,7 +4987,7 @@
     {
       "name": "NBA",
       "category": "Deportes",
-      "imageUrl": "https://images.seeklogo.com/logo-png/26/1/nba-logo-png_seeklogo-264515.png",
+      "imageUrl": "",
       "servers": [
         {
           "name": "1",
@@ -6853,6 +6853,7 @@
     }
   ]
 }
+
 
 
 
