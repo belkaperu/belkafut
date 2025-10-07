@@ -1,65 +1,12 @@
 {
   "categories": [
-    {
-      "name": "Deportes",
-      "icon": "⚽",
-      "display_name": "Deportes en Vivo"
-    },
-    {
-      "name": "Películas", 
-      "icon": "🎬",
-      "display_name": "Estrenos de Cine"
-    },
-    {
-      "name": "Series",
-      "icon": "📺",
-      "display_name": "Series y Dramas"
-    },
-    {
-      "name": "Noticias",
-      "icon": "📰",
-      "display_name": "Noticias 24/7"
-    },
-    {
-      "name": "Entretenimiento",
-      "icon": "🎪",
-      "display_name": "Entretenimiento"
-    },
-    {
-      "name": "Infantil",
-      "icon": "🧸",
-      "display_name": "Programación Infantil"
-    },
-    {
-      "name": "Música",
-      "icon": "🎵",
-      "display_name": "Música y Conciertos"
-    },
-    {
-      "name": "Educación",
-      "icon": "📚",
-      "display_name": "Educación y Cultura"
-    },
-    {
-      "name": "Cultural",
-      "icon": "🏛️",
-      "display_name": "Cultural"
-    },
-    {
-      "name": "PERU",
-      "icon": "🇵🇪",
-      "display_name": "Canales Peruanos"
-    },
-    {
-      "name": "Internacional",
-      "icon": "🌎", 
-      "display_name": "Canales Internacionales"
-    },
-    {
-      "name": "General",
-      "icon": "📡",
-      "display_name": "General"
-    }
+    "Películas",
+    "Series",
+    "Deportes",
+    "Noticias",
+    "Infantiles",
+    "Música"
+
   ],
   "channels": [
     {
@@ -6904,6 +6851,7 @@
     }
   ]
 }
+
 
 
 
