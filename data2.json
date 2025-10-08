@@ -1,13 +1,27 @@
 {
   "categories": [
-    "Películas",
-    "Series",
-    "Deportes",
-    "Noticias",
-    "Infantiles",
-    "Música",
-    "Peru"
 
+    {
+      "name": "Deportes",
+      "icon": "⚽",
+      "display_name": "Deportes en Vivo"
+    },
+    {
+      "name": "Películas", 
+      "icon": "🎬",
+      "display_name": "Estrenos de Cine"
+    },
+    {
+      "name": "Series",
+      "icon": "📺",
+      "display_name": "Series y Dramas"
+    },
+    {
+      Noticias", "📰", "Noticias"
+    },
+    { "Infantiles", "🧸", "Contenido Infantil"},
+    {"Música", "🎵", "Música y Videos"},
+    {"Peru", "🇵🇪", "Contenido Peruano"}
   ],
   "channels": [
     {
@@ -6852,6 +6866,7 @@
     }
   ]
 }
+
 
 
 
