@@ -17,11 +17,19 @@
       "display_name": "Series y Dramas"
     },
     {
-      "Noticias", "📰", "Noticias"
+      "name":"Noticias",
+      "icon":"📰",
+     "display_name":  "Noticias"
     },
-    { "Infantiles", "🧸", "Contenido Infantil"},
-    {"Música", "🎵", "Música y Videos"},
-    {"Peru", "🇵🇪", "Contenido Peruano"}
+    { "name":"Infantiles",
+      "icon":"🧸", 
+      "display_name": "Contenido Infantil" },
+    {"name":"Música",
+      "icon":"🎵", 
+     "display_name":  "Música y Videos"},
+    {"name":"Peru",
+      "icon":"🇵🇪", 
+      "display_name": "Contenido Peruano"}
   ],
   "channels": [
     {
@@ -6866,6 +6874,7 @@
     }
   ]
 }
+
 
 
 
