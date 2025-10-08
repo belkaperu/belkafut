@@ -21,15 +21,21 @@
       "icon": "📰",
      "display_name":  "Noticias"
     },
-    { "name": "Infantiles",
+    { 
+      "name": "Infantiles",
       "icon": "🧸", 
-      "display_name": "Contenido Infantil" },
-    {"name": "Música",
+      "display_name": "Contenido Infantil"
+    },
+    {
+      "name": "Música",
       "icon": "🎵", 
-     "display_name":  "Música y Videos"},
-    {"name": "Peru",
+     "display_name":  "Música y Videos"
+    },
+    {
+      "name": "Peru",
       "icon": "🇵🇪", 
-      "display_name": "Contenido Peruano"}
+      "display_name": "Contenido Peruano"
+    }
   ],
   "channels": [
     {
@@ -6874,6 +6880,7 @@
     }
   ]
 }
+
 
 
 
