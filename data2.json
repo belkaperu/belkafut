@@ -1121,6 +1121,10 @@
         {
           "name": "2",
           "url": "http://181.78.106.127:9000/play/ca033/index.m3u8"
+        },
+           {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5371.m3u8"
         }
       ]
     },
@@ -7029,6 +7033,7 @@
     }
   ]
 }
+
 
 
 
