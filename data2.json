@@ -3158,6 +3158,23 @@
         }
       ]
     }, 
+         {
+      "name": "LIGA ",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/79814.m3u8"
+        },
+          {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/79814.m3u8"
+        }
+      ]
+    }, 
+
+    
     {
       "name": "ESPN co",
       "category": "Deportes",
@@ -7118,6 +7135,7 @@
     }
   ]
 }
+
 
 
 
