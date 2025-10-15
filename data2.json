@@ -1592,7 +1592,11 @@
         {
           "name": "6",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278597/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
+        },
+            {
+          "name": "7",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5350.m3u8"
+        } 
       ]
     },
     {
@@ -2787,7 +2791,12 @@
         {
           "name": "3",
           "url": "http://179.51.136.19:8000/play/a1bp/index.m3u8"
+        },
+           {
+          "name": "4",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5351.m3u8"
         }
+        
       ]
     },
     {
@@ -3124,6 +3133,10 @@
         {
           "name": "3",
           "url": "https://smsbusinesshub.com/playlist/stream_12.m3u8"
+        },
+           {
+          "name": "4",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5356.m3u8"
         }
       ]
     },
@@ -5112,9 +5125,24 @@
         {
           "name": "1",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/158838/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
+        },
+        
       ]
     },
+    {
+      "name": "FOX SPORTS MX",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5359.m3u8"
+        },
+        
+      ]
+    },
+
+    
     {
       "name": "NFL",
       "category": "Deportes",
@@ -7003,6 +7031,7 @@
     }
   ]
 }
+
 
 
 
