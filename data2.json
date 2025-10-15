@@ -39,6 +39,11 @@
       "name": "francia",
       "icon": "fr", 
       "display_name": "Contenido Frances"
+    },
+            {
+      "name": "Brasil",
+      "icon": "🇧🇷", 
+      "display_name": "Contenido Frances"
     }
   ],
   "channels": [
@@ -1733,7 +1738,7 @@
       ]
     },    {
       "name": "ESPN 3 BR",
-      "category": "Deportes",
+      "category": "Brasil",
       "imageUrl": "",
       "servers": [
         {
@@ -7146,6 +7151,7 @@
     }
   ]
 }
+
 
 
 
