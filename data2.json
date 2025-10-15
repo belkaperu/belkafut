@@ -5333,6 +5333,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/48359.m3u8"
+        },
+         {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/75452.m3u8"
         }
       ]
     },
@@ -7067,6 +7071,7 @@
     }
   ]
 }
+
 
 
 
