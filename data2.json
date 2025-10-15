@@ -1204,7 +1204,11 @@
         {
           "name": "18",
           "url": "http://181.119.86.68:8000/play/b031/index.m3u8"
+        },   {
+          "name": "19",
+          "url": " http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5395.m3u8"
         }
+       
       ]
     },
     {
@@ -7033,6 +7037,7 @@
     }
   ]
 }
+
 
 
 
