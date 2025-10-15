@@ -3187,10 +3187,6 @@
         {
           "name": "2",
           "url": "http://181.188.216.5:18000/play/a0nv/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://179.51.136.19:8000/play/DSPORTS1/index.m3u8"
         }
       ]
     },
@@ -4001,7 +3997,7 @@
       ]
     },
     {
-      "name": "DS SPORTS",
+      "name": "Dsports",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
@@ -4020,6 +4016,10 @@
         {
           "name": "4",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278892/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+          {
+          "name": "3",
+          "url": "http://179.51.136.19:8000/play/DSPORTS1/index.m3u8"
         }
       ]
     },
@@ -7135,6 +7135,7 @@
     }
   ]
 }
+
 
 
 
