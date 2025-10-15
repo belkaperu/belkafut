@@ -5149,8 +5149,11 @@
         {
           "name": "1",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/158838/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
-        
+        },
+        {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/62212.m3u8"
+        } 
       ]
     },
 
@@ -7060,6 +7063,7 @@
     }
   ]
 }
+
 
 
 
