@@ -3105,6 +3105,10 @@
                   {
           "name": "4",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/27298.m3u8"
+        } ,
+                    {
+          "name": "4",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/78635.m3u8"
         } 
       ]
     },
@@ -5326,7 +5330,7 @@
       ]
     },
     {
-      "name": "SPORTV PT",
+      "name": "SPORTV 1 PT",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
@@ -5340,6 +5344,21 @@
         }
       ]
     },
+       {
+      "name": "SPORTV 2 PT",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/78312.m3u8"
+        },
+         {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/78312.m3u8"
+        }
+      ]
+    }, 
     
     {
       "name": "PREMIERE",
@@ -7071,6 +7090,7 @@
     }
   ]
 }
+
 
 
 
