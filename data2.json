@@ -3128,8 +3128,36 @@
         }
       ]
     },
-    
-  
+        {
+      "name": "Movistar Deportes ",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/79809.m3u8"
+        },
+          {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/79809.m3u8"
+        }
+      ]
+    },
+         {
+      "name": "Liga de Campeones",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/79810.m3u8"
+        },
+          {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/79810.m3u8"
+        }
+      ]
+    }, 
     {
       "name": "ESPN co",
       "category": "Deportes",
@@ -7090,6 +7118,7 @@
     }
   ]
 }
+
 
 
 
