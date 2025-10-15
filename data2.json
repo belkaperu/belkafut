@@ -1731,7 +1731,18 @@
           "url": "https://cdn.streamhispanatv.net:3859/live/ixchiguanlive.m3u8"
         }
       ]
+    },    {
+      "name": "ESPN 3 BR",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/3365.m3u8"
+        }
+      ]
     },
+   
     {
       "name": "IU TV HD",
       "category": "General",
@@ -7135,6 +7146,7 @@
     }
   ]
 }
+
 
 
 
