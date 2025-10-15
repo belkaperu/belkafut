@@ -34,6 +34,11 @@
       "name": "Peru",
       "icon": "🇵🇪", 
       "display_name": "Contenido Peruano"
+    },
+        {
+      "name": "francia",
+      "icon": "fr", 
+      "display_name": "Contenido Frances"
     }
   ],
   "channels": [
@@ -7049,6 +7054,7 @@
     }
   ]
 }
+
 
 
 
