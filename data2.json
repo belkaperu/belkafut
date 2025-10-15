@@ -1947,7 +1947,12 @@
         {
           "name": "7",
           "url": "http://181.119.86.68:8000/play/b062/index.m3u8"
+        },
+           {
+          "name": "7",
+          "url": "https://tyg2mnl9.fubohd.com/caracol/mono.m3u8?token=3aa98aa4aa324576403a38d57d7b33d45718e9d3-a2-1760502181-1760484181"
         }
+
       ]
     },
     {
@@ -6978,6 +6983,7 @@
     }
   ]
 }
+
 
 
 
