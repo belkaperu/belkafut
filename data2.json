@@ -1879,6 +1879,51 @@
         }
       ]
     },
+        {
+      "name": "SKY Sports Liga",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281171.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281171.m3u8"
+        }
+      ]
+    },
+      {
+      "name": "SKY Sports BUNDESLIGA",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281172.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281172.m3u8"
+        }
+      ]
+    },
+       {
+      "name": "SKY Sports NHL",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281173.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281173.m3u8"
+        }
+      ]
+    },
    {
       "name": "Chilevisión",
       "category": "General",
@@ -7459,6 +7504,7 @@
     }
   ]
 }
+
 
 
 
