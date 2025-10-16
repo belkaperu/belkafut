@@ -1790,6 +1790,21 @@
         }
       ]
     },
+        {
+      "name": "Fox Sports 2 usa",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281866.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281866.m3u8"
+        }
+      ]
+    },
     {
       "name": "Fox Sports mx",
       "category": "Deportes",
@@ -7440,6 +7455,7 @@
     }
   ]
 }
+
 
 
 
