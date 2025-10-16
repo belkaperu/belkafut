@@ -1802,6 +1802,10 @@
            {
           "name": "2",
           "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281866.m3u8"
+        },
+               {
+          "name": "3",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/281866.m3u8"
         }
       ]
     },
@@ -2445,7 +2449,15 @@
             {
           "name": "7",
           "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278779.m3u8"
-        }
+        },
+             {
+          "name": "8",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/285432.m3u8"
+        } ,
+                {
+          "name": "9",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/285433.m3u8"
+        } 
       ]
     },
     {
@@ -2539,12 +2551,61 @@
       ]
     },
     {
-      "name": "Матч! Футбол 3 HD 🇷🇺",
+      "name": "WAPA 3",
       "category": "General",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/285689.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/285689.m3u8"
+        }
+      ]
+    },
+     {
+      "name": "WAPA 2",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/285690.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/285690.m3u8"
+        }
+      ]
+    },
+         {
+      "name": "WAPA Deportes",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/285695.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/285695.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Матч! 3 🇷🇺",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://104.238.205.28:8989/278773_.m3u8"
+        },
+              {
+          "name": "2",
           "url": "http://104.238.205.28:8989/278773_.m3u8"
         }
       ]
@@ -3292,6 +3353,10 @@
         {
           "name": "3",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278981/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+            {
+          "name": "4",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/283887.m3u8"
         }
       ]
     },
@@ -7504,6 +7569,7 @@
     }
   ]
 }
+
 
 
 
