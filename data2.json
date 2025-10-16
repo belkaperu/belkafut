@@ -1747,6 +1747,17 @@
         }
       ]
     },
+      {
+      "name": "ESPN BR",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5337.m3u8"
+        }
+      ]
+    },
    
     {
       "name": "IU TV HD",
@@ -7151,6 +7162,7 @@
     }
   ]
 }
+
 
 
 
