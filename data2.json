@@ -1632,7 +1632,11 @@
         {
           "name": "4",
           "url": "http://181.119.86.68:8000/play/b029/index.m3u8"
-        }
+        },
+          {
+          "name": "5",
+          "url": "http://104.238.205.28:8989/278567_.m3u8"
+        } 
       ]
     },
     {
@@ -2437,7 +2441,11 @@
         {
           "name": "4",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278599/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
+        },
+          {
+          "name": "5",
+          "url": "http://104.238.205.28:8989/278601_.m3u8"
+        } 
       ]
     },
     {
@@ -2674,6 +2682,10 @@
         {
           "name": "1",
           "url": "http://104.238.205.28:8989/278699_.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://104.238.205.28:8989/278688_.m3u8"
         }
       ]
     },
@@ -6154,7 +6166,15 @@
          {
           "name": "4",
           "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/286085.m3u8"
-        } 
+        } ,
+             {
+          "name": "5",
+          "url": "http://104.238.205.28:8989/278570_.m3u8"
+        },
+               {
+          "name": "6",
+          "url": "http://104.238.205.28:8989/278571_.m3u8"
+        }
         
       ]
     },
@@ -7640,6 +7660,7 @@
     }
   ]
 }
+
 
 
 
