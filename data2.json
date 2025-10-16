@@ -2352,7 +2352,12 @@
         },  {
           "name": "8",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5341.m3u8"
+        },
+        {
+          "name": "8",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278776.m3u8"
         }
+        
         
       ]
     },
@@ -7297,6 +7302,7 @@
     }
   ]
 }
+
 
 
 
