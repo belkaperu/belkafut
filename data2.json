@@ -2316,8 +2316,12 @@
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/285433/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
         },
          {
-          "name": "5",
+          "name": "6",
           "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278778.m3u8"
+        },
+            {
+          "name": "7",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278779.m3u8"
         }
       ]
     },
@@ -3256,7 +3260,11 @@
           {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/79779.m3u8"
-        }
+        },
+           {
+          "name": "3",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278843.m3u8"
+        } 
       ]
     },
         {
@@ -4405,9 +4413,30 @@
         {
           "name": "1",
           "url": "http://181.78.106.127:9000/play/ca027/index.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://181.78.106.127:9000/play/ca027/index.m3u8"
         }
       ]
     },
+
+    {
+      "name": "Movistar Tv",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278851.m3u8"
+        },
+            {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278852.m3u8"
+        }
+      ]
+    },
+    
     {
       "name": "CLARO SPORTS 2",
       "category": "Deportes",
@@ -5992,24 +6021,32 @@
       ]
     },
     {
-      "name": "EUROSPORTS",
+      "name": "Eurosports 1",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278834/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
+        },
+         {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278834.m3u8"
+        } 
       ]
     },
     {
-      "name": "EUROSPORTS 2",
+      "name": "Eurosports 2",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278835/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+          {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278835.m3u8"
         }
       ]
     },
@@ -7306,6 +7343,7 @@
     }
   ]
 }
+
 
 
 
