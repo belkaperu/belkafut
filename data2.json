@@ -675,20 +675,23 @@
         {
           "name": "4",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278389/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
-      ]
-    },
-    {
-      "name": "A&E HD",
-      "category": "Series",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
+        },
+          {
+          "name": "5",
+          "url": "http://104.238.205.28:8989/278388_.m3u8"
+        } ,
+                 {
+          "name": "6",
+          "url": "http://104.238.205.28:8989/278390_.m3u8"
+        },
+                      {
+          "name": "7",
           "url": "http://181.78.106.127:9000/play/ca086/index.m3u8"
         }
+        
       ]
     },
+ 
     {
       "name": "FX HD",
       "category": "Series",
@@ -1843,7 +1846,23 @@
         }
          
       ]
+    },   {
+      "name": "Fox Sports 3 mx",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": " http://104.238.205.28:8989/278267_.m3u8"
+        },
+         {
+          "name": "2",
+          "url": " http://104.238.205.28:8989/278267_.m3u8"
+        }
+         
+      ]
     },
+   
     
     {
       "name": "Sky Sports Premier League",
@@ -2915,6 +2934,10 @@
         {
           "name": "9",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278386/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+           {
+          "name": "10",
+          "url": "http://104.238.205.28:8989/278387_.m3u8"
         }
       ]
     },
@@ -4569,7 +4592,19 @@
         {
           "name": "2",
           "url": "http://138.0.228.250:44380/play/a00k/index.m3u8"
-        }
+        },
+          {
+          "name": "3",
+          "url": "http://104.238.205.28:8989/278328_.m3u8"
+        } ,
+              {
+          "name": "4",
+          "url": "http://104.238.205.28:8989/278329_.m3u8"
+        } ,
+                 {
+          "name": "5",
+          "url": "http://104.238.205.28:8989/278330_.m3u8"
+        } 
       ]
     },
     {
@@ -7581,6 +7616,7 @@
     }
   ]
 }
+
 
 
 
