@@ -122,7 +122,23 @@
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/4437.m3u8"
         }
       ]
+    } ,
+       {
+      "name": "TDP ES",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "   http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278856.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "   http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278856.m3u8"
+        }
+      ]
     } 
+ 
     , {
       "name": "ORTM1",
       "category": "Deportes",
@@ -7343,6 +7359,7 @@
     }
   ]
 }
+
 
 
 
