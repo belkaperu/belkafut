@@ -995,6 +995,53 @@
         }
       ]
     },
+
+    {
+      "name": "Glob",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278932.m3u8"
+        }
+      ]
+    },
+        {
+      "name": "Premier",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278934.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278935.m3u8"
+        },
+           {
+          "name": "3",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278936.m3u8"
+        },
+           {
+          "name": "4",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278937.m3u8"
+        },   
+        {
+          "name": "5",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278938.m3u8"
+        },
+            {
+          "name": "6",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278939.m3u8"
+        },
+  {
+          "name": "7",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278940.m3u8"
+        }
+      ]
+    },
     {
       "name": "Las Estrellas",
       "category": "General",
@@ -6233,13 +6280,17 @@
       ]
     },
     {
-      "name": "LA LIGA PERUANA",
+      "name": "LIGA1MAX",
       "category": "PERU",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278897/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+            {
+          "name": "2",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278898.m3u8"
         }
       ]
     },
@@ -7367,6 +7418,7 @@
     }
   ]
 }
+
 
 
 
