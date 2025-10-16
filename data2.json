@@ -36,8 +36,8 @@
       "display_name": "Contenido Peruano"
     },
         {
-      "name": "francia",
-      "icon": "fr", 
+      "name": "Francia",
+      "icon": "🇫🇷", 
       "display_name": "Contenido Frances"
     },
             {
@@ -7218,6 +7218,7 @@
     }
   ]
 }
+
 
 
 
