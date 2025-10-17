@@ -1377,7 +1377,7 @@
       ]
     },
     {
-      "name": "ESPN 2",
+      "name": "ESPN2",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
@@ -7940,6 +7940,7 @@
     }
   ]
 }
+
 
 
 
