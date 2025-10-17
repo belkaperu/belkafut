@@ -1011,7 +1011,7 @@
       ]
     },
         {
-      "name": "Premier",
+      "name": "Premier BR",
       "category": "Brasil",
       "imageUrl": "",
       "servers": [
@@ -1045,6 +1045,22 @@
         }
       ]
     },
+        {
+      "name": "Premier Sports 1",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/1807.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/1807.m3u8"
+        }
+      ]
+    },
+    
     {
       "name": "Las Estrellas",
       "category": "General",
@@ -7722,6 +7738,7 @@
     }
   ]
 }
+
 
 
 
