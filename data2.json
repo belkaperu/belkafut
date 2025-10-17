@@ -4314,7 +4314,24 @@
         }
       ]
     },
+
     
+        {
+      "name": "WILAX",
+      "category": "Peru",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278904/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+      
+            {
+          "name": "2",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278904/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        }
+      ]
+    },
     {
       "name": "DISCOVERY CHANNEL",
       "category": "Series",
@@ -6128,7 +6145,11 @@
         {
           "name": "8",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278941/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
+        },
+            {
+          "name": "9",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278939/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        }      
       ]
     },
     {
@@ -7919,6 +7940,7 @@
     }
   ]
 }
+
 
 
 
