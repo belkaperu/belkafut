@@ -135,6 +135,10 @@
         {
           "name": "2",
           "url": "   http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278856.m3u8"
+        },
+            {
+          "name": "3",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278856/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
         }
       ]
     } 
@@ -4293,6 +4297,24 @@
         }
       ]
     },
+
+    {
+      "name": "WILD",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278852/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+      
+            {
+          "name": "2",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278852/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        }
+      ]
+    },
+    
     {
       "name": "DISCOVERY CHANNEL",
       "category": "Series",
@@ -5501,6 +5523,7 @@
           "name": "3",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278889/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
         }
+        
       ]
     },
     {
@@ -7896,6 +7919,7 @@
     }
   ]
 }
+
 
 
 
