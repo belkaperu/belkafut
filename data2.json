@@ -154,6 +154,23 @@
         }
       ]
     } , 
+{
+      "name": "Deportv",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": " http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278756/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+        {
+          "name": "2",
+          "url": " http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278756/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        }
+      ]
+    } , 
+
+    
     {
       "name": "beIN Sports Tr 2",
       "category": "Deportes",
@@ -7771,6 +7788,7 @@
     }
   ]
 }
+
 
 
 
