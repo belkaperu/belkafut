@@ -1531,7 +1531,15 @@
              {
           "name": "9",
           "url": "http://104.238.205.28:8989/278558_.m3u8"
-        } 
+        } ,
+                {
+          "name": "10",
+          "url": "http://181.188.216.5:18000/play/a0oa/index.m3u8"
+        },
+        {
+          "name": "11",
+          "url": "http://181.119.85.222:8000/play/a02a/index.m3u8"
+        }
       ]
     },
     {
@@ -2326,6 +2334,10 @@
            {
           "name": "7",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5386.m3u8"
+        },
+              {
+          "name": "8",
+          "url": "http://181.78.85.53:9002/play/a02h/index.m3u8"
         }
 
       ]
@@ -3128,27 +3140,25 @@
       ]
     },
     {
-      "name": "Animal Planet HD",
+      "name": "Animal Planet",
       "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
           "url": "http://181.78.85.53:9002/play/a00k/index.m3u8"
-        }
+        },
+           {
+          "name": "2",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278616/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        } ,
+               {
+          "name": "3",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278617/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        } 
       ]
     },
-    {
-      "name": "CANAL CARACOL HD",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.85.53:9002/play/a02h/index.m3u8"
-        }
-      ]
-    },
+
     {
       "name": "Telepacifico",
       "category": "General",
@@ -3500,21 +3510,7 @@
         
       ]
     },
-    {
-      "name": "ESPN 5 HD",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.188.216.5:18000/play/a0oa/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://181.119.85.222:8000/play/a02a/index.m3u8"
-        }
-      ]
-    },
+
     {
       "name": "ESPN co HD",
       "category": "Deportes",
@@ -7781,6 +7777,7 @@
     }
   ]
 }
+
 
 
 
