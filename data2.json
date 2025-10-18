@@ -478,17 +478,7 @@
         }
       ]
     },
-    {
-      "name": "07.8AXN",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.106.127:9000/play/ca085/index.m3u8"
-        }
-      ]
-    },
+
 
 
     {
@@ -3114,7 +3104,15 @@
         {
           "name": "7",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278394/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
+        },
+                {
+          "name": "8",
+          "url": "http://181.78.85.53:9002/play/a04l/index.m3u8"
+        },
+          {
+          "name": "9",
+          "url": "http://200.92.227.238:8000/play/a0lw/index.m3u8"
+        } 
       ]
     },
     {
@@ -3162,9 +3160,24 @@
           "name": "10",
           "url": "http://104.238.205.28:8989/278387_.m3u8"
         },
-                {
-          "name": "10",
+          {
+          "name": "11",
           "url": "http://200.92.227.238:8000/play/a0uk/index.m3u8"
+        },
+                   {
+          "name": "12",
+          "url": "http://200.92.227.238:8000/play/a0lu/index.m3u8"
+        },
+          {
+          "name": "13",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278815/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+              {
+          "name": "14",
+          "url": "http://181.78.85.53:9002/play/a00n/index.m3u8"
+        },{
+          "name": "15",
+          "url": "http://181.78.106.127:9000/play/ca085/index.m3u8"
         }
       ]
     },
@@ -3243,28 +3256,7 @@
         }
       ]
     },
-    {
-      "name": "AMC HD",
-      "category": "Películas",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.85.53:9002/play/a04l/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "AXN HD",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.85.53:9002/play/a00n/index.m3u8"
-        }
-      ]
-    },
+
     {
       "name": "Adult Swim",
       "category": "General",
@@ -5118,6 +5110,10 @@
         {
           "name": "3",
           "url": "http://181.119.86.68:8000/play/b040/index.m3u8"
+        },
+           {
+          "name": "4",
+          "url": "http://200.92.227.238:8000/play/a0mg/index.m3u8"
         }
       ]
     },
@@ -6678,17 +6674,6 @@
     },
     
     {
-      "name": "AXN MOVIES",
-      "category": "Películas",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278815/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
-      ]
-    },
-    {
       "name": "CALLE 13",
       "category": "General",
       "imageUrl": "",
@@ -8125,6 +8110,7 @@
     }
   ]
 }
+
 
 
 
