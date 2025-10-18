@@ -2207,6 +2207,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5337.m3u8"
+        },
+               {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5337.m3u8"
         }
       ]
     },
@@ -2396,17 +2400,7 @@
         }
       ]
     },
-    {
-      "name": "ESPN ARG HD",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.82.6:46090/play/a00q/index.m3u8"
-        }
-      ]
-    },
+
     {
       "name": "CARACOL",
       "category": "General",
@@ -3701,17 +3695,7 @@
       ]
     },
 
-    {
-      "name": "ESPN co HD",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.188.216.5:18000/play/a0pe/index.m3u8"
-        }
-      ]
-    },
+
     {
       "name": "beIN SPORTS Ñ",
       "category": "Deportes",
@@ -3825,7 +3809,7 @@
 
     
     {
-      "name": "ESPN co",
+      "name": "ESPN COL",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
@@ -3836,6 +3820,14 @@
         {
           "name": "2",
           "url": "http://181.188.216.5:18000/play/a0nv/index.m3u8"
+        },
+           {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5338.m3u8"
+        },
+                {
+          "name": "4",
+          "url": "http://181.188.216.5:18000/play/a0pe/index.m3u8"
         }
       ]
     },
@@ -8202,6 +8194,7 @@
     }
   ]
 }
+
 
 
 
