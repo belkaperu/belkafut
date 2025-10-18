@@ -360,6 +360,10 @@
             {
           "name": "7",
           "url": "http://200.92.227.238:8000/play/a0uf/index.m3u8"
+        } ,
+                    {
+          "name": "8",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5380.m3u8"
         } 
       ]
     },
@@ -815,6 +819,10 @@
         {
           "name": "9",
           "url": "http://181.119.86.68:8000/play/b063/index.m3u8"
+        },
+             {
+          "name": "10",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5386.m3u8"
         }
       ]
     },
@@ -901,6 +909,10 @@
             {
           "name": "17",
           "url": "http://200.92.227.238:8000/play/a0oa/index.m3u8"
+        },
+                {
+          "name": "18",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5365.m3u8"
         }
       ]
     },
@@ -1503,6 +1515,10 @@
              {
           "name": "6",
           "url": "http://200.92.227.238:8000/play/a0nb/index.m3u8"
+        },
+             {
+          "name": "6",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5369.m3u8"
         }
       ]
     },
@@ -1951,7 +1967,11 @@
                 {
           "name": "9",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278766/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        } 
+        } ,
+               {
+          "name": "10",
+          "url": "http://200.115.120.1:8000/play/ca041/index.m3u8"
+        }
       ]
     },
     {
@@ -1989,17 +2009,7 @@
         } 
       ]
     },
-    {
-      "name": "FOX SPORT",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.115.120.1:8000/play/ca041/index.m3u8"
-        }
-      ]
-    },
+
         {
       "name": "Fox Sports 2 usa",
       "category": "Deportes",
@@ -2019,6 +2029,23 @@
         }
       ]
     },
+        {
+      "name": "Fox Sports 1 usa",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5359.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5359.m3u8"
+        }
+      ]
+    },
+
+    
     {
       "name": "Fox Sports mx",
       "category": "Deportes",
@@ -3185,6 +3212,10 @@
         },{
           "name": "15",
           "url": "http://181.78.106.127:9000/play/ca085/index.m3u8"
+        },
+        {
+          "name": "16",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5396.m3u8"
         }
       ]
     },
@@ -3291,7 +3322,11 @@
                {
           "name": "3",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278617/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        } 
+        } ,
+                       {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5394.m3u8"
+        }
       ]
     },
 
@@ -3401,6 +3436,10 @@
                           {
           "name": "7",
           "url": "http://104.238.205.28:8989/299299_.m3u8"
+        },
+                             {
+          "name": "8",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5351.m3u8"
         }
         
       ]
@@ -4507,6 +4546,10 @@
                      {
           "name": "6",
           "url": "http://200.92.227.238:8000/play/a0lp/index.m3u8"
+        },
+                           {
+          "name": "7",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5344.m3u8"
         }
       ]
     },
@@ -4592,7 +4635,11 @@
                {
           "name": "4",
           "url": "http://200.92.227.238:8000/play/a0ml/index.m3u8"
-        }
+        },
+                {
+          "name": "5",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5354.m3u8"
+        } 
       ]
     },
     {
@@ -6862,12 +6909,15 @@
       ]
     },
     {
-      "name": "GOL TV",
+      "name": "GOL ES",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278838/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },    {
+          "name": "2",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278838/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
         }
       ]
@@ -7673,17 +7723,7 @@
         }
       ]
     },
-    {
-      "name": "Fox Sports 1",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://23.237.104.106:8080/USA_FS1/index.m3u8"
-        }
-      ]
-    },
+
     {
       "name": "NHL Network",
       "category": "General",
@@ -8198,6 +8238,7 @@
     }
   ]
 }
+
 
 
 
