@@ -1205,7 +1205,7 @@
     },
     {
       "name": "Disney Channel",
-      "category": "Infantil",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
@@ -1228,12 +1228,16 @@
     },
     {
       "name": "Nickelodeon",
-      "category": "Infantil",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
           "url": "http://181.78.106.127:9000/play/ca052/index.m3u8"
+        },
+            {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5342.m3u8"
         }
       ]
     },
@@ -2894,7 +2898,7 @@
     },
     {
       "name": "DISNEY JR",
-      "category": "Infantil",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
@@ -5577,7 +5581,7 @@
     },
     {
       "name": "Netflix 2 Kids",
-      "category": "Infantil",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
@@ -7800,7 +7804,7 @@
     },
     {
       "name": "FMH kids",
-      "category": "Infantil",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
@@ -8194,6 +8198,7 @@
     }
   ]
 }
+
 
 
 
