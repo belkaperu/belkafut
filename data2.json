@@ -22,7 +22,7 @@
     },
     { 
       "name": "Infantiles",
-      "icon": "🧸", 
+      "icon": "🧒", 
       "display_name": "Contenido Infantil"
     },
     {
@@ -8117,6 +8117,7 @@
     }
   ]
 }
+
 
 
 
