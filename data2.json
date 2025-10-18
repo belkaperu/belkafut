@@ -1253,6 +1253,10 @@
         },      {
           "name": "5",
           "url": "http://104.238.205.28:8989/299274_.m3u8"
+        },
+         {
+          "name": "6",
+          "url": "http://200.92.227.238:8000/play/a0tj/index.m3u8"
         }
         
       ]
@@ -1465,6 +1469,10 @@
            {
           "name": "4",
           "url": "http://200.92.227.238:8000/play/a0tf/index.m3u8"
+        } ,
+           {
+          "name": "5",
+          "url": "http://200.92.227.238:8000/play/a0tl/index.m3u8"
         } 
       ]
     },
@@ -1476,6 +1484,14 @@
         {
           "name": "1",
           "url": "http://104.238.205.28:8989/299300_.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://104.238.205.28:8989/299300_.m3u8"
+        },
+              {
+          "name": "3",
+          "url": "http://200.92.227.238:8000/play/a0tk/index.m3u8"
         }
       ]
     },
@@ -1507,6 +1523,14 @@
             {
           "name": "2",
           "url": "http://181.78.106.127:9000/play/ca036/index.m3u8"
+        },
+        {
+          "name": "3",
+          "url": "http://200.92.227.238:8000/play/a0ti/index.m3u8"
+        },
+          {
+          "name": "4",
+          "url": "http://200.92.227.238:8000/play/a0tg/index.m3u8"
         }
       ]
     },
@@ -2555,7 +2579,11 @@
           {
           "name": "5",
           "url": "http://104.238.205.28:8989/278601_.m3u8"
-        } 
+        } ,
+                  {
+          "name": "6",
+          "url": "http://200.92.227.238:8000/play/a0uy/index.m3u8"
+        }
       ]
     },
     {
@@ -3959,6 +3987,10 @@
         {
           "name": "4",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278437/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+             {
+          "name": "5",
+          "url": "http://200.92.227.238:8000/play/a0oc/index.m3u8"
         }
       ]
     },
@@ -4131,6 +4163,10 @@
         {
           "name": "5",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278415/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+             {
+          "name": "6",
+          "url": "http://200.92.227.238:8000/play/a0on/index.m3u8"
         }
       ]
     },
@@ -4270,6 +4306,10 @@
         {
           "name": "3",
           "url": "http://45.71.254.1:8000/play/a0a1/index.m3u8"
+        },
+              {
+          "name": "4",
+          "url": "http://200.92.227.238:8000/play/a0sl/index.m3u8"
         }
       ]
     },
@@ -4874,7 +4914,11 @@
                  {
           "name": "5",
           "url": "http://104.238.205.28:8989/278330_.m3u8"
-        } 
+        } ,
+           {
+          "name": "6",
+          "url": "http://200.92.227.238:8000/play/a0uu/index.m3u8"
+        }
       ]
     },
     {
@@ -7988,6 +8032,7 @@
     }
   ]
 }
+
 
 
 
