@@ -881,31 +881,22 @@
         {
           "name": "14",
           "url": "http://181.119.86.68:8000/play/b014/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "STAR CHANNEL HD",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://38.180.133.31:8000/play/a0p1/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "07.3STAR CHANNEL",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
+        },
+                {
+          "name": "15",
           "url": "http://179.49.163.34:45000/play/a020/index.m3u8"
+        },
+                {
+          "name": "16",
+          "url": "http://38.180.133.31:8000/play/a0p1/index.m3u8"
+        },
+            {
+          "name": "17",
+          "url": "http://200.92.227.238:8000/play/a0oa/index.m3u8"
         }
       ]
     },
+
     {
       "name": "SONY",
       "category": "Películas",
@@ -7965,6 +7956,7 @@
     }
   ]
 }
+
 
 
 
