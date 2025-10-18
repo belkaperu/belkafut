@@ -6419,6 +6419,10 @@
         {
           "name": "1",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278423/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+            {
+          "name": "2",
+          "url": "http://200.92.227.238:8000/play/a0mf/index.m3u8"
         }
       ]
     },
@@ -6430,6 +6434,10 @@
         {
           "name": "1",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278431/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+             {
+          "name": "2",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278431/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
         }
       ]
     },
@@ -6440,6 +6448,10 @@
       "servers": [
         {
           "name": "1",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278434/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+             {
+          "name": "2",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278434/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
         }
       ]
@@ -8118,6 +8130,7 @@
     }
   ]
 }
+
 
 
 
