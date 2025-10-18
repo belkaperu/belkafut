@@ -84,6 +84,10 @@
         {
           "name": "7",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278508/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+            {
+          "name": "8",
+          "url": "http://200.92.227.238:8000/play/a0mu/index.m3u8"
         }
       ]
     },
@@ -98,21 +102,7 @@
         }
       ]
     },
-    {
-      "name": "HBO Family HD",
-      "category": "Películas",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://38.180.133.31:8000/play/a0le/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://181.143.230.202:8000/play/a02p/index.m3u8"
-        }
-      ]
-    },
+
         {
       "name": "Sports Africa 1",
       "category": "Deportes",
@@ -1475,7 +1465,11 @@
            {
           "name": "5",
           "url": "http://200.92.227.238:8000/play/a0tl/index.m3u8"
-        } 
+        } ,
+             {
+          "name": "6",
+          "url": "http://200.92.227.238:8000/play/a0nb/index.m3u8"
+        }
       ]
     },
     {
@@ -3467,6 +3461,18 @@
         {
           "name": "6",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278496/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+             {
+          "name": "7",
+          "url": "http://200.92.227.238:8000/play/a0mt/index.m3u8"
+        },
+                {
+          "name": "8",
+          "url": "http://38.180.133.31:8000/play/a0le/index.m3u8"
+        },
+        {
+          "name": "9",
+          "url": "http://181.143.230.202:8000/play/a02p/index.m3u8"
         }
       ]
     },
@@ -3843,6 +3849,10 @@
         {
           "name": "3",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278488/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+            {
+          "name": "4",
+          "url": "http://200.92.227.238:8000/play/a0mq/index.m3u8"
         }
       ]
     },
@@ -8086,6 +8096,7 @@
     }
   ]
 }
+
 
 
 
