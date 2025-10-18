@@ -4475,6 +4475,67 @@
         }
       ]
     },
+        {
+      "name": "COSMOTE SPORT 1",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5702.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5702.m3u8"
+        }
+      ]
+    },
+            {
+      "name": "COSMOTE SPORT 2",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5703.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5703.m3u8"
+        }
+      ]
+    },
+            {
+      "name": "COSMOTE SPORT 3",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5704.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5704.m3u8"
+        }
+      ]
+    },
+            {
+      "name": "COSMOTE SPORT 8",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5709.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5709.m3u8"
+        }
+      ]
+    },
+
     {
       "name": "CANAL 7",
       "category": "General",
@@ -8238,6 +8299,7 @@
     }
   ]
 }
+
 
 
 
