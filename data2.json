@@ -688,18 +688,7 @@
         
       ]
     },
- 
-    {
-      "name": "FX HD",
-      "category": "Series",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.115.96.66:4000/play/a0he/index.m3u8"
-        }
-      ]
-    },
+
     {
       "name": "FX",
       "category": "Series",
@@ -744,6 +733,18 @@
         {
           "name": "10",
           "url": "http://181.119.86.68:8000/play/b002/index.m3u8"
+        },
+           {
+          "name": "11",
+          "url": "http://200.92.227.238:8000/play/a0me/index.m3u8"
+        },
+                {
+          "name": "12",
+          "url": "http://200.115.96.66:4000/play/a0he/index.m3u8"
+        },
+             {
+          "name": "13",
+          "url": "http://181.119.86.68:8000/play/c006/index.m3u8"
         }
       ]
     },
@@ -5259,17 +5260,7 @@
         }
       ]
     },
-    {
-      "name": "FXHD",
-      "category": "Series",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.119.86.68:8000/play/c006/index.m3u8"
-        }
-      ]
-    },
+
     {
       "name": "FMH MUVIES",
       "category": "General",
@@ -8134,6 +8125,7 @@
     }
   ]
 }
+
 
 
 
