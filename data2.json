@@ -1041,6 +1041,7 @@
       ]
     },
     
+    
     {
       "name": "Las Estrellas",
       "category": "General",
@@ -1080,12 +1081,32 @@
       ]
     },
     {
+      "name": "LAS",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://200.92.227.238:8000/play/a0nd/index.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://200.92.227.238:8000/play/a0nd/index.m3u8"
+        }
+      ]
+    },
+    
+    {
       "name": "Asteca 7",
       "category": "General",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
+          "url": "http://181.78.106.127:9000/play/ca023/index.m3u8"
+        },
+             {
+          "name": "2",
           "url": "http://181.78.106.127:9000/play/ca023/index.m3u8"
         }
       ]
@@ -8096,6 +8117,7 @@
     }
   ]
 }
+
 
 
 
