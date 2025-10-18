@@ -30,6 +30,11 @@
       "icon": "🎵", 
      "display_name":  "Música y Videos"
     },
+     {
+      "name": "Documental",
+      "icon": "🕵🏼‍♂️", 
+     "display_name":  "Documental"
+    },
     {
       "name": "Peru",
       "icon": "🇵🇪", 
@@ -3632,8 +3637,12 @@
               {
           "name": "10",
           "url": "http://200.92.227.238:8000/play/a0tm/index.m3u8"
-        } 
+        } ,
         
+                {
+          "name": "11",
+          "url": "http://200.92.227.238:8000/play/a0th/index.m3u8"
+        }
       ]
     },
 
@@ -4438,7 +4447,7 @@
     },
     {
       "name": "DISCOVERY CHANNEL",
-      "category": "Series",
+      "category": "Documental",
       "imageUrl": "",
       "servers": [
         {
@@ -4447,9 +4456,25 @@
         }
       ]
     },
+   {
+      "name": "DISCOVERY TEATER",
+      "category": "Documental",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://200.92.227.238:8000/play/a0ok/index.m3u8"
+        },
+                {
+          "name": "2",
+          "url": "http://200.92.227.238:8000/play/a0ok/index.m3u8"
+        }
+      ]
+    },
+    
     {
       "name": "HISTORY",
-      "category": "Series",
+      "category": "Documental",
       "imageUrl": "",
       "servers": [
         {
@@ -4468,7 +4493,7 @@
     },
     {
       "name": "HISTORY 2",
-      "category": "Series",
+      "category": "Documental",
       "imageUrl": "",
       "servers": [
         {
@@ -4478,8 +4503,8 @@
       ]
     },
     {
-      "name": "ID",
-      "category": "General",
+      "name": "Discovery ID",
+      "category": "Documental",
       "imageUrl": "",
       "servers": [
         {
@@ -4575,7 +4600,7 @@
       ]
     },
     {
-      "name": "💢|➾TV CANAL SUR",
+      "name": "CANAL SUR",
       "category": "General",
       "imageUrl": "",
       "servers": [
@@ -4586,7 +4611,7 @@
       ]
     },
     {
-      "name": "💢|➾LAS ESTRELLAS 2.1",
+      "name": "LAS ESTRELLAS",
       "category": "General",
       "imageUrl": "",
       "servers": [
@@ -6293,6 +6318,10 @@
           {
           "name": "3",
           "url": "http://104.238.205.28:8989/278395_.m3u8"
+        },
+             {
+          "name": "4",
+          "url": "http://200.92.227.238:8000/play/a0ol/index.m3u8"
         }
       ]
     },
@@ -7653,11 +7682,15 @@
     },
     {
       "name": "DISCOVERY",
-      "category": "Series",
+      "category": "Documental",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
+          "url": "http://181.119.86.68:8000/play/b045/index.m3u8"
+        },
+            {
+          "name": "2",
           "url": "http://181.119.86.68:8000/play/b045/index.m3u8"
         }
       ]
@@ -8032,6 +8065,7 @@
     }
   ]
 }
+
 
 
 
