@@ -2509,7 +2509,7 @@
           "name": "1",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81065.m3u8"
         },
- {
+       {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81065.m3u8"
         }
@@ -2517,6 +2517,23 @@
       ]
     },
 
+    
+      {
+      "name": "CNN",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/91033.m3u8"
+        },
+       {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/91033.m3u8"
+        }
+        
+      ]
+    },
     
           {
       "name": "COZE TV",
@@ -2696,6 +2713,36 @@
         }
       ]
     },
+    
+    {
+      "name": "Box Tv",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/82833.m3u8"
+        },   {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/82833.m3u8"
+        }
+      ]
+    },
+    
+        {
+      "name": "ION",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/83204.m3u8"
+        },   {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/83204.m3u8"
+        }
+      ]
+    },
     {
       "name": "R.DOMINICANA",
       "category": "General",
@@ -2718,6 +2765,38 @@
         }
       ]
     },
+        {
+      "name": "Polsat Sports 3",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/86609.m3u8"
+        },
+              {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/86609.m3u8"
+        }
+      ]
+    },
+
+        {
+      "name": "Eleven Sports 1",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/90908.m3u8"
+        },
+              {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/90908.m3u8"
+        }
+      ]
+    },
+    
     {
       "name": "otra url",
       "category": "General",
@@ -3942,9 +4021,32 @@
         {
           "name": "3",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278862/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+             {
+          "name": "4",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/97239.m3u8"
+        },           {
+          "name": "5",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/97241.m3u8"
         }
+        
       ]
     },
+      {
+      "name": "Movistar +",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+             {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/97239.m3u8"
+        }, 
+        {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/97241.m3u8"
+        }
+      ]
+    },    
     {
       "name": "GOLPERU",
       "category": "PERU",
@@ -4998,7 +5100,7 @@
 
     {
       "name": "WILD",
-      "category": "General",
+      "category": "Documental",
       "imageUrl": "",
       "servers": [
         {
@@ -5009,10 +5111,29 @@
             {
           "name": "2",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278852/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+                  {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81214.m3u8"
         }
       ]
     },
-
+    {
+      "name": "LOVE NATURE",
+      "category": "Documental",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/94029.m3u8"
+        },
+      
+            {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/94029.m3u8"
+        }
+      ]
+    },
     
         {
       "name": "WILAX",
@@ -6844,7 +6965,11 @@
                 {
           "name": "4",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80096.m3u8"
-        }
+        },
+                {
+          "name": "5",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80096.m3u8"
+        } http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81162.m3u8
       ]
     },
        {
@@ -6858,6 +6983,10 @@
         },   {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80074.m3u8"
+        },
+         {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81161.m3u8"
         }
       ]
     },
@@ -7318,6 +7447,10 @@
         },
         {
           "name": "2",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278805/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+            {
+          "name": "3",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278805/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
         }
       ]
@@ -8863,6 +8996,7 @@
     }
   ]
 }
+
 
 
 
