@@ -173,7 +173,23 @@
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/17628.m3u8"
         }
       ]
-    } ,  
+    } , 
+        {
+      "name": "beIN Sports USA",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80196.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80196.m3u8"
+        }
+      ]
+    } , 
+    
     {
       "name": "beIN Sports Tr 2",
       "category": "Deportes",
@@ -234,6 +250,10 @@
         {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/7538.m3u8"
+        },
+           {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18802.m3u8"
         }
       ]
     } ,
@@ -945,6 +965,10 @@
                 {
           "name": "18",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5365.m3u8"
+        },
+                  {
+          "name": "19",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81074.m3u8"
         }
       ]
     },
@@ -1040,6 +1064,14 @@
         {
           "name": "1",
           "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278932.m3u8"
+        },
+            {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80016.m3u8"
+        },
+                 {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80017.m3u8"
         }
       ]
     },
@@ -1075,6 +1107,10 @@
   {
           "name": "7",
           "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278940.m3u8"
+        },
+         {
+          "name": "8",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80057.m3u8"
         }
       ]
     },
@@ -1285,6 +1321,23 @@
         }
       ]
     },
+
+    {
+      "name": "Nickjr",
+      "category": "Infantiles",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80053.m3u8"
+        },
+            {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80053.m3u8"
+        }
+      ]
+    },
+    
     {
       "name": "Dreanwork",
       "category": "General",
@@ -2059,7 +2112,11 @@
          {
           "name": "7",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278767/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        } 
+        } ,
+             {
+          "name": "8",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80097.m3u8"
+        }
       ]
     },
 
@@ -2098,6 +2155,73 @@
       ]
     },
 
+           {
+      "name": "Voo Sports",
+      "category": "Francia",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80144.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80145.m3u8"
+        },
+                {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80147.m3u8"
+        } 
+      ]
+    }, 
+           {
+      "name": "Voo Sports 2",
+      "category": "Francia",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80146.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80146.m3u8"
+        }
+      ]
+    }, 
+
+    
+               {
+      "name": "France TV",
+      "category": "Francia",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80147.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80191.m3u8"
+        }
+      ]
+    },
+    
+               {
+      "name": "Serie Club",
+      "category": "Francia",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80189.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80189.m3u8"
+        }
+      ]
+    },
     
     {
       "name": "Fox Sports mx",
@@ -2299,7 +2423,7 @@
     },
    
     {
-      "name": "CANAL 9 IXCHIGUÁN | GT",
+      "name": "CANAL 9 IXCHIGUÁN ",
       "category": "General",
       "imageUrl": "",
       "servers": [
@@ -2308,7 +2432,24 @@
           "url": "https://cdn.streamhispanatv.net:3859/live/ixchiguanlive.m3u8"
         }
       ]
-    },    {
+    }, 
+    
+        {
+      "name": "SPORTS 9 ",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80209.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80209.m3u8"
+        }
+      ]
+    }, 
+    {
       "name": "ESPN 3 BR",
       "category": "Brasil",
       "imageUrl": "",
@@ -2316,9 +2457,29 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/3365.m3u8"
+        },
+              {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/3365.m3u8"
         }
       ]
     },
+        {
+      "name": "Band Sports",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81021.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81021.m3u8"
+        }
+      ]
+    },
+    
       {
       "name": "ESPN BR",
       "category": "Brasil",
@@ -2331,9 +2492,64 @@
                {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5337.m3u8"
+        },           {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81063.m3u8"
+        }
+        
+      ]
+    },
+
+      {
+      "name": "ESPN 2 BR",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81065.m3u8"
+        },
+ {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81065.m3u8"
+        }
+        
+      ]
+    },
+
+    
+          {
+      "name": "COZE TV",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81044.m3u8"
+        },
+               {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81044.m3u8"
         }
       ]
     },
+
+      {
+      "name": "COMBATE",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81039.m3u8"
+        },
+               {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81039.m3u8"
+        }
+      ]
+    },
+    
       {
       "name": "ESPN5 BR",
       "category": "Brasil",
@@ -2345,12 +2561,53 @@
         },
                {
           "name": "2",
-          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/10615.m3u8"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80009.m3u8"
+        },
+                     {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80045.m3u8"
         }
       ]
     },
     
-   
+                 {
+      "name": "ESPN6 BR",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80066.m3u8"
+        },
+               {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80066.m3u8"
+        },
+                      {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81060.m3u8"
+        } ,
+         {
+          "name": "4",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81061.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN4 BR",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80008.m3u8"
+        },
+               {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80008.m3u8"
+        }
+      ]
+    },
     {
       "name": "IU TV HD",
       "category": "General",
@@ -4731,7 +4988,11 @@
                            {
           "name": "7",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5344.m3u8"
-        }
+        },
+               {
+          "name": "7",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80052.m3u8"
+        } 
       ]
     },
 
@@ -6294,7 +6555,7 @@
       ]
     },
         {
-      "name": "ESPN usa",
+      "name": "ESPN USA",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
@@ -6308,6 +6569,22 @@
         }
       ]
     },
+        {
+      "name": "ESPN  2 USA",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": " http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80210.m3u8"
+        },
+            {
+          "name": "2",
+          "url": " http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80210.m3u8"
+        }
+      ]
+    },
+   
     
     {
       "name": "TNT SPORTS HD",
@@ -6522,7 +6799,7 @@
     },
     {
       "name": "SPORTV 3",
-      "category": "Deportes",
+      "category": "Brasil",
       "imageUrl": "",
       "servers": [
         {
@@ -6532,12 +6809,24 @@
           {
           "name": "2",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278944/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
-        }
+        },
+            {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80043.m3u8"
+        },
+               {
+          "name": "4",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80075.m3u8"
+        },
+                     {
+          "name": "5",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81103.m3u8"
+        } 
       ]
     },
    {
       "name": "SPORTV",
-      "category": "Deportes",
+      "category": "Brasil",
       "imageUrl": "",
       "servers": [
         {
@@ -6547,9 +6836,50 @@
           {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/5336.m3u8"
+        },
+              {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80073.m3u8"
+        },
+                {
+          "name": "4",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80096.m3u8"
         }
       ]
     },
+       {
+      "name": "SPORTV 2 ",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80074.m3u8"
+        },   {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80074.m3u8"
+        }
+      ]
+    },
+
+       {
+      "name": "GE TV",
+      "category": "Brasil",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81133.m3u8"
+        },   {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81133.m3u8"
+        }
+      ]
+    },
+
+
+
+
     
     {
       "name": "SPORTV 1 PT",
@@ -6584,7 +6914,7 @@
     
     {
       "name": "PREMIERE",
-      "category": "General",
+      "category": "Brasil",
       "imageUrl": "",
       "servers": [
         {
@@ -7073,6 +7403,10 @@
            {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/13657.m3u8"
+        },
+                {
+          "name": "3",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80224.m3u8"
         }
       ]
     },
@@ -7093,7 +7427,7 @@
     },
     {
       "name": "DAZN LA LIGA",
-      "category": "General",
+      "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
@@ -7102,6 +7436,38 @@
         }
       ]
     },
+    {
+      "name": "Prima Sports 3",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80949.m3u8"
+        },
+            {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80949.m3u8"
+        }
+      ]
+    },
+
+    {
+      "name": "Prima Sports 6",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80963.m3u8"
+        },
+            {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/80963.m3u8"
+        }
+      ]
+    },
+    
     {
       "name": "Eurosports 1",
       "category": "Deportes",
@@ -8497,6 +8863,7 @@
     }
   ]
 }
+
 
 
 
