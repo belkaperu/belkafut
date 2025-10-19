@@ -7584,9 +7584,29 @@
         {
           "name": "1",
           "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278828/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+        },
+                {
+          "name": "2",
+          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278828/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
         }
       ]
     },
+    {
+      "name": "LaLiga TV Hypermotion",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/110120.m3u8"
+        },
+             {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/110120.m3u8"
+        }
+      ]
+    },
+    
     {
       "name": "Prima Sports 3",
       "category": "Deportes",
@@ -9014,6 +9034,7 @@
     }
   ]
 }
+
 
 
 
