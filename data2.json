@@ -2115,7 +2115,11 @@
             {
           "name": "3",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/62248.m3u8"
-        } 
+        } ,  {
+          "name": "4",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18589.m3u8"
+        }
+        
       ]
     }, 
     {
@@ -2171,6 +2175,38 @@
         {
           "name": "2",
           "url": "http://181.78.106.127:9000/play/ca029/index.m3u8"
+        }
+      ]
+    },
+
+    {
+      "name": "Astro Cricket",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18629.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18629.m3u8"
+        }
+      ]
+    },
+    
+        {
+      "name": "Astro Arena",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18632.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18632.m3u8"
         }
       ]
     },
@@ -3398,7 +3434,22 @@
         }
       ]
     },
-
+    
+    {
+      "name": "Animal Planet EN",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18636.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18636.m3u8"
+        }
+      ]
+    },
     {
       "name": "Telepacifico",
       "category": "General",
@@ -6995,7 +7046,21 @@
       ]
     },
 
-
+        {
+      "name": "DAZN 2 GR",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18393.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/18393.m3u8"
+        }
+      ]
+    },
         {
       "name": "DAZN 2 PT",
       "category": "General",
@@ -8432,6 +8497,7 @@
     }
   ]
 }
+
 
 
 
