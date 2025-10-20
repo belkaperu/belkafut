@@ -997,31 +997,35 @@
         {
           "name": "5",
           "url": "http://179.51.136.19:8000/play/a1bq/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "SONY HD",
-      "category": "Películas",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
+        },
+                {
+          "name": "6",
           "url": "http://38.180.133.31:8000/play/a0p3/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "05.2Sony",
-      "category": "Películas",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
+        },
+             {
+          "name": "7",
           "url": "http://38.180.133.31:8000/play/a0oo/index.m3u8"
         }
       ]
     },
+
+        {
+      "name": "SONY Sports 2",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/43595.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/43595.m3u8"
+        }
+      ]
+    },
+    
+
     {
       "name": "2031 cine premiun",
       "category": "Películas",
@@ -9069,6 +9073,7 @@
     }
   ]
 }
+
 
 
 
