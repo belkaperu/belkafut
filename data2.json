@@ -9399,7 +9399,7 @@
   {
     "name": "beIN Sports 1 QA",
     "category": "Deportes",
-    "imageUrl": "",
+    "imageUrl": "https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png",
     "servers": [
       {
         "name": "1",
@@ -11200,6 +11200,7 @@
     }
   ]
 }
+
 
 
 
