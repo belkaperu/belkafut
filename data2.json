@@ -160,6 +160,23 @@
     } , 
 
         {
+      "name": "beIN Sports news",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98104"
+        },
+        {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98104"
+        }
+      ]
+    } , 
+
+        
+        {
       "name": "beIN Sports Tr",
       "category": "Deportes",
       "imageUrl": "",
@@ -9106,6 +9123,7 @@
     }
   ]
 }
+
 
 
 
