@@ -9110,6 +9110,2083 @@
         }
       ]
     },
+
+{
+    "name": "beIN Sports News HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98104"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98104"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98103"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98103"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports NBA HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98102"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98102"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports NBA FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98101"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98101"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 1 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98100"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98100"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98099"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98099"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 1 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98098"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98098"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 2 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98097"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98097"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98096"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98096"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 2 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98095"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98095"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 3 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98094"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98094"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 3 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98093"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98093"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports English 3 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98092"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98092"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports French 1 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98091"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98091"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports French 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98090"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98090"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports French 1 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98089"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98089"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports French 2 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98088"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98088"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports French 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98087"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98087"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports French 2 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98086"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98086"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 1 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98085"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98085"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98084"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98084"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 1 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98083"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98083"
+      }
+    ]
+  },
+  {
+    "name": "Bein Sports 1 4K QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/118408"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/118408"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 2 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98082"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98082"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98081"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98081"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 2 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98080"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98080"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 3 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98079"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98079"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 3 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98078"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98078"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 3 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98077"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98077"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 4 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98076"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98076"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 4 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98075"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98075"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 4 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98074"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98074"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 5 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98073"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98073"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 5 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98072"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98072"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 5 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98071"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98071"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 6 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98070"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98070"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 6 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98069"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98069"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 6 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98068"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98068"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 7 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98067"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98067"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 7 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98066"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98066"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 7 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98065"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98065"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 1 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98064"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98064"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98063"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98063"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 1 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98062"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98062"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 2 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98061"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98061"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98060"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98060"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 2 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98059"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98059"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 3 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98058"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98058"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 3 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98057"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98057"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Premium 3 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98056"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/98056"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Xtra 1 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109988"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109988"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Xtra 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109987"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109987"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Xtra 1 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109986"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109986"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Xtra 2 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109991"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109991"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Xtra 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109990"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109990"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Xtra 2 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109989"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109989"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 1 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109999"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109999"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110003"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110003"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 1 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110007"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110007"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 2 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109998"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109998"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110002"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110002"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 2 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110006"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110006"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 3 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109997"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109997"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 3 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110001"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110001"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 3 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110005"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110005"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 4 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117157"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117157"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC 5 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117158"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117158"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC Global QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110000"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110000"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC Global HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110004"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110004"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports AFC Global FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110008"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110008"
+      }
+    ]
+  },
+  {
+    "name": "Bein Sports MAX 1 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117163"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117163"
+      }
+    ]
+  },
+  {
+    "name": "Bein Sports MAX 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117166"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117166"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Max 1 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120008"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120008"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Max 2 QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120010"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120010"
+      }
+    ]
+  },
+  {
+    "name": "Bein Sports MAX 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117162"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117162"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Max 2 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120009"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120009"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Max 3 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120012"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120012"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports Max 3 FHD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120011"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/120011"
+      }
+    ]
+  },
+  {
+    "name": "Bein Sports Asian 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117159"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117159"
+      }
+    ]
+  },
+  {
+    "name": "Bein Sports Asian 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117160"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117160"
+      }
+    ]
+  },
+  {
+    "name": "Bein Sports Asian 3 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117161"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117161"
+      }
+    ]
+  },
+  {
+    "name": "Bein AFCON 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117165"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117165"
+      }
+    ]
+  },
+  {
+    "name": "Bein AFCON 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117164"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117164"
+      }
+    ]
+  },
+  {
+    "name": "Alkass 1 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109996"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109996"
+      }
+    ]
+  },
+  {
+    "name": "Alkass 2 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109995"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109995"
+      }
+    ]
+  },
+  {
+    "name": "Alkass 3 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109994"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109994"
+      }
+    ]
+  },
+  {
+    "name": "Alkass 4 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109993"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109993"
+      }
+    ]
+  },
+  {
+    "name": "Alkass 5 HD QA",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109992"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109992"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 1 FHD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128864"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128864"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 2 FHD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128863"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128863"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 3 FHD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128862"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128862"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 4 FHD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128861"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128861"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 5 FHD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128860"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128860"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 6 FHD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128859"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128859"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 1 HD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128858"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128858"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 2 HD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128857"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128857"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 3 HD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128856"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128856"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 4 HD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128855"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128855"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 5 HD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128854"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128854"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 6 HD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128853"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128853"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 1 SD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128852"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128852"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 2 SD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128851"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128851"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 3 SD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128850"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128850"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 4 SD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128849"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128849"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 5 SD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128848"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128848"
+      }
+    ]
+  },
+  {
+    "name": "Alwan Sport 6 SD VIP Arb",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128847"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128847"
+      }
+    ]
+  },
+  {
+    "name": "AD Sport Premium 2 FHD AR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110607"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110607"
+      }
+    ]
+  },
+  {
+    "name": "AD Sport Premium 1 FHD AR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110606"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110606"
+      }
+    ]
+  },
+  {
+    "name": "AlKass 4 HD QA ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106999"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106999"
+      }
+    ]
+  },
+  {
+    "name": "AlKass 3 HD QA ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106998"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106998"
+      }
+    ]
+  },
+  {
+    "name": "AlKass 2 HD QA ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106997"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106997"
+      }
+    ]
+  },
+  {
+    "name": "AlKass 1 HD QA ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106996"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106996"
+      }
+    ]
+  },
+  {
+    "name": "Abu Dhabi Sports 1 ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/3524"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/3524"
+      }
+    ]
+  },
+  {
+    "name": "Abu Dhabi Sports 2 ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/3523"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/3523"
+      }
+    ]
+  },
+  {
+    "name": "Abu Dhabi Sports 3 ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/21095"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/21095"
+      }
+    ]
+  },
+  {
+    "name": "ON TIME Sports 1 FHD ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/103342"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/103342"
+      }
+    ]
+  },
+  {
+    "name": "ON TIME Sports 2 FHD ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/103343"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/103343"
+      }
+    ]
+  },
+  {
+    "name": "ON TIME Sports 3 FHD ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/103344"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/103344"
+      }
+    ]
+  },
+  {
+    "name": "TNT Al Arryadia HD ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/114084"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/114084"
+      }
+    ]
+  },
+  {
+    "name": "Bahrain Sport 1 HD ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4981"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4981"
+      }
+    ]
+  },
+  {
+    "name": "Bahrain Sport 2 HD ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4980"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4980"
+      }
+    ]
+  },
+  {
+    "name": "Dubai Sport 1 ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/2363"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/2363"
+      }
+    ]
+  },
+  {
+    "name": "Dubai Sport 2 ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/2362"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/2362"
+      }
+    ]
+  },
+  {
+    "name": "Dubai Sport 3 ARB",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/2361"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/2361"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS 1 FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/417"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/417"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS 1 SD+ FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/7538"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/7538"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS 1 HD FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/418"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/418"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS 2 FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/415"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/415"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS 2 HD FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/416"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/416"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS 3 FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/413"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/413"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS 3 HD FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/414"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/414"
+      }
+    ]
+  },
+  {
+    "name": "beIN Sports 4K Ultra (BackUP) FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110712"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/110712"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS MAX 4 HD FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4090"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4090"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS MAX 5 HD FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4089"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4089"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS MAX 6 HD FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4088"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4088"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS MAX 7 HD FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4087"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/4087"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS MAX 8 FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/7536"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/7536"
+      }
+    ]
+  },
+  {
+    "name": "beIN SPORTS MAX 8 HD FR",
+    "category": "Deportes",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/7537"
+      },
+      {
+        "name": "2",
+        "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/7537"
+      }
+    ]
+  },
+
+
+
+
+
+    
     {
       "name": "2025 9:00 PM EST)",
       "category": "General",
@@ -9123,6 +11200,7 @@
     }
   ]
 }
+
 
 
 
