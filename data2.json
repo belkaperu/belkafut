@@ -10269,7 +10269,7 @@
   {
     "name": "beIN Sports Max 3 FHD QA",
     "category": "Deportes",
-    "imageUrl": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX3_DIGITAL_Mono.png"",
+    "imageUrl": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX3_DIGITAL_Mono.png",
     "servers": [
       {
         "name": "1",
@@ -11634,6 +11634,7 @@
     }
   ]
 }
+
 
 
 
