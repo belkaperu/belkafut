@@ -9399,7 +9399,7 @@
   {
     "name": "beIN Sports 1 QA",
     "category": "Deportes",
-    "imageUrl": "",
+    "imageUrl": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
     "servers": [
       {
         "name": "1",
@@ -9414,7 +9414,7 @@
   {
     "name": "beIN Sports 1 HD QA",
     "category": "Deportes",
-    "imageUrl": "",
+    "imageUrl": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
     "servers": [
       {
         "name": "1",
@@ -9429,7 +9429,7 @@
   {
     "name": "beIN Sports 1 FHD QA",
     "category": "Deportes",
-    "imageUrl": "",
+    "imageUrl": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
     "servers": [
       {
         "name": "1",
@@ -9444,7 +9444,7 @@
   {
     "name": "Bein Sports 1 4K QA",
     "category": "Deportes",
-    "imageUrl": "",
+    "imageUrl": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
     "servers": [
       {
         "name": "1",
@@ -11634,6 +11634,7 @@
     }
   ]
 }
+
 
 
 
