@@ -11182,13 +11182,447 @@
     ]
   },
 
-
+  {
+    "name": "France 2 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/France_2_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/France_2_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "France 3 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/France_3_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/France_3_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "France 4 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/France_4_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/France_4_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "France 5 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/France_5_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/France_5_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Canal+ HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Canal+_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Canal+_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Canal+ Cinema HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Comedie+ HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Comedie+_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Comedie+_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "ARTE HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/ARTE_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/ARTE_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Paris Premiere HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Paris_Premiere_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Paris_Premiere_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "AB1 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/AB1/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/AB1/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "RTL 9 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/RTL9/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/RTL9/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "TF1 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/TF1_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/TF1_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Teva HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Teva_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Teva_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "National Geo HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/National_Geo_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/National_Geo_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Histoire HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Histoire/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Histoire/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Discovery HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Discovery_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Discovery_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "#EXTINF:-0.RMC DECOUVERDE",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/RMC_Decouverte_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/RMC_Decouverte_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "M6 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/M6_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/M6_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "W9 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/W9_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/W9_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "NRJ_12 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/NRJ_12_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/NRJ_12_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "TRACE URBAN",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Trace_Urban_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Trace_Urban_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "D17 CSTAR HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/D17_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/D17_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "CANAL+ Sport",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Canal+_sport_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Canal+_sport_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "GOLF+",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/GOLF+_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/GOLF+_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Euro Sport HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Euro Sport 2 HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Disney HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Disney_Channel_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Disney_Channel_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "Tiji HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/Tiji_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/Tiji_HD/index.m3u8"
+      }
+    ]
+  },
+  {
+    "name": "LCI HD",
+    "category": "Francia",
+    "imageUrl": "",
+    "servers": [
+      {
+        "name": "1",
+        "url": "http://151.80.18.177:86/LCI_HD/index.m3u8"
+      },
+      {
+        "name": "2",
+        "url": "http://151.80.18.177:86/LCI_HD/index.m3u8"
+      }
+    ]
+  },
 
 
 
     
     {
-      "name": "2025 9:00 PM EST)",
+      "name": "Unknown",
       "category": "General",
       "imageUrl": "",
       "servers": [
@@ -11200,6 +11634,7 @@
     }
   ]
 }
+
 
 
 
