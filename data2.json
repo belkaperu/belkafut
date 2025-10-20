@@ -162,7 +162,7 @@
         {
       "name": "beIN Sports news",
       "category": "Deportes",
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sports_News_ar.png",
       "servers": [
         {
           "name": "1",
@@ -11200,6 +11200,7 @@
     }
   ]
 }
+
 
 
 
