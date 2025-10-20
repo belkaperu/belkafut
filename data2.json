@@ -1024,7 +1024,37 @@
         }
       ]
     },
-    
+
+            {
+      "name": "SONY Sports 1",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/43596.m3u8"
+        },
+           {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/43596.m3u8"
+        }
+      ]
+    },
+               {
+      "name": "ZDF",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd"
+        },
+           {
+          "name": "2",
+          "url": "https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-dash/zdfhd.mpd"
+        }
+      ]
+    }, 
 
     {
       "name": "2031 cine premiun",
@@ -9073,6 +9103,7 @@
     }
   ]
 }
+
 
 
 
