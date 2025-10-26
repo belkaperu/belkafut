@@ -4847,11 +4847,11 @@
       "servers": [
         {
           "name": "1",
-          "url": "http://max4kk-us-rkdyiptv.wasmer.app/play.php?id=2280"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/2561.m3u8"
         },
         {
           "name": "2",
-          "url": "http://max4kk-us-rkdyiptv.wasmer.app/play.php?id=2280"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/2561.m3u8"
         }
       ]
     },
@@ -9274,6 +9274,7 @@
     }
   ]
 }
+
 
 
 
