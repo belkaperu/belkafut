@@ -4847,7 +4847,7 @@
       "servers": [
         {
           "name": "1",
-          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/2561.m3u8"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/128360.m3u8"
         },
         {
           "name": "2",
@@ -4862,7 +4862,7 @@
       "servers": [
         {
           "name": "1",
-          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/94029.m3u8"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/128343.m3u8"
         },
         {
           "name": "2",
@@ -8344,6 +8344,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109988"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/109988"
         }
       ]
     },
@@ -8467,6 +8471,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117158"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/117158"
         }
       ]
     },
@@ -8553,6 +8561,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128863"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128863"
         }
       ]
     },
@@ -8563,6 +8575,10 @@
       "servers": [
         {
           "name": "1",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128862"
+        },
+                {
+          "name": "2",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128862"
         }
       ]
@@ -8590,6 +8606,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128860"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128860"
         }
       ]
     },
@@ -8600,6 +8620,10 @@
       "servers": [
         {
           "name": "1",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128859"
+        },
+                {
+          "name": "2",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128859"
         }
       ]
@@ -8627,6 +8651,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128857"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128857"
         }
       ]
     },
@@ -8637,6 +8665,10 @@
       "servers": [
         {
           "name": "1",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128856"
+        },
+                {
+          "name": "2",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128856"
         }
       ]
@@ -8664,6 +8696,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128854"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128854"
         }
       ]
     },
@@ -8674,6 +8710,10 @@
       "servers": [
         {
           "name": "1",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128852"
+        },
+                {
+          "name": "2",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128852"
         }
       ]
@@ -8686,6 +8726,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128851"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128851"
         }
       ]
     },
@@ -8697,6 +8741,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128850"
+        },
+               {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128850"
         }
       ]
     },
@@ -8707,6 +8755,10 @@
       "servers": [
         {
           "name": "1",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128849"
+        },
+                {
+          "name": "2",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128849"
         }
       ]
@@ -8734,6 +8786,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128847"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/128847"
         }
       ]
     },
@@ -8745,6 +8801,10 @@
         {
           "name": "1",
           "url": "http://portal.geniptv.com:8080/dmtndmtnkimo/a7GPMeArdf/106999"
+        },
+            {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/106999"
         }
       ]
     },
@@ -9274,6 +9334,7 @@
     }
   ]
 }
+
 
 
 
