@@ -160,6 +160,82 @@
       ]
     },
     {
+      "name": "Sport 2",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104061.m3u8"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104061.m3u8"
+        }
+      ]
+    },
+
+        {
+      "name": "Sport 4",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104062.m3u8"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104062.m3u8"
+        }
+      ]
+    },          
+    {
+      "name": "Sport 5",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104063.m3u8"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104063.m3u8"
+        }
+      ]
+    },
+            {
+      "name": "Sport 6",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104064.m3u8"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104064.m3u8"
+        }
+      ]
+    },
+                {
+      "name": "Arena/4",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104360.m3u8"
+        },
+                {
+          "name": "2",
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104360.m3u8"
+        }
+      ]
+    },
+    {
       "name": "beIN Sports USA",
       "category": "Deportes",
       "imageUrl": "",
@@ -6861,11 +6937,11 @@
       "servers": [
         {
           "name": "1",
-          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278824/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104463.m3u8"
         },
         {
           "name": "2",
-          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278825/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104463.m3u8"
         }
       ]
     },
@@ -6876,11 +6952,11 @@
       "servers": [
         {
           "name": "1",
-          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278826/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104473.m3u8"
         },
         {
           "name": "2",
-          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278826/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104474.m3u8"
         }
       ]
     },
@@ -6891,11 +6967,11 @@
       "servers": [
         {
           "name": "1",
-          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278828/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104462.m3u8"
         },
         {
           "name": "2",
-          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278828/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+          "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104462.m3u8"
         }
       ]
     },
@@ -9363,6 +9439,7 @@
     }
   ]
 }
+
 
 
 
