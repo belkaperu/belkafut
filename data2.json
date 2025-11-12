@@ -2440,6 +2440,10 @@
         {
           "name": "3",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/81063.m3u8"
+        },
+        	   {
+          "name": "4",
+          "url": "http://nexusmax.live/sidneymrt92/761383924/3528945.m3u8"
         }
       ]
     },
@@ -9439,6 +9443,7 @@
     }
   ]
 }
+
 
 
 
