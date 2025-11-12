@@ -4231,6 +4231,10 @@
         {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/97239.m3u8"
+        },
+             {
+          "name": "3",
+          "url": "http://88b9da48.kazmazpaz.ru:80/iptv/WW3PNTDHF52EAP/6077/manifest.m3u8"
         }
       ]
     },
@@ -9447,6 +9451,7 @@
     }
   ]
 }
+
 
 
 
