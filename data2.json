@@ -4226,7 +4226,7 @@
       "servers": [
         {
           "name": "1",
-          "url": "http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278862/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF"
+          "url": "http://88b9da48.kazmazpaz.ru:80/iptv/WW3PNTDHF52EAP/6070/manifest.m3u8"
         },
         {
           "name": "2",
@@ -6961,7 +6961,11 @@
         {
           "name": "2",
           "url": "http://portal.geniptv.com:8080/live/dmtndmtnkimo/a7GPMeArdf/104474.m3u8"
+        },    {
+          "name": "3",
+          "url": "http://88b9da48.kazmazpaz.ru:80/iptv/WW3PNTDHF52EAP/6071/manifest.m3u8"
         }
+        
       ]
     },
     {
@@ -9443,6 +9447,7 @@
     }
   ]
 }
+
 
 
 
