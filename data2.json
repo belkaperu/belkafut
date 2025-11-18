@@ -1077,6 +1077,18 @@
         {
           "name": "30",
           "url": "http://fortv.cc:8080/90820916/64752029/86765"
+        },
+                {
+          "name": "31",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278975.m3u8"
+        },
+        {
+          "name": "32",
+          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278976.m3u8"
+        },
+            {
+          "name": "33",
+          "url": "http://104.238.205.28:8989/299274_.m3u8"
         }
       ],
       "normalized_name": "espn",
@@ -1372,23 +1384,7 @@
       "normalized_name": "espn col",
       "source": "Existing JSON"
     },
-    {
-      "name": "ESPN HD",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278975.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278976.m3u8"
-        }
-      ],
-      "normalized_name": "espn",
-      "source": "Existing JSON"
-    },
+
     {
       "name": "ESPN MX",
       "category": "Deportes",
@@ -7606,6 +7602,10 @@
         {
           "name": "9",
           "url": "http://181.119.86.68:8000/play/b032/index.m3u8"
+        },
+          {
+          "name": "10",
+          "url": "http://104.238.205.28:8989/299273_.m3u8"
         }
       ]
     },
@@ -7819,7 +7819,7 @@
       ]
     },
     {
-      "name": "ESPN PERU 2 HD",
+      "name": "ESPN PERU 2",
       "category": "General",
       "imageUrl": "",
       "servers": [
@@ -7830,7 +7830,7 @@
       ]
     },
     {
-      "name": "ESPN PERU HD",
+      "name": "ESPN PERU ",
       "category": "General",
       "imageUrl": "",
       "servers": [
@@ -14657,3 +14657,4 @@
     }
   ]
 }
+
