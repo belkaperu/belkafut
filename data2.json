@@ -147,6 +147,10 @@
         {
           "name": "1",
           "url": "http://201.230.121.85:8000/play/a0yv/index.m3u8"
+        },
+             {
+          "name": 2",
+          "url": "http://201.230.121.85:8000/play/a0yv/index.m3u8"
         }
       ]
     },
@@ -201,6 +205,10 @@
         {
           "name": "1",
           "url": "http://45.5.117.57:8200/play/a032/index.m3u8"
+        },
+                {
+          "name": "2",
+          "url": "http://45.5.117.57:8200/play/a032/index.m3u8"
         }
       ]
     },
@@ -238,6 +246,10 @@
       "servers": [
         {
           "name": "1",
+          "url": "http://190.14.10.19:16000/play/a09e/index.m3u8"
+        },
+                {
+          "name": "2",
           "url": "http://190.14.10.19:16000/play/a09e/index.m3u8"
         }
       ]
@@ -416,6 +428,10 @@
         {
           "name": "1",
           "url": "https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0"
+        },
+                {
+          "name": "2",
+          "url": "https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0"
         }
       ]
     },
@@ -441,6 +457,10 @@
       "servers": [
         {
           "name": "1",
+          "url": "https://7pal.short.gy/ssportspl"
+        },
+                {
+          "name": "2",
           "url": "https://7pal.short.gy/ssportspl"
         }
       ]
