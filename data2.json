@@ -1346,17 +1346,6 @@
       ]
     },
     {
-      "name": "Cinemax  2",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://38.44.109.41:8003/play/a023/index.m3u8"
-        }
-      ]
-    },
-    {
       "name": "DARK",
       "category": "General",
       "imageUrl": "",
@@ -4050,17 +4039,6 @@
       ]
     },
     {
-      "name": "Star Sports 2 HD (1080p)",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://163.61.227.29:8000/play/a069/index.m3u8"
-        }
-      ]
-    },
-    {
       "name": "Sport Fishing TV",
       "category": "General",
       "imageUrl": "",
@@ -5165,28 +5143,6 @@
       ]
     },
     {
-      "name": "Bahrain Sports 1",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "Bahrain Sports 2",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8"
-        }
-      ]
-    },
-    {
       "name": "SPOOKY NIGHTS",
       "category": "General",
       "imageUrl": "",
@@ -5430,6 +5386,17 @@
         {
           "name": "1",
           "url": "https://live20.bozztv.com/akamaissh101/ssh101/vipmixflix/chunks.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TU UNIVERSO",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/playlist.m3u8"
         }
       ]
     }
