@@ -190,10 +190,6 @@
         {
           "name": "8",
           "url": "http://205.235.6.29:8000/play/a0wk/index.m3u8"
-        },
-        {
-          "name": "9",
-          "url": "http://45.228.234.30:16000/play/a01k/index.m3u8"
         }
       ]
     },
@@ -232,10 +228,6 @@
         {
           "name": "4",
           "url": "http://45.5.117.57:8999/play/a02b/index.m3u8"
-        },
-        {
-          "name": "5",
-          "url": "http://45.228.234.30:16000/play/a04b/index.m3u8"
         }
       ]
     },
@@ -262,10 +254,6 @@
         {
           "name": "1",
           "url": "http://181.205.130.194:4000/play/a07t"
-        },
-        {
-          "name": "2",
-          "url": "http://200.125.170.123:8000/play/a05y"
         },
         {
           "name": "3",
@@ -367,10 +355,6 @@
         {
           "name": "4",
           "url": "http://200.10.30.241:8000/play/a01r/index.m3u8"
-        },
-        {
-          "name": "5",
-          "url": "http://45.228.234.30:16000/play/a01l/index.m3u8"
         }
       ]
     },
@@ -857,18 +841,6 @@
         {
           "name": "1",
           "url": "http://181.78.85.53:9002/play/a04l/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236420.ts"
-        },
-        {
-          "name": "3",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236422.ts"
-        },
-        {
-          "name": "4",
-          "url": "http://45.228.234.30:16000/play/a00w/index.m3u8"
         }
       ]
     },
@@ -886,18 +858,6 @@
           "url": "http://45.5.117.57:8999/play/a04d/index.m3u8"
         },
         {
-          "name": "3",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236400.ts"
-        },
-        {
-          "name": "4",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236401.ts"
-        },
-        {
-          "name": "5",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236421.ts"
-        },
-        {
           "name": "6",
           "url": "http://45.5.117.57:8200/play/a016/index.m3u8"
         },
@@ -912,36 +872,6 @@
       ]
     },
     {
-      "name": "AXN MOVIES",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236398.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236399.ts"
-        }
-      ]
-    },
-    {
-      "name": "Antena 3",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236483.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236482.ts"
-        }
-      ]
-    },
-    {
       "name": "BEIN SPORTS 3",
       "category": "General",
       "imageUrl": "",
@@ -949,32 +879,6 @@
         {
           "name": "1",
           "url": "http://145.239.5.177/559/mpegts"
-        }
-      ]
-    },
-    {
-      "name": "BEMAD",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236346.ts"
-        }
-      ]
-    },
-    {
-      "name": "CALLE 13",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236402.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236403.ts"
         }
       ]
     },
@@ -1189,17 +1093,6 @@
       ]
     },
     {
-      "name": "CLAN",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236535.ts"
-        }
-      ]
-    },
-    {
       "name": "CLARO CINEMA",
       "category": "General",
       "imageUrl": "",
@@ -1218,40 +1111,6 @@
         {
           "name": "1",
           "url": "http://45.5.117.57:8999/play/a03f/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236433.ts"
-        }
-      ]
-    },
-    {
-      "name": "COSMO",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236416.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236417.ts"
-        }
-      ]
-    },
-    {
-      "name": "CUATRO",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236484.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236485.ts"
         }
       ]
     },
@@ -1331,25 +1190,6 @@
       ]
     },
     {
-      "name": "DARK",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236427.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236428.ts"
-        },
-        {
-          "name": "3",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236429.ts"
-        }
-      ]
-    },
-    {
       "name": "DE PELICULA",
       "category": "General",
       "imageUrl": "",
@@ -1391,10 +1231,6 @@
         {
           "name": "1",
           "url": "http://190.14.10.19:16000/play/a07y/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236340.ts"
         }
       ]
     },
@@ -1406,39 +1242,6 @@
         {
           "name": "1",
           "url": "http://190.14.10.19:16000/play/a06z/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "DISNEY JR",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236524.ts"
-        }
-      ]
-    },
-    {
-      "name": "DIVINITY",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236350.ts"
-        }
-      ]
-    },
-    {
-      "name": "DREAMWORK",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236413.ts"
         }
       ]
     },
@@ -1628,32 +1431,6 @@
       ]
     },
     {
-      "name": "GOL TV",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236506.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236507.ts"
-        }
-      ]
-    },
-    {
-      "name": "GOLDEN PREMIER",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.125.170.122:8000/play/a00l"
-        }
-      ]
-    },
-    {
       "name": "GOLDEN PREMIER 2",
       "category": "General",
       "imageUrl": "",
@@ -1670,31 +1447,8 @@
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://200.125.170.122:8000/play/a00l"
-        },
-        {
-          "name": "2",
-          "url": "http://200.125.170.121:8000/play/a00m"
-        },
-        {
           "name": "3",
           "url": "http://45.5.117.57:8999/play/a02g/index.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "http://45.228.234.30:16000/play/a03c/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "Golden Premiere HD",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.125.170.122:8000/play/a00l"
         }
       ]
     },
@@ -1774,10 +1528,6 @@
         {
           "name": "4",
           "url": "http://45.228.234.30:16000/play/a00c/index.m3u8"
-        },
-        {
-          "name": "5",
-          "url": "http://200.92.227.238:8000/play/a0mu/index.m3u8"
         }
       ]
     },
@@ -1786,10 +1536,6 @@
       "category": "General",
       "imageUrl": "",
       "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236341.ts"
-        },
         {
           "name": "2",
           "url": "http://190.14.10.19:16000/play/a02z/index.m3u8"
@@ -1806,27 +1552,8 @@
           "url": "https://jmp2.uk/plex-608049aefa2b8ae93c2c3a63-66be944f8711311880995280.m3u8"
         },
         {
-          "name": "3",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236410.ts"
-        },
-        {
           "name": "4",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236411.ts"
-        }
-      ]
-    },
-    {
-      "name": "IBERALIA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236327.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236328.ts"
+          "url": "https://jmp2.uk/plex-64305451fc3be5947773c339-66be944f8711311880995280.m3u8"
         }
       ]
     },
@@ -1838,36 +1565,6 @@
         {
           "name": "1",
           "url": "https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0"
-        }
-      ]
-    },
-    {
-      "name": "LA 1",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236478.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236479.ts"
-        }
-      ]
-    },
-    {
-      "name": "LA 2",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236480.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236481.ts"
         }
       ]
     },
@@ -1902,122 +1599,6 @@
       ]
     },
     {
-      "name": "MOVISTAR CINE ESPAÑOL",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236374.ts"
-        }
-      ]
-    },
-    {
-      "name": "MOVISTAR COMEDIA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236381.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236382.ts"
-        }
-      ]
-    },
-    {
-      "name": "MOVISTAR DRAMA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236383.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236384.ts"
-        }
-      ]
-    },
-    {
-      "name": "MOVISTAR HITS",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236388.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236389.ts"
-        },
-        {
-          "name": "3",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236390.ts"
-        }
-      ]
-    },
-    {
-      "name": "Mega",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236509.ts"
-        }
-      ]
-    },
-    {
-      "name": "Movistar Accion",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236379.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236380.ts"
-        }
-      ]
-    },
-    {
-      "name": "Movistar Clasicos",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236386.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236385.ts"
-        }
-      ]
-    },
-    {
-      "name": "Movistar Indie",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236375.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236378.ts"
-        }
-      ]
-    },
-    {
       "name": "Multipremier",
       "category": "General",
       "imageUrl": "",
@@ -2033,21 +1614,6 @@
       ]
     },
     {
-      "name": "NEOX",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236348.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236512.ts"
-        }
-      ]
-    },
-    {
       "name": "NEXT",
       "category": "General",
       "imageUrl": "",
@@ -2055,28 +1621,6 @@
         {
           "name": "1",
           "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "NOVA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236515.ts"
-        }
-      ]
-    },
-    {
-      "name": "Nick Jr.",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236526.ts"
         }
       ]
     },
@@ -2133,17 +1677,6 @@
       ]
     },
     {
-      "name": "REAL MADRID",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236538.ts"
-        }
-      ]
-    },
-    {
       "name": "RMC 1",
       "category": "General",
       "imageUrl": "",
@@ -2177,17 +1710,6 @@
         {
           "name": "2",
           "url": "http://45.228.234.30:16000/play/a03h/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "SOMOS",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236430.ts"
         }
       ]
     },
@@ -2252,17 +1774,6 @@
         {
           "name": "1",
           "url": "http://45.5.117.57:8200/play/a048/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "SYFY",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236419.ts"
         }
       ]
     },
@@ -2339,40 +1850,6 @@
         {
           "name": "4",
           "url": "http://45.5.117.57:8999/play/a02h/index.m3u8"
-        },
-        {
-          "name": "5",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236406.ts"
-        },
-        {
-          "name": "6",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236407.ts"
-        }
-      ]
-    },
-    {
-      "name": "TELE 5",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236487.ts"
-        }
-      ]
-    },
-    {
-      "name": "TELEDEPORTE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236517.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236516.ts"
         }
       ]
     },
@@ -2610,17 +2087,6 @@
       ]
     },
     {
-      "name": "VIN TV",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236324.ts"
-        }
-      ]
-    },
-    {
       "name": "VISIÓN TV | GT",
       "category": "General",
       "imageUrl": "",
@@ -2664,35 +2130,12 @@
           "url": "http://45.5.117.57:8999/play/a02u/index.m3u8"
         },
         {
-          "name": "5",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236405.ts"
-        },
-        {
           "name": "6",
           "url": "http://45.5.117.57:8200/play/a036/index.m3u8"
         },
         {
           "name": "7",
           "url": "http://45.228.234.30:16000/play/a01o/index.m3u8"
-        },
-        {
-          "name": "8",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236404.ts"
-        }
-      ]
-    },
-    {
-      "name": "XTRM",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236431.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236432.ts"
         }
       ]
     },
@@ -3448,17 +2891,6 @@
       ]
     },
     {
-      "name": "Canalda 26 HD [Not 24/7]",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://canalda.rgradio.net:3084/live/canaldalive.m3u8"
-        }
-      ]
-    },
-    {
       "name": "ChileVision",
       "category": "General",
       "imageUrl": "",
@@ -3789,17 +3221,6 @@
       ]
     },
     {
-      "name": "Televisión Metrópolis 19.1 (1080p) [Not 24/7]",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://5e85d90130e77.streamlock.net/6028/6028/playlist.m3u8"
-        }
-      ]
-    },
-    {
       "name": "Televisión Metrópolis 19.2 (1080p) [Not 24/7]",
       "category": "General",
       "imageUrl": "",
@@ -3829,17 +3250,6 @@
         {
           "name": "1",
           "url": "https://aegis-cloudfront-1.tubi.video/be9224ff-0bff-440d-aa84-40afcb2150b5/playlist.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "TV Sur Canal 9 (620p) [Not 24/7]",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist.m3u8"
         }
       ]
     },
@@ -4138,110 +3548,6 @@
         {
           "name": "1",
           "url": "http://181.205.130.194:4000/play/a06o"
-        }
-      ]
-    },
-    {
-      "name": "MOVISTAR ESTRENOS",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236376.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236373.ts"
-        }
-      ]
-    },
-    {
-      "name": "BOM CINE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236415.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236414.ts"
-        }
-      ]
-    },
-    {
-      "name": "SQUIRREL DOS",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236536.ts"
-        }
-      ]
-    },
-    {
-      "name": "A3M",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236395.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236396.ts"
-        }
-      ]
-    },
-    {
-      "name": "TRECE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236520.ts"
-        }
-      ]
-    },
-    {
-      "name": "AMC BREAK",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236423.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236424.ts"
-        }
-      ]
-    },
-    {
-      "name": "DREAMWORKS",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236412.ts"
-        }
-      ]
-    },
-    {
-      "name": "ONE TORO",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236541.ts"
         }
       ]
     },
@@ -4948,58 +4254,6 @@
       ]
     },
     {
-      "name": "GOLTV",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236506.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236507.ts"
-        }
-      ]
-    },
-    {
-      "name": "NICK JR",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236526.ts"
-        }
-      ]
-    },
-    {
-      "name": "CAZA Y PESCA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236325.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236320.ts"
-        }
-      ]
-    },
-    {
-      "name": "BUEN VIAJE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236321.ts"
-        }
-      ]
-    },
-    {
       "name": "ESPN 2 🇨🇴",
       "category": "General",
       "imageUrl": "",
@@ -5018,6 +4272,10 @@
         {
           "name": "1",
           "url": "http://205.235.6.29:8000/play/a0vu/index.m3u8"
+        },
+        {
+          "name": "3",
+          "url": "http://190.14.10.19:16000/play/a07u/index.m3u8"
         }
       ]
     },
@@ -5029,6 +4287,10 @@
         {
           "name": "1",
           "url": "http://45.5.117.57:8200/play/a026/index.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://190.14.10.19:16000/play/a05a/index.m3u8"
         }
       ]
     },
@@ -5044,17 +4306,6 @@
       ]
     },
     {
-      "name": "ESPN 2 🇦🇷",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://45.228.234.30:16000/play/a01l/index.m3u8"
-        }
-      ]
-    },
-    {
       "name": "TVAZTECA",
       "category": "General",
       "imageUrl": "",
@@ -5062,17 +4313,6 @@
         {
           "name": "1",
           "url": "http://45.228.234.30:16000/play/a00m/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "BEIN SPORT 2",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://live20.bozztv.com/akamaissh101/ssh101/vipmixflix/chunks.m3u8"
         }
       ]
     },
@@ -5099,17 +4339,6 @@
       ]
     },
     {
-      "name": "Star Sports 2 HD (1080p)",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://163.61.227.29:8000/play/a069/index.m3u8"
-        }
-      ]
-    },
-    {
       "name": "Bahrain Sports 1",
       "category": "General",
       "imageUrl": "",
@@ -5131,15 +4360,187 @@
         }
       ]
     },
-   
     {
-      "name": "MOVISTAR +",
+      "name": "Aporte Subido por Refuleros® Para refulerosweb.com",
       "category": "General",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
-          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236377.ts"
+          "url": "http://archive.org/download/231455/02/16.mp4"
+        },
+        {
+          "name": "2",
+          "url": "http://archive.org/download/231455/02/17.mp4"
+        }
+      ]
+    },
+    {
+      "name": "#EXTVLCOPT:network-caching=1000",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://tvstar.icu:8080/live/scottiecheeze@yahoo.com/7vyh8aDqBq/78697.ts"
+        },
+        {
+          "name": "2",
+          "url": "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sharjah Sports #EXTVLCOPT:network-caching=1000",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/smc4sportspublish/smc4tv_720p/chunks.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Anzo�tegui TV",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Aut�ntica Televisi�n",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://live.obslivestream.com/autenticatvmux/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Anzo�tegui TV (360p) [Not 24/7]",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal M�s Televisi�n (720p)",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://movil.ejeserver.com/live/teledoradahd.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal Mundo Visi�n (720p) [Not 24/7]",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://movil.ejeserver.com/live/mundovisiontv.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cascara TV (720p)",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cibae�a TV",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CR Televisi�n Moyobamba (720p) [Not 24/7]",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://live.obslivestream.com/crtvmux/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Multivisi�n Canal 3 (720p) [Not 24/7]",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://stream.digitalgt.com:3136/live/multivisionlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Televisi�n Metr�polis 19.2 (1080p) [Not 24/7]",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TF1 S�RIES FILMS",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2 #EXTVLCOPT:network-caching=1000",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://200.10.30.241:8000/play/a01r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FOX SPORT 1",
+      "category": "General",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://45.228.234.30:16000/play/a03p/index.m3u8"
         }
       ]
     }
