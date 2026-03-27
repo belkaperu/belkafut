@@ -1,2561 +1,2561 @@
 [
   {
-    "id": "remote-5",
+    "id": "a6082289-97a2-483e-a47b-41e4cad020d6",
     "name": "HBO FAMILY",
     "url": "http://181.205.130.194:4000/play/a0dr",
     "group": "Peliculas & Series",
     "status": "unknown"
   },
   {
-    "id": "remote-6",
+    "id": "55fdf235-d887-4dc9-9b57-5a71a18c28ee",
     "name": "TLC",
     "url": "http://181.205.130.194:4000/play/a07p",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-7",
+    "id": "ac675392-92af-4907-96d3-3391aa6929be",
     "name": "TCM",
     "url": "http://38.41.8.1:8000/play/a04x",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-8",
+    "id": "a410ad8f-2e6f-4101-8198-a356b6907b1b",
     "name": "TCM",
     "url": "http://181.205.130.194:4000/play/a06l",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-16",
+    "id": "80e9038b-a878-45f3-b619-b8abeb9d6c63",
     "name": "CineMax",
     "url": "http://45.5.119.43:4000/play/a0il/index.m3u8",
     "group": "© Cinemax",
     "status": "unknown"
   },
   {
-    "id": "remote-19",
+    "id": "4b4122d9-8040-420b-aa19-7009cd7a0480",
     "name": "Cinemax",
     "url": "http://38.41.8.1:8000/play/a05v",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-29",
+    "id": "9dafb587-c6e2-4c67-808c-bb4c37384c41",
     "name": "Space HD",
     "url": "http://45.181.122.46:8090/play/a00h",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-30",
+    "id": "c613186c-b906-420f-b7cd-aca35d444fb7",
     "name": "USA",
     "url": "http://181.205.130.194:4000/play/a06v",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-37",
+    "id": "f22c8ab9-1ecd-4c41-8140-858b1f8a3281",
     "name": "Universal Premiere East",
     "url": "http://200.115.96.66:4000/play/a035/index.m3u8",
     "group": "Peliculas & Series",
     "status": "unknown"
   },
   {
-    "id": "remote-39",
+    "id": "d159410c-c8d1-4ca2-84d4-153305b4a65a",
     "name": "Universal Tv",
     "url": "http://38.41.8.1:8000/play/a04r",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-40",
+    "id": "842dbee6-7679-4b8e-b804-78eb3d8cd482",
     "name": "UNIVERSAL TV",
     "url": "http://181.205.130.194:4000/play/a06f",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-42",
+    "id": "48916473-7502-48a3-9b3f-3cd6376b17b5",
     "name": "A&E",
     "url": "http://181.205.130.194:4000/play/a07n",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-45",
+    "id": "72ba8c01-198a-48bc-a9d8-d82fa8844647",
     "name": "FX HD",
     "url": "http://200.115.96.66:4000/play/a0he/index.m3u8",
     "group": "Peliculas & Series",
     "status": "unknown"
   },
   {
-    "id": "remote-49",
+    "id": "1b39085f-6ea4-4118-bfb4-33aa30025668",
     "name": "TNT HD",
     "url": "http://181.205.130.194:4000/play/a06n",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-50",
+    "id": "95611155-7b7f-4116-a39e-63db942cd7ba",
     "name": "TNT Novelas",
     "url": "http://200.115.96.66:4000/play/a01p/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-54",
+    "id": "3e27bdfd-df18-4aff-8ee8-fbdd9cea2a49",
     "name": "RCN",
     "url": "http://190.60.32.178:8178/play/a0ao/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-58",
+    "id": "9e147da3-09f2-4868-938c-1ca618605a41",
     "name": "SONY",
     "url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-60",
+    "id": "6408335a-4470-4ebf-b990-36db1c8fe35a",
     "name": "Cine Premiun",
     "url": "http://190.60.32.178:8178/play/a07f/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-61",
+    "id": "ea0345a6-6302-4cda-9264-c42a9cdbdd85",
     "name": "IVC",
     "url": "http://190.60.32.178:8178/play/a085/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-68",
+    "id": "0be664ea-9a18-49c4-a32f-3f3f8d7d8936",
     "name": "Las Estrellas",
     "url": "http://181.205.130.194:4000/play/a07r",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-72",
+    "id": "b2c62efb-15bb-466d-a797-e2de44c87a86",
     "name": "ESPN",
     "url": "http://181.205.130.194:4000/play/a08n",
     "group": "© ESPN",
     "status": "unknown"
   },
   {
-    "id": "remote-73",
+    "id": "bacb17f8-156d-4770-b91e-7f40d911d3dc",
     "name": "ESPN 1",
     "url": "http://181.205.130.194:4000/play/a07j",
     "group": "© ESPN",
     "status": "unknown"
   },
   {
-    "id": "remote-78",
+    "id": "1dd1dbb0-5999-46d1-97c9-7aa807baae50",
     "name": "ESPN 2",
     "url": "http://181.205.130.194:4000/play/a07i",
     "group": "© ESPN",
     "status": "unknown"
   },
   {
-    "id": "remote-81",
+    "id": "ca2c3b08-6635-449f-9caf-495d5c5814f5",
     "name": "ESPN 4 HD",
     "url": "http://38.41.8.1:8000/play/a07b",
     "group": "Deportes",
     "status": "unknown"
   },
   {
-    "id": "remote-82",
+    "id": "18d01829-801a-45e0-8e3f-9561a4f770ea",
     "name": "ESPN 6",
     "url": "http://181.205.130.194:4000/play/a07t",
     "group": "© ESPN",
     "status": "unknown"
   },
   {
-    "id": "remote-85",
+    "id": "b52589e9-759d-4bfa-9351-29096978b3a3",
     "name": "ESPN 7 mx",
     "url": "http://181.205.130.194:4000/play/a07s",
     "group": "© ESPN",
     "status": "unknown"
   },
   {
-    "id": "remote-89",
+    "id": "40577fb6-1a83-4a43-b7e4-11c1d827f4ff",
     "name": "Sky Sports Premier League",
     "url": "https://7pal.short.gy/ssportspl",
     "group": "АПЛ",
     "status": "unknown"
   },
   {
-    "id": "remote-93",
+    "id": "0f9d9395-130b-43cf-b8c9-e6f30df502e3",
     "name": "IU TV HD",
     "url": "https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0",
     "group": "CINE Y SERIES",
     "status": "unknown"
   },
   {
-    "id": "remote-95",
+    "id": "edbe2684-bf0e-46ee-86d0-d6f59a966f55",
     "name": "FARO VISIÓN | DO",
     "url": "https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8",
     "group": "CONSTANTEMENTE CINE",
     "status": "unknown"
   },
   {
-    "id": "remote-96",
+    "id": "29c19896-b212-41d7-91c4-17dcc251e6c5",
     "name": "VISIÓN TV | GT",
     "url": "https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8",
     "group": "DISCONTINUAMENTE CINE",
     "status": "unknown"
   },
   {
-    "id": "remote-97",
+    "id": "21a49b24-4b3b-47e1-ae99-ecc08640d357",
     "name": "SAS TV | GT",
     "url": "https://cdn.streamhispanatv.net:3390/live/sastvgtlive.m3u8",
     "group": "DISCONTINUAMENTE CINE",
     "status": "unknown"
   },
   {
-    "id": "remote-133",
+    "id": "0fd1db30-94cd-4395-a4aa-3180359aae4a",
     "name": "ESPN 2 HD",
     "url": "http://181.78.82.6:46090/play/a00i/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-134",
+    "id": "f01f4bb2-429d-4bf7-8c7c-d6202623a1dd",
     "name": "ESPN 3 HD",
     "url": "http://181.78.82.6:46090/play/a00v/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-135",
+    "id": "39c5a51a-75b0-4ba1-ad44-b84383d74c0e",
     "name": "ESPN 6 HD",
     "url": "http://181.78.82.6:46090/play/a00w/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-136",
+    "id": "8a9fbff8-8ddd-4fd1-b930-f0d48ce70408",
     "name": "HBO",
     "url": "http://45.5.117.57:8999/play/a05q/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-137",
+    "id": "f5dd3850-3f07-49ca-b947-9329b83ef0aa",
     "name": "HBO 2",
     "url": "http://45.5.117.57:8999/play/a05r/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-138",
+    "id": "2f4aa516-ef28-46a1-a9a3-15c8d6fdf45f",
     "name": "HBO PLUS",
     "url": "http://45.5.117.57:8999/play/a05s/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-139",
+    "id": "e20c4d94-d33e-477d-ab1b-2fe0ccb1eadf",
     "name": "HBO XTREME",
     "url": "http://45.5.117.57:8999/play/a05u/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-140",
+    "id": "9b383fd2-f90c-4e4c-9fcc-15a97e023407",
     "name": "HBO FAMILY",
     "url": "http://45.5.117.57:8999/play/a05t/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-141",
+    "id": "6b8fe5c7-74e5-4708-b7a9-c5b7a80c6ea3",
     "name": "WARNER",
     "url": "http://45.5.117.57:8999/play/a02u/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-142",
+    "id": "c1cf8389-428d-4363-b056-5a17fd07276b",
     "name": "MC",
     "url": "http://45.5.117.57:8999/play/a02i/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-143",
+    "id": "3ac44a16-b2b6-4364-9c9f-d05e1df2643a",
     "name": "AXN",
     "url": "http://45.5.117.57:8999/play/a04d/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-144",
+    "id": "56b54233-2b04-45f0-80c4-8333d2689ba5",
     "name": "GOLDEN",
     "url": "http://45.5.117.57:8999/play/a02g/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-145",
+    "id": "9884cbae-ff10-444d-9015-6a47d029a9bc",
     "name": "STAR CHANNEL",
     "url": "http://45.5.117.57:8999/play/a03v/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-146",
+    "id": "3852df7f-96f0-4e6d-8166-8a5c5deee371",
     "name": "TCM",
     "url": "http://45.5.117.57:8999/play/a02h/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-147",
+    "id": "6bb69c26-43f7-4d90-8651-e2ea9b3bd52f",
     "name": "TNT",
     "url": "http://45.5.117.57:8999/play/a03c/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-148",
+    "id": "e8a9256e-63ff-4b8b-92dc-a15bd1015b24",
     "name": "TNT series",
     "url": "http://45.5.117.57:8999/play/a04m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-149",
+    "id": "42c6cbd5-332a-4a22-bd90-6f3683316b91",
     "name": "NATIONAL GEOGRAPHIC",
     "url": "http://45.5.117.57:8999/play/a04k/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-150",
+    "id": "ee3cfbb8-6d82-40e7-8c41-734ff1e171eb",
     "name": "UNIVERSAL CINEMA",
     "url": "http://45.5.117.57:8999/play/a04s/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-151",
+    "id": "2bf08f6b-a32c-40d3-b07e-d5d24d58cba9",
     "name": "UNIVERSAL COMEDIA",
     "url": "http://45.5.117.57:8999/play/a03m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-152",
+    "id": "81414b26-fdc3-4571-b395-9aee8ff0fe27",
     "name": "UNIVERSAL PREMIERE",
     "url": "http://45.5.117.57:8999/play/a03i/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-153",
+    "id": "72d80c65-15ee-40c4-af5b-e1cb031eb5d8",
     "name": "UNIVERSAL PREMIERE",
     "url": "http://45.5.117.57:8999/play/a03j/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-154",
+    "id": "9d540eaa-0e1b-4fac-94a3-49b3ac31048c",
     "name": "FX",
     "url": "http://45.5.117.57:8999/play/a01p/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-155",
+    "id": "7c2cd478-f424-48cb-b72d-ae6aeebd1450",
     "name": "SONY MOVIES",
     "url": "http://45.5.117.57:8999/play/a01r/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-156",
+    "id": "c9db0ff0-49e3-4495-91ba-bb8d12bce73b",
     "name": "SONY CHANNEL",
     "url": "http://45.5.117.57:8999/play/a02t/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-157",
+    "id": "8b618fc8-d560-4fcb-b682-93733dc95c34",
     "name": "CANAL CLARO",
     "url": "http://45.5.117.57:8999/play/a05o/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-158",
+    "id": "e65732f2-c7e9-43d1-9365-100ac11362f9",
     "name": "DHE",
     "url": "http://45.5.117.57:8999/play/a01s/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-159",
+    "id": "017ed27c-9822-4d82-ac89-8f6384f687a4",
     "name": "DHE",
     "url": "http://45.5.117.57:8999/play/a05k/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-160",
+    "id": "1ca50aa0-c963-435c-8218-d2e817567a25",
     "name": "A&E",
     "url": "http://45.5.117.57:8999/play/a02w/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-161",
+    "id": "8f0d5e39-5b8c-475d-add5-8dee287e1b5a",
     "name": "COMEDIA CENTRAL",
     "url": "http://45.5.117.57:8999/play/a03f/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-162",
+    "id": "45034395-e506-4ff8-b0fc-e2cc0927136d",
     "name": "EUROPA",
     "url": "http://45.5.117.57:8999/play/a01q/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-163",
+    "id": "677d7400-659f-4bf2-82e8-bf7cb3212a24",
     "name": "E",
     "url": "http://45.5.117.57:8999/play/a01k/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-164",
+    "id": "5eee3e38-68d2-4325-aacb-f0e882ce3515",
     "name": "CANAL 4",
     "url": "http://45.5.117.57:8999/play/a02o/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-165",
+    "id": "f98e0c9b-411d-4c38-9d42-e64beeee1095",
     "name": "CANAL 7",
     "url": "http://45.5.117.57:8999/play/a02m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-166",
+    "id": "4216233d-26ff-4eae-9d38-be3b29b38df6",
     "name": "DISNEY CHANNEL",
     "url": "http://45.5.117.57:8999/play/a03u/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-167",
+    "id": "e53c75e5-551d-4056-9232-974f35081f22",
     "name": "CARTOON NETWORK",
     "url": "http://45.5.117.57:8999/play/a05p/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-168",
+    "id": "092ba35b-5a49-4e11-9f39-503b271bd6f1",
     "name": "TUDN",
     "url": "http://45.5.117.57:8999/play/a04t/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-169",
+    "id": "56ebf9de-a542-450b-852f-774c6b8dd46c",
     "name": "ESPN",
     "url": "http://45.5.117.57:8999/play/a04g/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-170",
+    "id": "d1b3324e-0979-4638-a712-76379047872b",
     "name": "ESPN 2",
     "url": "http://45.5.117.57:8999/play/a04h/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-171",
+    "id": "9261a8b2-953f-42f5-8d66-df20198917dc",
     "name": "ESPN 3",
     "url": "http://45.5.117.57:8999/play/a04i/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-172",
+    "id": "748bc04b-79ae-42de-b2e3-e0dad73873a1",
     "name": "ESPN 3",
     "url": "http://45.5.117.57:8999/play/a02b/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-173",
+    "id": "7e59fc48-ee93-4e90-b1b7-70f50edb4c37",
     "name": "ESPN 4",
     "url": "http://45.5.117.57:8999/play/a01g/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-174",
+    "id": "4832b9be-48cd-40e5-9903-dd02d806acda",
     "name": "ESPN5",
     "url": "http://45.5.117.57:8999/play/a04f/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-175",
+    "id": "006faee6-eb9a-4756-8bc7-9292269ba30c",
     "name": "ESPN6",
     "url": "http://45.5.117.57:8999/play/a04j/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-176",
+    "id": "38732817-df5d-47e7-bbea-f0864d6fdec8",
     "name": "TIGO SPORTS",
     "url": "http://45.5.117.57:8999/play/a03a/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-177",
+    "id": "8a84666e-8643-435c-88ea-ebcd4c008505",
     "name": "CLARO SPORTS",
     "url": "http://45.5.117.57:8999/play/a03z/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-178",
+    "id": "13f86041-db82-403c-a4d5-f6482e0c2dff",
     "name": "CLARO SPORTS",
     "url": "http://45.5.117.57:8999/play/a05m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-179",
+    "id": "01e0d87a-1687-46f6-babf-01e4aa7e73f8",
     "name": "CLARO SPORTS 2",
     "url": "http://45.5.117.57:8999/play/a05n/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-182",
+    "id": "ee5c59c6-e8fd-4a42-8e9f-92400d674c44",
     "name": "HBO XTREME",
     "url": "http://190.60.37.118:4000/play/a03z",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-186",
+    "id": "8a10fc17-bdd6-4363-81c7-1a5ea7e46392",
     "name": "DHE",
     "url": "http://190.60.37.118:4000/play/a02d",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-189",
+    "id": "359dc4c3-c8a1-4b5d-adfe-1e48f1a544a8",
     "name": "TU UNIVERSO",
     "url": "https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-190",
+    "id": "5cc9ad84-64ca-4dca-bbb9-5532affd5579",
     "name": "AYM SPORT",
     "url": "https://aym-as.otteravision.com/aym/as/as_720p_high.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-191",
+    "id": "4d776ed1-39f5-485a-af3a-40f671744f17",
     "name": "ESPN3",
     "url": "http://190.14.10.19:16000/play/a07r/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-192",
+    "id": "0cbc679f-567a-4b98-9801-6c1e0cf23c6c",
     "name": "ESPN5",
     "url": "http://190.14.10.19:16000/play/a09e/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-193",
+    "id": "21472379-2bec-4a4f-a7e2-3c3e03967c5e",
     "name": "ESPN6",
     "url": "http://190.14.10.19:16000/play/a07u/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-194",
+    "id": "f717721b-cd6f-4a74-9edb-07680e0c9233",
     "name": "TUDN",
     "url": "http://190.14.10.19:16000/play/a09v/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-195",
+    "id": "57764231-1481-4b90-9369-bafe2b690b00",
     "name": "FUTV",
     "url": "http://190.14.10.19:16000/play/a06q/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-196",
+    "id": "41c81fab-aad1-41ce-bbc5-ea14d0685712",
     "name": "HBO XTREME",
     "url": "http://190.14.10.19:16000/play/a08k/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-197",
+    "id": "94607fc6-4f77-4ad7-bfeb-682ac4dee7f9",
     "name": "GOLDEN PREMIER 2",
     "url": "http://190.14.10.19:16000/play/a08q/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-198",
+    "id": "f94ad890-7a43-4f18-b3a9-44d19f042c2b",
     "name": "TCM",
     "url": "http://190.14.10.19:16000/play/a05m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-199",
+    "id": "8009820d-f73f-4a95-9f72-d911a8efb17d",
     "name": "MULTIPREMIER",
     "url": "http://190.14.10.19:16000/play/a07a/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-200",
+    "id": "ee82375f-90e8-493d-8aa3-4877adf2999f",
     "name": "CINEMAX",
     "url": "http://190.14.10.19:16000/play/a07c/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-201",
+    "id": "7488e372-6129-4572-9b51-346853d13d7c",
     "name": "CINECANAL",
     "url": "http://190.14.10.19:16000/play/a06o/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-202",
+    "id": "fac0e717-4c5d-401e-933a-1664976f62a8",
     "name": "WARNER",
     "url": "http://190.14.10.19:16000/play/a06m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-203",
+    "id": "e76b53e2-a143-4b00-b16d-ba7e0ca6956c",
     "name": "SONY HD",
     "url": "http://190.14.10.19:16000/play/a06n/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-204",
+    "id": "b524f281-ed2e-454f-82f3-a02638e7a71f",
     "name": "PARAMOUNT",
     "url": "http://190.14.10.19:16000/play/a07w/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-205",
+    "id": "cb14a0e1-c88d-491c-b17e-cbc715bb79a8",
     "name": "A&E",
     "url": "http://190.14.10.19:16000/play/a09k/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-206",
+    "id": "3601c2b9-e996-4e44-a3c7-88f8caaf5f48",
     "name": "TNT SERIES",
     "url": "http://190.14.10.19:16000/play/a07x/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-207",
+    "id": "b4559da1-4e95-4aa5-bcba-aeebb5e108c4",
     "name": "TNT NOVELAS",
     "url": "http://190.14.10.19:16000/play/a09b/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-208",
+    "id": "e13db716-5aa7-448b-9844-f79cdcf241d9",
     "name": "CINE LATINO",
     "url": "http://190.14.10.19:16000/play/a07b/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-209",
+    "id": "21a6e100-2054-4e83-b596-6517b4f7e6bd",
     "name": "CANAL 3",
     "url": "http://190.14.10.19:16000/play/a08v/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-210",
+    "id": "4aaf12af-e088-4a56-8dae-60110a0b8367",
     "name": "CANAL 7",
     "url": "http://190.14.10.19:16000/play/a05u/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-211",
+    "id": "f19df597-020e-4b69-9a47-2152e9154ff2",
     "name": "CANAL 11",
     "url": "http://190.14.10.19:16000/play/a04n/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-212",
+    "id": "92c3a57f-ba35-4383-9e87-9b77dadbf000",
     "name": "CANAL 13",
     "url": "http://190.14.10.19:16000/play/a04m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-213",
+    "id": "b736db68-496f-41d5-a2bb-16d003404ea1",
     "name": "NATIONAL GEOGRAPHIC",
     "url": "http://190.14.10.19:16000/play/a07v/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-214",
+    "id": "a962d02b-8bbd-479c-baa5-d6728e91c240",
     "name": "DISCOVERY",
     "url": "http://190.14.10.19:16000/play/a07y/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-215",
+    "id": "c5cb780b-b9c1-4641-b133-2c39ea665d19",
     "name": "VE",
     "url": "http://190.14.10.19:16000/play/a05r/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-217",
+    "id": "31953dbf-6782-497f-9e71-ba8cf0b57fba",
     "name": "A SPOR",
     "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_720p.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-218",
+    "id": "f9ea8e74-07a9-42ca-9347-09af6acb79fd",
     "name": "CANAL CARACOL",
     "url": "http://205.235.6.29:8000/play/a0vf/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-219",
+    "id": "15133c8a-fc8c-4c5e-a628-fb3029145677",
     "name": "WIN SPORT",
     "url": "http://190.0.247.38:8000/play/a068",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-220",
+    "id": "eb66285b-0f84-4a81-a292-ffa7c8d91fdf",
     "name": "AUSTRAL EC",
     "url": "http://205.235.6.29:8000/play/a0vn/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-221",
+    "id": "8394f9d0-8ec1-45bf-a457-db8edf6ac063",
     "name": "ESPN 7",
     "url": "http://205.235.6.29:8000/play/a0vu/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-223",
+    "id": "9c481a0b-1537-4cca-b6a9-f0c054e80662",
     "name": "Dragon Ball Z La batalla de los Dioses",
     "url": "http://archive.org/download/231455/02/16.mp4",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-224",
+    "id": "b754aeef-16d3-4f44-bc9a-4d8087a5c119",
     "name": "Dragon Ball Z La resurrección de Freezer",
     "url": "http://archive.org/download/231455/02/17.mp4",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-225",
+    "id": "f27f8f89-37be-49d0-b5ff-9631b5173482",
     "name": "Dragon Ball super Broly",
     "url": "http://archive.org/download/231455/03/05.mp4",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-240",
+    "id": "7892b059-7455-4d5e-ac84-4b1f0aeefa0a",
     "name": "DSPORTS",
     "url": "http://201.230.121.85:8000/play/a0yv/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-242",
+    "id": "aa093cc6-17a9-473d-b6f4-323312414b20",
     "name": "APEHA",
     "url": "http://cdntv.online/low/9mlxywika2/47.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-243",
+    "id": "0cca6b73-0481-464e-a576-74684582be62",
     "name": "MATY",
     "url": "http://cdntv.online/low/9mlxywika2/48.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-244",
+    "id": "d9fc89d5-71ac-405f-8a10-74b46a087254",
     "name": "APEHA",
     "url": "http://cdntv.online/low/9mlxywika2/49.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-245",
+    "id": "5b697cec-615f-449a-b811-84ac23120fb9",
     "name": "MATY NPEMBEP",
     "url": "http://cdntv.online/low/9mlxywika2/52.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-246",
+    "id": "81a6904c-7585-4530-b7c5-9c3d0691419a",
     "name": "MATY NPEMBEP",
     "url": "http://cdntv.online/low/9mlxywika2/53.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-247",
+    "id": "358a7d2c-c19f-4a6e-88a0-e5e35ee52cc0",
     "name": "MATY! CTPAHA",
     "url": "http://cdntv.online/low/9mlxywika2/54.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-248",
+    "id": "44aecee7-a556-44cf-93c1-eb4fed43e4ec",
     "name": "MATY! 1",
     "url": "http://cdntv.online/low/9mlxywika2/55.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-249",
+    "id": "3ba678db-e69e-474f-9820-dda129b00ba5",
     "name": "MATY! 2",
     "url": "http://cdntv.online/low/9mlxywika2/56.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-250",
+    "id": "eea14188-7a4a-44d3-bedf-929ac0cc7453",
     "name": "MATY! 3",
     "url": "http://cdntv.online/low/9mlxywika2/57.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-251",
+    "id": "cbc451ff-541c-4747-bfd5-73fe991b2a47",
     "name": "CTAPT",
     "url": "http://cdntv.online/low/9mlxywika2/58.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-252",
+    "id": "920b26e0-1205-4b96-a3e4-c63474a875b7",
     "name": "MATY",
     "url": "http://cdntv.online/low/9mlxywika2/59.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-254",
+    "id": "08c33b37-a62f-441f-945b-3b9841e09b15",
     "name": "Antena Seis TV",
     "url": "https://video1.azulstream.com:8081/antenaseistv/index.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-255",
+    "id": "e4980985-af0f-4b87-8e48-575f38d079f2",
     "name": "Garabito TV (720p)",
     "url": "https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-256",
+    "id": "0ab1fda0-8534-475f-8820-7d2b95ef5dbd",
     "name": "ČT Sport (720p)",
     "url": "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-257",
+    "id": "7223d2a6-d76b-49b3-a040-dbaed50aa2af",
     "name": "Gol Classics",
     "url": "https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-262",
+    "id": "ff96e4d9-099b-468e-8265-f50604b50e96",
     "name": "Ecuavisa",
     "url": "https://jireh-4-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-264",
+    "id": "050d107d-a9e4-44e9-b336-73a17523f878",
     "name": "Futbol (1080p)",
     "url": "https://live.teleradiocom.tj/8/3m.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-268",
+    "id": "034f9e7c-7ab5-4380-905d-621c6cb63e45",
     "name": "Live Sports",
     "url": "https://starsportshindiii.pages.dev/720p.m3u8",
     "group": "Live Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-271",
+    "id": "c3c085d0-3c3a-4b15-9752-769c7d2975f3",
     "name": "GoSport 1",
     "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560502/index.mpd",
     "group": "hilaytv",
     "status": "unknown"
   },
   {
-    "id": "remote-272",
+    "id": "c6bca9a4-5d52-48f4-85b9-0b2374825ae8",
     "name": "GoSport 3",
     "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
     "group": "hilaytv",
     "status": "unknown"
   },
   {
-    "id": "remote-275",
+    "id": "fa7b25cc-debe-444f-9669-0df8bb2ac055",
     "name": "Sharjah Sports 🎯",
     "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/smc4sportspublish/smc4tv_720p/chunks.m3u8",
     "group": "Football",
     "status": "unknown"
   },
   {
-    "id": "remote-276",
+    "id": "8db7850e-4686-4d21-ba1c-2e3848fcd31b",
     "name": "PRO Sport International",
     "url": "https://proshls.wns.live/hls/stream.m3u8",
     "group": "Football",
     "status": "unknown"
   },
   {
-    "id": "remote-281",
+    "id": "94a9186e-1846-4f93-9f64-47b1a207fb34",
     "name": "SRF info HD (1080p)",
     "url": "https://viamotionhsi.netplus.ch/live/eds/srfinfo/browser-HLS8/srfinfo.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-282",
+    "id": "e7259c3a-1fe4-4058-8ad0-efa945b8038b",
     "name": "SRF 1 (1080p)",
     "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-283",
+    "id": "a0cc869b-49bd-476b-a98f-09e36d6eb867",
     "name": "SRF zwei (1080p)",
     "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-284",
+    "id": "b01459ec-872e-4dcb-b591-83874dbb1163",
     "name": "Anzoátegui TV",
     "url": "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-285",
+    "id": "d44891f2-ec57-4b19-a13c-9ff8be3911cb",
     "name": "Asiri TV",
     "url": "https://video2.lhdserver.es/asiritv/live.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-286",
+    "id": "3f7766b8-03a5-4cbf-aca8-67ed3e70e1cc",
     "name": "Aurora Media Films",
     "url": "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-287",
+    "id": "6466a9a0-42f1-4d29-b68f-a93514b8fd6c",
     "name": "Auténtica Televisión",
     "url": "https://live.obslivestream.com/autenticatvmux/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-288",
+    "id": "94238fcb-7fe2-4d9d-a86f-f023f9323ed7",
     "name": "Cali TV",
     "url": "https://5ab772334c39c.streamlock.net/live-calitv/calitv1/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-289",
+    "id": "6b39ad31-bb3e-4886-91a7-668155933baa",
     "name": "Canal 3 Impresionante",
     "url": "https://cloud2.streaminglivehd.com:2020/hls/8036/8036.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-290",
+    "id": "6280d0d2-30ca-49d2-ac58-2eb5eac5f920",
     "name": "Canal 5 Del Pueblo [Not 24/7]",
     "url": "https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-291",
+    "id": "5c3e2614-ef99-4a51-b639-d29a828bf65d",
     "name": "Canal 9 Barbe TV (720p) [Not 24/7]",
     "url": "https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-292",
+    "id": "283a75af-b09e-4911-a951-b2a2b04211b7",
     "name": "Canal 11 TuTV (349p)",
     "url": "https://stream.giostreaming.app/canal11/canal11.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-293",
+    "id": "5617de6d-e001-4268-8e25-cf3d1be4c301",
     "name": "Canal 15 ILCE Summa Sabres (720p)",
     "url": "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8",
     "group": "Education",
     "status": "unknown"
   },
   {
-    "id": "remote-294",
+    "id": "35bc9395-4d23-4085-aedc-579f9cdf9311",
     "name": "Canal 14 San Carlos (720p) [Not 24/7]",
     "url": "http://tvn.obix.tv:1935/TVN/CH14.stream_720p/playlist.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-295",
+    "id": "8be14945-d3ea-4772-a457-82e172aafc08",
     "name": "Canal 33 Madrid",
     "url": "https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-296",
+    "id": "23dfc631-a589-4661-848b-56036bc6ae73",
     "name": "Canal 17 TV Nosara",
     "url": "https://latamvdo.com:3870/hybrid/play.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-297",
+    "id": "57d03c7c-936c-4003-809a-169062f9c712",
     "name": "Austral TV (1080p)",
     "url": "https://stmv3.voxtvhd.com.br/australtv/australtv/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-299",
+    "id": "fedd35e0-ab27-4b4c-b125-8e395ab283b6",
     "name": "Canal 11 (1080p) [Not 24/7]",
     "url": "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-300",
+    "id": "28a22dd3-77ac-4fd0-b670-3506380c4e87",
     "name": "Canal 34 San Juan (720p)",
     "url": "https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-301",
+    "id": "4c9ed59d-9c0f-464c-bbf6-1fdd4783bb24",
     "name": "Canal Catorce (720p)",
     "url": "https://tv.livestreaminggroup.info:3052/live/catorcetvlive.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-302",
+    "id": "8b6a953c-6598-4aaf-8e15-29a3205fdedb",
     "name": "Canal Más Televisión (720p)",
     "url": "https://movil.ejeserver.com/live/teledoradahd.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-303",
+    "id": "043d9d60-5198-47c4-9a6c-f3858e4d62fa",
     "name": "Canal San Roque (1080p) [Not 24/7]",
     "url": "https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-304",
+    "id": "2b798005-4e3f-42d1-9e29-a6e8c4f77c5e",
     "name": "Canal Nets (720p) [Not 24/7]",
     "url": "https://movil.ejeserver.com/live/nets.m3u8",
     "group": "Entertainment",
     "status": "unknown"
   },
   {
-    "id": "remote-305",
+    "id": "9c8476bf-a1cf-4dc0-970c-05b99d9aa808",
     "name": "Canal Mundo Visión (720p) [Not 24/7]",
     "url": "https://movil.ejeserver.com/live/mundovisiontv.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-308",
+    "id": "6b6f2f18-95c5-4ab0-aacd-55850997ff5b",
     "name": "Canal+ (1080p)",
     "url": "https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-HLS8/canalplusclair.m3u8",
     "group": "Entertainment",
     "status": "unknown"
   },
   {
-    "id": "remote-309",
+    "id": "d2308a61-da7c-440d-accb-441fa1d85a83",
     "name": "Cananga TV (720p)",
     "url": "https://cdn.streamingcpanel.com:3545/live/canangatlive.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-310",
+    "id": "ff9a2d22-5b90-4bb7-99d1-f3348b766c8d",
     "name": "Canalda 26 HD [Not 24/7]",
     "url": "https://canalda.rgradio.net:3084/live/canaldalive.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-311",
+    "id": "c46bd704-6bd4-41be-8ee2-70e88305a525",
     "name": "Cascara TV (720p)",
     "url": "https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-314",
+    "id": "fbdca0cf-79c1-4a7f-b516-1821f88f475a",
     "name": "Cibaeña TV",
     "url": "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8",
     "group": "Entertainment",
     "status": "unknown"
   },
   {
-    "id": "remote-316",
+    "id": "0ed7736e-e041-4f13-a390-2c2202732a1c",
     "name": "Cotubanama TV (1080p)",
     "url": "https://host.streamingnation.live/p/3588/hybrid/play.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-317",
+    "id": "6e8d53e7-ca60-4be6-9b51-ea43cb0c94e7",
     "name": "Coral TV (480p)",
     "url": "https://tv.mediacp.eu:8081/coraltv/index.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-319",
+    "id": "9f651104-74ff-4f3a-9f5f-72ac1913fe78",
     "name": "CR Televisión Moyobamba (720p) [Not 24/7]",
     "url": "https://live.obslivestream.com/crtvmux/index.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-321",
+    "id": "e6909d3b-d307-4361-9d6f-7033d682b743",
     "name": "Cosmos TV (720p)",
     "url": "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8",
     "group": "Science",
     "status": "unknown"
   },
   {
-    "id": "remote-323",
+    "id": "24036d15-e7f5-4cd3-bc59-2a9dc28429af",
     "name": "Dazn Ringside (1080p)",
     "url": "https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-324",
+    "id": "ab594cb9-806d-4d2b-a7dc-177fafa139ba",
     "name": "DAZN Combat",
     "url": "https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-325",
+    "id": "82389ea6-d637-419b-b697-851655a8aa6a",
     "name": "Ecuador TV (720p)",
     "url": "https://samson.streamerr.co:8081/shogun/index.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-326",
+    "id": "0d365e3b-d5a6-498c-b1fa-521bd716365b",
     "name": "Elias Pina TV (720p) [Not 24/7]",
     "url": "https://cloud2.streaminglivehd.com:1936/8078/8078/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-328",
+    "id": "78af0804-b23c-41ad-8bf5-4a99d1f299ba",
     "name": "Extrema TV (720p)",
     "url": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-329",
+    "id": "5792b952-43c3-4122-9d30-3370747353a2",
     "name": "F10 HD [Geo-blocked]",
     "url": "https://tv2.bitstreaming.net:3235/multi_live/play.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-331",
+    "id": "866c5f1c-85ee-4cd7-a2d0-64e8a99c9a30",
     "name": "Gi Television (720p) [Not 24/7]",
     "url": "https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8",
     "group": "Entertainment",
     "status": "unknown"
   },
   {
-    "id": "remote-334",
+    "id": "fbb222b2-2da5-4a22-aa5b-b7ab55f5a02d",
     "name": "Iunior TV (1080p)",
     "url": "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8",
     "group": "Kids",
     "status": "unknown"
   },
   {
-    "id": "remote-335",
+    "id": "7690f78d-c768-4abf-804d-1a5cfa52beee",
     "name": "Isla TV (480p)",
     "url": "https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-336",
+    "id": "fd737e7b-c190-4ad9-9443-01f78d585eb6",
     "name": "ITV Deportes",
     "url": "https://thm-it-roku.otteravision.com/thm/it/it.m3u8",
     "group": "Entertainment;Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-337",
+    "id": "ca98989d-75c5-433c-baa8-643a36c3a396",
     "name": "JN19 (1080p) [Not 24/7]",
     "url": "https://servilive.com:3028/live/jntv19live.m3u8",
     "group": "Religious",
     "status": "unknown"
   },
   {
-    "id": "remote-339",
+    "id": "37b083c5-f556-403b-8dde-ec8c6b711b1c",
     "name": "Latina TV (1080p)",
     "url": "https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-340",
+    "id": "f53969a4-a9f3-48c7-a7b6-7810af28e231",
     "name": "Latina Clasicos",
     "url": "https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8",
     "group": "Series",
     "status": "unknown"
   },
   {
-    "id": "remote-341",
+    "id": "ddf7b2cd-c363-4e99-80c4-f5b5cfe2ff33",
     "name": "Latina (720p)",
     "url": "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-343",
+    "id": "71da5e70-5d87-4995-bb67-2fa2a4102bed",
     "name": "Metropoli Medios TV (720p)",
     "url": "https://eu1.servers10.com:8081/8214/index.m3u8",
     "group": "Music",
     "status": "unknown"
   },
   {
-    "id": "remote-344",
+    "id": "3aef727e-3552-49c1-ad29-eefca5cc7f94",
     "name": "MNB Sport (1080p)",
     "url": "https://cdn4.skygo.mn/live/disk1/MNBSport/DASH-FTA/MNBSport.mpd",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-345",
+    "id": "01782354-9c78-49e1-a8ff-51ba46fc967c",
     "name": "More Than Sports TV (1080p)",
     "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-346",
+    "id": "a44c7465-1443-4c04-b281-fc0cd48d4561",
     "name": "Multivisión Canal 3 (720p) [Not 24/7]",
     "url": "https://stream.digitalgt.com:3136/live/multivisionlive.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-348",
+    "id": "02277885-1e5c-49b5-bd99-2693c8cbe800",
     "name": "NHRA TV (720p)",
     "url": "https://aegis-cloudfront-1.tubi.video/b8c5eb48-349b-454f-9625-63911ee923f5/playlist.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-349",
+    "id": "5b2405cc-aba8-4e2d-a089-016d0ad53222",
     "name": "Nicoya TV (720p) [Not 24/7]",
     "url": "https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-351",
+    "id": "bbac5788-b603-486f-916c-7af6d2a9d618",
     "name": "Platzi TV",
     "url": "https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8",
     "group": "Education",
     "status": "unknown"
   },
   {
-    "id": "remote-352",
+    "id": "5b2fd997-470a-4080-95e0-33c0c1891e7a",
     "name": "Los Santos TV",
     "url": "https://lstv.duckdns.org:449/hls/lstv.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-356",
+    "id": "3cbaaf34-3b81-443f-81c1-a0f7be15d139",
     "name": "PromarTV (1080p) [Not 24/7]",
     "url": "http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-357",
+    "id": "861103c5-b07f-4d3e-a6f2-58bac1abf265",
     "name": "Rai Sport HD",
     "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-362",
+    "id": "b69b3dac-dacf-44ef-928b-6f1726cf7bfd",
     "name": "Sport Fishing TV",
     "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-365",
+    "id": "c602112d-8e01-4667-9ec1-4134f021d2d4",
     "name": "Super Cable",
     "url": "http://191.102.39.254:5000/live/5up3r5/playlist.m3u8",
     "group": "Entertainment",
     "status": "unknown"
   },
   {
-    "id": "remote-366",
+    "id": "6262a3b2-f211-4380-ac31-2125ba5a6e45",
     "name": "TDtv (720p)",
     "url": "https://cloudvideo.servers10.com:8081/8230/index.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-367",
+    "id": "833db8b6-f3d5-4c61-8964-dd6ae36a1fbd",
     "name": "TeleCinco Trelew (240p)",
     "url": "https://videohd.live:19360/8016/8016.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-368",
+    "id": "ef9ecf30-4d16-439e-95dc-95d39b12b34e",
     "name": "Teleselva",
     "url": "https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-370",
+    "id": "a2f5f83f-bb98-47d1-9bae-e53f0da595ae",
     "name": "Televisión Metrópolis 19.1 (1080p) [Not 24/7]",
     "url": "https://5e85d90130e77.streamlock.net/6028/6028/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-371",
+    "id": "8358651f-b35b-4f16-8006-f4c08f3a11cd",
     "name": "Televisión Metrópolis 19.2 (1080p) [Not 24/7]",
     "url": "https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-372",
+    "id": "13414355-d356-4b9b-b1db-2734e42250e4",
     "name": "Tiguerito TV (720p) [Not 24/7]",
     "url": "https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8",
     "group": "Animation;Kids",
     "status": "unknown"
   },
   {
-    "id": "remote-373",
+    "id": "7809b6ab-a45c-40d4-9036-8064e7745436",
     "name": "Todo Cine (1080p)",
     "url": "https://aegis-cloudfront-1.tubi.video/be9224ff-0bff-440d-aa84-40afcb2150b5/playlist.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-375",
+    "id": "ade0749f-a4d1-47ef-87f9-f761320c8af1",
     "name": "TVS Classic Sports (360p)",
     "url": "https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-376",
+    "id": "bfe48689-c1c6-4250-a093-5b4b7b5a85c9",
     "name": "TVE LA 1",
     "url": "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-377",
+    "id": "2d8bb5e1-2128-40cb-8c7a-78be57a6c10c",
     "name": "TVE LA 2",
     "url": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-378",
+    "id": "72195268-786a-415c-b889-d2ccd22edb86",
     "name": "TVE 24 H",
     "url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-379",
+    "id": "ec0c9ae7-82e4-405f-9a32-f4c7aa768493",
     "name": "STAR TVE",
     "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_720.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-380",
+    "id": "1e87f71a-3ae5-4288-9952-7c0f03a9d6cb",
     "name": "TVE LA 2",
     "url": "https://ztnr.rtve.es/ztnr/1688885.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-381",
+    "id": "9452d4f4-2474-4b9a-88b1-1d8c2f8ec844",
     "name": "TVE 24 H",
     "url": "https://ztnr.rtve.es/ztnr/1694255.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-383",
+    "id": "a8573a16-dabf-4594-a141-ed76da7e9601",
     "name": "TRECE INT",
     "url": "https://5940924978228.streamlock.net/8009/ngrp:8009_all/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-384",
+    "id": "23fc17b7-c743-420f-8c5d-1bae16a7d235",
     "name": "TVE CLAN",
     "url": "https://ztnr.rtve.es/ztnr/5466990.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-385",
+    "id": "2c025f59-794a-48da-8a65-7d076ae055c7",
     "name": "TVE TDP",
     "url": "https://ztnr.rtve.es/ztnr/1712295.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-386",
+    "id": "214416d7-a453-4be1-8cd9-20098d5e56c6",
     "name": "TVE SOMOS CINE",
     "url": "https://ztnr.rtve.es/ztnr/6909845.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-387",
+    "id": "647101ef-ad46-46a6-a291-35169d03e197",
     "name": "RTVE PLAY CADENA 2",
     "url": "https://ztnr.rtve.es/ztnr/6108703.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-388",
+    "id": "9dd37789-2c0b-4287-a8b2-0ed958a0cf4d",
     "name": "MBC MOVIES ACTION",
     "url": "https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-389",
+    "id": "8c30bea8-378e-409a-8726-853650c2747d",
     "name": "VIVE KANAL D DRAMA",
     "url": "https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/playlist/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-391",
+    "id": "5076fc80-c6b9-45d5-bb58-efee82d46304",
     "name": "MBC PERSIA",
     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-393",
+    "id": "8ffefac1-f291-4f02-9a70-ec60982860c9",
     "name": "NEJAT TV",
     "url": "https://hls.nejat.live/hls/stream.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-394",
+    "id": "c1aea251-243d-45f2-a915-451163fe64d1",
     "name": "SL TWO",
     "url": "https://sltwohls.wns.live/hls/stream.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-395",
+    "id": "4712ef86-41c2-4c6f-9c24-21cd9fa8c2e4",
     "name": "OX IR",
     "url": "https://hls.oxir.live/hls/stream.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-397",
+    "id": "260d451b-f244-48ec-92f7-84b2fbd0a27b",
     "name": "AVA SERIES",
     "url": "https://avaserieshls.wns.live/hls/stream.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-398",
+    "id": "8e1448ff-c8fa-4f1f-8eba-ef028586ba9e",
     "name": "FX TV",
     "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-399",
+    "id": "ecd78c89-f024-4cec-ae02-ad35a131a0d4",
     "name": "FX TV 2",
     "url": "https://toonixhls.wns.live/hls/stream.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-400",
+    "id": "0fac099c-2808-4c12-9727-1dcd7e177097",
     "name": "Gold Star",
     "url": "https://moviethls.wns.live/hls/stream.m3u8",
     "group": "Movies",
     "status": "unknown"
   },
   {
-    "id": "remote-401",
+    "id": "827e3b2f-2d22-4502-ab6b-633b453b9f00",
     "name": "Action Hollywood Movies",
     "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-402",
+    "id": "2e3ef3fe-4d58-464d-8003-0f6852e7eefe",
     "name": "Kannur Vision (1080p)",
     "url": "https://stream.logichost.in/kannurvision/live/playlist.m3u8",
     "group": "News",
     "status": "unknown"
   },
   {
-    "id": "remote-403",
+    "id": "bf74124e-80e9-48b1-88d6-96b1655ecb75",
     "name": "MovieSphere",
     "url": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8",
     "group": "General",
     "status": "unknown"
   },
   {
-    "id": "remote-404",
+    "id": "262ef9bd-17d5-4161-a9cd-c92a57a8af69",
     "name": "Mix Hollywood (1080p)",
     "url": "https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8",
     "group": "Movies",
     "status": "unknown"
   },
   {
-    "id": "remote-405",
+    "id": "df04ba62-4fd6-45c5-a19b-d79dd2a5c8b3",
     "name": "Hollywood",
     "url": "https://jmp2.uk/plex-64305451fc3be5947773c339-66be944f8711311880995280.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-406",
+    "id": "2ce944f1-9749-45e8-8b39-e06e3cc01a33",
     "name": "Hollywood",
     "url": "https://jmp2.uk/plex-608049aefa2b8ae93c2c3a63-66be944f8711311880995280.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-407",
+    "id": "58b014ec-ebdc-4e42-8344-ba42e54c1f4a",
     "name": "Mass Tv",
     "url": "http://tv2.massstream.net/Masstv/index.m3u8",
     "group": "hilaytv",
     "status": "unknown"
   },
   {
-    "id": "remote-408",
+    "id": "4bc739ae-c9e3-4002-9a8c-1cb388a0fb89",
     "name": "Kung Fu+",
     "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/06862a07-6a92-4b4d-abc3-5fea131713b5/manifest.m3u8",
     "group": "Undefined",
     "status": "unknown"
   },
   {
-    "id": "remote-409",
+    "id": "a7d052ec-77be-452a-96d1-cc4d94e96be0",
     "name": "Cinevault Westerns (540p) [Geo-blocked]",
     "url": "https://gsn-cinevault-westerns-2-us.roku.wurl.tv/playlist.m3u8",
     "group": "Classic",
     "status": "unknown"
   },
   {
-    "id": "remote-412",
+    "id": "cb19ab00-fd8b-480e-b445-42502498e28e",
     "name": "Real Madrid tv Football",
     "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8",
     "group": "Football",
     "status": "unknown"
   },
   {
-    "id": "remote-413",
+    "id": "ef89b572-d38d-4e2e-a091-8d9c3bf806e9",
     "name": "KUWAIT TV SPORT PLUS",
     "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-414",
+    "id": "34719df9-abcb-4c8c-ba06-7f7ef2555c4c",
     "name": "KUWAIT TV SPORTS",
     "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-415",
+    "id": "18305571-db20-4d93-beef-3d60c1008a3b",
     "name": "Bahrain Sports 1",
     "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-416",
+    "id": "951beb8b-9333-4579-a4db-7e9e960de5ad",
     "name": "Bahrain Sports 2",
     "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
     "group": "Sports",
     "status": "unknown"
   },
   {
-    "id": "remote-417",
+    "id": "48bfa386-2b1f-49b4-b1a6-40258d421b22",
     "name": "SPOOKY NIGHTS",
     "url": "https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-418",
+    "id": "c00246aa-091d-4367-877d-a2462268e038",
     "name": "PORTO CANAL",
     "url": "https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-419",
+    "id": "616296b5-bd12-4b26-ad83-16ed5fb4355f",
     "name": "TRT SPOR",
     "url": "https://trn03.tulix.tv/gt-trt-spor1/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-420",
+    "id": "fff55438-6609-4811-a362-e118045e10a0",
     "name": "TF1",
     "url": "https://raw.githubusercontent.com/mikekaprielian/rtnaodhor93n398/main/fr/videotf1.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-421",
+    "id": "8ede961b-c56a-4473-b72a-ad2b9698e3ce",
     "name": "TF1 SÉRIES FILMS",
     "url": "https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-422",
+    "id": "cc715129-6ef5-4c76-b790-d3609037a87f",
     "name": "TFX",
     "url": "https://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-423",
+    "id": "f860cd8c-7adb-4b28-bbfd-edf6096a3067",
     "name": "M6",
     "url": "https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-dash/m6hd.mpd",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-424",
+    "id": "9a971760-d085-40dc-9b82-29571e7f5fa6",
     "name": "W9",
     "url": "https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-425",
+    "id": "50b8a8ac-24c2-4ab9-9ed0-3556fec2255f",
     "name": "SCREAM IN",
     "url": "https://amg00711-zylo-amg00711c6-plex-us-935.playouts.now.amagi.tv/zylo-Screamin-lg/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-427",
+    "id": "3fc00d86-14ab-4c13-9203-af9b93e1f442",
     "name": "CAFE TV 24",
     "url": "https://srvx1.selftv.video/cafe/live/playlist.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-428",
+    "id": "7b57a5bc-a8c4-492b-9076-62ff5b9eef82",
     "name": "Padma Tv",
     "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-429",
+    "id": "c0ab9a1e-83be-4234-80de-1ac3888f9964",
     "name": "CINEMAX",
     "url": "http://23.237.104.106:8080/USA_MOREMAX/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-430",
+    "id": "bc3c6d0b-9a4e-43f5-936f-d11efa890b08",
     "name": "CINEMAX US",
     "url": "http://23.237.104.106:8080/USA_CINEMAX/index.m3u8",
     "group": "hilaytv",
     "status": "unknown"
   },
   {
-    "id": "remote-431",
+    "id": "ff2157da-cb82-47dd-82fa-93d4f9dcdb25",
     "name": "SHOWTIME",
     "url": "http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8",
     "group": "hilaytv",
     "status": "unknown"
   },
   {
-    "id": "remote-432",
+    "id": "391a4092-0d35-4f0d-8351-f2f69ac8cf88",
     "name": "MovieSphere",
     "url": "https://moviesphereuk-samsunguk.amagi.tv/1080p-vtt/index.m3u8",
     "group": "TV",
     "status": "unknown"
   },
   {
-    "id": "remote-439",
+    "id": "31bcea19-8164-477c-aea7-f905ee7a0113",
     "name": "Miramax",
     "url": "https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist.m3u8",
     "group": "hilaytv",
     "status": "unknown"
   },
   {
-    "id": "remote-448",
+    "id": "6444a814-6272-4354-8001-9d38552f0383",
     "name": "PREMIER SPORTS 1",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47859.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-449",
+    "id": "83f2ca0d-40f4-40ac-a8b5-14f79806d023",
     "name": "PREMIER SPORTS 2",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47858.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-450",
+    "id": "92f75f93-865d-4587-8404-64936b7fb5c5",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47832.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-451",
+    "id": "fa54922a-cdfe-45b3-817e-2499d880383b",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47816.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-452",
+    "id": "4af47199-cda2-4852-97c5-8a249aae429d",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47815.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-453",
+    "id": "3a1946c2-dec4-497e-bd98-67f5ccc47667",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47817.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-454",
+    "id": "b3395338-466e-4d41-a5c2-f410425efb85",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47814.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-455",
+    "id": "c2b43346-f3e9-4443-8087-3cedbd785fc9",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47813.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-456",
+    "id": "bad4d846-a673-4de4-bdec-130ed6ba65c3",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47812.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-457",
+    "id": "61148169-1322-462b-9f66-46287e170fa9",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47811.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-458",
+    "id": "2c09a12e-32c4-4556-adc0-e39524fea62b",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47818.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-459",
+    "id": "93f7855c-252e-4c8e-85cf-51a14c3b7175",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47819.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-460",
+    "id": "81a79b61-b330-4518-a85e-b8470adb0065",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47824.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-461",
+    "id": "744e1f22-f5a0-4ebd-aba8-150aca1bfdbb",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47823.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-462",
+    "id": "12a49357-bc8e-4a44-b94f-0b1fde58d124",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47822.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-463",
+    "id": "020de0a7-ee6a-4ad5-8368-5d7aadcba85c",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47821.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-464",
+    "id": "9ca5dd80-73aa-4618-9f05-131f60051198",
     "name": "CINE",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47820.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-465",
+    "id": "ee5e0475-b969-43e8-9bd3-e44166319e50",
     "name": "ANIMAL",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47830.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-466",
+    "id": "a8daa915-8f46-42f1-9436-cd0f14a18dff",
     "name": "NEWS",
     "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47829.ts",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-469",
+    "id": "1e62065a-63b5-4de1-9f98-83d83fc79f72",
     "name": "WARNER BROS",
     "url": "http://181.205.130.194:4000/play/a07f",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-476",
+    "id": "d09b0a4c-92dd-4e13-a384-96dca2253aab",
     "name": "RCN NOVELAS",
     "url": "http://181.205.130.194:4000/play/a07v",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-477",
+    "id": "ce021424-5b44-4b7b-8a22-cb5bc956051f",
     "name": "CINECANAL",
     "url": "http://181.205.130.194:4000/play/a06e",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-479",
+    "id": "7e2e4ed6-1a46-4619-852f-67d8dad5aa01",
     "name": "STAR CHANNEL",
     "url": "http://181.205.130.194:4000/play/a06k",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-482",
+    "id": "5e652979-4c5b-4fe1-929d-7c7960391e7e",
     "name": "CLATO SPORTS",
     "url": "http://181.205.130.194:4000/play/a06o",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-483",
+    "id": "3536a426-febf-4858-b3fe-e7fd50e5b2d2",
     "name": "TVE",
     "url": "http://181.205.130.194:4000/play/a06s",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-581",
+    "id": "5f109f67-b125-4950-b779-c864e5ff63a0",
     "name": "ESPN",
     "url": "http://200.10.30.241:8000/play/a03c/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-582",
+    "id": "b2a133ab-68b1-4c3c-8f93-d52b2a0bce32",
     "name": "ESPN 2 🇨🇴",
     "url": "http://200.10.30.241:8000/play/a01r/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-583",
+    "id": "b9bd2fc8-7c1c-4051-acd0-c72a06e7170b",
     "name": "ESPN4",
     "url": "http://200.10.30.241:8000/play/a01k/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-584",
+    "id": "9e1492cf-db0d-4622-b0b0-d323eba33dfd",
     "name": "SONY CHANNEL",
     "url": "http://200.10.30.241:8000/play/a02y/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-586",
+    "id": "f8128d90-f36d-4cf2-830e-79cb0f31d94c",
     "name": "TNT",
     "url": "http://200.10.30.241:8000/play/a01v/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-587",
+    "id": "531d9a25-431f-4600-9f65-57abbd5e6d21",
     "name": "CINECANAL",
     "url": "http://200.10.30.241:8000/play/a01p/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-588",
+    "id": "32c7add5-71fa-424a-9849-e0d9ecc54808",
     "name": "SPACE",
     "url": "http://200.10.30.241:8000/play/a01m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-589",
+    "id": "a18e8019-586e-4152-88a9-a5284f1a798b",
     "name": "TNT series",
     "url": "http://200.10.30.241:8000/play/a01i/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-590",
+    "id": "803292c5-186c-421a-99d5-2c2da8da8486",
     "name": "DISNEY CHANNEL",
     "url": "http://200.10.30.241:8000/play/a01t/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-602",
+    "id": "42cc06a9-5680-4817-bcf7-b1bbaebe505f",
     "name": "ESPN",
     "url": "http://205.235.6.29:8000/play/a0wk/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-604",
+    "id": "c5667c1f-af13-4d53-b24e-74e707c39373",
     "name": "tln",
     "url": "http://205.235.6.29:8000/play/a0wv/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-606",
+    "id": "ebcf814b-79d5-4813-ae80-0ca0e9e35ece",
     "name": "ECDF",
     "url": "http://205.235.6.29:8000/play/a0vg/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-607",
+    "id": "086689ed-8634-4689-bb42-051bdc0ab7b5",
     "name": "CINECANAL",
     "url": "http://45.5.117.57:8200/play/a049/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-608",
+    "id": "1ccd3bb9-7183-4501-a24b-a7405ecedb7f",
     "name": "STUDIO UNIVERSAL",
     "url": "http://45.5.117.57:8200/play/a048/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-609",
+    "id": "9091f4a1-f6de-4d25-8f2a-1d1134ab133a",
     "name": "CINEMAX",
     "url": "http://45.5.117.57:8200/play/a047/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-610",
+    "id": "7e19162e-9c69-416a-831a-c96f5524d416",
     "name": "CINE LATINO",
     "url": "http://45.5.117.57:8200/play/a046/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-611",
+    "id": "8efaa805-29e1-4187-bbc8-543ef9a16aa6",
     "name": "MULTIPREMIER",
     "url": "http://45.5.117.57:8200/play/a045/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-612",
+    "id": "8c8ff490-823b-4eea-b932-923f6d96adb6",
     "name": "UNIVERSAL TV",
     "url": "http://45.5.117.57:8200/play/a044/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-613",
+    "id": "0888df17-0ad9-43a7-9961-27aea37ac7bf",
     "name": "CINECANAL",
     "url": "http://45.5.117.57:8200/play/a038/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-614",
+    "id": "405818f7-af8d-449d-b772-4a40e2a51471",
     "name": "SONY CHANNEL",
     "url": "http://45.5.117.57:8200/play/a037/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-615",
+    "id": "662d5d35-5dc5-40f9-88e4-4333b6ec8a63",
     "name": "WARNER",
     "url": "http://45.5.117.57:8200/play/a036/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-616",
+    "id": "a5ee15d4-b37b-4182-a4e4-7376c74fe94d",
     "name": "STAR CHANNEL",
     "url": "http://45.5.117.57:8200/play/a035/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-617",
+    "id": "82f5e55a-d8c3-4f10-bc85-2446439e9062",
     "name": "CLARO CINEMA",
     "url": "http://45.5.117.57:8200/play/a034/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-618",
+    "id": "ebebf05f-522b-4dfc-8e07-5eeb23388f88",
     "name": "ESPN MX",
     "url": "http://45.5.117.57:8200/play/a031/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-619",
+    "id": "ebe26c63-359b-406f-8872-5cb267e774b0",
     "name": "ESPN 2 MX",
     "url": "http://45.5.117.57:8200/play/a032/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-620",
+    "id": "72efb2b8-ba63-41ae-94e2-3c42f7bd1ce7",
     "name": "ESPN 6",
     "url": "http://45.5.117.57:8200/play/a013/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-621",
+    "id": "3732cc09-3b10-435e-8300-ff3e45e64d3c",
     "name": "SUN",
     "url": "http://45.5.117.57:8200/play/a029/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-622",
+    "id": "387ab322-bfe5-4cb2-8832-10fe1062c0d9",
     "name": "EURO CHANNEL",
     "url": "http://45.5.117.57:8200/play/a026/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-623",
+    "id": "b10a5211-5f83-405b-ac19-5748c714ddb4",
     "name": "RCN NOVELAS",
     "url": "http://45.5.117.57:8200/play/a025/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-624",
+    "id": "de933ac4-0902-447b-afaf-3330b2dd3677",
     "name": "FX",
     "url": "http://45.5.117.57:8200/play/a024/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-625",
+    "id": "736a0e4e-6df8-4d76-a4cd-d878d88bd12e",
     "name": "TNT",
     "url": "http://45.5.117.57:8200/play/a017/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-626",
+    "id": "d39e41a5-2b86-4c7a-8c49-eeae8904b06c",
     "name": "CANAL 6 CR",
     "url": "http://45.5.117.57:8200/play/a022/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-627",
+    "id": "a5d8543a-8423-47e8-a5c0-74e2a59c1de9",
     "name": "AXN",
     "url": "http://45.5.117.57:8200/play/a016/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-628",
+    "id": "0b40b5df-2ed0-4fdc-9c02-55e1fdae383f",
     "name": "NATIONAL GEOGRAPHIC",
     "url": "http://45.5.117.57:8200/play/a011/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-629",
+    "id": "44d99189-90fb-4cf9-ad9e-251c8b17117d",
     "name": "TNT NOVELAS",
     "url": "http://45.5.117.57:8200/play/a010/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-630",
+    "id": "467dcb7f-bbc5-4f4a-b7f9-0af5119c4e71",
     "name": "AZTECA UNO",
     "url": "http://45.5.117.57:8200/play/a052/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-631",
+    "id": "37ca4420-2add-43f1-9801-5c3d5742f3ef",
     "name": "DC",
     "url": "http://45.5.117.57:8200/play/a055/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-632",
+    "id": "3aa425e3-86bf-4490-b7fa-1cc5008c0d7c",
     "name": "FSPREMIUM",
     "url": "http://45.5.117.57:8200/play/a058/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-633",
+    "id": "597ce591-1c8c-45fb-86f3-5c7362ef9bb9",
     "name": "LAS ESTRELLAS",
     "url": "http://45.5.117.57:8200/play/a059/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-635",
+    "id": "ee5e1931-8651-4396-9b81-8555c7b81aa0",
     "name": "UNIVISION",
     "url": "http://190.14.10.19:16000/play/a09c/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-636",
+    "id": "3accfbd5-9742-48f4-828f-130ba0f991cf",
     "name": "ANIMAL PLANET",
     "url": "http://190.14.10.19:16000/play/a09d/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-638",
+    "id": "015afafd-9b94-429a-891a-89f542102dd5",
     "name": "LAS ESTRELLAS",
     "url": "http://190.14.10.19:16000/play/a09q/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-640",
+    "id": "5fa97322-e7b7-4b2f-b2d7-3a21eabd5f68",
     "name": "ESPN4",
     "url": "http://190.14.10.19:16000/play/a09t/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-642",
+    "id": "a0557c64-4b83-4eb9-8bd0-e814686ff271",
     "name": "ESPN 6 mx",
     "url": "http://190.14.10.19:16000/play/a09s/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-644",
+    "id": "4db7440a-2ebb-44fc-be94-639dc040339f",
     "name": "SKY SPORTS LA LIGA",
     "url": "http://190.14.10.19:16000/play/a09u/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-651",
+    "id": "9a1b2796-95cd-4d5a-8334-e46c6450f33d",
     "name": "AXN",
     "url": "http://190.14.10.19:16000/play/a07o/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-652",
+    "id": "1cd19b67-27cb-4b1e-9fc9-31550d73e1ba",
     "name": "SPACE",
     "url": "http://190.14.10.19:16000/play/a07p/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-658",
+    "id": "d5fca71f-c608-4a3a-a4c2-9f0dc7585139",
     "name": "DISNEY",
     "url": "http://190.14.10.19:16000/play/a06z/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-659",
+    "id": "c6a94085-e41a-4bb0-9f87-cd5d1cbdbead",
     "name": "EURO CHANNEL",
     "url": "http://190.14.10.19:16000/play/a05a/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-662",
+    "id": "afe67191-1263-441e-8cfb-5ed7413b95a0",
     "name": "AZTECA GUATE",
     "url": "http://190.14.10.19:16000/play/a05t/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-665",
+    "id": "efd72c58-02d5-43cb-8ff0-c6025ab8a9d0",
     "name": "TV AZTECA",
     "url": "http://190.14.10.19:16000/play/a02i/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-666",
+    "id": "f9ed9d11-81d2-4e52-9bcf-fea35f37a9cb",
     "name": "TNT Novelas",
     "url": "http://190.14.10.19:16000/play/a02l/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-667",
+    "id": "7ce31a81-0362-4961-961d-7dda0a4af725",
     "name": "HISTORIA",
     "url": "http://190.14.10.19:16000/play/a02z/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-671",
+    "id": "79ccdd26-a453-46c5-a815-eb2ecc4f79e0",
     "name": "ESPN 4",
     "url": "http://45.228.234.30:16000/play/a03i/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-672",
+    "id": "03d5032b-fbce-4218-ad9d-69e0eb061653",
     "name": "ESPN6",
     "url": "http://45.228.234.30:16000/play/a00r/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-673",
+    "id": "1dfd6f3e-86f4-4841-ae19-e0078a972351",
     "name": "HBO PLUS",
     "url": "http://45.228.234.30:16000/play/a00a/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-674",
+    "id": "112c23c3-3e26-4a9a-99b1-a8549aff788d",
     "name": "HBO XTREME",
     "url": "http://45.228.234.30:16000/play/a00c/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-675",
+    "id": "0196b450-ebbe-4cfe-a5ea-97929c342cbc",
     "name": "HBO FAMILY",
     "url": "http://45.228.234.30:16000/play/a00b/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-676",
+    "id": "6785f7a2-29ef-4e4c-9c26-a4ffa10d4c33",
     "name": "SPACE",
     "url": "http://45.228.234.30:16000/play/a02e/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-677",
+    "id": "80042569-1eb5-4038-ad82-2b799361d0e4",
     "name": "SONY CHANNEL",
     "url": "http://45.228.234.30:16000/play/a01b/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-678",
+    "id": "d553370f-c96a-4aa6-b065-f004fac51adc",
     "name": "SONY CHANNEL",
     "url": "http://45.228.234.30:16000/play/a01p/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-679",
+    "id": "1576e73a-ba18-4e04-9eaf-00d55786c50d",
     "name": "A&E",
     "url": "http://45.228.234.30:16000/play/a01e/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-680",
+    "id": "f6ef25e5-5655-42dd-b0c1-4c88e569fc52",
     "name": "STAR CHANNEL",
     "url": "http://45.228.234.30:16000/play/a01n/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-681",
+    "id": "5215e644-c2a0-4307-8c5d-7d2c7856a42a",
     "name": "WARNER",
     "url": "http://45.228.234.30:16000/play/a01o/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-682",
+    "id": "21195281-8e40-4eb5-8893-407a220d0aa4",
     "name": "CINECANAL",
     "url": "http://45.228.234.30:16000/play/a01q/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-683",
+    "id": "034200a0-5303-40cb-88ca-46d922faccde",
     "name": "TVAZTECA",
     "url": "http://45.228.234.30:16000/play/a00m/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-684",
+    "id": "5c972512-c607-48e1-aa83-bfde64ca6ea1",
     "name": "TNT",
     "url": "http://45.228.234.30:16000/play/a00v/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-685",
+    "id": "97a17d48-863a-4177-9ab5-6f0b156c4024",
     "name": "TNT Series",
     "url": "http://45.228.234.30:16000/play/a00o/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-686",
+    "id": "9caa3d27-ffa4-4e78-a898-a9731c8c78c9",
     "name": "TNT Novelas",
     "url": "http://45.228.234.30:16000/play/a00p/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-687",
+    "id": "803d80a1-5981-49bc-8b74-0f30645ef2d2",
     "name": "TNT Novelas",
     "url": "http://45.228.234.30:16000/play/a02s/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-688",
+    "id": "8b0e974c-79e6-467c-b4a6-f1615ce45bc5",
     "name": "AXN",
     "url": "http://45.228.234.30:16000/play/a00u/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-690",
+    "id": "43ed7767-622d-4fd7-a072-6fc14f4b7c08",
     "name": "TUDN",
     "url": "http://45.228.234.30:16000/play/a02x/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-692",
+    "id": "2aab1f46-9e5f-4546-8b01-fc00b505de46",
     "name": "SKY SPORTS LA LIGA",
     "url": "http://45.228.234.30:16000/play/a03h/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-693",
+    "id": "62acf845-5e82-4ddf-bf91-9dce54deea12",
     "name": "FOX SPORTS",
     "url": "http://45.228.234.30:16000/play/a03p/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-694",
+    "id": "7ec001a7-3aac-453c-9d04-4190214c0142",
     "name": "CLARO SPORTS",
     "url": "http://45.228.234.30:16000/play/a03s/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-695",
+    "id": "69e1d588-c0f3-482f-8c4a-cb183ac0b820",
     "name": "CLARO SPORTS 2",
     "url": "http://45.228.234.30:16000/play/a03t/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-696",
+    "id": "46d504ce-b27d-4366-bbfd-c4d2b7e985d7",
     "name": "CANAL 2",
     "url": "http://45.228.234.30:16000/play/a04d/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-697",
+    "id": "7e9b5eea-54e4-4b0e-b169-dd4ddcc92b39",
     "name": "CANAL 4",
     "url": "http://45.228.234.30:16000/play/a03v/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-698",
+    "id": "b27e346d-0057-427a-b2a7-57c36f49cc93",
     "name": "CANAL 4",
     "url": "http://45.228.234.30:16000/play/a04c/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-699",
+    "id": "489713c6-95e3-4a99-90f3-a2d38e07da4e",
     "name": "CARACOL",
     "url": "http://45.228.234.30:16000/play/a04e/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-700",
+    "id": "f10e0984-f2d0-4bc3-90e9-b24df6183fb3",
     "name": "OLIMPICOS",
     "url": "http://45.228.234.30:16000/play/a04f/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-702",
+    "id": "75c65e53-21b4-4d5d-a4d5-65b78882bd40",
     "name": "MAS TV TOTO",
     "url": "http://45.228.234.30:16000/play/a04h/index.m3u8",
     "group": "Uncategorized",
     "status": "unknown"
   },
   {
-    "id": "remote-15",
+    "id": "ca713306-36f3-4408-9a6a-08d5b7649aa2",
     "name": "Cinemax  2",
     "url": "http://38.44.109.41:8003/play/a023/index.m3u8",
     "group": "© Cinemax",
     "status": "unknown"
   },
   {
-    "id": "remote-226",
+    "id": "d1a3500a-c4e8-45f1-b5d3-7626661d7abe",
     "name": "➾ ⚽|0001 WIN  PLUS SEP",
     "url": "http://tvstar.icu:8080/live/scottiecheeze@yahoo.com/7vyh8aDqBq/78697.ts",
     "group": "⚽WIN SPORTS PREMIUM⚽",
     "status": "unknown"
   },
   {
-    "id": "remote-671",
+    "id": "b985fde5-131d-468a-9569-b8e6f51c061e",
     "name": "TVE",
     "url": "http://45.228.234.30:16000/play/a04g/index.m3u8",
     "group": "Uncategorized",
