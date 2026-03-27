@@ -1,5 +1,61 @@
 {
-  "categories": [],
+  "categories": [
+    {
+      "name": "Brasil",
+      "icon": "🇧🇷",
+      "display_name": "Contenido BR"
+    },
+    {
+      "name": "Deportes",
+      "icon": "⚽",
+      "display_name": "Deportes en Vivo"
+    },
+    {
+      "name": "Documental",
+      "icon": "🕵🏼‍♂️",
+      "display_name": "Documental"
+    },
+    {
+      "name": "Francia",
+      "icon": "🇫🇷",
+      "display_name": "Contenido Frances"
+    },
+    {
+      "name": "General",
+      "icon": "📺",
+      "display_name": "General"
+    },
+    {
+      "name": "Infantiles",
+      "icon": "🧒",
+      "display_name": "Contenido Infantil"
+    },
+    {
+      "name": "Música",
+      "icon": "🎵",
+      "display_name": "Música y Videos"
+    },
+    {
+      "name": "Noticias",
+      "icon": "📰",
+      "display_name": "Noticias"
+    },
+    {
+      "name": "Películas",
+      "icon": "🎬",
+      "display_name": "Estrenos de Cine"
+    },
+    {
+      "name": "Peru",
+      "icon": "🇵🇪",
+      "display_name": "Contenido Peruano"
+    },
+    {
+      "name": "Series",
+      "icon": "📺",
+      "display_name": "Series y Dramas"
+    }
+  ],
   "channels": [
     {
       "name": "HBO FAMILY",
