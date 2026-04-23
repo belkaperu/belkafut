@@ -1,1 +1,7474 @@
-{"test": true}
+{
+  "channels": [
+    {
+      "name": "HBO XTREME",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.92.227.238:8000/play/a0mu/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO XTREME",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca069/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO Plus HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca070/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO Family",
+      "group": "TV",
+      "logo": "http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34879_dark_360w_270h.png",
+      "tvg_id": "HBO.Drama.us2",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/HBO_FAMILY/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO Family HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.180.133.31:8000/play/a0le/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO FAMILY HD",
+      "group": "Peliculas & Series",
+      "logo": "https://raw.githubusercontent.com/DrSp4rrow/notty-iptv/main/Peru/hbo-family.png",
+      "tvg_id": "lch6493",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a0dr"
+        }
+      ]
+    },
+    {
+      "name": "TLC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07p"
+        }
+      ]
+    },
+    {
+      "name": "TCM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.41.8.1:8000/play/a04x"
+        }
+      ]
+    },
+    {
+      "name": "TCM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06l"
+        }
+      ]
+    },
+    {
+      "name": "Golden",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca076/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN PREMIER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca078/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Golden Premier",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca078/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GOLDENPREMIERE",
+      "group": "© Golden+",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Canal_Golden_logo.svg/360px-Canal_Golden_logo.svg.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.184.87.142:8000/play/a03a"
+        }
+      ]
+    },
+    {
+      "name": "Golden Premiere HD",
+      "group": "© Golden+",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Canal_Golden_logo.svg/360px-Canal_Golden_logo.svg.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.125.170.122:8000/play/a00l"
+        }
+      ]
+    },
+    {
+      "name": "Cinemax",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca079/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cinemax  2",
+      "group": "© Cinemax",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/MaxGO.svg/125px-MaxGO.svg.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.44.109.41:8003/play/a023/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CineMax",
+      "group": "© Cinemax",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/MaxGO.svg/125px-MaxGO.svg.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a0il/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CineMax",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.180.133.31:8000/play/a0qb/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINEMAX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca079/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cinemax",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.41.8.1:8000/play/a05v"
+        }
+      ]
+    },
+    {
+      "name": "Cinecanal",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.60.124.19:29000/play/a01l"
+        }
+      ]
+    },
+    {
+      "name": "CINECANAL HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.180.133.31:8000/play/a0p4/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Multipremier",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://179.49.163.34:45000/play/a016/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Multipremier",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca087/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PARAMOUNT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca082/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PARAMOUNT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.125.170.120:8000/play/a060"
+        }
+      ]
+    },
+    {
+      "name": "Warner",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca071/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca085/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca072/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Space HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.181.122.46:8090/play/a00h"
+        }
+      ]
+    },
+    {
+      "name": "USA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06v"
+        }
+      ]
+    },
+    {
+      "name": "DE PELICULA HD",
+      "group": "© De Pelicula",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/DPel%C3%ADcula_2021.svg/220px-DPel%C3%ADcula_2021.svg.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.42.86:8000/play/a013/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DE PELICULA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://179.49.163.34:45000/play/a013/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DE PELICULA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.33.237:1010/play/a0ec/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DE PELICULA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca073/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cine Latino",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.180.133.31:8000/play/a0qa/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Universal Crime",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.180.133.31:8000/play/a0ph/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSAL PREMIERE HD",
+      "group": "Peliculas & Series",
+      "logo": "https://s3.us-east-1.amazonaws.com/forofms.na/monthly_2022_03/large.1316118004_UniversalPremiere-Claro.png.dd093e77a73e1cc71ccb2e3b7983d187.png",
+      "tvg_id": "UniversalPremiereEast.us",
+      "servers": [
+        {
+          "url": "http://200.115.96.66:4000/play/a035/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Universal cinema",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca083/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Universal Tv",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.41.8.1:8000/play/a04r"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSAL TV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06f"
+        }
+      ]
+    },
+    {
+      "name": "Studio Universal",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca074/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "A&E",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07n"
+        }
+      ]
+    },
+    {
+      "name": "A&E",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca086/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "A&E HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca086/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FX HD",
+      "group": "Peliculas & Series",
+      "logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/022020/fx_logo_thumbnail.jpg",
+      "tvg_id": "lch2325",
+      "servers": [
+        {
+          "url": "http://200.115.96.66:4000/play/a0he/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FX",
+      "group": "Cine",
+      "logo": "https://raw.githubusercontent.com/wazc/iptv/main/Imagenes/FX.jpg",
+      "tvg_id": "FX HD.pe",
+      "servers": [
+        {
+          "url": "http://200.115.96.66:4000/play/a0he/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca075/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TLC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07p"
+        }
+      ]
+    },
+    {
+      "name": "TNT HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06n"
+        }
+      ]
+    },
+    {
+      "name": "TNT Novelas",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.115.96.66:4000/play/a01p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Caracol",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://179.49.163.34:45000/play/a032/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "RCN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://179.49.163.34:45000/play/a033/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "RCN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.41.8.1:8000/play/a06j"
+        }
+      ]
+    },
+    {
+      "name": "RCN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.32.178:8178/play/a0ao/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "RCN novelas",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca014/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Channel",
+      "group": "",
+      "logo": "",
+      "tvg_id": "starmain",
+      "servers": [
+        {
+          "url": "http://179.49.163.34:45000/play/a004/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "STAR CHANNEL HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.180.133.31:8000/play/a0p1/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.180.133.31:8000/play/a0p3/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cine Premiun",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.32.178:8178/play/a07f/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "IVC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.32.178:8178/play/a085/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Globo",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca089/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Las Estrellas",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca011/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca010/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Asteca 7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca023/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 5",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca012/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "STUDIO UNIVERSAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca088/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Las Estrellas",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07r"
+        }
+      ]
+    },
+    {
+      "name": "Telemundo",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca009/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Disney Channel",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca053/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Nickelodeon",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca052/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 1",
+      "group": "© ESPN",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ESPN%27s_Old_Logo.png/220px-ESPN%27s_Old_Logo.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07j"
+        }
+      ]
+    },
+    {
+      "name": "ESPN sd",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.41.8.1:8000/play/a06r"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.41.8.1:8000/play/a07q"
+        }
+      ]
+    },
+    {
+      "name": "ESPN MX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca034/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN mx",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca033/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2",
+      "group": "© ESPN",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ESPN%27s_Old_Logo.png/220px-ESPN%27s_Old_Logo.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07i"
+        }
+      ]
+    },
+    {
+      "name": "ESPN2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca034/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca035/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 5",
+      "group": "Deportes",
+      "logo": "https://raw.githubusercontent.com/DrSp4rrow/notty-iptv/main/Peru/Espn5.png",
+      "tvg_id": "lch5615",
+      "servers": [
+        {
+          "url": "http://38.41.8.1:8000/play/a07b"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 6",
+      "group": "© ESPN",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ESPN%27s_Old_Logo.png/220px-ESPN%27s_Old_Logo.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07t"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 6",
+      "group": "© ESPN",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ESPN%27s_Old_Logo.png/220px-ESPN%27s_Old_Logo.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.44.109.41:8003/play/a00u"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 6",
+      "group": "© ESPN",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ESPN%27s_Old_Logo.png/220px-ESPN%27s_Old_Logo.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://38.41.8.1:8000/play/a082"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 7 mx",
+      "group": "© ESPN",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ESPN%27s_Old_Logo.png/220px-ESPN%27s_Old_Logo.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07s"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca034/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Liga Hipermotion",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca027/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "STUDIO UNIVERSAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca088/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sky Sports Premier League",
+      "group": "АПЛ",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://7pal.short.gy/ssportspl"
+        }
+      ]
+    },
+    {
+      "name": "SKY SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca028/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SKY SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca029/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SKY SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.106.127:9000/play/ca030/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "IU TV HD",
+      "group": "CINE Y SERIES",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGINoCyWiG_cw9svuACXtn-SXfyLZhTNFX3g&usqp=CAU",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0"
+        }
+      ]
+    },
+    {
+      "name": "NEXT",
+      "group": "ENTRETENIMIENTO",
+      "logo": "https://i.imgur.com/30HzeQe.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FARO VISIÓN | DO",
+      "group": "CONSTANTEMENTE CINE",
+      "logo": "https://static.wixstatic.com/media/526a76_d696844d1b49413d91aadba9ad6e8c5f~mv2.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "VISIÓN TV | GT",
+      "group": "DISCONTINUAMENTE CINE",
+      "logo": "https://static.wixstatic.com/media/526a76_7de20afef37447a38a68945f348bbad6~mv2.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SAS TV | GT",
+      "group": "DISCONTINUAMENTE CINE",
+      "logo": "https://static.wixstatic.com/media/526a76_877325b0e9574b8ea585d9eef33fae50~mv2.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://cdn.streamhispanatv.net:3390/live/sastvgtlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Anal",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/anal.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Asian",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/asian.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Big Ass",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/bigass.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Big Dick",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/bigdick.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Big Tits",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/bigtits.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net MILF",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/milf.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Fetish",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/fetish.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Pornstar",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/pornstar.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Interracial",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/interracial.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Latina",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/latina.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net POV",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/pov.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Blowjob",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/blowjob.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Teen",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/teen.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Hardcore",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/hardcore.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Cuckold",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/cuckold.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Threesome",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/threesome.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Russian",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/russian.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Lesbian",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/lesbian.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Rough",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/rough.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Gangbang",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.net/gangbang.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Compilation",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/compilation.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Brunette",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/brunette.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Blonde",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/blonde.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Gay",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/gay.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Live Cams",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.xyz/livecams.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ช่อง AdultIPTV.net Woman",
+      "group": "ADULT CHANNEL",
+      "logo": "https://adultm3u.com/wp-content/uploads/2020/04/adult-300x95.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://live.redtraffic.net/woman.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 3 HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.82.6:46090/play/a00v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 6 HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.78.82.6:46090/play/a00w/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO PLUS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05s/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO XTREME",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO FAMILY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05t/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "WARNER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02i/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04d/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02g/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "STAR CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TCM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02h/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT series",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL GEOGRAPHIC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSAL CINEMA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04s/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSAL COMEDIA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSAL PREMIERE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03i/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSAL PREMIERE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03j/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a01p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY MOVIES",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a01r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02t/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL CLARO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05o/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DHE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a01s/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DHE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "A&E",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02w/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "COMEDIA CENTRAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03f/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "EUROPA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a01q/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "E",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a01k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 4",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02o/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DISNEY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CARTOON NETWORK",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TUDN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04t/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04g/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04h/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04i/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a02b/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 4",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a01g/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN5",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04f/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN6",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a04j/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TIGO SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03a/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CLARO SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a03z/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CLARO SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CLARO SPORTS 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8999/play/a05n/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVN CH",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.37.118:4000/play/a00j"
+        }
+      ]
+    },
+    {
+      "name": "HBO XTREME",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.37.118:4000/play/a03z"
+        }
+      ]
+    },
+    {
+      "name": "SONY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.37.118:4000/play/a03c"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.37.118:4000/play/a03d"
+        }
+      ]
+    },
+    {
+      "name": "STAR CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.37.118:4000/play/a03j"
+        }
+      ]
+    },
+    {
+      "name": "DHE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.37.118:4000/play/a02d"
+        }
+      ]
+    },
+    {
+      "name": "DISNEY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.37.118:4000/play/a02f"
+        }
+      ]
+    },
+    {
+      "name": "WIN SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.60.37.118:4000/play/a03i"
+        }
+      ]
+    },
+    {
+      "name": "AYM SPORT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://aym-as.otteravision.com/aym/as/as_720p_high.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN5",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09e/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN6",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TUDN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FUTV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a06q/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO XTREME",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a08k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN PREMIER 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a08q/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TCM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a05m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MULTIPREMIER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07a/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINEMAX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINECANAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a06o/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "WARNER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a06m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY HD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a06n/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PARAMOUNT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07w/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "A&E",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT SERIES",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07x/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT NOVELAS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09b/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINE LATINO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07b/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a08v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a05u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 11",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a04n/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 13",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a04m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL GEOGRAPHIC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DISCOVERY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07y/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "VE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a05r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "A SPOR",
+      "group": "",
+      "logo": "https://i.ibb.co/xSjB51j/aspor.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_720p.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "WIN SPORT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.0.247.38:8000/play/a068"
+        }
+      ]
+    },
+    {
+      "name": "AUSTRAL EC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://205.235.6.29:8000/play/a0vn/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://205.235.6.29:8000/play/a0vu/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ECDF",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://205.235.6.29:8000/play/a0we/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ball Z La resurrección de Freezer",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://archive.org/download/231455/02/17.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Dragon Ball super Broly",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://archive.org/download/231455/03/05.mp4"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN EDGE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0xr/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0xs/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "VOXX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0xw/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Distrito Comedia",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0xx/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL GEOGRAPHIT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0ya/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0yp/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0xm/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 4",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0yq/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0yi/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0yj/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0yl/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ID",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0ym/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DISNEY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0yo/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DSPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0yv/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DISCOVERY KIDS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.85:8000/play/a0yy/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MATY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/48.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "APEHA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/49.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MATY NPEMBEP",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/52.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MATY NPEMBEP",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/53.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MATY! CTPAHA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/54.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MATY! 1",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/55.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MATY! 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/56.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MATY! 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/57.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CTAPT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/58.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MATY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/59.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Garabito TV (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/sAYNKJ8.png",
+      "tvg_id": "GarabitoTV.cr@SD",
+      "servers": [
+        {
+          "url": "https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Gol Classics",
+      "group": "Sports",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Russia Football 1 HD",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/55.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Russia Football 2 HD",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/56.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Russia Football 3 HD",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://cdntv.online/low/9mlxywika2/57.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cine Sony",
+      "group": "Movies",
+      "logo": "https://i.imgur.com/bZWoDTg.png",
+      "tvg_id": "CineSony.us@SD",
+      "servers": [
+        {
+          "url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Ecuavisa",
+      "group": "General",
+      "logo": "https://i.imgur.com/Hl5wowk.png",
+      "tvg_id": "Ecuavisa.ec@SD",
+      "servers": [
+        {
+          "url": "https://jireh-4-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Energy",
+      "group": "Entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Energy.svg/512px-Energy.svg.png",
+      "tvg_id": "Energy.es@SD",
+      "servers": [
+        {
+          "url": "http://176.65.146.237:8401/play/a0ac/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Futbol (1080p)",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/RngmCDn.png",
+      "tvg_id": "Futbol.tj@SD",
+      "servers": [
+        {
+          "url": "https://live.teleradiocom.tj/8/3m.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FS2 US",
+      "group": "hilaytv",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-sports-2-us.png",
+      "tvg_id": "Fox.Sports.2.us",
+      "servers": [
+        {
+          "url": "http://fl7.moveonjoy.com/FOX_SPORTS_2/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "BEIN SPORT 2",
+      "group": "hilaytv",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-middle-east/bein-sports/bein-sports-2-english-hz-mea.png",
+      "tvg_id": "beIN_SPORTS2_DIGITAL_Mono_AR.bein",
+      "servers": [
+        {
+          "url": "https://live20.bozztv.com/akamaissh101/ssh101/vipmixflix/chunks.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Live Sports",
+      "group": "Live Sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://starsportshindiii.pages.dev/720p.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "RTA Sport",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "M4 SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://dvr1.kablova.tv/M4/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GoSport 1",
+      "group": "hilaytv",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560502/index.mpd"
+        }
+      ]
+    },
+    {
+      "name": "GoSport 3",
+      "group": "hilaytv",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd"
+        }
+      ]
+    },
+    {
+      "name": "A SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://163.61.227.29:8000/play/a03t/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FAST SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://163.61.227.29:8000/play/a001/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sharjah Sports 🎯",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/smc4sportspublish/smc4tv_720p/chunks.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PRO Sport International",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://proshls.wns.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Arena_Sport",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.23.88.55/Arena_sport/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sport 1 HD",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.23.88.55/Sport1/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Eurosport_2",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.23.88.55/Eurosport_2/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Nova_Sport",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.23.88.55/Nova_Sport/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SRF info HD (1080p)",
+      "group": "Undefined",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/512px-Logo_SRF_info.svg.png",
+      "tvg_id": "SRFinfo.ch@HD",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/srfinfo/browser-HLS8/srfinfo.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SRF 1 (1080p)",
+      "group": "Undefined",
+      "logo": "https://i.imgur.com/xgml2Pl.png",
+      "tvg_id": "SRF1.ch@SD",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SRF zwei (1080p)",
+      "group": "Undefined",
+      "logo": "https://i.imgur.com/887SKjm.png",
+      "tvg_id": "SRFzwei.ch@SD",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Anzoátegui TV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Asiri TV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://video2.lhdserver.es/asiritv/live.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Aurora Media Films",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Auténtica Televisión",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://live.obslivestream.com/autenticatvmux/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cali TV",
+      "group": "General",
+      "logo": "https://i.imgur.com/2312Luq.png",
+      "tvg_id": "CaliTV.co@SD",
+      "servers": [
+        {
+          "url": "https://5ab772334c39c.streamlock.net/live-calitv/calitv1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 3 Impresionante",
+      "group": "General",
+      "logo": "https://i.imgur.com/mdfiWG9.png",
+      "tvg_id": "Canal3Impresionante.sv@SD",
+      "servers": [
+        {
+          "url": "https://cloud2.streaminglivehd.com:2020/hls/8036/8036.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 5 Del Pueblo [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.ibb.co/XzcYYMc/Canal-5-alcorta-ver.jpg",
+      "tvg_id": "Canal5DelPueblo.ar@SD",
+      "servers": [
+        {
+          "url": "https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 9 Barbe TV (720p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/2Sekew2.png",
+      "tvg_id": "BarbeTV.gt@SD",
+      "servers": [
+        {
+          "url": "https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 11 TuTV (349p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/itqQEux.png",
+      "tvg_id": "Canal11TuTV.sv@SD",
+      "servers": [
+        {
+          "url": "https://stream.giostreaming.app/canal11/canal11.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 15 ILCE Summa Sabres (720p)",
+      "group": "Education",
+      "logo": "https://i.imgur.com/r7czgOc.png",
+      "tvg_id": "ILCECanal15SummaSaberes.mx@SD",
+      "servers": [
+        {
+          "url": "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 14 San Carlos (720p) [Not 24/7]",
+      "group": "Undefined",
+      "logo": "https://i.imgur.com/1aNEo6U.png",
+      "tvg_id": "TVN14.cr@SD",
+      "servers": [
+        {
+          "url": "http://tvn.obix.tv:1935/TVN/CH14.stream_720p/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 33 Madrid",
+      "group": "Undefined",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/512px-Logo_Canal_33_Madrid_2025.jpg",
+      "tvg_id": "Canal33Madrid.es@SD",
+      "servers": [
+        {
+          "url": "https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 17 TV Nosara",
+      "group": "Undefined",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://latamvdo.com:3870/hybrid/play.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Austral TV (1080p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/zgGuCYL.png",
+      "tvg_id": "AustralTV.ec@SD",
+      "servers": [
+        {
+          "url": "https://stmv3.voxtvhd.com.br/australtv/australtv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Anzoátegui TV (360p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/SLqrEOz.png",
+      "tvg_id": "AnzoateguiTV.ve@SD",
+      "servers": [
+        {
+          "url": "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 11 (1080p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/Sht2Rd4.png",
+      "tvg_id": "Canal11.hn@SD",
+      "servers": [
+        {
+          "url": "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal 34 San Juan (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/bZMEiYe.png",
+      "tvg_id": "Canal34SanJuan.ar@SD",
+      "servers": [
+        {
+          "url": "https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal Catorce (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/iKLGBbA.png",
+      "tvg_id": "CanalCatorce.do@SD",
+      "servers": [
+        {
+          "url": "https://tv.livestreaminggroup.info:3052/live/catorcetvlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal Más Televisión (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/ODMa27W.jpg",
+      "tvg_id": "CanalMasTelevision.co@SD",
+      "servers": [
+        {
+          "url": "https://movil.ejeserver.com/live/teledoradahd.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal San Roque (1080p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/SN9kFKh.png",
+      "tvg_id": "CanalSanRoque.es@SD",
+      "servers": [
+        {
+          "url": "https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal Nets (720p) [Not 24/7]",
+      "group": "Entertainment",
+      "logo": "https://i.imgur.com/edaAexc.png",
+      "tvg_id": "CanalNets.co@SD",
+      "servers": [
+        {
+          "url": "https://movil.ejeserver.com/live/nets.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal Mundo Visión (720p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/zRqfJuj.png",
+      "tvg_id": "CanalMundoVision.co@SD",
+      "servers": [
+        {
+          "url": "https://movil.ejeserver.com/live/mundovisiontv.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal Sur (1080p)",
+      "group": "General;Public",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg/512px-Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg.png",
+      "tvg_id": "CanalSur.es@SD",
+      "servers": [
+        {
+          "url": "http://176.65.146.237:8401/play/a09c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal Sol (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/gK0M1jB.png",
+      "tvg_id": "CanaldelSol.do@SD",
+      "servers": [
+        {
+          "url": "https://5790d294af2dc.streamlock.net/sol65/sol65/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canal+ (1080p)",
+      "group": "Entertainment",
+      "logo": "https://i.imgur.com/5HcyMnW.png",
+      "tvg_id": "CanalPlus.fr@SD",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-HLS8/canalplusclair.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cananga TV (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/isXlMAh.png",
+      "tvg_id": "CanangaTV.do@SD",
+      "servers": [
+        {
+          "url": "https://cdn.streamingcpanel.com:3545/live/canangatlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Canalda 26 HD [Not 24/7]",
+      "group": "General",
+      "logo": "https://canaldahd.com/wp-content/uploads/2023/03/cropped-canaldahdlogo-1.png",
+      "tvg_id": "Canalda26HD.do@HD",
+      "servers": [
+        {
+          "url": "https://canalda.rgradio.net:3084/live/canaldalive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cascara TV (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/DEUR7mB.png",
+      "tvg_id": "CascaraTV.do@SD",
+      "servers": [
+        {
+          "url": "https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CBS Sports Network USA",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/A8CnA8g.png",
+      "tvg_id": "CBSSportsNetworkUSA.us@SD",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ChileVision",
+      "group": "General",
+      "logo": "https://i.imgur.com/PRijvR0.png",
+      "tvg_id": "ChileVision.cl@SD",
+      "servers": [
+        {
+          "url": "http://38.250.127.17:9800/play/a05h/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cibaeña TV",
+      "group": "Entertainment",
+      "logo": "https://i.imgur.com/iHjdckl.png",
+      "tvg_id": "CibaenaTV.do@SD",
+      "servers": [
+        {
+          "url": "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cine Sony",
+      "group": "Movies",
+      "logo": "https://i.imgur.com/bZWoDTg.png",
+      "tvg_id": "CineSony.us@SD",
+      "servers": [
+        {
+          "url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cotubanama TV (1080p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/D6gAezp.png",
+      "tvg_id": "CotubanamaTV.do@SD",
+      "servers": [
+        {
+          "url": "https://host.streamingnation.live/p/3588/hybrid/play.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Coral TV (480p)",
+      "group": "General",
+      "logo": "https://i.ibb.co/xDrc5MD/CORALTv.png",
+      "tvg_id": "CoralTV.bo@SD",
+      "servers": [
+        {
+          "url": "https://tv.mediacp.eu:8081/coraltv/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Ecuavisa (1080p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/Hl5wowk.png",
+      "tvg_id": "Ecuavisa.ec@SD",
+      "servers": [
+        {
+          "url": "https://jireh-4-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CR Televisión Moyobamba (720p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/oxycMeA.png",
+      "tvg_id": "CRTelevision.pe@SD",
+      "servers": [
+        {
+          "url": "https://live.obslivestream.com/crtvmux/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ČT Sport (720p)",
+      "group": "Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/512px-%C4%8CT_sport_logo.png",
+      "tvg_id": "CTSport.cz@SD",
+      "servers": [
+        {
+          "url": "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cosmos TV (720p)",
+      "group": "Science",
+      "logo": "https://i.imgur.com/dAMyExY.jpg",
+      "tvg_id": "CosmosTV.py@SD",
+      "servers": [
+        {
+          "url": "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cuatro (1080p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/NYLnABb.png",
+      "tvg_id": "Cuatro.es@SD",
+      "servers": [
+        {
+          "url": "http://176.65.146.237:8401/play/a09s/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Dazn Ringside (1080p)",
+      "group": "Undefined",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DAZN Combat",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png",
+      "tvg_id": "DAZNCombat.uk@Poland",
+      "servers": [
+        {
+          "url": "https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Ecuador TV (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/cma6WO0.png",
+      "tvg_id": "EcuadorTV.ec@SD",
+      "servers": [
+        {
+          "url": "https://samson.streamerr.co:8081/shogun/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Elias Pina TV (720p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/VqxSsZD.png",
+      "tvg_id": "EliasPinaTV.do@SD",
+      "servers": [
+        {
+          "url": "https://cloud2.streaminglivehd.com:1936/8078/8078/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN U (720p)",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/HiBrysh.png",
+      "tvg_id": "ESPNU.us@SD",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/ESPN_U/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Extrema TV (720p)",
+      "group": "Undefined",
+      "logo": "https://i.imgur.com/Z1QVkqu.png",
+      "tvg_id": "ExtremaTV.us@SD",
+      "servers": [
+        {
+          "url": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "F10 HD [Geo-blocked]",
+      "group": "General",
+      "logo": "https://i.imgur.com/OEsT0KN.png",
+      "tvg_id": "F10HD.bo@SD",
+      "servers": [
+        {
+          "url": "https://tv2.bitstreaming.net:3235/multi_live/play.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Futbol (1080p)",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/RngmCDn.png",
+      "tvg_id": "Futbol.tj@SD",
+      "servers": [
+        {
+          "url": "https://live.teleradiocom.tj/8/3m.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Gi Television (720p) [Not 24/7]",
+      "group": "Entertainment",
+      "logo": "https://i.imgur.com/br9TNG8.png",
+      "tvg_id": "GiTelevision.do@SD",
+      "servers": [
+        {
+          "url": "https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GM7 Digital [Not 24/7]",
+      "group": "General",
+      "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3708-294x165-FFFFFF.jpg",
+      "tvg_id": "GM7Digital.ec@HD",
+      "servers": [
+        {
+          "url": "https://s2.tvdatta.com:3858/live/gm7digitallive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Guaymate TV (720p) [Not 24/7]",
+      "group": "Culture",
+      "logo": "https://i.imgur.com/PBgQi9a.png",
+      "tvg_id": "GuaymateTV.do@SD",
+      "servers": [
+        {
+          "url": "https://live20.bozztv.com/akamaissh101/ssh101/guaymatetv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Iunior TV (1080p)",
+      "group": "Kids",
+      "logo": "https://i.imgur.com/FBOJnfT.png",
+      "tvg_id": "IuniorTV.it@SD",
+      "servers": [
+        {
+          "url": "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Isla TV (480p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/l11Ixhi.jpeg",
+      "tvg_id": "IslaTV.ve@SD",
+      "servers": [
+        {
+          "url": "https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ITV Deportes",
+      "group": "Entertainment;Sports",
+      "logo": "https://iili.io/J1kV1Bn.png",
+      "tvg_id": "ITVDeportes.mx@SD",
+      "servers": [
+        {
+          "url": "https://thm-it-roku.otteravision.com/thm/it/it.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "JN19 (1080p) [Not 24/7]",
+      "group": "Religious",
+      "logo": "https://i.imgur.com/dudxyqk.png",
+      "tvg_id": "JN19.pe@SD",
+      "servers": [
+        {
+          "url": "https://servilive.com:3028/live/jntv19live.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "La Sexta (1080p)",
+      "group": "Entertainment",
+      "logo": "https://i.imgur.com/aKV5voq.png",
+      "tvg_id": "LaSexta.es@SD",
+      "servers": [
+        {
+          "url": "http://176.65.146.237:8401/play/a0af/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Latina TV (1080p)",
+      "group": "General",
+      "logo": "https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1",
+      "tvg_id": "LatinaTV.ve@SD",
+      "servers": [
+        {
+          "url": "https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Latina Clasicos",
+      "group": "Series",
+      "logo": "https://i.imgur.com/q0dAWyj.png",
+      "tvg_id": "LatinaClasicos.pe@SD",
+      "servers": [
+        {
+          "url": "https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Latina (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/MOsWriY.png",
+      "tvg_id": "Latina.pe@SD",
+      "servers": [
+        {
+          "url": "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Mega (1080p)",
+      "group": "Entertainment",
+      "logo": "https://i.imgur.com/Udrt2eK.png",
+      "tvg_id": "Mega.es@SD",
+      "servers": [
+        {
+          "url": "http://176.65.146.237:8401/play/a0a5/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Metropoli Medios TV (720p)",
+      "group": "Music",
+      "logo": "https://i.imgur.com/yID5T2S.jpg",
+      "tvg_id": "MetropoliMediosTV.ec@SD",
+      "servers": [
+        {
+          "url": "https://eu1.servers10.com:8081/8214/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MNB Sport (1080p)",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/z854PC3.png",
+      "tvg_id": "MNBSport.mn@SD",
+      "servers": [
+        {
+          "url": "https://cdn4.skygo.mn/live/disk1/MNBSport/DASH-FTA/MNBSport.mpd"
+        }
+      ]
+    },
+    {
+      "name": "More Than Sports TV (1080p)",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/L5DYvxw9/morethansportstv.png",
+      "tvg_id": "MoreThanSportsTV.de@SD",
+      "servers": [
+        {
+          "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Multivisión Canal 3 (720p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/6bdj2BV.jpg",
+      "tvg_id": "MultivisionCanal3.gt@SD",
+      "servers": [
+        {
+          "url": "https://stream.digitalgt.com:3136/live/multivisionlive.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Next HD (480p)",
+      "group": "Movies;Music",
+      "logo": "https://i.imgur.com/c2rF3SS.png",
+      "tvg_id": "NextHD.py@SD",
+      "servers": [
+        {
+          "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NHRA TV (720p)",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/jZgcm4k.png",
+      "tvg_id": "NHRATV.us@SD",
+      "servers": [
+        {
+          "url": "https://aegis-cloudfront-1.tubi.video/b8c5eb48-349b-454f-9625-63911ee923f5/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Nicoya TV (720p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/Lj2jRn3.png",
+      "tvg_id": "NicoyaTV.cr@SD",
+      "servers": [
+        {
+          "url": "https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Onza TV (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/usrP6T2.png",
+      "tvg_id": "OnzaTV.ve@SD",
+      "servers": [
+        {
+          "url": "https://stmv1.srvstm.com/gproducciones/gproducciones/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Platzi TV",
+      "group": "Education",
+      "logo": "https://i.imgur.com/vEzeqHP.png",
+      "tvg_id": "PlatziTV.es@SD",
+      "servers": [
+        {
+          "url": "https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Los Santos TV",
+      "group": "General",
+      "logo": "https://i.imgur.com/5xw86wu.png",
+      "tvg_id": "LosSantosTV.cr@SD",
+      "servers": [
+        {
+          "url": "https://lstv.duckdns.org:449/hls/lstv.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PSN Sports 5",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/LkIe9gR.png",
+      "tvg_id": "PremierSports5.mn@SD",
+      "servers": [
+        {
+          "url": "http://cdn4.skygo.mn/live/disk1/SPSPlus/HLS-FTA/SPSPlus.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PSN Sports 4",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/XHBJ7UB.png",
+      "tvg_id": "PremierSports4.mn@SD",
+      "servers": [
+        {
+          "url": "http://cdn4.skygo.mn/live/disk1/SPSFight/HLS-FTA/SPSFight.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PSN Sports 2",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/eMNWhDq.png",
+      "tvg_id": "PremierSports2.mn@SD",
+      "servers": [
+        {
+          "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/HLS-FTA/SPSPlay.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PromarTV (1080p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png",
+      "tvg_id": "PromarTV.ve@SD",
+      "servers": [
+        {
+          "url": "http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Rai Sport HD",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/6PEevOM.png",
+      "tvg_id": "RaiSport.it@HD",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd"
+        }
+      ]
+    },
+    {
+      "name": "Squirrel (1080p)",
+      "group": "Movies;Series",
+      "logo": "https://i.imgur.com/9y8VcBr.png",
+      "tvg_id": "Squirrel.es@SD",
+      "servers": [
+        {
+          "url": "http://176.65.146.237:8401/play/a09h/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sports TV (720p) [Geo-blocked]",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/sXMS2194/sportstv.png",
+      "tvg_id": "SportsTV.tr@SD",
+      "servers": [
+        {
+          "url": "https://live.sportstv.com.tr/hls/low/sportstv.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sportsman Channel",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/CXauv8M.png",
+      "tvg_id": "SportsmanChannel.us@SD",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/SPORTSMAN_CHANNEL/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Sports 2 HD (1080p)",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/5En7pOI.png",
+      "tvg_id": "StarSports2.in@HD",
+      "servers": [
+        {
+          "url": "http://163.61.227.29:8000/play/a069/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Sport Fishing TV",
+      "group": "Undefined",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Star Sports 1 HD (1080p)",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/E5jjKHI.png",
+      "tvg_id": "StarSports1.in@HD",
+      "servers": [
+        {
+          "url": "http://66.102.120.18:8000/play/a06x/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SportsNet New York (540p)",
+      "group": "Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/512px-SNY_logo.svg.png",
+      "tvg_id": "SportsNetNewYork.us@SD",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/SNY/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Super Cable",
+      "group": "Entertainment",
+      "logo": "https://i.imgur.com/KYtJp8F.png",
+      "tvg_id": "SuperCable.cr@SD",
+      "servers": [
+        {
+          "url": "http://191.102.39.254:5000/live/5up3r5/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TDtv (720p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/OFSOvpd.jpg",
+      "tvg_id": "TDtv.cr@SD",
+      "servers": [
+        {
+          "url": "https://cloudvideo.servers10.com:8081/8230/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TeleCinco Trelew (240p)",
+      "group": "Undefined",
+      "logo": "https://i.imgur.com/ZDenyAE.png",
+      "tvg_id": "Telecinco.ar@SD",
+      "servers": [
+        {
+          "url": "https://videohd.live:19360/8016/8016.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Teleselva",
+      "group": "Undefined",
+      "logo": "https://i.imgur.com/cu7hTn8.png",
+      "tvg_id": "Teleselva.pe@SD",
+      "servers": [
+        {
+          "url": "https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Televisora de Oriente (406p)",
+      "group": "General",
+      "logo": "https://i.imgur.com/wFC6Xxq.png",
+      "tvg_id": "TelevisoradeOriente.ve@SD",
+      "servers": [
+        {
+          "url": "https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Televisión Metrópolis 19.1 (1080p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/X5C1GzB.png",
+      "tvg_id": "TelevisionMetropolis191.hn@SD",
+      "servers": [
+        {
+          "url": "https://5e85d90130e77.streamlock.net/6028/6028/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Televisión Metrópolis 19.2 (1080p) [Not 24/7]",
+      "group": "General",
+      "logo": "https://i.imgur.com/QaocW5x.png",
+      "tvg_id": "TelevisionMetropolis192.hn@SD",
+      "servers": [
+        {
+          "url": "https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Tiguerito TV (720p) [Not 24/7]",
+      "group": "Animation;Kids",
+      "logo": "https://dominicanchannels.com/wp-content/uploads/tigueritos-tv.jpg",
+      "tvg_id": "TigueritoTV.do@HD",
+      "servers": [
+        {
+          "url": "https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Todo Cine (1080p)",
+      "group": "Undefined",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://aegis-cloudfront-1.tubi.video/be9224ff-0bff-440d-aa84-40afcb2150b5/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TV Sur Canal 9 (620p) [Not 24/7]",
+      "group": "Undefined",
+      "logo": "https://i.imgur.com/7HbISMV.png",
+      "tvg_id": "TVSurCanal9.cr@SD",
+      "servers": [
+        {
+          "url": "http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVS Classic Sports (360p)",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/auR0Mi6.png",
+      "tvg_id": "TVSClassicSports.us@SD",
+      "servers": [
+        {
+          "url": "https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE LA 1",
+      "group": "",
+      "logo": "https://i.ibb.co/VM5vGBV/la1.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE LA 2",
+      "group": "",
+      "logo": "https://i.ibb.co/ssGmhbH/la2.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE 24 H",
+      "group": "",
+      "logo": "https://i.ibb.co/fqg1vfr/24h.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "STAR TVE",
+      "group": "",
+      "logo": "https://i.ibb.co/3T2TS2p/tvestar.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_720.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE LA 2",
+      "group": "",
+      "logo": "https://i.ibb.co/ssGmhbH/la2.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://ztnr.rtve.es/ztnr/1688885.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE 24 H",
+      "group": "",
+      "logo": "https://i.ibb.co/fqg1vfr/24h.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://ztnr.rtve.es/ztnr/1694255.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Nova (1080p)",
+      "group": "Lifestyle",
+      "logo": "https://i.imgur.com/Vx1F4o5.png",
+      "tvg_id": "Nova.es@SD",
+      "servers": [
+        {
+          "url": "http://176.65.146.237:8401/play/a0ah/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TRECE INT",
+      "group": "",
+      "logo": "https://i.ibb.co/GsLm5g5/trece.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://5940924978228.streamlock.net/8009/ngrp:8009_all/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE CLAN",
+      "group": "",
+      "logo": "https://i.ibb.co/BGy5vM5/clan.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://ztnr.rtve.es/ztnr/5466990.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE TDP",
+      "group": "",
+      "logo": "https://i.ibb.co/D1Djbfj/tdp.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://ztnr.rtve.es/ztnr/1712295.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE SOMOS CINE",
+      "group": "",
+      "logo": "https://i.ibb.co/99kVf9W/somoscine.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://ztnr.rtve.es/ztnr/6909845.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "RTVE PLAY CADENA 2",
+      "group": "",
+      "logo": "https://i.ibb.co/SRbKtLk/rtve.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://ztnr.rtve.es/ztnr/6108703.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MBC MOVIES ACTION",
+      "group": "",
+      "logo": "https://i.ibb.co/mc475nQ/shadidblck.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "VIVE KANAL D DRAMA",
+      "group": "",
+      "logo": "https://i.ibb.co/nLcKDkX/ddrama.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/playlist/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "COLORS BANGLA",
+      "group": "Live Tv",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://tvsen3.aynaott.com/u3LkNQ7UHhFX/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MBC PERSIA",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AVA FAMILY",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://familyhls.avatv.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NEJAT TV",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://hls.nejat.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SL TWO",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://sltwohls.wns.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "OX IR",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://hls.oxir.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "YOUR TIME",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://hls.yourtime.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AVA SERIES",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://avaserieshls.wns.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FX TV",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://fxtvhls.wns.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FX TV 2",
+      "group": "",
+      "logo": "https://i.ibb.co/tqkV2sn/irflag.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://toonixhls.wns.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Gold Star",
+      "group": "Movies",
+      "logo": "https://i.postimg.cc/KvsfL3sM/goldstar.jpg",
+      "tvg_id": "GoldStar.ir@SD",
+      "servers": [
+        {
+          "url": "https://moviethls.wns.live/hls/stream.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Action Hollywood Movies",
+      "group": "Undefined",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Kannur Vision (1080p)",
+      "group": "News",
+      "logo": "https://i.imgur.com/FCXqPer.png",
+      "tvg_id": "KannurVision.in@SD",
+      "servers": [
+        {
+          "url": "https://stream.logichost.in/kannurvision/live/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MovieSphere",
+      "group": "General",
+      "logo": "https://www.mtr.sk/img/logo-mtr-0.png",
+      "tvg_id": "MTR.sk@SD",
+      "servers": [
+        {
+          "url": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Mix Hollywood (1080p)",
+      "group": "Movies",
+      "logo": "https://i.imgur.com/1ENdbZn.png",
+      "tvg_id": "MixHollywood.eg@SD",
+      "servers": [
+        {
+          "url": "https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://jmp2.uk/plex-64305451fc3be5947773c339-66be944f8711311880995280.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://jmp2.uk/plex-608049aefa2b8ae93c2c3a63-66be944f8711311880995280.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Mass Tv",
+      "group": "hilaytv",
+      "logo": "https://tataprime.files.wordpress.com/2024/03/20240314_0401425841398939739572268.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://tv2.massstream.net/Masstv/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Kung Fu+",
+      "group": "Undefined",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/06862a07-6a92-4b4d-abc3-5fea131713b5/manifest.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Cinevault Westerns (540p) [Geo-blocked]",
+      "group": "Classic",
+      "logo": "https://i.imgur.com/K1W137J.png",
+      "tvg_id": "CinevaultWesterns.us@SD",
+      "servers": [
+        {
+          "url": "https://gsn-cinevault-westerns-2-us.roku.wurl.tv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "M4 SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://dvr1.kablova.tv/M4/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://201.230.121.186:8000/play/a0dz/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Real Madrid tv Football",
+      "group": "Football",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "KUWAIT TV SPORT PLUS",
+      "group": "",
+      "logo": "https://i.ibb.co/tMLDMdy/kwttv.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "KUWAIT TV SPORTS",
+      "group": "",
+      "logo": "https://i.ibb.co/tMLDMdy/kwttv.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Bahrain Sports 1",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/fBpLsbC.png",
+      "tvg_id": "BahrainSports1.bh@SD",
+      "servers": [
+        {
+          "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Bahrain Sports 2",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/ZkuZmIo.png",
+      "tvg_id": "BahrainSports2.bh@SD",
+      "servers": [
+        {
+          "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SPOOKY NIGHTS",
+      "group": "",
+      "logo": "https://i.ibb.co/xtnH00zG/spooky.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PORTO CANAL",
+      "group": "",
+      "logo": "https://i.ibb.co/WVzhVbc/portoc.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TRT SPOR",
+      "group": "",
+      "logo": "https://i.ibb.co/3WmLjwG/trtspor22c.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://trn03.tulix.tv/gt-trt-spor1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TF1",
+      "group": "",
+      "logo": "https://i.ibb.co/BBpR1Wx/tf1.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://raw.githubusercontent.com/mikekaprielian/rtnaodhor93n398/main/fr/videotf1.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TF1 SÉRIES FILMS",
+      "group": "",
+      "logo": "https://i.ibb.co/jvcLdXT/tfsf.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TFX",
+      "group": "",
+      "logo": "https://i.ibb.co/4VS27Jw/tfx.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "M6",
+      "group": "",
+      "logo": "https://i.ibb.co/wgJTdGY/m6.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-dash/m6hd.mpd"
+        }
+      ]
+    },
+    {
+      "name": "W9",
+      "group": "",
+      "logo": "https://i.ibb.co/LNRd253/w9.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://viamotionhsi.netplus.ch/live/eds/w9/browser-HLS8/w9.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SCREAM IN",
+      "group": "",
+      "logo": "https://i.ibb.co/0psZzs4S/scream.jpg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://amg00711-zylo-amg00711c6-plex-us-935.playouts.now.amagi.tv/zylo-Screamin-lg/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TELE NOVELA TV",
+      "group": "",
+      "logo": "https://i.ibb.co/grBSqt4/novela.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CAFE TV 24",
+      "group": "",
+      "logo": "https://i.ibb.co/JCzkhFF/cafe24.png",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://srvx1.selftv.video/cafe/live/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Padma Tv",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINEMAX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://23.237.104.106:8080/USA_MOREMAX/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINEMAX US",
+      "group": "hilaytv",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cinemax-us.png",
+      "tvg_id": "Cinemax.-.Eastern.Feed.us",
+      "servers": [
+        {
+          "url": "http://23.237.104.106:8080/USA_CINEMAX/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SHOWTIME",
+      "group": "hilaytv",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/showtime-us.png",
+      "tvg_id": "Showtime.-.Eastern.us",
+      "servers": [
+        {
+          "url": "http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MovieSphere",
+      "group": "TV",
+      "logo": "https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/MovieSphere.jpg",
+      "tvg_id": "MovieSphere.us",
+      "servers": [
+        {
+          "url": "https://moviesphereuk-samsunguk.amagi.tv/1080p-vtt/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GEM Classic",
+      "group": "Classic",
+      "logo": "https://i.imgur.com/25BhuOf.png",
+      "tvg_id": "GEMClassic.tr@SD",
+      "servers": [
+        {
+          "url": "https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemclassic/index-0.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GEM Film",
+      "group": "Movies",
+      "logo": "https://i.imgur.com/nrFz3LU.png",
+      "tvg_id": "GEMFilm.tr@SD",
+      "servers": [
+        {
+          "url": "https://wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https://ca-rt.onetv.app/gemfilm/index-0.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FXM East",
+      "group": "Movies",
+      "logo": "https://i.postimg.cc/j27hBV04/fxm.png",
+      "tvg_id": "FXM.us@East",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/FX_MOVIE/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MGM+ Marquee",
+      "group": "Movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/MGM%2B_Marquee_2023.svg/512px-MGM%2B_Marquee_2023.svg.png",
+      "tvg_id": "MGMPlusMarquee.us@SD",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/EPIX_2/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MGM+ East",
+      "group": "Movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MGM%2B_logo.svg/512px-MGM%2B_logo.svg.png",
+      "tvg_id": "MGMPlus.us@East",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/EPIX/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MGM+ Drive-In",
+      "group": "Movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/MGM%2B_Drive-In_2023.svg/512px-MGM%2B_Drive-In_2023.svg.png",
+      "tvg_id": "MGMPlusDriveIn.us@SD",
+      "servers": [
+        {
+          "url": "https://fl1.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Miramax",
+      "group": "hilaytv",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Miramax.svg",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TF1",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.33.239.54:8080/307/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CALLE 13",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.33.239.54:8080/316/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "IS PLUS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.33.239.54:8080/374/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.33.239.54:8080/381/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ROMANCE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.33.239.54:8080/425/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL + LIGUE 1",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.33.239.54:8080/542/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FOOTBALL ARABE 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://178.33.239.54:8080/571/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PREMIER SPORTS 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47858.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47832.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47816.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47815.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47817.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47814.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47813.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47812.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47811.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47818.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47819.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47824.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47823.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47822.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47821.ts"
+        }
+      ]
+    },
+    {
+      "name": "CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47820.ts"
+        }
+      ]
+    },
+    {
+      "name": "ANIMAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47830.ts"
+        }
+      ]
+    },
+    {
+      "name": "NEWS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47829.ts"
+        }
+      ]
+    },
+    {
+      "name": "ULTIMO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47829.ts"
+        }
+      ]
+    },
+    {
+      "name": "WARNER BROS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07f"
+        }
+      ]
+    },
+    {
+      "name": "ESPN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07j"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07i"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 6",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07t"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07s"
+        }
+      ]
+    },
+    {
+      "name": "A&E",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07n"
+        }
+      ]
+    },
+    {
+      "name": "ESTRELLAS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07r"
+        }
+      ]
+    },
+    {
+      "name": "RCN NOVELAS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a07v"
+        }
+      ]
+    },
+    {
+      "name": "CINECANAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06e"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06f"
+        }
+      ]
+    },
+    {
+      "name": "STAR CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06k"
+        }
+      ]
+    },
+    {
+      "name": "TCM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06l"
+        }
+      ]
+    },
+    {
+      "name": "TNT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06n"
+        }
+      ]
+    },
+    {
+      "name": "CLATO SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06o"
+        }
+      ]
+    },
+    {
+      "name": "TVE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06s"
+        }
+      ]
+    },
+    {
+      "name": "USA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://181.205.130.194:4000/play/a06v"
+        }
+      ]
+    },
+    {
+      "name": "LA 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236480.ts"
+        }
+      ]
+    },
+    {
+      "name": "ANTENA 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236482.ts"
+        }
+      ]
+    },
+    {
+      "name": "CUATRO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236484.ts"
+        }
+      ]
+    },
+    {
+      "name": "TELE 5",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236487.ts"
+        }
+      ]
+    },
+    {
+      "name": "LA SEXTA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236488.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR ESTRENOS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236376.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR ACCION",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236379.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR COMEDIA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236381.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR DRAMA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236383.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR CLASICOS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236386.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR HITS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236388.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR CINE ESPAÑOL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236374.ts"
+        }
+      ]
+    },
+    {
+      "name": "Movistar Indie",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236375.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR +",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236377.ts"
+        }
+      ]
+    },
+    {
+      "name": "AXN MOVIES",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236398.ts"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236400.ts"
+        }
+      ]
+    },
+    {
+      "name": "DARK",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236427.ts"
+        }
+      ]
+    },
+    {
+      "name": "HOLLYWOOD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236410.ts"
+        }
+      ]
+    },
+    {
+      "name": "XTRM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236431.ts"
+        }
+      ]
+    },
+    {
+      "name": "SYFY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236419.ts"
+        }
+      ]
+    },
+    {
+      "name": "AMC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236420.ts"
+        }
+      ]
+    },
+    {
+      "name": "TCM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236406.ts"
+        }
+      ]
+    },
+    {
+      "name": "WARNER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236404.ts"
+        }
+      ]
+    },
+    {
+      "name": "CALLE 13",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236402.ts"
+        }
+      ]
+    },
+    {
+      "name": "BOM CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236415.ts"
+        }
+      ]
+    },
+    {
+      "name": "SOMOS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236430.ts"
+        }
+      ]
+    },
+    {
+      "name": "COSMO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236416.ts"
+        }
+      ]
+    },
+    {
+      "name": "SQUIRREL DOS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236536.ts"
+        }
+      ]
+    },
+    {
+      "name": "VIN TV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236324.ts"
+        }
+      ]
+    },
+    {
+      "name": "A3M",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236395.ts"
+        }
+      ]
+    },
+    {
+      "name": "BEMAD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236346.ts"
+        }
+      ]
+    },
+    {
+      "name": "NEOX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236348.ts"
+        }
+      ]
+    },
+    {
+      "name": "NOVA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236515.ts"
+        }
+      ]
+    },
+    {
+      "name": "MEGA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236509.ts"
+        }
+      ]
+    },
+    {
+      "name": "TEN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236518.ts"
+        }
+      ]
+    },
+    {
+      "name": "TRECE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236520.ts"
+        }
+      ]
+    },
+    {
+      "name": "AMC BREAK",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236423.ts"
+        }
+      ]
+    },
+    {
+      "name": "COMEDIA CENTRAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236433.ts"
+        }
+      ]
+    },
+    {
+      "name": "GOLTV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236506.ts"
+        }
+      ]
+    },
+    {
+      "name": "TELEDEPORTE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236517.ts"
+        }
+      ]
+    },
+    {
+      "name": "REAL MADRID",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236538.ts"
+        }
+      ]
+    },
+    {
+      "name": "DIVINITY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236350.ts"
+        }
+      ]
+    },
+    {
+      "name": "DREAMWORKS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236412.ts"
+        }
+      ]
+    },
+    {
+      "name": "DISNEY JR",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236524.ts"
+        }
+      ]
+    },
+    {
+      "name": "NICK JR",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236526.ts"
+        }
+      ]
+    },
+    {
+      "name": "CLAN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236535.ts"
+        }
+      ]
+    },
+    {
+      "name": "ONE TORO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236541.ts"
+        }
+      ]
+    },
+    {
+      "name": "IBERALIA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236327.ts"
+        }
+      ]
+    },
+    {
+      "name": "IBERALIA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236328.ts"
+        }
+      ]
+    },
+    {
+      "name": "ODISEA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236334.ts"
+        }
+      ]
+    },
+    {
+      "name": "DISCOVERY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236340.ts"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236341.ts"
+        }
+      ]
+    },
+    {
+      "name": "CAZA Y PESCA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236325.ts"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL GEOGRAPHIC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236343.ts"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL GEOGRAPHIC WILD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236345.ts"
+        }
+      ]
+    },
+    {
+      "name": "BUEN VIAJE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236321.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR ACCION",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236380.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR COMEDIA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236382.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR DRAMA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236384.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR CLASICOS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236385.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR INDIE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236378.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR HITS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236389.ts"
+        }
+      ]
+    },
+    {
+      "name": "MOVISTAR HITS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236390.ts"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236401.ts"
+        }
+      ]
+    },
+    {
+      "name": "AXN MOVIES",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236399.ts"
+        }
+      ]
+    },
+    {
+      "name": "CALLE 13",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236403.ts"
+        }
+      ]
+    },
+    {
+      "name": "WARNER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236405.ts"
+        }
+      ]
+    },
+    {
+      "name": "TCM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236407.ts"
+        }
+      ]
+    },
+    {
+      "name": "HOLLYWOOD",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236411.ts"
+        }
+      ]
+    },
+    {
+      "name": "DREAMWORK",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236413.ts"
+        }
+      ]
+    },
+    {
+      "name": "BOM CINE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236414.ts"
+        }
+      ]
+    },
+    {
+      "name": "COSMO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236417.ts"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236421.ts"
+        }
+      ]
+    },
+    {
+      "name": "AMC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236422.ts"
+        }
+      ]
+    },
+    {
+      "name": "AMC BREAK",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236424.ts"
+        }
+      ]
+    },
+    {
+      "name": "DARK",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236428.ts"
+        }
+      ]
+    },
+    {
+      "name": "DARK",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236429.ts"
+        }
+      ]
+    },
+    {
+      "name": "XTRM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236432.ts"
+        }
+      ]
+    },
+    {
+      "name": "CAZA Y PESCA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236320.ts"
+        }
+      ]
+    },
+    {
+      "name": "A3M",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236396.ts"
+        }
+      ]
+    },
+    {
+      "name": "LA 1",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236479.ts"
+        }
+      ]
+    },
+    {
+      "name": "LA 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236481.ts"
+        }
+      ]
+    },
+    {
+      "name": "ANTENA 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236483.ts"
+        }
+      ]
+    },
+    {
+      "name": "CUATRO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236485.ts"
+        }
+      ]
+    },
+    {
+      "name": "LA SEXTA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236489.ts"
+        }
+      ]
+    },
+    {
+      "name": "GOLTV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236507.ts"
+        }
+      ]
+    },
+    {
+      "name": "NEOX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236512.ts"
+        }
+      ]
+    },
+    {
+      "name": "TELEDEPORTE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://ultra-premium-pro.xyz:8080/live/977671415tv/hgf547682s/236516.ts"
+        }
+      ]
+    },
+    {
+      "name": "SESTREM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a0ke/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "COMEDIA CENTRAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a0kj/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT series",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a0je/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "LATINA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a0kz/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a0jp/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a03c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2 🇨🇴",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a01r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN4",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a01k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a02y/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a0kt/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a01v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINECANAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a01p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SPACE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a01m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT series",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a01i/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DISNEY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.10.30.241:8000/play/a01t/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AMERICA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a03u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ATV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a03d/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "BOLIVISION",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a02v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "RED UNO BO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a02d/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "F10 BO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a02f/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "LA TELE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a03j/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PAT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a02p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ABYA YALA TV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a02z/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FAP",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a02j/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVU SUCRE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a02l/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "PALENQUE TV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://200.106.13.204:8000/play/a02m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://205.235.6.29:8000/play/a0vu/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "tln",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://205.235.6.29:8000/play/a0wv/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "Caracol",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://205.235.6.29:8000/play/a0vf/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ECDF",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://205.235.6.29:8000/play/a0vg/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "STUDIO UNIVERSAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a048/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINEMAX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a047/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINE LATINO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a046/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MULTIPREMIER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a045/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "UNIVERSAL TV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a044/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINECANAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a038/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a037/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "WARNER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a036/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "STAR CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a035/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CLARO CINEMA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a034/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN MX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a031/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2 MX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a032/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 6",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a013/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SUN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a029/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "EURO CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a026/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "RCN NOVELAS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a025/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a024/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a017/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 6 CR",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a022/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a016/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NATIONAL GEOGRAPHIC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a011/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT NOVELAS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a010/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AZTECA UNO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a052/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a055/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FSPREMIUM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a058/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "LAS ESTRELLAS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.117.57:8200/play/a059/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "UNIVISION",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ANIMAL PLANET",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09d/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "A&E",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "LAS ESTRELLAS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09q/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN4",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09t/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 5 MX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09e/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 6 mx",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09s/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SKY SPORTS LA LIGA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a09u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO XTREME",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a08k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN PREMIER 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a08q/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a08v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MULTIPREMIER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07a/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINE LATINO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07b/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINEMAX",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07o/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SPACE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT SERIES",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07x/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DISCOVERY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a07y/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "WARNER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a06m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINECANAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a06o/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FUTV",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a06q/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "DISNEY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a06z/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "EURO CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a05a/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TCM",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a05m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "VEN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a05r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AZTECA GUATE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a05t/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 7",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a05u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 13",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a04m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TV AZTECA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a02i/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT Novelas",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a02l/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HISTORIA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://190.14.10.19:16000/play/a02z/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 2 🇦🇷",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a01l/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 3",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a04b/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN 4",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a03i/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "ESPN6",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO PLUS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00a/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO XTREME",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "HBO FAMILY",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00b/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SPACE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a02e/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a01b/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a01p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "A&E",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a01e/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "STAR CHANNEL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a01n/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "WARNER",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a01o/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CINECANAL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a01q/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVAZTECA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT Series",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00o/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT Novelas",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TNT Novelas",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a02s/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AXN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "AMC",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a00w/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TUDN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a02x/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "GOLDEN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a03c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SKY SPORTS LA LIGA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a03h/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "FOX SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a03p/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CLARO SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a03s/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CLARO SPORTS 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a03t/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 2",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a04d/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 4",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a03v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CANAL 4",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a04c/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "CARACOL",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a04e/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "OLIMPICOS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a04f/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TVE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a04g/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "MAS TV TOTO",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.228.234.30:16000/play/a04h/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "VETUN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a02u/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TIGO SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a02v/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TOONCAST",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a03k/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SONY MOVIES",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a03s/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NO LO SE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a05m/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "D PELICULA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a05n/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "NO O SE",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a05o/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TUDN",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a05q/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "SKY SPORTS LALIGA",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a05r/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "TIGO SPORTS",
+      "group": "",
+      "logo": "",
+      "tvg_id": "",
+      "servers": [
+        {
+          "url": "http://45.5.119.43:4000/play/a05t/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "last_updated": "2026-04-23T00:38:37.918137"
+}
