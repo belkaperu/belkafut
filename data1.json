@@ -281,7 +281,11 @@
         {
           "label": "FOX DEPORTES HD2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=foxdeportes"
-        }
+        },
+                {
+          "label": "FOX DEPORTES HD3",
+          "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamhdx.com/live1.php?stream=fox_deportes_usa"
+        
       ]
     },
     {
@@ -312,6 +316,7 @@
           "label": "Ver foxusa1",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp10.com/global1.php?stream=fox_1_usa"
         }
+        
       ]
     },
     {
@@ -336,6 +341,19 @@
         }
       ]
     },
+
+ {
+      "title": "Zapping EC",
+      "image": "https://images.seeklogo.com/logo-png/64/3/zapping-logo-png_seeklogo-641524.png",
+      "category": "all",
+      "options": [
+        {
+          "label": "OP HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly90dnR2cGwuY29tL2dsb2JhbDQucGhwP3N0cmVhbT1lc3BuYXI="
+        }
+      ]
+    },
+    
  {
       "title": "NBA",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPzfMUd5_NH2-NpgbXfPFh6kk_2vA63g6g-DpleDSbJKUflC2Hayq7LjfdxZ7kjGrmBc1U8R1zfI5vLR47XuDp4nDFJDgJVYc0NI7ji22yBMWfwYDaxpLxqzEf5iyhwvVbVEmbxFCJQVY/h120/nba.png",
@@ -641,7 +659,11 @@
         {
           "label": "TUDN HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp10.com/global1.php?stream=tudn"
+        }, {
+          "label": "TUDN HD usa",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamhdx.com/live1.php?stream=tudn_usa"
         }
+        
       ]
     },
     {
