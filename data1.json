@@ -331,8 +331,13 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/800px-FS2_logo_2015.svg.png",
       "category": "deportes",
       "options": [
+
+            {
+          "label": " FS2 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly90dnR2cGwuY29tL2dsb2JhbDQucGhwP3N0cmVhbT1mMnVzYQ=="
+        },
         {
-          "label": "Ver FS2",
+          "label": " FS2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp10.com/global1.php?stream=fox_2_usa"
         }
       ]
