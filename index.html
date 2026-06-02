@@ -1,371 +1,823 @@
 
 
-<!DOCTYPE html>
-<html lang="es">
+<html>
+
 <head>
-    <meta http-equiv="refresh" content="100; url=https://belkaperu.github.io/belkafut/repro3.html?r=https://ibrafut.blogspot.com/" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Agenda Deportiva</title>
+  <meta http-equiv="refresh" content="200" />
   <meta http-equiv="cache-control" content="no-cache" />
   <meta http-equiv="Pragma" content="no-cache" />
-<!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
-<script type="text/javascript" async=true>
-(function() {
-  var host = "www.themoneytizer.com";
-  var element = document.createElement('script');
-  var firstScript = document.getElementsByTagName('script')[0];
-  var url = 'https://cmp.inmobi.com'
-    .concat('/choice/', '6Fv0cGNfc_bw8', '/', host, '/choice.js?tag_version=V3');
-  var uspTries = 0;
-  var uspTriesLimit = 3;
-  element.async = true;
-  element.type = 'text/javascript';
-  element.src = url;
-
-  firstScript.parentNode.insertBefore(element, firstScript);
-
-  function makeStub() {
-    var TCF_LOCATOR_NAME = '__tcfapiLocator';
-    var queue = [];
-    var win = window;
-    var cmpFrame;
-
-    function addFrame() {
-      var doc = win.document;
-      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
-
-      if (!otherCMP) {
-        if (doc.body) {
-          var iframe = doc.createElement('iframe');
-
-          iframe.style.cssText = 'display:none';
-          iframe.name = TCF_LOCATOR_NAME;
-          doc.body.appendChild(iframe);
-        } else {
-          setTimeout(addFrame, 5);
-        }
-      }
-      return !otherCMP;
-    }
-
-    function tcfAPIHandler() {
-      var gdprApplies;
-      var args = arguments;
-
-      if (!args.length) {
-        return queue;
-      } else if (args[0] === 'setGdprApplies') {
-        if (
-          args.length > 3 &&
-          args[2] === 2 &&
-          typeof args[3] === 'boolean'
-        ) {
-          gdprApplies = args[3];
-          if (typeof args[2] === 'function') {
-            args[2]('set', true);
-          }
-        }
-      } else if (args[0] === 'ping') {
-        var retr = {
-          gdprApplies: gdprApplies,
-          cmpLoaded: false,
-          cmpStatus: 'stub'
-        };
-
-        if (typeof args[2] === 'function') {
-          args[2](retr);
-        }
-      } else {
-        if(args[0] === 'init' && typeof args[3] === 'object') {
-          args[3] = Object.assign(args[3], { tag_version: 'V3' });
-        }
-        queue.push(args);
-      }
-    }
-
-    function postMessageEventHandler(event) {
-      var msgIsString = typeof event.data === 'string';
-      var json = {};
-
-      try {
-        if (msgIsString) {
-          json = JSON.parse(event.data);
-        } else {
-          json = event.data;
-        }
-      } catch (ignore) {}
-
-      var payload = json.__tcfapiCall;
-
-      if (payload) {
-        window.__tcfapi(
-          payload.command,
-          payload.version,
-          function(retValue, success) {
-            var returnMsg = {
-              __tcfapiReturn: {
-                returnValue: retValue,
-                success: success,
-                callId: payload.callId
-              }
-            };
-            if (msgIsString) {
-              returnMsg = JSON.stringify(returnMsg);
-            }
-            if (event && event.source && event.source.postMessage) {
-              event.source.postMessage(returnMsg, '*');
-            }
-          },
-          payload.parameter
-        );
-      }
-    }
-
-    while (win) {
-      try {
-        if (win.frames[TCF_LOCATOR_NAME]) {
-          cmpFrame = win;
-          break;
-        }
-      } catch (ignore) {}
-
-      if (win === window.top) {
-        break;
-      }
-      win = win.parent;
-    }
-    if (!cmpFrame) {
-      addFrame();
-      win.__tcfapi = tcfAPIHandler;
-      win.addEventListener('message', postMessageEventHandler, false);
-    }
-  };
-
-  makeStub();
-
-  var uspStubFunction = function() {
-    var arg = arguments;
-    if (typeof window.__uspapi !== uspStubFunction) {
-      setTimeout(function() {
-        if (typeof window.__uspapi !== 'undefined') {
-          window.__uspapi.apply(window.__uspapi, arg);
-        }
-      }, 500);
-    }
-  };
-
-  var checkIfUspIsReady = function() {
-    uspTries++;
-    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
-      console.warn('USP is not accessible');
-    } else {
-      clearInterval(uspInterval);
-    }
-  };
-
-  if (typeof window.__uspapi === 'undefined') {
-    window.__uspapi = uspStubFunction;
-    var uspInterval = setInterval(checkIfUspIsReady, 6000);
-  }
-})();
-</script>
-<!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
   <meta http-equiv="expires" content="-1" />
+  <script type="text/javascript" src="https://cssstyles.pages.dev/smallscripts.js"></script>
+  <link rel="stylesheet" href="https://cssstyles.pages.dev/style3.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partidos y Canales deportivos online</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.1.1/luxon.min.js"></script>
 
 
-       <script>
-        $(document).ready(function () {
-            let openSubmenu = null;
 
-            $(document).on("click", ".toggle-submenu", function (e) {
-                e.preventDefault();
-                const $submenu = $(this).next("ul");
-
-                if ($submenu.is(':visible')) {
-                    $submenu.slideToggle();
-                    return true;
-                }
-
-                if (openSubmenu && openSubmenu !== $submenu) {
-                    openSubmenu.slideUp();
-                }
-
-                $submenu.slideToggle();
-                openSubmenu = $submenu.is(":visible") ? $submenu : null;
-            });
-
-            obtenerAgenda();
-            setInterval(refrescarAgenda, 60000);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-
-            // Mostrar enlaces adicionales en todas las páginas
-            $(".extra-link").show();
-        });
-
-        function convertToUserTimeZone(utcHour) {
-            const DateTime = luxon.DateTime;
-            const utcDateTime = DateTime.fromISO(utcHour, { zone: "America/Lima" });
-            const localDateTime = utcDateTime.toLocal();
-            return localDateTime.toFormat("HH:mm");
-        }
-
-        function obtenerAgenda() {
-    const agendaUrl = "https://corsproxy.io/?url=https://futbollibrehd.pe/agenda.json";
-    const backupAgendaUrl = "https://belkaperu.github.io/belkafut/agenda.json"; // La URL de tu copia local
-    let html = "";
-    moment.locale("es");
-
-    // Limpiar la lista de agenda antes de cargar nuevos datos
-    $(".menu").empty(); 
-
-    // Intentar cargar el archivo JSON principal
-    $.getJSON(agendaUrl)
-        .done(function (result) {
-            if (result.data.length > 0) {
-                let dateCompleted = moment(result.data[0].attributes.date_diary).format("LL");
-                $(".title-agenda").html("Agenda - " + dateCompleted);
-                processAgendaData(result.data, html);
-            } else {
-                // Si el archivo principal está vacío, cargar la copia local
-                cargarCopiaLocal(backupAgendaUrl);
-            }
-        })
-        .fail(function () {
-            // Si ocurre un error, cargar la copia local
-            cargarCopiaLocal(backupAgendaUrl);
-        });
-}
-
-
-        function cargarCopiaLocal(backupAgendaUrl) {
-            let html = "";
-            $.getJSON(backupAgendaUrl)
-                .done(function (result) {
-                    if (result.data.length > 0) {
-                        let dateCompleted = moment(result.data[0].attributes.date_diary).format("LL");
-                        $(".title-agenda").html("Agenda " + dateCompleted);
-                        processAgendaData(result.data, html);
-                    } else {
-                        // Manejar el caso si la copia local también está vacía
-                        $(".title-agenda").html("No hay agenda disponible.");
-                    }
-                })
-                .fail(function () {
-                    $(".title-agenda").html("Error al cargar la agenda.");
-                });
-        }
-
-        function processAgendaData(data, html) {
-    // Ordenar los datos por hora
-    data.sort((a, b) => {
-        return moment(a.attributes.diary_hour, "HH:mm").diff(moment(b.attributes.diary_hour, "HH:mm"));
-    });
-
-    $.each(data, function (key, value) {
-        let imageUrl = value.attributes.country.data != null ? 
-            "https://img.futbollibrehd.pe" + value.attributes.country.data.attributes.image.data.attributes.url :
-            "https://img.futbollibrehd.pe/uploads/sin_imagen_d36205f0e8.png";
-
-        // Eliminar todo lo que está antes de los dos puntos (:) incluyendo el mismo :
-        let description = value.attributes.diary_description.replace(/^.*?:\s*/, "").trim();
-
-        html += '<li class="pl-4 hover:bg-gray-50 rounded-lg">';
-        html += '<div class="flex items-center cursor-pointer justify-between toggle-submenu">';
-        html += '<div class="flex items-center"><time datetime="' + value.attributes.diary_hour + '" class="text-center font-bold text-black bg-white rounded-lg p-2">' +
-            convertToUserTimeZone(value.attributes.diary_hour) +
-            "</time>";
-        html += '<img src="' + imageUrl + '" alt="" class="ml-2 object-cover h-6 w-6"><span class="flex-1 ml-4 text-left font-bold text-gray-800 text-1xl">' +
-            description +
-            "</span></div>";
-        html += "</div>";
-        html += '<ul class="ml-16 rounded-lg submenu divide-y divide-gray-300 hidden">';
-
-$.each(value.attributes.embeds.data, function (i, embed) {
-    if (embed) {
-        // Cambiar el valor de url_complete para redireccionar a la URL deseada
-        var url_complete = 'https://belkaperu.github.io/belkafut/repro3.html?r=https://belkafut.blogspot.com/';
-
-        html += '<li class="w-full pt-2 pb-2"><a href="' + url_complete + '" target="_top" class="text-sm text-gray-700 hover:text-green-600">' +
-            '<img src="https://img.icons8.com/?size=10&id=59862&format=png&color=000000" class="inline mr-2" alt="play"/>' +
-            embed.attributes.embed_name + "</a></li>";
+  <style>
+    body {
+      margin: 0;
+      background: #ececec;
+      font-family: 'arial', sans serif;
     }
-});
 
-        html += "</ul>";
-        html += "</li>";
-    });
+    .contenedor {
+      width: 65%;
+      height: 95%;
+      margin: 0 auto;
+      padding: 10px 10px;
+      text-align: auto;
+    }
 
-    $(".menu").html(html); // Reemplaza el contenido anterior de la lista
-}
+    .contenedor img {
+      width: 100%;
+    }
 
+    @media (max-width:600px) {
+      .contenedor {
+        width: 90%;
+      }
+    }
 
-        function refrescarAgenda() {
-            obtenerAgenda();
-        }
-    </script>
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 15px;
+      height: 0;
+      overflow: hidden;
+    }
 
-    <style>
+    .video-container iENme {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
 
-        body {
+    .topnav {
+      overflow: hidden;
+      background-color: #3069db;
+    }
 
-font-family: Open Sans, sans-serif;
-font-size: 14px;
-padding: 5vw;
-}
-        .topnav {
-            background-color: #8baf1c; /* Verde del menú */
-            border: 2px solid #000000; /* Borde negro */
-            border-radius: 5px; /* Bordes redondeados */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-        }
-        .topnav a {
-            color: white;
-            padding: 14px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            transition: background-color 0.3s;
-            margin: 0 5px;
-            font-weight: bold; /* Estilo en negrita para los enlaces */
-        }
-        .topnav a:hover {
-            background-color: #6b8f1a; /* Color de fondo al pasar el mouse */
-        }
-        .topnav a.active {
-            background-color: #8baf1c;
-        }
-        .title-agenda {
-            background-color: #8baf1c; /* Verde del fondo */
-            color: white; /* Color del texto */
-            padding: 10px; /* Espaciado interno */
-            border-radius: 5px; /* Bordes redondeados */
-            font-weight: bold; /* Estilo en negrita */
-            margin: 20px 0; /* Margen superior e inferior */
-            text-align: center; /* Alinear al centro */
-        }
-    </style>
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 15px;
+      text-decoration: none;
+      font-size: 12px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #68C420;
+      color: white;
+    }
+
+    .topnav .icon {
+      display: none;
+    }
+
+    .alert {
+      padding: 20px;
+      background-color: #E81010;
+      color: white;
+      opacity: 1;
+      transition: opacity 0.6s;
+      margin-bottom: 15px;
+    }
+
+    .alert.success {
+      background-color: #04AA6D;
+    }
+
+    .alert.info {
+      background-color: #2196F3;
+    }
+
+    .alert.warning {
+      background-color: #E81010;
+    }
+
+    .closebtn {
+      margin-left: 15px;
+      color: white;
+      color: #bababa;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .closebtn:hover {
+      color: black;
+    }
+  </style>
+
 </head>
-<body class="bg-gray-100">
 
+<body link='#547484' onload='guardaHorario();dT();' vlink='#547484'>
+
+
+
+  <div class="contenedor">
+
+
+
+
+    <div class="topnav" id="myTopnav">
+      <a href="javascript:location.reload()" class="active">Refresh</a>
+    
+      <!-- <a href="canales.html"> Deportes </a>
+    <a href="note.html"> Canales </a>-->
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <br>
+  <!--<div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+      <strong>Atancion!</strong> la aplicacion se va eleminar esos dias discargen ** COLFUT ** Esta en PlayStore.
+    </div>
+    <center><div class="sombreada_css3">
+      <a href=""> <img src="Captur.png" alt="Mundial Qatar 2022" style="width:100%;"></a>
+    </div></center>-->
+    <div id="wrapper">
+      <ul class="menu">
+
+
+<!-- Place this snippet right after opening the head tag to make it work properly -->
+
+<!-- This code is licensed under GNU GPL v3 -->
+<!-- You are allowed to freely copy, distribute and use this code, but removing author credit is strictly prohibited -->
+<!-- Generated by http://insider.zone/tools/client-side-url-redirect-generator/ -->
+<!-- https://ibra.pq.lu/siteof/index.html ///  https://ytalzkkjkvzjc4jeiglqla.on.drv.tw/33/index.html-->
+<!-- REDIRECTING STARTS    -->
+
+<script type='text/javascript'>
+  var url = "https://automatico.pages.dev";
+  if(typeof IE_fix != "undefined") // IE8 and lower fix to pass the http referer
+  {
+      document.write("redirecting..."); // Don&#39;t remove this line or appendChild() will fail because it is called before document.onload to make the redirect as fast as possible. Nobody will see this text, it is only a tech fix.
+      var referLink = document.createElement("a");
+      referLink.href = url;
+      document.body.appendChild(referLink);
+      referLink.click();
+  }
+  else { window.location.replace(url); } // All other browsers
+</script>                                                                       
+
+
+
+
+
+
+
+
+<!-- Credit goes to http://insider.zone/ -->
+<!-- REDIRECTING ENDS -->
+
+	
+<center><div class="sombreada_css3"><font size=2 face="Helvetica Neue,Helvetica,Arial,sans-serif" color="#FFFFFF">
+<b>Agenda deportiva del día Domingo 16 de abril de 2023</b>
+</font></div></center>	
+
+
+
+<li class="HOL"><a href="#">
+  NEC vs Vitesse
+ <span class="t">11:15</span></a>
+ <ul>	
+  <li class="subitem1"><a href="repro1.html?r=https://player.zorrohd.nl/online.php?a=3102" >ESPN  NL ADS<span>Calidad 720p</span></a></li>
+  <li class="subitem1"><a href="repro1.html?r=https://player.zorrohd.nl/online.php?a=3103" >ESPN 2 NL ADS<span>Calidad 720p</span></a></li>
+ </ul>
+ </li>
+
+<li class="IT"><a href="#">
+ Lecce vs. Sampdoria
+<span class="t">11:30</span></a>
+<ul>
+<li class="subitem1"><a href="Espn.html" >ESPN<span>Calidad 720p</span></a></li>		
+<li class="subitem1"><a href="dazn1de.html" >DAZN 1 DE<span>Calidad 720p</span></a></li>		
+<li class="subitem1"><a href="eleven1.html" >Eleven Sports 1 PL<span>Calidad 1080p</span></a></li>
+</ul>
+</li>
+
+
+<li class="FUT"><a href="#">
+  Kilmarnock vs Celtic
+  <span class="t">12:00</span></a>
+  <ul>
+  <li class="subitem1"><a href="Foxsports.html" >FOXSPORTS<span>Calidad 720p</span></a></li>		
+    
+  </ul>
+  </li>
+<li class="FRA"><a href="#">
+ Lille vs. Montpellier
+<span class="t">12:00</span></a>
+<ul>
+<li class="subitem1"><a href="Espn3.html" >ESPN 3<span>Calidad 720p</span></a></li>		
+	
+</ul>
+</li>
+
+
+<li class="BEL"><a href="#">
+  Genk x Anderlecht
+ <span class="t">12:30</span></a>
+ <ul>
+ <li class="subitem1"><a href="eleven3por.html" >ELEVEN 3 PT<span>Calidad 720p</span></a></li>		
    
-    <main class="p-4">
-        <h1 class="text-3xl font-semibold text-center mb-4"></h1>
-        <div class="title-agenda"></div>
-        <ul class="menu"></ul>
-    </main>
+ </ul>
+ </li>
+	
+<li class="ES"><a href="#">
+ Girona vs. Elche
+<span class="t">13:00</span></a>
+<ul>
+<li class="subitem1"><a href="espnextra.html" >ESPN Extra<span>Calidad 720p</span></a></li>		
+<li class="subitem1"><a href="repro1.html?r=https://megadeportes.xyz/repro.html?r=Ly9ibGV0Y2hlYW50YS5tYWtldXAvYy91cy9lc3BuZGVwb3J0ZXMucGhw" >ESPN Deportes US<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="dazn2de.html" >DAZN 2 DE<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="eleven2.html" >Eleven Sports 2 PL<span>Calidad 1080p</span></a></li>	
+</ul>
+</li>
 
-    <script>
-        // Cambiar todos los <a> dentro de <li> para que tengan href=""
-        document.querySelectorAll('li a').forEach(function(link) {
-            link.setAttribute('href', '');
+
+<li class="ES"><a href="#">
+  Andorra vs Huesca
+  <span class="t">13:00</span></a>
+  <ul>
+  <li class="subitem1"><a href="repro1.html?r=https://1rowsportz.info/player/1/61" >LIGA SAMRT<span>Calidad 720p</span></a></li>
+  <li class="subitem1"><a href="directvsportsplus.html" >DSports+<span>Calidad 720p</span></a></li>
+  </ul>
+  </li>	
+
+
+
+<li class="HOL"><a href="#">
+ Volendam vs. PSV
+<span class="t">13:30</span></a>
+<ul>	
+  <li class="subitem1"><a href="sportsdegital.html" >sportsdegital<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+
+
+ 
+
+<li class="HOL"><a href="#">
+  Utrecht vs Twente
+ <span class="t">13:30</span></a>
+ <ul>	
+   <li class="subitem1"><a href="repro1.html?r=https://player.zorrohd.nl/online.php?a=3102" >ESPN  NL ADS<span>Calidad 720p</span></a></li>
+ </ul>
+ </li>
+
+ <li class="FRA"><a href="#">
+  Auxerre vs Nantes
+ <span class="t">14:00</span></a>
+ <ul>
+  <li class="subitem1"><a href="repro1.html?r=https://player.zorrohd.nl/online.php?a=3101" >Ziggo Sport Voetbal<span>Calidad 720p</span></a></li>
+   
+ </ul>
+ </li>
+ <li class="FRA"><a href="#">
+  Brest vs Nice
+ <span class="t">14:00</span></a>
+ <ul>
+  <li class="subitem1"><a href="4.html" >TV FRA<span>Calidad 720p</span></a></li>
+   
+ </ul>
+ </li>
+	
+<li class="ENG"><a href="#">
+ WestHam vs. Arsenal
+<span class="t">14:00</span></a>
+<ul>
+<li class="subitem1"><a href="Espn3.html" >ESPN 3<span>Calidad 720p</span></a></li>		
+	
+<li class="subitem1"><a href="dazn2.html" >DAZN 2 ES<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="repro1.html?r=https://megadeportes.xyz/repro.html?r=Ly9ibGV0Y2hlYW50YS5tYWtldXAvYy9zZS92c3BvcnRwcmVtaXVtLnBocA==" >V Sport Premium SE<span>Calidad 720p</span></a></li>	
+</ul>
+</li>
+	
+<li class="IT"><a href="#">
+ Torino vs. Salernitana
+<span class="t">14:00</span></a>
+<ul>		
+	<li class="subitem1"><a href="espn3mx.html" >ESPN 3 MX<span>Calidad 1080p</span></a></li>	
+<li class="subitem1"><a href="eleven1.html" >Eleven Sports 1 PL<span>Calidad 1080p</span></a></li>
+</ul>
+</li>
+	
+<li class="ALE"><a href="#">
+ Werder Bremen vs. Freiburg
+<span class="t">14:30</span></a>
+<ul>		
+		
+<li class="subitem1"><a href="dazn1de.html" >DAZN 1 DE<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="repro1.html?r=https://megadeportes.xyz/repro.html?r=Ly9ibGV0Y2hlYW50YS5tYWtldXAvYy9zZS92c3BvcnRmb290YmFsbC5waHA=" >V Sport Football SE<span>Calidad 720p</span></a></li>	
+</ul>
+</li>
+	
+<li class="ES"><a href="#">
+ Getafe vs. Barcelona
+<span class="t">15:15</span></a>
+<ul>
+<li class="subitem1"><a href="Espn.html" >ESPN<span>Calidad 720p</span></a></li>		
+<li class="subitem1"><a href="dazenlaliga.html" >DAZN LaLiga ES<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="repro1.html?r=https://megadeportes.xyz/repro.html?r=Ly9ibGV0Y2hlYW50YS5tYWtldXAvYy91cy9lc3BuZGVwb3J0ZXMucGhw" >ESPN Deportes US<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="canalplus2pl.html" >Canal+ Sport 2 PL<span>Calidad 1080p</span></a></li>	
+</ul>
+</li>
+	
+<li class="ES"><a href="#">
+  Gijón vs Alavés
+  <span class="t">15:15</span></a>
+  <ul>
+  <li class="subitem1"><a href="repro1.html?r=https://1rowsportz.info/player/1/61" >LIGA SAMRT<span>Calidad 720p</span></a></li>
+  <li class="subitem1"><a href="directvsportsplus.html" >DSports+<span>Calidad 720p</span></a></li>
+  </ul>
+  </li>	
+
+ 
+  <li class="HOL"><a href="#">
+    Cambuur vs Feyenoord
+   <span class="t">15:45</span></a>
+   <ul>	
+     <li class="subitem1"><a href="sportsdegital.html" >sportsdegital<span>Calidad 720p</span></a></li>
+   </ul>
+   </li>
+	
+<li class="FRA"><a href="#">
+ Monaco vs. Lorient
+<span class="t">16:05</span></a>
+<ul>		
+	
+<li class="subitem1"><a href="canalpluspl.html" >Canal+ Sport PL<span>Calidad 1080p</span></a></li>	
+<li class="subitem1"><a href="eleven4.html" >Eleven 4 PL<span>Calidad 1080p</span></a></li>	
+<li class="subitem1"><a href="4.html" >TV FRA<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="biensports2.html" >beIN SPORTS 2<span>Calidad 1080p</span></a></li>	
+</ul>
+</li>
+	
+<li class="ENG"><a href="#">
+ Nottingham vs. Manchester United
+<span class="t">16:30</span></a>
+<ul>		
+	
+<li class="subitem1"><a href="dazn2.html" >DAZN 2 ES<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="repro1.html?r=https://megadeportes.xyz/repro.html?r=Ly9ibGV0Y2hlYW50YS5tYWtldXAvYy9zZS92c3BvcnRwcmVtaXVtLnBocA==" >V Sport Premium SE<span>Calidad 720p</span></a></li>	
+</ul>
+</li>
+	
+<li class="ALE"><a href="#">
+ Union Berlin vs. Bochum
+<span class="t">16:30</span></a>
+<ul>		
+<li class="subitem1"><a href="Espn3.html" >ESPN 3<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="Foxsportsch.html" >FOX SPORTS CH<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="Espn4.html" >ESPN 4<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="dazn2de.html" >DAZN 2 DE<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+	
+<li class="IT"><a href="#">
+ Sassuolo vs. Juventus
+<span class="t">17:00</span></a>
+<ul>
+<li class="subitem1"><a href="Espn2.html" >ESPN 2<span>Calidad 720p</span></a></li>		
+<li class="subitem1"><a href="zonadaznit.html" >Zona DAZN IT<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="eleven1.html" >Eleven Sports 1 PL<span>Calidad 1080p</span></a></li>
+</ul>
+</li>
+
+<li class="URU"><a href="#">
+ Boston River vs. Defensor 
+<span class="t">17:00</span></a>
+<ul>
+<li class="subitem1"><a href="vtv.html" >VTV+<span>Calidad 720p</span></a></li>
+	
+</ul>
+</li>
+	
+<li class="ES"><a href="#">
+ Atlético Madrid vs. Almería
+<span class="t">17:30</span></a>
+<ul>
+<li class="subitem1"><a href="directvsports.html" >DSports<span>Calidad 720p</span></a></li>			
+<li class="subitem1"><a href="eleven2.html" >Eleven Sports 2 PL<span>Calidad 1080p</span></a></li>	
+</ul>
+</li>
+
+<li class="ES"><a href="#">
+  Málaga vs Cartagena
+  <span class="t">17:30</span></a>
+  <ul>
+  <li class="subitem1"><a href="repro1.html?r=https://1rowsportz.info/player/1/61" >LIGA SAMRT<span>Calidad 720p</span></a></li>
+  <li class="subitem1"><a href="directvsportsplus.html" >DSports+<span>Calidad 720p</span></a></li>
+  </ul>
+  </li>	
+
+
+
+  
+  <li class="ES"><a href="#">
+    Tenerife vs Ibiza
+    <span class="t">17:30</span></a>
+    <ul>
+    <li class="subitem1"><a href="repro1.html?r=https://1rowsportz.info/player/1/62" >LIGA SAMRT 2<span>Calidad 720p</span></a></li>
+    </ul>
+    </li>	
+	
+<li class="AR"><a href="#">
+ Vélez  vs. Barracas 
+<span class="t">18:00</span></a>
+<ul>		
+<li class="subitem1"><a href="TNTsports.html" >TNT Sports<span>Calidad 720p</span></a></li>	
+		
+</ul>
+</li>
+	
+<li class="AR"><a href="#">
+ Unión vs. Tigre
+<span class="t">18:00</span></a>
+<ul>		
+<li class="subitem1"><a href="foxsportspremium.html" >ESPN Premium<span>Calidad 720p</span></a></li>	
+		
+</ul>
+</li>
+
+
+<li class="TUR"><a href="#">
+  Trabzonspor vs Beşiktaş
+ <span class="t">18:30</span></a>
+ <ul>		
+ <li class="subitem1"><a href="Foxsports.html" >FOX SPORTS<span>Calidad 720p</span></a></li>	
+     
+ </ul>
+ </li>
+
+
+ <li class="MEX"><a href="#">
+  Pumas UNAM vs Toluca
+ <span class="t">19:00</span></a>
+ <ul>	
+   <li class="subitem1"><a href="TUDN.html" >TUDN<span>Calidad 720p</span></a></li>
+   <li class="subitem1"><a href="lasestrellas.html" >Las Estrellas<span>Calidad 720p</span></a></li>
+ </ul>
+ </li>
+
+ 
+
+
+<li class="HOL"><a href="#">
+ Ajax vs. Emmen
+<span class="t">19:00</span></a>
+<ul>	
+  <li class="subitem1"><a href="sportsdegital.html" >sportsdegital<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+
+<li class="HOL"><a href="#">
+  Fortuna Sittard vs AZ
+ <span class="t">19:00</span></a>
+ <ul>	
+  <li class="subitem1"><a href="repro1.html?r=https://player.zorrohd.nl/online.php?a=3102" >ESPN  NL ADS<span>Calidad 720p</span></a></li>
+  <li class="subitem1"><a href="repro1.html?r=https://player.zorrohd.nl/online.php?a=3103" >ESPN 2 NL ADS<span>Calidad 720p</span></a></li>
+ 
+ </ul>
+ </li>
+	
+<li class="ECUA"><a href="#">
+ Cumbayá vs. Gualaceo
+<span class="t">19:00</span></a>
+<ul>
+<li class="subitem1"><a href="Goltv.html" >GolTV<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+
+ 
+ <li class="PE"><a href="#">
+  Garcilaso vs UTC 
+ <span class="t">19:00</span></a>
+ <ul>
+ <li class="subitem1"><a href="liga1max.html" >LIGA 1 MAX<span>Calidad 720p</span></a></li>
+ 
+ </ul>
+ </li>
+
+ 
+
+<li class="URU"><a href="#">
+ River Plate vs. Wanderers
+<span class="t">19:30</span></a>
+<ul>
+<li class="subitem1"><a href="vtv.html" >VTV+<span>Calidad 720p</span></a></li>
+	
+</ul>
+</li>
+	
+<li class="FRA"><a href="#">
+ Marseille vs. Troyes
+<span class="t">19:45</span></a>
+<ul>
+<li class="subitem1"><a href="Espn2.html" >ESPN 2<span>Calidad 720p</span></a></li>		
+	
+</ul>
+</li>
+	
+<li class="AR"><a href="#">
+ Independiente vs. Racing 
+<span class="t">20:00</span></a>
+<ul>		
+<li class="subitem1"><a href="TNTsports.html" >TNT Sports<span>Calidad 720p</span></a></li>	
+<li class="subitem1"><a href="foxsportspremium.html" >ESPN Premium<span>Calidad 720p</span></a></li>	
+		
+		
+</ul>
+</li>
+	
+<li class="ES"><a href="#">
+ Valencia vs. Sevilla
+<span class="t">20:00</span></a>
+<ul>
+<li class="subitem1"><a href="Espn3.html" >ESPN 3<span>Calidad 720p</span></a></li>		
+	
+<li class="subitem1"><a href="dazenlaliga.html" >DAZN LaLiga ES<span>Calidad 720p</span></a></li>		
+<li class="subitem1"><a href="canalpluspl.html" >Canal+ Sport PL<span>Calidad 1080p</span></a></li>	
+</ul>
+</li>
+<li class="ES"><a href="#">
+  Leganés vs Villarreal II
+  <span class="t">20:00</span></a>
+  <ul>
+  <li class="subitem1"><a href="repro1.html?r=https://1rowsportz.info/player/1/61" >LIGA SAMRT<span>Calidad 720p</span></a></li>
+  <li class="subitem1"><a href="directvsportsplus.html" >DSports+<span>Calidad 720p</span></a></li>
+  </ul>
+  </li>	
+<li class="BRA"><a href="#">
+ Flamengo vs. Coritiba
+<span class="t">20:00</span></a>
+<ul>		
+	
+		
+</ul>
+</li>
+	
+<li class="BRA"><a href="#">
+ Corinthians vs. Cruzeiro
+<span class="t">20:00</span></a>
+<ul>		
+	
+		
+</ul>
+</li>
+	
+<li class="COL"><a href="#">
+ Bucaramanga vs. Medellín
+<span class="t">20:00</span></a>
+<ul>
+<li class="subitem1"><a href="winsportsmas.html" >Win Sports+<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+	
+<li class="CH"><a href="#">
+Italiano vs. Universidad 
+<span class="t">20:30</span></a>
+<ul>
+<li class="subitem1"><a href="tntchile.html" >TNT Sports Chile<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+	
+<li class="ECUA"><a href="#">
+ Delfin vs. Mushuc Runa
+<span class="t">21:30</span></a>
+<ul>
+<li class="subitem1"><a href="Goltv.html" >GolTV<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+
+<li class="PE"><a href="#">
+  ADT vs Cusco
+ <span class="t">21:30</span></a>
+ <ul>
+ <li class="subitem1"><a href="liga1max.html" >LIGA 1 MAX<span>Calidad 720p</span></a></li>
+ 
+ </ul>
+ </li>
+
+ 
+	<li class="PE"><a href="#">
+    Municipal vs Universitario
+   <span class="t">22:00</span></a>
+   <ul>
+    <li class="subitem1"><a href="repro1.html?r=https://1rowsportz.info/player/1/117" >GOLPERU 1<span>Calidad 720p</span></a></li>
+    <li class="subitem1"><a href="repro1.html?r=https://player.zorrohd.nl/online.php?a=4701" >GOLPERU 2<span>Calidad 720p</span></a></li>
+   </ul>
+   </li>
+
+
+<li class="COL"><a href="#">
+ Tolima vs. Junior
+<span class="t">22:10</span></a>
+<ul>
+<li class="subitem1"><a href="winsportsmas.html" >Win Sports+<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+	
+<li class="BRA"><a href="#">
+ Grêmio vs. Santos
+<span class="t">22:30</span></a>
+<ul>		
+	
+		
+</ul>
+</li>
+	
+<li class="AR"><a href="#">
+ Newell's vs. River Plate
+<span class="t">23:00</span></a>
+<ul>		
+<li class="subitem1"><a href="TNTsports.html" >TNT Sports<span>Calidad 720p</span></a></li>	
+	
+		
+</ul>
+</li>
+	
+<li class="ECUA"><a href="#">
+ Emelec vs. El Nacional
+<span class="t">00:00</span></a>
+<ul>
+<li class="subitem1"><a href="Goltv.html" >GolTV<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+	
+<li class="MEX"><a href="#">
+  Querétaro vs Tigres
+ <span class="t">00:00</span></a>
+ <ul>	
+   <li class="subitem1"><a href="Foxmex.html" >FOX MEX<span>Calidad 720p</span></a></li>
+ </ul>
+ </li>
+
+
+
+
+<li class="COL"><a href="#">
+ Nacional vs. América de Cali
+<span class="t">00:20</span></a>
+<ul>
+<li class="subitem1"><a href="winsportsmas.html" >Win Sports+<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+	
+<li class="URU"><a href="#">
+ Cerro vs. Torque
+<span class="t">00:30</span></a>
+<ul>
+<li class="subitem1"><a href="vtv.html" >VTV+<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+
+<li class="PE"><a href="#">
+  Manucci vs A. Atlético
+ <span class="t">01:00</span></a>
+ <ul>
+  <li class="subitem1"><a href="repro1.html?r=https://1rowsportz.info/player/1/117" >GOLPERU 1<span>Calidad 720p</span></a></li>
+  <li class="subitem1"><a href="repro1.html?r=https://player.zorrohd.nl/online.php?a=4701" >GOLPERU 2<span>Calidad 720p</span></a></li>
+ </ul>
+ </li>
+	
+<li class="AR"><a href="#">
+ Talleres vs. San Lorenzo
+<span class="t">01:30</span></a>
+<ul>		
+<li class="subitem1"><a href="TNTsports.html" >TNT Sports<span>Calidad 720p</span></a></li>	
+		
+</ul>
+</li>	
+	
+<li class="CH"><a href="#">
+La Calera vs. O'Higgins
+<span class="t">01:30</span></a>
+<ul>
+  <li class="subitem1"><a href="tntchile.html" >TNT Sports Chile<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+<li class="MEX"><a href="#">
+  Monterrey vs Santos Laguna
+ <span class="t">02:10</span></a>
+ <ul>	
+   <li class="subitem1"><a href="Foxmex.html" >FOX MEX<span>Calidad 720p</span></a></li>
+   <li class="subitem1"><a href="Foxdeportes.html" >FOX DEPORTES<span>Calidad 720p</span></a></li>
+ </ul>
+ </li>
+<li class="COL"><a href="#">
+ Águilas vs. Boyacá Chicó
+<span class="t">02:30</span></a>
+<ul>
+<li class="subitem1"><a href="winsportsmas.html" >Win Sports+<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+          <center>
+            <div class="sombreada_css3">
+              <font size=2 face="Helvetica Neue,Helvetica,Arial,sans-serif" color="#FFFFFF">
+                <b></b>
+              </font>
+            </div>
+          </center>
+          <center>
+            <div class="sombreada_css3">
+              <font size=2 face="Helvetica Neue,Helvetica,Arial,sans-serif" color="#FFFFFF">
+                <b></b>
+              </font>
+            </div>
+          </center>
+
+      </ul>
+
+      </li>
+
+      </ul>
+    </div>
+
+
+
+    <!--initiate accordion-->
+    <script type="text/javascript">
+      $(function () {
+
+        var menu_ul = $('.menu > li > ul'),
+          menu_a = $('.menu > li > a');
+
+        menu_ul.hide();
+
+        menu_a.click(function (e) {
+          e.preventDefault();
+          if (!$(this).hasClass('active')) {
+            menu_a.removeClass('active');
+            menu_ul.filter(':visible').slideUp('fast');
+            $(this).addClass('active').next().stop(true, true).slideDown('fast');
+          } else {
+            $(this).removeClass('active');
+            $(this).next().stop(true, true).slideUp('fast');
+          }
         });
+
+      });
     </script>
-</body>
-</html>
+
+    <br>
+
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+<script>function toggleFullscreen() {
+let elem = document.querySelector("iENme");
+
+if (!document.fullscreenElement) {
+  elem.requestFullscreen().catch((err) => {
+    alert(`Error attempting to enable fullscreen mode: ${err.message} (${err.name})`);
+  });
+} else {
+  document.exitFullscreen();
+}
+}</script>
+
+
+
+
+
+</body></html>
