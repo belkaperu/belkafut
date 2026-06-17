@@ -301,17 +301,22 @@
       "category": "general",
       "options": [
         {
-          "label": "FOX PREMIUM HD",
+          "label": "FOX PREMIUM HD 1",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://dodousd.github.io/stylas/playerros.html?id=FSPMX"
         },
         {
-          "label": "FOX PREMIUM HD",
+          "label": "FOX PREMIUM HD 2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp10.com/global1.php?stream=foxsportspremium"
         },
         {
-          "label": "FOX PREMIUM HD",
+          "label": "FOX PREMIUM HD 3",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=foxsportspremium"
+        },
+     {
+          "label": "FOX PREMIUM HD 4",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=foxsportspremium"
         }
+        
       ]
     },
     {
@@ -733,6 +738,17 @@
         {
           "label": "CLARO",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la14hd.com/vivo/canales.php?stream=calientetv"
+        }
+      ]
+    },
+        {
+      "title": "Telemundo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Telemundo-nuevo-logo.png",
+      "category": "all",
+      "options": [
+        {
+          "label": "Telemundo",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/canalmas.html?id=telemundo"
         }
       ]
     },
