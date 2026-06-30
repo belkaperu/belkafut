@@ -1,29 +1,19 @@
 {
   "categories": [
     {
-      "name": "Brasil",
-      "icon": "🇧🇷",
-      "display_name": "Contenido BR"
-    },
-    {
       "name": "Deportes",
       "icon": "⚽",
       "display_name": "Deportes en Vivo"
     },
     {
-      "name": "Documental",
-      "icon": "🕵🏼‍♂️",
-      "display_name": "Documental"
-    },
-    {
-      "name": "Francia",
-      "icon": "🇫🇷",
-      "display_name": "Contenido Frances"
-    },
-    {
-      "name": "General",
+      "name": "Entretenimiento",
       "icon": "📺",
-      "display_name": "General"
+      "display_name": "Entretenimiento"
+    },
+    {
+      "name": "Películas",
+      "icon": "🎬",
+      "display_name": "Películas"
     },
     {
       "name": "Infantiles",
@@ -31,100 +21,156 @@
       "display_name": "Contenido Infantil"
     },
     {
-      "name": "Música",
-      "icon": "🎵",
-      "display_name": "Música y Videos"
-    },
-    {
       "name": "Noticias",
       "icon": "📰",
       "display_name": "Noticias"
     },
     {
-      "name": "Películas",
-      "icon": "🎬",
-      "display_name": "Estrenos de Cine"
-    },
-    {
-      "name": "Peru",
-      "icon": "🇵🇪",
-      "display_name": "Contenido Peruano"
-    },
-    {
-      "name": "Series",
-      "icon": "📺",
-      "display_name": "Series y Dramas"
+      "name": "Internacionales",
+      "icon": "🌍",
+      "display_name": "Canales Internacionales"
     }
   ],
   "channels": [
     {
-      "name": "Band Sports",
-      "category": "Brasil",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://kylzrs6v.megogo.xyz/iptv/7B38VC2MRGFSKX/6159/index.m3u8"
-        }
-      ],
-      "normalized_name": "band sports",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "AYM SPORT",
+      "name": "TUDN",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
-          "url": "https://aym-as.otteravision.com/aym/as/as_720p_high.m3u8"
-        }
-      ],
-      "normalized_name": "aym sport",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "CLARO SPORTS",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a06o"
+          "url": "http://190.14.10.19:16000/play/a09v/index.m3u8"
         },
         {
           "name": "2",
-          "url": "http://45.228.234.30:16000/play/a03s/index.m3u8"
+          "url": "http://45.228.234.30:16000/play/a02x/index.m3u8"
+        },
+        {
+          "name": "3",
+          "url": "http://45.5.119.43:4000/play/a05q/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tudn.html"
         }
       ],
-      "normalized_name": "claro sports",
-      "source": "Existing JSON"
+      "normalized_name": "tudn"
     },
     {
-      "name": "CLARO SPORTS 2",
+      "name": "Gol Perú",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/golperu.html"
+        }
+      ],
+      "normalized_name": "gol perú"
+    },
+    {
+      "name": "TNT Sports",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tntsports.html"
+        }
+      ],
+      "normalized_name": "tnt sports"
+    },
+    {
+      "name": "ESPN Premium",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espnpremium.html"
+        }
+      ],
+      "normalized_name": "espn premium"
+    },
+    {
+      "name": "ESPN Premium Argentina",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espnpremiumargentina.html"
+        }
+      ],
+      "normalized_name": "espn premium argentina"
+    },
+    {
+      "name": "TyC Sports",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tycsports.html"
+        }
+      ],
+      "normalized_name": "tyc sports"
+    },
+    {
+      "name": "Fox Sports",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
-          "url": "http://45.228.234.30:16000/play/a03t/index.m3u8"
+          "url": "http://200.115.120.1:8000/play/ca041/index.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://45.228.234.30:16000/play/a03p/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/foxsports.html"
         }
       ],
-      "normalized_name": "claro sports 2",
-      "source": "Existing JSON"
+      "normalized_name": "fox sports"
     },
     {
-      "name": "Dsports",
+      "name": "Fox Sports 2",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://201.230.121.85:8000/play/a0yv/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/foxsports2.html"
         }
       ],
-      "normalized_name": "dsports",
-      "source": "Existing JSON"
+      "normalized_name": "fox sports 2"
+    },
+    {
+      "name": "Fox Sports 3",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/foxsports3.html"
+        }
+      ],
+      "normalized_name": "fox sports 3"
+    },
+    {
+      "name": "Fox Deportes",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/foxdeportes.html"
+        }
+      ],
+      "normalized_name": "fox deportes"
     },
     {
       "name": "ESPN",
@@ -166,10 +212,53 @@
         {
           "name": "9",
           "url": "http://200.10.30.241:8000/play/a03c/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn.html"
         }
       ],
-      "normalized_name": "espn",
-      "source": "Existing JSON"
+      "normalized_name": "espn"
+    },
+    {
+      "name": "ESPN Ar",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espnar.html"
+        }
+      ],
+      "normalized_name": "espn ar"
+    },
+    {
+      "name": "ESPN Col",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espncol.html"
+        }
+      ],
+      "normalized_name": "espn col"
+    },
+    {
+      "name": "ESPN 2",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "1",
+          "url": "http://190.60.32.178:8178/play/a0at/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn2.html"
+        }
+      ],
+      "normalized_name": "espn 2"
     },
     {
       "name": "ESPN 3",
@@ -183,36 +272,49 @@
         {
           "name": "2",
           "url": "http://190.14.10.19:16000/play/a07r/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn3.html"
         }
       ],
-      "normalized_name": "espn 3",
-      "source": "Existing JSON"
+      "normalized_name": "espn 3"
     },
     {
-      "name": "ESPN 3 MX",
+      "name": "ESPN 4",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
-          "url": "http://190.60.32.178:8178/play/a015/index.m3u8"
+          "url": "http://200.10.30.241:8000/play/a01k/index.m3u8"
+        },
+        {
+          "name": "2",
+          "url": "http://190.14.10.19:16000/play/a09t/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn4.html"
         }
       ],
-      "normalized_name": "espn 3 mx",
-      "source": "Existing JSON"
+      "normalized_name": "espn 4"
     },
     {
-      "name": "ESPN 5 MX",
+      "name": "ESPN 5",
       "category": "Deportes",
-      "imageUrl": "",
+      "imageUrl": "https://images.seeklogo.com/logo-png/52/3/espn-5-logo-png_seeklogo-522715.png",
       "servers": [
         {
           "name": "1",
           "url": "http://190.14.10.19:16000/play/a09e/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn5.html"
         }
       ],
-      "normalized_name": "espn 5 mx",
-      "source": "Existing JSON"
+      "normalized_name": "espn 5"
     },
     {
       "name": "ESPN 6",
@@ -234,10 +336,13 @@
         {
           "name": "4",
           "url": "http://181.78.82.6:46090/play/a00w/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn6.html"
         }
       ],
-      "normalized_name": "espn 6",
-      "source": "Existing JSON"
+      "normalized_name": "espn 6"
     },
     {
       "name": "ESPN 7",
@@ -251,205 +356,905 @@
         {
           "name": "2",
           "url": "http://181.205.130.194:4000/play/a07s"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn7.html"
         }
       ],
-      "normalized_name": "espn 7",
-      "source": "Existing JSON"
+      "normalized_name": "espn 7"
     },
     {
-      "name": "ESPN MX",
+      "name": "DirecTV Sports",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a07j"
-        },
-        {
-          "name": "2",
-          "url": "http://181.205.130.194:4000/play/a07i"
-        },
-        {
-          "name": "3",
-          "url": "http://190.60.32.178:8178/play/a0at/index.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "http://181.205.130.194:4000/play/a07i"
-        },
-        {
-          "name": "5",
-          "url": "http://190.60.32.178:8178/play/a015/index.m3u8"
-        },
-        {
-          "name": "6",
-          "url": "http://181.205.130.194:4000/play/a07s"
-        },
-        {
-          "name": "7",
-          "url": "http://190.60.32.178:8178/play/a0aa/index.m3u8"
-        },
-        {
-          "name": "8",
-          "url": "http://181.78.82.6:46090/play/a00v/index.m3u8"
-        },
-        {
-          "name": "9",
-          "url": "http://181.78.82.6:46090/play/a00w/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/directvsports.html"
         }
       ],
-      "normalized_name": "espn mx",
-      "source": "Existing JSON"
+      "normalized_name": "directv sports"
     },
     {
-      "name": "ESPN2",
+      "name": "DirecTV Sports 2",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://190.60.32.178:8178/play/a0at/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/directvsports2.html"
         }
       ],
-      "normalized_name": "espn2",
-      "source": "Existing JSON"
+      "normalized_name": "directv sports 2"
     },
     {
-      "name": "ESPN4",
+      "name": "DirecTV Sports Plus",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://200.10.30.241:8000/play/a01k/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a09t/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/directvsportsplus.html"
         }
       ],
-      "normalized_name": "espn4",
-      "source": "Existing JSON"
+      "normalized_name": "directv sports plus"
     },
     {
-      "name": "ESPN5",
+      "name": "Fox Sports México",
       "category": "Deportes",
-      "imageUrl": "https://images.seeklogo.com/logo-png/52/3/espn-5-logo-png_seeklogo-522715.png",
+      "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a09e/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/foxsportsmexico.html"
         }
       ],
-      "normalized_name": "espn5",
-      "source": "Existing JSON"
+      "normalized_name": "fox sports méxico"
     },
     {
-      "name": "FOX SPORTS PREMIUM",
+      "name": "Fox Sports 2 México",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/foxsports2mexico.html"
+        }
+      ],
+      "normalized_name": "fox sports 2 méxico"
+    },
+    {
+      "name": "Fox Sports 3 México",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/foxsports3mexico.html"
+        }
+      ],
+      "normalized_name": "fox sports 3 méxico"
+    },
+    {
+      "name": "ESPN México",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espnmexico.html"
+        }
+      ],
+      "normalized_name": "espn méxico"
+    },
+    {
+      "name": "ESPN 2 México",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn2mexico.html"
+        }
+      ],
+      "normalized_name": "espn 2 méxico"
+    },
+    {
+      "name": "ESPN 3 México",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn3mexico.html"
+        }
+      ],
+      "normalized_name": "espn 3 méxico"
+    },
+    {
+      "name": "ESPN 4 México",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn4mexico.html"
+        }
+      ],
+      "normalized_name": "espn 4 méxico"
+    },
+    {
+      "name": "ESPN 5 México",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/espn5mexico.html"
+        }
+      ],
+      "normalized_name": "espn 5 méxico"
+    },
+    {
+      "name": "Tvc Deportes",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tvcdeportes.html"
+        }
+      ],
+      "normalized_name": "tvc deportes"
+    },
+    {
+      "name": "Liga 1",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/liga1.html"
+        }
+      ],
+      "normalized_name": "liga 1"
+    },
+    {
+      "name": "Liga 1 Max",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/liga1max.html"
+        }
+      ],
+      "normalized_name": "liga 1 max"
+    },
+    {
+      "name": "Fox Sports Premium",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
           "name": "1",
           "url": "https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0"
-        }
-      ],
-      "normalized_name": "fox sports premium",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Fox Sports",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.115.120.1:8000/play/ca041/index.m3u8"
         },
         {
-          "name": "2",
-          "url": "http://45.228.234.30:16000/play/a03p/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/foxsportspremium.html"
         }
       ],
-      "normalized_name": "fox sports",
-      "source": "Existing JSON"
+      "normalized_name": "fox sports premium"
     },
     {
-      "name": "SPORTS LIVE",
+      "name": "Movistar Deportes",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://145.239.5.177/518/mpegts"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/movistardeportes.html"
         }
       ],
-      "normalized_name": "sports live",
-      "source": "Existing JSON"
+      "normalized_name": "movistar deportes"
     },
     {
-      "name": "TIGO SPORTS",
+      "name": "DAZN F1",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://45.5.119.43:4000/play/a02v/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://45.5.119.43:4000/play/a05t/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/daznf1.html"
         }
       ],
-      "normalized_name": "tigo sports",
-      "source": "Existing JSON"
+      "normalized_name": "dazn f1"
     },
     {
-      "name": "TUDN",
+      "name": "DAZN La Liga",
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a09v/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://45.228.234.30:16000/play/a02x/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.5.119.43:4000/play/a05q/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/daznlaliga.html"
         }
       ],
-      "normalized_name": "tudn",
-      "source": "Existing JSON"
+      "normalized_name": "dazn la liga"
     },
     {
-      "name": "beIN Sports 1 QA",
+      "name": "Movistar Liga de Campeones",
       "category": "Deportes",
-      "imageUrl": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://88b9da48.kazmazpaz.ru:80/iptv/WW3PNTDHF52EAP/6123/manifest.m3u8"
-        }
-      ],
-      "normalized_name": "bein sports 1 qa",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "NATIONAL GEOGRAPHIC",
-      "category": "Documental",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a07v/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/movistarligadecampeones.html"
         }
       ],
-      "normalized_name": "national geographic",
-      "source": "Existing JSON"
+      "normalized_name": "movistar liga de campeones"
+    },
+    {
+      "name": "Win Sports",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/winsports.html"
+        }
+      ],
+      "normalized_name": "win sports"
+    },
+    {
+      "name": "Win Sports Plus",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/winsportsplus.html"
+        }
+      ],
+      "normalized_name": "win sports plus"
+    },
+    {
+      "name": "BeIN Sports Xtra",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/beinsportsxtra.html"
+        }
+      ],
+      "normalized_name": "bein sports xtra"
+    },
+    {
+      "name": "Movistar La Liga",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/movistarlaliga.html"
+        }
+      ],
+      "normalized_name": "movistar la liga"
+    },
+    {
+      "name": "NBA",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/nba.html"
+        }
+      ],
+      "normalized_name": "nba"
+    },
+    {
+      "name": "Movistar Deportes Es",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/movistardeporteses.html"
+        }
+      ],
+      "normalized_name": "movistar deportes es"
+    },
+    {
+      "name": "Azteca Deportes",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/aztecadeportes.html"
+        }
+      ],
+      "normalized_name": "azteca deportes"
+    },
+    {
+      "name": "TNT Sports Chile",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tntsportschile.html"
+        }
+      ],
+      "normalized_name": "tnt sports chile"
+    },
+    {
+      "name": "MLB Network",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/mlbnetwork.html"
+        }
+      ],
+      "normalized_name": "mlb network"
+    },
+    {
+      "name": "Sky Sports México",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/skysportsmexico.html"
+        }
+      ],
+      "normalized_name": "sky sports méxico"
+    },
+    {
+      "name": "Sky Sports Bundesliga",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/skysportsbundesliga.html"
+        }
+      ],
+      "normalized_name": "sky sports bundesliga"
+    },
+    {
+      "name": "Sky Sports F1",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/skysportsf1.html"
+        }
+      ],
+      "normalized_name": "sky sports f1"
+    },
+    {
+      "name": "Azteca 7",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/azteca7.html"
+        }
+      ],
+      "normalized_name": "azteca 7"
+    },
+    {
+      "name": "Canal 5",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/canal5.html"
+        }
+      ],
+      "normalized_name": "canal 5"
+    },
+    {
+      "name": "Latina",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/latina.html"
+        }
+      ],
+      "normalized_name": "latina"
+    },
+    {
+      "name": "America TV",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/americatv.html"
+        }
+      ],
+      "normalized_name": "america tv"
+    },
+    {
+      "name": "Space",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/space.html"
+        }
+      ],
+      "normalized_name": "space"
+    },
+    {
+      "name": "Warner Channel",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/warnerchannel.html"
+        }
+      ],
+      "normalized_name": "warner channel"
+    },
+    {
+      "name": "TNT",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tnt.html"
+        }
+      ],
+      "normalized_name": "tnt"
+    },
+    {
+      "name": "Star Channel",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/starchannel.html"
+        }
+      ],
+      "normalized_name": "star channel"
+    },
+    {
+      "name": "Cinemax",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/cinemax.html"
+        }
+      ],
+      "normalized_name": "cinemax"
+    },
+    {
+      "name": "Cinecanal",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/cinecanal.html"
+        }
+      ],
+      "normalized_name": "cinecanal"
+    },
+    {
+      "name": "Telefe",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/telefe.html"
+        }
+      ],
+      "normalized_name": "telefe"
+    },
+    {
+      "name": "El Trece",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/eltrece.html"
+        }
+      ],
+      "normalized_name": "el trece"
+    },
+    {
+      "name": "Distrito Comedia",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/distritocomedia.html"
+        }
+      ],
+      "normalized_name": "distrito comedia"
+    },
+    {
+      "name": "Telemundo 51",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/telemundo51.html"
+        }
+      ],
+      "normalized_name": "telemundo 51"
+    },
+    {
+      "name": "History",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/history.html"
+        }
+      ],
+      "normalized_name": "history"
+    },
+    {
+      "name": "History 2",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/history2.html"
+        }
+      ],
+      "normalized_name": "history 2"
+    },
+    {
+      "name": "Pasiones",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/pasiones.html"
+        }
+      ],
+      "normalized_name": "pasiones"
+    },
+    {
+      "name": "Azteca Uno",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/aztecauno.html"
+        }
+      ],
+      "normalized_name": "azteca uno"
+    },
+    {
+      "name": "Galavision",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/galavision.html"
+        }
+      ],
+      "normalized_name": "galavision"
+    },
+    {
+      "name": "Tlnovelas",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tlnovelas.html"
+        }
+      ],
+      "normalized_name": "tlnovelas"
+    },
+    {
+      "name": "Las Estrellas",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/lasestrellas.html"
+        }
+      ],
+      "normalized_name": "las estrellas"
+    },
+    {
+      "name": "SyFy",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/syfy.html"
+        }
+      ],
+      "normalized_name": "syfy"
+    },
+    {
+      "name": "Caracol",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/caracol.html"
+        }
+      ],
+      "normalized_name": "caracol"
+    },
+    {
+      "name": "ATV",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/atv.html"
+        }
+      ],
+      "normalized_name": "atv"
+    },
+    {
+      "name": "Univision",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/univision.html"
+        }
+      ],
+      "normalized_name": "univision"
+    },
+    {
+      "name": "Unicable",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/unicable.html"
+        }
+      ],
+      "normalized_name": "unicable"
+    },
+    {
+      "name": "FX",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/fx.html"
+        }
+      ],
+      "normalized_name": "fx"
+    },
+    {
+      "name": "Golden Plus",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/goldenplus.html"
+        }
+      ],
+      "normalized_name": "golden plus"
+    },
+    {
+      "name": "Golden Edge",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/goldenedge.html"
+        }
+      ],
+      "normalized_name": "golden edge"
+    },
+    {
+      "name": "Golden Premier",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/goldenpremier.html"
+        }
+      ],
+      "normalized_name": "golden premier"
+    },
+    {
+      "name": "Golden Premier 2",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/goldenpremier2.html"
+        }
+      ],
+      "normalized_name": "golden premier 2"
+    },
+    {
+      "name": "TNT Series",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tntseries.html"
+        }
+      ],
+      "normalized_name": "tnt series"
+    },
+    {
+      "name": "Sony",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/sony.html"
+        }
+      ],
+      "normalized_name": "sony"
+    },
+    {
+      "name": "AXN",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/axn.html"
+        }
+      ],
+      "normalized_name": "axn"
+    },
+    {
+      "name": "Universal Channel",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/universalchannel.html"
+        }
+      ],
+      "normalized_name": "universal channel"
+    },
+    {
+      "name": "Studio Universal",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/studiouniversal.html"
+        }
+      ],
+      "normalized_name": "studio universal"
+    },
+    {
+      "name": "Multipremier",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/multipremier.html"
+        }
+      ],
+      "normalized_name": "multipremier"
+    },
+    {
+      "name": "AMC",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/amc.html"
+        }
+      ],
+      "normalized_name": "amc"
+    },
+    {
+      "name": "Paramount Channel",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/paramountchannel.html"
+        }
+      ],
+      "normalized_name": "paramount channel"
+    },
+    {
+      "name": "DPelicula",
+      "category": "Películas",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/dpelicula.html"
+        }
+      ],
+      "normalized_name": "dpelicula"
+    },
+    {
+      "name": "MTV",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/mtv.html"
+        }
+      ],
+      "normalized_name": "mtv"
+    },
+    {
+      "name": "Comedy Central",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/comedycentral.html"
+        }
+      ],
+      "normalized_name": "comedy central"
+    },
+    {
+      "name": "Nat Geo",
+      "category": "Entretenimiento",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/natgeo.html"
+        }
+      ],
+      "normalized_name": "nat geo"
     },
     {
       "name": "Animal Planet",
@@ -463,1762 +1268,325 @@
         {
           "name": "2",
           "url": "http://190.14.10.19:16000/play/a09d/index.m3u8"
+        },
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/animalplanet.html"
         }
       ],
-      "normalized_name": "animal planet",
-      "source": "Existing JSON"
+      "normalized_name": "animal planet"
     },
     {
-      "name": "#EXTINF:-0.RMC DECOUVERDE",
-      "category": "Francia",
+      "name": "Discovery Channel",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/RMC_Decouverte_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/discoverychannel.html"
         }
       ],
-      "normalized_name": "extinf0rmc decouverde",
-      "source": "Existing JSON"
+      "normalized_name": "discovery channel"
     },
     {
-      "name": "AB1 HD",
-      "category": "Francia",
+      "name": "Discovery H&H",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/AB1/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/AB1/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/discoveryhyh.html"
         }
       ],
-      "normalized_name": "ab1 hd",
-      "source": "Existing JSON"
+      "normalized_name": "discovery h&h"
     },
     {
-      "name": "ARTE HD",
-      "category": "Francia",
+      "name": "ID Investigation",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/ARTE_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/ARTE_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/idinvestigation.html"
         }
       ],
-      "normalized_name": "arte hd",
-      "source": "Existing JSON"
+      "normalized_name": "id investigation"
     },
     {
-      "name": "Canal+ Cinema HD",
-      "category": "Francia",
+      "name": "Discovery A&E",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/discoveryaye.html"
         }
       ],
-      "normalized_name": "canal cinema hd",
-      "source": "Existing JSON"
+      "normalized_name": "discovery a&e"
     },
     {
-      "name": "Canal+ HD",
-      "category": "Francia",
+      "name": "Discovery TLC",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Canal+_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/discoverytlc.html"
         }
       ],
-      "normalized_name": "canal hd",
-      "source": "Existing JSON"
+      "normalized_name": "discovery tlc"
     },
     {
-      "name": "Comedie+ HD",
-      "category": "Francia",
+      "name": "Discovery Theater",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Comedie+_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/Comedie+_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/discoverytheater.html"
         }
       ],
-      "normalized_name": "comedie hd",
-      "source": "Existing JSON"
+      "normalized_name": "discovery theater"
     },
     {
-      "name": "D17 CSTAR HD",
-      "category": "Francia",
+      "name": "Discovery World",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/D17_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/discoveryworld.html"
         }
       ],
-      "normalized_name": "d17 cstar hd",
-      "source": "Existing JSON"
+      "normalized_name": "discovery world"
     },
     {
-      "name": "Discovery HD",
-      "category": "Francia",
+      "name": "Everything",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Discovery_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/Discovery_HD/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://190.14.10.19:16000/play/a07y/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/everything.html"
         }
       ],
-      "normalized_name": "discovery hd",
-      "source": "Existing JSON"
+      "normalized_name": "everything"
     },
     {
-      "name": "Euro Sport HD",
-      "category": "Francia",
+      "name": "El Gourmet",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/elgourmet.html"
         }
       ],
-      "normalized_name": "euro sport hd",
-      "source": "Existing JSON"
+      "normalized_name": "el gourmet"
     },
     {
-      "name": "France 2 HD",
-      "category": "Francia",
+      "name": "Disney Jr.",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/France_2_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/disneyjr.html"
         }
       ],
-      "normalized_name": "france 2 hd",
-      "source": "Existing JSON"
+      "normalized_name": "disney jr."
     },
     {
-      "name": "France 3 HD",
-      "category": "Francia",
+      "name": "Nick",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/France_3_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/nick.html"
         }
       ],
-      "normalized_name": "france 3 hd",
-      "source": "Existing JSON"
+      "normalized_name": "nick"
     },
     {
-      "name": "France 5 HD",
-      "category": "Francia",
+      "name": "Nick Jr.",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/France_5_HD/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/nickjr.html"
         }
       ],
-      "normalized_name": "france 5 hd",
-      "source": "Existing JSON"
+      "normalized_name": "nick jr."
     },
     {
-      "name": "GOLF+",
-      "category": "Francia",
+      "name": "Cartoon Network",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://151.80.18.177:86/GOLF+_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/GOLF+_HD/index.m3u8"
-        }
-      ],
-      "normalized_name": "golf",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Histoire HD",
-      "category": "Francia",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Histoire/index.m3u8"
-        }
-      ],
-      "normalized_name": "histoire hd",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "LCI HD",
-      "category": "Francia",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://151.80.18.177:86/LCI_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/LCI_HD/index.m3u8"
-        }
-      ],
-      "normalized_name": "lci hd",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "M6 HD",
-      "category": "Francia",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://151.80.18.177:86/M6_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/M6_HD/index.m3u8"
-        }
-      ],
-      "normalized_name": "m6 hd",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Paris Premiere HD",
-      "category": "Francia",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Paris_Premiere_HD/index.m3u8"
-        }
-      ],
-      "normalized_name": "paris premiere hd",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "RTL 9 HD",
-      "category": "Francia",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://151.80.18.177:86/RTL9/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/RTL9/index.m3u8"
-        }
-      ],
-      "normalized_name": "rtl 9 hd",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "TRACE URBAN",
-      "category": "Francia",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Trace_Urban_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/Trace_Urban_HD/index.m3u8"
-        }
-      ],
-      "normalized_name": "trace urban",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Tiji HD",
-      "category": "Francia",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://151.80.18.177:86/Tiji_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/Tiji_HD/index.m3u8"
-        }
-      ],
-      "normalized_name": "tiji hd",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "W9 HD",
-      "category": "Francia",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://151.80.18.177:86/W9_HD/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://151.80.18.177:86/W9_HD/index.m3u8"
-        }
-      ],
-      "normalized_name": "w9 hd",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://45.181.122.46:8090/play/a00h"
-        },
-        {
-          "name": "2",
-          "url": "http://181.205.130.194:4000/play/a06n"
-        },
-        {
-          "name": "3",
-          "url": "https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0"
-        },
-        {
-          "name": "4",
-          "url": "http://live.redtraffic.xyz/asian.m3u8"
-        },
-        {
-          "name": "5",
-          "url": "http://live.redtraffic.xyz/bigass.m3u8"
-        },
-        {
-          "name": "6",
-          "url": "http://live.redtraffic.xyz/bigdick.m3u8"
-        },
-        {
-          "name": "7",
-          "url": "http://live.redtraffic.xyz/bigtits.m3u8"
-        },
-        {
-          "name": "8",
-          "url": "http://live.redtraffic.xyz/milf.m3u8"
-        },
-        {
-          "name": "9",
-          "url": "http://live.redtraffic.xyz/fetish.m3u8"
-        },
-        {
-          "name": "10",
-          "url": "http://live.redtraffic.xyz/pornstar.m3u8"
-        },
-        {
-          "name": "11",
-          "url": "http://live.redtraffic.xyz/interracial.m3u8"
-        },
-        {
-          "name": "12",
-          "url": "http://live.redtraffic.xyz/latina.m3u8"
-        },
-        {
-          "name": "13",
-          "url": "http://live.redtraffic.xyz/pov.m3u8"
-        },
-        {
-          "name": "14",
-          "url": "http://live.redtraffic.xyz/blowjob.m3u8"
-        },
-        {
-          "name": "15",
-          "url": "http://live.redtraffic.xyz/teen.m3u8"
-        },
-        {
-          "name": "16",
-          "url": "http://live.redtraffic.xyz/hardcore.m3u8"
-        },
-        {
-          "name": "17",
-          "url": "http://live.redtraffic.xyz/cuckold.m3u8"
-        },
-        {
-          "name": "18",
-          "url": "http://live.redtraffic.xyz/threesome.m3u8"
-        },
-        {
-          "name": "19",
-          "url": "http://live.redtraffic.xyz/russian.m3u8"
-        },
-        {
-          "name": "20",
-          "url": "http://live.redtraffic.xyz/lesbian.m3u8"
-        },
-        {
-          "name": "21",
-          "url": "http://live.redtraffic.xyz/rough.m3u8"
-        },
-        {
-          "name": "22",
-          "url": "http://live.redtraffic.net/gangbang.m3u8"
-        },
-        {
-          "name": "23",
-          "url": "http://live.redtraffic.xyz/compilation.m3u8"
-        },
-        {
-          "name": "24",
-          "url": "http://live.redtraffic.xyz/brunette.m3u8"
-        },
-        {
-          "name": "25",
-          "url": "http://live.redtraffic.xyz/blonde.m3u8"
-        },
-        {
-          "name": "26",
-          "url": "http://live.redtraffic.xyz/gay.m3u8"
-        },
-        {
-          "name": "27",
-          "url": "http://live.redtraffic.xyz/livecams.m3u8"
-        },
-        {
-          "name": "28",
-          "url": "http://live.redtraffic.net/woman.m3u8"
-        },
-        {
-          "name": "29",
-          "url": "https://59d39900ebfb8.streamlock.net:443/8312/8312/playlist.m3u8"
-        },
-        {
-          "name": "30",
-          "url": "http://181.205.130.194:4000/play/a08k"
-        },
-        {
-          "name": "31",
-          "url": "http://185.57.68.33/110/mpegts"
-        },
-        {
-          "name": "32",
-          "url": "https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8"
-        },
-        {
-          "name": "33",
-          "url": "http://181.78.85.53:9002/play/a01d/index.m3u8"
-        },
-        {
-          "name": "34",
-          "url": "https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/playlist.m3u8"
-        },
-        {
-          "name": "35",
-          "url": "https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8"
-        },
-        {
-          "name": "36",
-          "url": "http://181.205.130.194:4000/play/a07n"
-        },
-        {
-          "name": "37",
-          "url": "https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8"
-        },
-        {
-          "name": "38",
-          "url": "https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8"
-        },
-        {
-          "name": "39",
-          "url": "http://181.78.85.53:9002/play/a047/index.m3u8"
-        },
-        {
-          "name": "40",
-          "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8"
-        },
-        {
-          "name": "41",
-          "url": "http://181.78.85.53:9002/play/a02n/index.m3u8"
-        }
-      ],
-      "normalized_name": "",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "2038 IVC",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.60.32.178:8178/play/a085/index.m3u8"
-        }
-      ],
-      "normalized_name": "2038 ivc",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "A SPOR",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_720p.m3u8"
-        }
-      ],
-      "normalized_name": "a spor",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "A&E",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a07n"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a09k/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a01e/index.m3u8"
-        }
-      ],
-      "normalized_name": "ae"
-    },
-    {
-      "name": "AMC",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.85.53:9002/play/a04l/index.m3u8"
-        }
-      ],
-      "normalized_name": "amc"
-    },
-    {
-      "name": "AXN",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.85.53:9002/play/a00n/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a07o/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a00u/index.m3u8"
-        }
-      ],
-      "normalized_name": "axn",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Adult Swim",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.85.53:9002/play/a00y/index.m3u8"
-        }
-      ],
-      "normalized_name": "adult swim",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "BEIN SPORTS 3",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://145.239.5.177/559/mpegts"
-        }
-      ],
-      "normalized_name": "bein sports 3"
-    },
-    {
-      "name": "CANAL 11",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a04n/index.m3u8"
-        }
-      ],
-      "normalized_name": "canal 11",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "CANAL 13",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a04m/index.m3u8"
-        }
-      ],
-      "normalized_name": "canal 13",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "CANAL 4",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://alba-cr-repretel-c4.stream.mediatiquestream.com/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://45.228.234.30:16000/play/a03v/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a04c/index.m3u8"
-        }
-      ],
-      "normalized_name": "canal 4",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "CANAL 6",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8"
-        }
-      ],
-      "normalized_name": "canal 6"
-    },
-    {
-      "name": "CANAL 7",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a05u/index.m3u8"
-        }
-      ],
-      "normalized_name": "canal 7",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "CANAL SUR",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8"
-        }
-      ],
-      "normalized_name": "canal sur",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "CARACOL",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://45.228.234.30:16000/play/a04e/index.m3u8"
-        }
-      ],
-      "normalized_name": "caracol",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "CARTOON NETWORK",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a06m"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/cartoonnetwork.html"
         }
       ],
       "normalized_name": "cartoon network"
     },
     {
-      "name": "CINE",
-      "category": "General",
+      "name": "Cartoonito",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47832.ts"
-        },
-        {
-          "name": "2",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47816.ts"
-        },
-        {
-          "name": "3",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47815.ts"
-        },
-        {
-          "name": "4",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47817.ts"
-        },
-        {
-          "name": "5",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47814.ts"
-        },
-        {
-          "name": "6",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47813.ts"
-        },
-        {
-          "name": "7",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47812.ts"
-        },
-        {
-          "name": "8",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47811.ts"
-        },
-        {
-          "name": "9",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47818.ts"
-        },
-        {
-          "name": "10",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47819.ts"
-        },
-        {
-          "name": "11",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47824.ts"
-        },
-        {
-          "name": "12",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47823.ts"
-        },
-        {
-          "name": "13",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47822.ts"
-        },
-        {
-          "name": "14",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47821.ts"
-        },
-        {
-          "name": "15",
-          "url": "http://kstv.us:8080/live/BWxD9XBSgz/2859225324/47820.ts"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/cartoonito.html"
         }
       ],
-      "normalized_name": "cine"
+      "normalized_name": "cartoonito"
     },
     {
-      "name": "CINECANAL",
-      "category": "General",
+      "name": "Tooncast",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a06e"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a06o/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://200.10.30.241:8000/play/a01p/index.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "http://45.228.234.30:16000/play/a01q/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tooncast.html"
         }
       ],
-      "normalized_name": "cinecanal"
+      "normalized_name": "tooncast"
     },
     {
-      "name": "CanaL 2",
-      "category": "General",
+      "name": "Discovery Kids",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://45.228.234.30:16000/play/a04d/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/discoverykids.html"
         }
       ],
-      "normalized_name": "canal 2",
-      "source": "Existing JSON"
+      "normalized_name": "discovery kids"
     },
     {
-      "name": "Canal 3",
-      "category": "General",
+      "name": "Telemundo Puerto Rico",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a08v/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/telemundopuertorico.html"
         }
       ],
-      "normalized_name": "canal 3",
-      "source": "Existing JSON"
+      "normalized_name": "telemundo puerto rico"
     },
     {
-      "name": "Canal 5 del Pueblo",
-      "category": "General",
+      "name": "Willax",
+      "category": "Noticias",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8?PlaylistM3UCL"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/willax.html"
         }
       ],
-      "normalized_name": "canal 5 del pueblo",
-      "source": "Existing JSON"
+      "normalized_name": "willax"
     },
     {
-      "name": "Cine Latino",
-      "category": "General",
+      "name": "Global TV",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a07b/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/globaltv.html"
         }
       ],
-      "normalized_name": "cine latino"
+      "normalized_name": "global tv"
     },
     {
-      "name": "Cine Premiun",
-      "category": "General",
+      "name": "RCN",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://190.60.32.178:8178/play/a07f/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/rcn.html"
         }
       ],
-      "normalized_name": "cine premiun"
+      "normalized_name": "rcn"
     },
     {
-      "name": "Cinemax",
-      "category": "General",
+      "name": "Antena 3",
+      "category": "Internacionales",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://45.5.119.43:4000/play/a0il/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a07c/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://23.237.104.106:8080/USA_MOREMAX/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/antena3.html"
         }
       ],
-      "normalized_name": "cinemax"
+      "normalized_name": "antena 3"
     },
     {
-      "name": "D PELICULA",
-      "category": "General",
+      "name": "TV Pública",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://45.5.119.43:4000/play/a05n/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tvpublica.html"
         }
       ],
-      "normalized_name": "d pelicula",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "DHE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.60.37.118:4000/play/a02d"
-        }
-      ],
-      "normalized_name": "dhe",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "DISNEY",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a06z/index.m3u8"
-        }
-      ],
-      "normalized_name": "disney"
+      "normalized_name": "tv pública"
     },
     {
       "name": "Disney Channel",
-      "category": "General",
+      "category": "Infantiles",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://200.10.30.241:8000/play/a01t/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/disneychannel.html"
         }
       ],
       "normalized_name": "disney channel"
     },
     {
-      "name": "ESPN 1",
-      "category": "General",
+      "name": "TNT Novelas",
+      "category": "Entretenimiento",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a07j"
-        }
-      ],
-      "normalized_name": "espn 1"
-    },
-    {
-      "name": "ESPN 2",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a07i"
-        },
-        {
-          "name": "2",
-          "url": "http://181.78.82.6:46090/play/a00i/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://200.10.30.241:8000/play/a01r/index.m3u8"
-        }
-      ],
-      "normalized_name": "espn 2"
-    },
-    {
-      "name": "ESPN 7 mx",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a07s"
-        }
-      ],
-      "normalized_name": "espn 7 mx"
-    },
-    {
-      "name": "ESPN3",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a07r/index.m3u8"
-        }
-      ],
-      "normalized_name": "espn3"
-    },
-    {
-      "name": "ESPN6",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a07u/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://45.228.234.30:16000/play/a00r/index.m3u8"
-        }
-      ],
-      "normalized_name": "espn6"
-    },
-    {
-      "name": "FARO VISIÓN | DO",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8"
-        }
-      ],
-      "normalized_name": "faro vision do"
-    },
-    {
-      "name": "FS PREMIUM",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a09z/index.m3u8"
-        }
-      ],
-      "normalized_name": "fs premium"
-    },
-    {
-      "name": "FUTV",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a06q/index.m3u8"
-        }
-      ],
-      "normalized_name": "futv",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "FX",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.115.96.66:4000/play/a0he/index.m3u8"
-        }
-      ],
-      "normalized_name": "fx"
-    },
-    {
-      "name": "GOLDEN PREMIER",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.125.170.122:8000/play/a00l"
-        }
-      ],
-      "normalized_name": "golden premier"
-    },
-    {
-      "name": "GOLDEN PREMIER 2",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a08q/index.m3u8"
-        }
-      ],
-      "normalized_name": "golden premier 2"
-    },
-    {
-      "name": "Golden",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.125.170.122:8000/play/a00l"
-        },
-        {
-          "name": "2",
-          "url": "http://200.125.170.121:8000/play/a00m"
-        }
-      ],
-      "normalized_name": "golden"
-    },
-    {
-      "name": "Golden Premiere HD",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.125.170.122:8000/play/a00l"
-        }
-      ],
-      "normalized_name": "golden premiere hd"
-    },
-    {
-      "name": "HBO FAMILY",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://45.228.234.30:16000/play/a00b/index.m3u8"
-        }
-      ],
-      "normalized_name": "hbo family"
-    },
-    {
-      "name": "HBO Plus",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://45.228.234.30:16000/play/a00a/index.m3u8"
-        }
-      ],
-      "normalized_name": "hbo plus"
-    },
-    {
-      "name": "HBO XTREME",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.60.37.118:4000/play/a03z"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a08k/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a00c/index.m3u8"
-        }
-      ],
-      "normalized_name": "hbo xtreme"
-    },
-    {
-      "name": "HISTORIA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a02z/index.m3u8"
-        }
-      ],
-      "normalized_name": "historia"
-    },
-    {
-      "name": "IU TV HD",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0"
-        }
-      ],
-      "normalized_name": "iu tv hd"
-    },
-    {
-      "name": "IVC",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.60.32.178:8178/play/a085/index.m3u8"
-        }
-      ],
-      "normalized_name": "ivc"
-    },
-    {
-      "name": "Las Estrellas",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a07r"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a09q/index.m3u8"
-        }
-      ],
-      "normalized_name": "las estrellas",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Multipremier",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a07a/index.m3u8"
-        }
-      ],
-      "normalized_name": "multipremier",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "NEXT",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8"
-        }
-      ],
-      "normalized_name": "next"
-    },
-    {
-      "name": "PARAMOUNT",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a07w/index.m3u8"
-        }
-      ],
-      "normalized_name": "paramount"
-    },
-    {
-      "name": "R.DOMINICANA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://live.redtraffic.xyz/anal.m3u8"
-        }
-      ],
-      "normalized_name": "rdominicana",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "RCN",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.60.32.178:8178/play/a0ao/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://181.205.130.194:4000/play/a08f"
-        }
-      ],
-      "normalized_name": "rcn",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "RMC 1",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://145.239.5.177/525/mpegts"
-        }
-      ],
-      "normalized_name": "rmc 1"
-    },
-    {
-      "name": "SAS TV | GT",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://cdn.streamhispanatv.net:3390/live/sastvgtlive.m3u8"
-        }
-      ],
-      "normalized_name": "sas tv gt"
-    },
-    {
-      "name": "SEÑAL COLOMBIA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a08k"
-        }
-      ],
-      "normalized_name": "senal colombia"
-    },
-    {
-      "name": "SKY SPORTS LA LIGA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a09u/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://45.228.234.30:16000/play/a03h/index.m3u8"
-        }
-      ],
-      "normalized_name": "sky sports la liga"
-    },
-    {
-      "name": "SONY",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a06n/index.m3u8"
-        }
-      ],
-      "normalized_name": "sony"
-    },
-    {
-      "name": "SONY MOVIES",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://45.5.119.43:4000/play/a03s/index.m3u8"
-        }
-      ],
-      "normalized_name": "sony movies"
-    },
-    {
-      "name": "SPACE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://45.181.122.46:8090/play/a00h"
-        },
-        {
-          "name": "2",
-          "url": "http://200.10.30.241:8000/play/a01m/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://190.14.10.19:16000/play/a07p/index.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "http://45.228.234.30:16000/play/a02e/index.m3u8"
-        }
-      ],
-      "normalized_name": "space",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Star Channel",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://live.redtraffic.xyz/pornstar.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://181.205.130.194:4000/play/a06k"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a01n/index.m3u8"
-        }
-      ],
-      "normalized_name": "star channel",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "TCM",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a06l"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a05m/index.m3u8"
-        }
-      ],
-      "normalized_name": "tcm"
-    },
-    {
-      "name": "TLC",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a07p"
-        }
-      ],
-      "normalized_name": "tlc"
-    },
-    {
-      "name": "TNT",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a06n"
-        },
-        {
-          "name": "2",
-          "url": "http://200.10.30.241:8000/play/a01v/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a00v/index.m3u8"
-        }
-      ],
-      "normalized_name": "tnt"
-    },
-    {
-      "name": "TNT NOVELAS",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.115.96.66:4000/play/a01p/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a09b/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://190.14.10.19:16000/play/a02l/index.m3u8"
-        },
-        {
-          "name": "4",
-          "url": "http://45.228.234.30:16000/play/a00p/index.m3u8"
-        },
-        {
-          "name": "5",
-          "url": "http://45.228.234.30:16000/play/a02s/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/tntnovelas.html"
         }
       ],
       "normalized_name": "tnt novelas"
     },
     {
-      "name": "TNT Series",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a07x/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://200.10.30.241:8000/play/a01i/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a00o/index.m3u8"
-        }
-      ],
-      "normalized_name": "tnt series"
-    },
-    {
-      "name": "TU UNIVERSO",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/playlist.m3u8"
-        }
-      ],
-      "normalized_name": "tu universo"
-    },
-    {
-      "name": "TVE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://45.228.234.30:16000/play/a04g/index.m3u8"
-        }
-      ],
-      "normalized_name": "tve"
-    },
-    {
-      "name": "Televisora de Oriente",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8"
-        }
-      ],
-      "normalized_name": "televisora de oriente"
-    },
-    {
-      "name": "UNIVERSAL",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a06f"
-        }
-      ],
-      "normalized_name": "universal"
-    },
-    {
-      "name": "UNIVERSAL CHANNEL",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.85.53:9002/play/a01h/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://181.205.130.194:4000/play/a06f"
-        }
-      ],
-      "normalized_name": "universal channel"
-    },
-    {
-      "name": "UNIVERSAL PREMIERE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://200.115.96.66:4000/play/a035/index.m3u8"
-        }
-      ],
-      "normalized_name": "universal premiere"
-    },
-    {
-      "name": "UNIVERSO",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/playlist.m3u8"
-        }
-      ],
-      "normalized_name": "universo",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "UNIVISION",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a09c/index.m3u8"
-        }
-      ],
-      "normalized_name": "univision",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "USA",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a06v"
-        },
-        {
-          "name": "2",
-          "url": "http://181.205.130.194:4000/play/a06v"
-        }
-      ],
-      "normalized_name": "usa",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Universal Tv",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a06f"
-        }
-      ],
-      "normalized_name": "universal tv"
-    },
-    {
-      "name": "VE",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.14.10.19:16000/play/a05r/index.m3u8"
-        }
-      ],
-      "normalized_name": "ve"
-    },
-    {
-      "name": "VISIÓN TV | GT",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8"
-        }
-      ],
-      "normalized_name": "vision tv gt"
-    },
-    {
-      "name": "WARNER BROSS",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.205.130.194:4000/play/a07f"
-        }
-      ],
-      "normalized_name": "warner bross"
-    },
-    {
-      "name": "Warner",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://190.60.37.118:4000/play/a04g"
-        },
-        {
-          "name": "2",
-          "url": "http://190.14.10.19:16000/play/a06m/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a01o/index.m3u8"
-        }
-      ],
-      "normalized_name": "warner"
-    },
-    {
-      "name": "otra url",
-      "category": "General",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://181.78.82.6:46090/play/a00i/index.m3u8"
-        }
-      ],
-      "normalized_name": "otra url",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Latina Classica",
-      "category": "PERU",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8"
-        }
-      ],
-      "normalized_name": "latina classica",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "Ovacion TV",
-      "category": "PERU",
-      "imageUrl": "",
-      "servers": [
-        {
-          "name": "1",
-          "url": "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8"
-        }
-      ],
-      "normalized_name": "ovacion tv",
-      "source": "Existing JSON"
-    },
-    {
-      "name": "SONY CHANNEL",
+      "name": "Universal Cinema",
       "category": "Películas",
       "imageUrl": "",
       "servers": [
         {
-          "name": "1",
-          "url": "http://200.10.30.241:8000/play/a02y/index.m3u8"
-        },
-        {
-          "name": "2",
-          "url": "http://45.228.234.30:16000/play/a01b/index.m3u8"
-        },
-        {
-          "name": "3",
-          "url": "http://45.228.234.30:16000/play/a01p/index.m3u8"
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/universalcinema.html"
         }
       ],
-      "normalized_name": "sony channel",
-      "source": "Existing JSON"
+      "normalized_name": "universal cinema"
+    },
+    {
+      "name": "FM Hot Kids",
+      "category": "Infantiles",
+      "imageUrl": "",
+      "servers": [
+        {
+          "name": "Embed",
+          "url": "https://embed.saohgdasregions.fun/embed2/fmhotkids.html"
+        }
+      ],
+      "normalized_name": "fm hot kids"
     }
-  ],
-  "last_updated": "2026-04-23T00:50:23.878180"
+  ]
 }
