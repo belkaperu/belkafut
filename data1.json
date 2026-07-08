@@ -7,11 +7,14 @@
       "image": "https://espnpressroom.com/us/files/2023/08/ESPN_RED2-2.png",
       "category": "general",
       "options": [
-{
+      {
           "label": "ESPN  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn"
         },
-
+    {
+          "label": "ESPN AR  HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espnar"
+        },
        {
           "label": "ESPN  HD 2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly9lbWJlZC5zYW9oZ2Rhc3JlZ2lvbnMuZnVuL2VtYmVkMi9lc3BuY29sLmh0bWw="
@@ -52,6 +55,10 @@
           "label": "ESPN2 GLOBAL HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=espn2"
         },
+            {
+          "label": "ESPN2 AR  HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn2ar"
+        },
         {
           "label": "ESPN2 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la18hd.com/vivo/canal.php?stream=espn2"
@@ -87,6 +94,10 @@
         {
           "label": "ESPN 3 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la18hd.com//vivo/canal.php?stream=espn3"
+        },
+            {
+          "label": "ESPN3 AR  HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn3ar"
         },
         {
           "label": "ESPN 3 GLOBAL HD",
@@ -154,6 +165,22 @@
                {
           "label": "ESPN4 MX HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=espn4"
+        },
+            {
+          "label": "ESPN4 AR  HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn4ar"
+        },
+                    {
+          "label": "ESPN5 AR  HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn5ar"
+        },
+                    {
+          "label": "ESPN6 AR  HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn6ar"
+        },
+                    {
+          "label": "ESPN7AR  HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn7ar"
         }
       ]
     },
