@@ -369,19 +369,7 @@
       "category": "Deportes",
       "imageUrl": "",
       "servers": [
-        {
-          "name": "Embed",
-          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/directvsports.html"
-        }
-      ],
-      "normalized_name": "directv sports"
-    },
-    {
-      "name": "DirecTV Sports 2",
-      "category": "Deportes",
-      "imageUrl": "",
-      "servers": [
-        {
+       {
           "label": "1",
           "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=dsports"
         },
@@ -396,6 +384,30 @@
         {
           "label": "4",
           "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/directvsports.html"
+        }
+      ],
+      "normalized_name": "directv sports"
+    },
+    {
+      "name": "DirecTV Sports 2",
+      "category": "Deportes",
+      "imageUrl": "",
+      "servers": [
+        {
+          "label": "1",
+          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=dsports2"
+        },
+        {
+          "label": "2",
+          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx996.one/global1.php?channel=dsports2"
+        },
+        {
+          "label": "3",
+          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://elcanaldeportivo.org/directvsports2.php"
+        }, 
+        {
+          "label": "4",
+          "url": "https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/directvsports2.html"
         }
       ],
       "normalized_name": "directv sports 2"
