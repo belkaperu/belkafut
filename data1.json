@@ -1,34 +1,31 @@
 {
   "canales": [
-        
-
     {
       "title": "ESPN",
       "image": "https://espnpressroom.com/us/files/2023/08/ESPN_RED2-2.png",
       "category": "general",
       "options": [
-      {
+        {
           "label": "ESPN  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn"
         },
-    {
+        {
           "label": "ESPN AR  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espnar"
         },
-       {
+        {
           "label": "ESPN  HD 2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espncol.php"
-        }, 
+        },
         {
           "label": "ESPN  HD 3",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx996.one/global1.php?channel=espn"
         },
-         {
+        {
           "label": "ESPN  MX 3",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx996.one/global1.php?channel=espnmx"
         },
-        
-   {
+        {
           "label": "ESPN MX GLOBAL",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=espnmx"
         },
@@ -40,10 +37,13 @@
           "label": "ESPN NL1 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=espn_nl1"
         },
-        
         {
           "label": "ESPN NL1 HD2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=espn1_nl"
+        },
+        {
+          "label": "ESPN HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn.php"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "label": "ESPN2 GLOBAL HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=espn2"
         },
-            {
+        {
           "label": "ESPN2 AR  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn2ar"
         },
@@ -83,6 +83,10 @@
         {
           "label": "ESPN NL2 HD2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=espn2_nl"
+        },
+        {
+          "label": "ESPN 2 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn2.php"
         }
       ]
     },
@@ -91,12 +95,11 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiou7Y2IkpdushU89uLtColXEv-WuPEYZv6uK2uyYji5Zsl-ll8-uFMQ5uNTuwFdLqHB6JagxOIC50Dind_Gy4YjtFOLtS26QGNt3uI1jeL0vWRv6wDUNolMZKjAEhRxLmD13h-1r7nhUE/s1600/espn3.jpg",
       "category": "general",
       "options": [
-   
         {
           "label": "ESPN 3 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com//vivo/canal.php?stream=espn3"
         },
-            {
+        {
           "label": "ESPN3 AR  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn3ar"
         },
@@ -108,7 +111,7 @@
           "label": "ESPN MX 3 GLOBAL",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=espn3mx"
         },
-          {
+        {
           "label": "ESPN MX HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=espn3"
         },
@@ -119,6 +122,26 @@
         {
           "label": "ESPN NL3 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=espn3_nl"
+        },
+        {
+          "label": "ESPN 3 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn3.php"
+        },
+        {
+          "label": "ESPN 4 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn4.php"
+        },
+        {
+          "label": "ESPN 5 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn5.php"
+        },
+        {
+          "label": "ESPN 6 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn6.php"
+        },
+        {
+          "label": "ESPN 7 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn7.php"
         }
       ]
     },
@@ -163,23 +186,23 @@
           "label": "ESPN 7 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canal.php?stream=espn7"
         },
-               {
+        {
           "label": "ESPN4 MX HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=espn4"
         },
-            {
+        {
           "label": "ESPN4 AR  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn4ar"
         },
-                    {
+        {
           "label": "ESPN5 AR  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn5ar"
         },
-                    {
+        {
           "label": "ESPN6 AR  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn6ar"
         },
-                    {
+        {
           "label": "ESPN7AR  HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://stream-xhd.com/live1.php?stream=espn7ar"
         }
@@ -212,6 +235,10 @@
         {
           "label": "Espnpremium GLOB HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "label": "ESPN Premium HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espnpremium.php"
         }
       ]
     },
@@ -227,6 +254,10 @@
         {
           "label": "FOX SPORTS 1 HD GLOBAL2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canal.php?stream=foxsports"
+        },
+        {
+          "label": "Fox Sports HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/foxsports.php"
         }
       ]
     },
@@ -238,6 +269,10 @@
         {
           "label": "FOX SPORTS 2 HD GLOBAL",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=fox2ar"
+        },
+		    {
+          "label": "Fox Sports 2 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/foxsports2.php"
         },
         {
           "label": "FOX SPORTS 2 HD GLOBAL2",
@@ -257,6 +292,11 @@
         {
           "label": "FOX SPORTS 3 HD GLOBAL2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canal.php?stream=foxsports3"
+        },
+    
+        {
+          "label": "Fox Sports 3 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/foxsports3.php"
         }
       ]
     },
@@ -265,11 +305,10 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4q7lohqnDxcelhGeHTbqd46cj5ZA0FeQvOKBRWTJRy_Mp6q4AiTygHwTn5-WSiZX-qBdLXSSISEcoVPcklxxEDZD2_yWizpvOPqf3A4jXI7Oc2Bc87m0FM_33Y21mslDvkbKX9bKIAcY/h120/foxsportsmexico.png",
       "category": "general",
       "options": [
-    {
+        {
           "label": "FOX SPORTS 1 Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=foxsports1"
         },
-     
         {
           "label": "FOX SPORTS Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=foxsportsmx"
@@ -278,8 +317,7 @@
           "label": "FOX SPORTS Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canal.php?stream=foxsportsmx"
         },
-
-            {
+        {
           "label": "FOX SPORTS 2 Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=foxsports2"
         },
@@ -291,7 +329,7 @@
           "label": "FOX SPORTS 2 Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canal.php?stream=foxsports2mx"
         },
-            {
+        {
           "label": "FOX SPORTS 3 Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=foxsports3"
         },
@@ -302,6 +340,18 @@
         {
           "label": "FOX SPORTS 3 Mx/HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canal.php?stream=foxsports3mx"
+        },
+        {
+          "label": "Fox Sports México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/foxsportsmexico.php"
+        },
+        {
+          "label": "Fox Sports 2 México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/foxsports2mexico.php"
+        },
+        {
+          "label": "Fox Sports 3 México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/foxsports3mexico.php"
         }
       ]
     },
@@ -318,9 +368,13 @@
           "label": "FOX DEPORTES HD2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=foxdeportes"
         },
-                {
+        {
           "label": "FOX DEPORTES HD3",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamhdx.com/live1.php?stream=fox_deportes_usa"
+        },
+        {
+          "label": "Fox Deportes HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/foxdeportes.php"
         }
       ]
     },
@@ -341,11 +395,10 @@
           "label": "FOX PREMIUM HD 3",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=foxsportspremium"
         },
-     {
+        {
           "label": "FOX PREMIUM HD 4",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=foxsportspremium"
         }
-        
       ]
     },
     {
@@ -357,7 +410,6 @@
           "label": "Ver foxusa1",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=fox_1_usa"
         }
-        
       ]
     },
     {
@@ -365,8 +417,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/1280px-FS2_logo_2015.svg.png",
       "category": "deportes",
       "options": [
-
-            {
+        {
           "label": " FS2 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro.html?r=aHR0cHM6Ly90dnR2cGwuY29tL2dsb2JhbDQucGhwP3N0cmVhbT1mMnVzYQ=="
         },
@@ -387,8 +438,7 @@
         }
       ]
     },
-
- {
+    {
       "title": "Zapping EC",
       "image": "https://images.seeklogo.com/logo-png/64/3/zapping-logo-png_seeklogo-641524.png",
       "category": "all",
@@ -399,8 +449,7 @@
         }
       ]
     },
-    
- {
+    {
       "title": "NBA",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPzfMUd5_NH2-NpgbXfPFh6kk_2vA63g6g-DpleDSbJKUflC2Hayq7LjfdxZ7kjGrmBc1U8R1zfI5vLR47XuDp4nDFJDgJVYc0NI7ji22yBMWfwYDaxpLxqzEf5iyhwvVbVEmbxFCJQVY/h120/nba.png",
       "category": "all",
@@ -408,6 +457,10 @@
         {
           "label": "NBA",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=nba"
+        },
+        {
+          "label": "NBA HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/nba.php"
         }
       ]
     },
@@ -458,6 +511,14 @@
         {
           "label": "MOVISTAR Ligadecampeones 3",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=movistarligadecampeones3"
+        },
+        {
+          "label": "Movistar Deportes HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/movistardeportes.php"
+        },
+        {
+          "label": "Movistar Deportes Es HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/movistardeporteses.php"
         }
       ]
     },
@@ -477,6 +538,10 @@
         {
           "label": "GolPeru HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canal.php?stream=golperu"
+        },
+        {
+          "label": "Gol Perú HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/golperu.php"
         }
       ]
     },
@@ -496,6 +561,14 @@
         {
           "label": "liga max",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=liga1max"
+        },
+        {
+          "label": "Liga 1 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/liga1.php"
+        },
+        {
+          "label": "Liga 1 Max HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/liga1max.php"
         }
       ]
     },
@@ -515,6 +588,10 @@
         {
           "label": "TNT SPORTS GLOB2",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=tntsports"
+        },
+        {
+          "label": "TNT Sports HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tntsports.php"
         }
       ]
     },
@@ -534,6 +611,10 @@
         {
           "label": "TNT PREMIEUM HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=tntsportschile"
+        },
+        {
+          "label": "TNT Sports Chile HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tntsportschile.php"
         }
       ]
     },
@@ -545,6 +626,10 @@
         {
           "label": "directvsportsMotor",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9tZ3YtYXdhcGEuYWthbWFpemVkLm5ldC9obHMvbGl2ZS8yMTA0MjgyL01HVl9DSEFOTkVMMTUvbWFzdGVyLm0zdTg="
+        },
+        {
+          "label": "DirecTV Sports HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/directvsports.php"
         }
       ]
     },
@@ -564,12 +649,11 @@
         {
           "label": "DSPORTS",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://elcanaldeportivo.org/directvsports.php"
-        }, 
+        },
         {
           "label": "DSPORTS",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/directvsports.html"
         }
-        
       ]
     },
     {
@@ -607,10 +691,14 @@
         {
           "label": "DSPORTS+ HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=dsportsplus"
+        },
+        {
+          "label": "Win Sports Plus HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/winsportsplus.php"
         }
       ]
     },
-        {
+    {
       "title": "VTV",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Logo_VTV_Plus_nuevo.png/1200px-Logo_VTV_Plus_nuevo.png",
       "category": "general",
@@ -649,6 +737,10 @@
         {
           "label": "TYC INTERNACIONAL",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=tycinternacional"
+        },
+        {
+          "label": "TyC Sports HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tycsports.php"
         }
       ]
     },
@@ -668,6 +760,10 @@
         {
           "label": "GLOBAL 2",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=tvpublica"
+        },
+        {
+          "label": "TV Pública HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tvpublica.php"
         }
       ]
     },
@@ -687,11 +783,11 @@
       "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhQ3A3aYm-qseXPXrRtCqMn_q86OqBCKuw7CsrMllnESMrn51egzJ2DeK2tlshsKoh1k-VA7eqwQoe6ogcIBminIfqaUd4dVWlpkTpGmnGOs1vEwGEL3FFHdMSM2eEmTo-jMgKTHJwdQgEWYH7isGY8uuuPWNwGvclUnKUD8uMbW75BqbTMQjQaq1qb",
       "category": "general",
       "options": [
-                   {
+        {
           "label": "TUDN ",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tudn.html"
         },
-         {
+        {
           "label": "TUDN HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=tudn"
         },
@@ -714,11 +810,15 @@
         {
           "label": "TUDN HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=tudn"
-        }, {
+        },
+        {
           "label": "TUDN HD usa",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamhdx.com/live1.php?stream=tudn_usa"
+        },
+        {
+          "label": "TUDN HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tudn.php"
         }
-        
       ]
     },
     {
@@ -726,7 +826,7 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQjdHzb-KvRNZDXTkbI-F1cDCyLhnICGBTbhMsYHD90pJozTDQtlmwnBTQBVpvHDyKNclfaYwqoujjWqRaptFOlTK1ftxx-hwZnkEvOpRXx63x_VFISd3VyTC-cp2mTez2eqEFvriUSbg/h120/azteca7.png",
       "category": "general",
       "options": [
-           {
+        {
           "label": "azteca7 HD",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=azteca7"
         },
@@ -741,6 +841,10 @@
         {
           "label": "azteca7 HD MEX/VPN",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=azteca_deportes"
+        },
+        {
+          "label": "Azteca 7 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/azteca7.php"
         }
       ]
     },
@@ -749,12 +853,11 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF3YBg5nRFiObvHUDGzuNzd4llUAbRtM5xS41tO3VrHQS7-Rn_y4EApcUHmEBhHpKL6QMQC0fkwln-2sz_DfUsiHjwUIyJL8piyTi7nQ0KMM4u-aV_9HwqV4qWqTx4-XwLb3uHiMFcdFA/h120/canal5.png",
       "category": "general",
       "options": [
-        
-          {
+        {
           "label": "canal5 HD",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=canal5"
         },
-    {
+        {
           "label": "canal5mx",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://la20hd.com/vivo/canales.php?stream=canal5"
         },
@@ -765,10 +868,14 @@
         {
           "label": "CANAL5 2",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=canal5mx"
+        },
+        {
+          "label": "Canal 5 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/canal5.php"
         }
       ]
     },
-     {
+    {
       "title": "CLARO",
       "image": "https://gainblers.com/imagenes/casas/caliente/caliente.png",
       "category": "all",
@@ -779,7 +886,7 @@
         }
       ]
     },
-        {
+    {
       "title": "Telemundo",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Telemundo-nuevo-logo.png",
       "category": "all",
@@ -787,6 +894,10 @@
         {
           "label": "Telemundo",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/canalmas.html?id=telemundo"
+        },
+        {
+          "label": "Telemundo 51 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/telemundo51.php"
         }
       ]
     },
@@ -798,6 +909,10 @@
         {
           "label": "univision",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=univision_usa"
+        },
+        {
+          "label": "Univision HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/univision.php"
         }
       ]
     },
@@ -840,6 +955,10 @@
         {
           "label": "WIN SPORTS",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamx-hd.com/live1.php?stream=winsports"
+        },
+        {
+          "label": "Win Sports HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/winsports.php"
         }
       ]
     },
@@ -863,8 +982,7 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSUvb2PnOMCa4ohJhFwPu8fRt0k6Ynsewi9lVa7-FCBpTTkikIV9abbBNwbMF8jWeigq9Ub2njl1pafmtDY7tCwhbWYiKr-MDDtcFrbUsuNLgwPXhpVt2yBeHftpEA47q09_9xN1qRNAY/h120/1.png",
       "category": "general",
       "options": [
-        
-           {
+        {
           "label": "real madrid tv",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=realmadrid"
         },
@@ -936,6 +1054,10 @@
         {
           "label": "OP 2",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9kMzVqNTA0ejB4MnZ1Mi5jbG91ZGZyb250Lm5ldC92MS9tYXN0ZXIvMGJjOGU4Mzc2YmQ4NDE3YTFiNjc2MTEzOGFhNDFjMjZjNzMwOTMxMi9iZWluLXNwb3J0cy14dHJhLWVuLWVzcGFub2wvcGxheWxpc3QubTN1OA=="
+        },
+        {
+          "label": "BeIN Sports Xtra HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/beinsportsxtra.php"
         }
       ]
     },
@@ -1067,6 +1189,10 @@
         {
           "label": "OP clp",
           "url": "/p/espnrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://jac-tv.com/tv/daznlaliga.php"
+        },
+        {
+          "label": "DAZN La Liga HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/daznlaliga.php"
         }
       ]
     },
@@ -1086,6 +1212,10 @@
         {
           "label": "OP SD",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://jac-tv.com/tvseg/daznf1.php"
+        },
+        {
+          "label": "DAZN F1 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/daznf1.php"
         }
       ]
     },
@@ -1173,6 +1303,10 @@
         {
           "label": "MOVISTAR Ligadecampeones 3",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://streamtp1.com/global1.php?stream=movistarligadecampeones3"
+        },
+        {
+          "label": "Movistar Liga de Campeones HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/movistarligadecampeones.php"
         }
       ]
     },
@@ -1641,7 +1775,7 @@
         }
       ]
     },
-     {
+    {
       "title": "dragon ball z ",
       "image": "https://staticg.sportskeeda.com/editor/2022/01/ef46e-16412281982156-1920.jpg?w=840",
       "category": "general",
@@ -1660,6 +1794,10 @@
         {
           "label": "AXN ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=axn"
+        },
+        {
+          "label": "AXN HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/axn.php"
         }
       ]
     },
@@ -1682,6 +1820,10 @@
         {
           "label": "cinecanal ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=cinecanal"
+        },
+        {
+          "label": "Cinecanal HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/cinecanal.php"
         }
       ]
     },
@@ -1693,6 +1835,10 @@
         {
           "label": "tntserie ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=tntseries"
+        },
+        {
+          "label": "TNT Series HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tntseries.php"
         }
       ]
     },
@@ -1726,6 +1872,10 @@
         {
           "label": "TNT",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://embed.ksdjugfsddeports.fun/embed2/tnt.html"
+        },
+        {
+          "label": "TNT HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tnt.php"
         }
       ]
     },
@@ -1737,6 +1887,10 @@
         {
           "label": "star channel",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=star"
+        },
+        {
+          "label": "Star Channel HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/starchannel.php"
         }
       ]
     },
@@ -1748,6 +1902,10 @@
         {
           "label": "CINEMAX",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=cinemax"
+        },
+        {
+          "label": "Cinemax HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/cinemax.php"
         }
       ]
     },
@@ -1759,6 +1917,10 @@
         {
           "label": "space",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=space"
+        },
+        {
+          "label": "Space HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/space.php"
         }
       ]
     },
@@ -1814,6 +1976,10 @@
         {
           "label": "GOLDEN EDGE ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=goldenedge"
+        },
+        {
+          "label": "Golden Edge HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/goldenedge.php"
         }
       ]
     },
@@ -1825,6 +1991,10 @@
         {
           "label": "GOLDEN PLUS ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=goldenplus"
+        },
+        {
+          "label": "Golden Plus HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/goldenplus.php"
         }
       ]
     },
@@ -1836,6 +2006,14 @@
         {
           "label": "GOLDEN PREMIER ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=goldenpremier"
+        },
+        {
+          "label": "Golden Premier HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/goldenpremier.php"
+        },
+        {
+          "label": "Golden Premier 2 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/goldenpremier2.php"
         }
       ]
     },
@@ -1905,7 +2083,6 @@
         }
       ]
     },
-
     {
       "title": "HBO xtreme",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoBpBfNuusqPB4oK-23eLUIhpaOi8TB2GDRt4CCYYYsP1df9BAknI8y2yGuoWDYFfpGcje9P1vk3TbbNIupuk0PRbe3ymrxHO-GDwhGoDsbDBo3s4oPuF7D0L4UPGFnUq9_s0EVZkCSTg/h120/xtreme.png",
@@ -1991,6 +2168,14 @@
         {
           "label": "universalcine",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=universal"
+        },
+        {
+          "label": "Universal Channel HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/universalchannel.php"
+        },
+        {
+          "label": "Universal Cinema HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/universalcinema.php"
         }
       ]
     },
@@ -2079,6 +2264,10 @@
         {
           "label": "latina",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9qaXJlaC0xLWhscy12aWRlby1hci1pc3AuZHBzLmxpdmUvaGxzLXZpZGVvLzU2N2ZmZGUzZmEzMTlmYWRmMzQxOWVmZGEyNTYxOTQ1NjIzMWRmZWEvbGF0aW5hL2xhdGluYS5zbWlsL3BsYXlsaXN0Lm0zdTg="
+        },
+        {
+          "label": "Latina HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/latina.php"
         }
       ]
     },
@@ -2123,6 +2312,10 @@
         {
           "label": "wilax",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://embed.ksdjugfsddeports.fun/embed2/willaxtv.html"
+        },
+        {
+          "label": "Willax HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/willax.php"
         }
       ]
     },
@@ -2134,6 +2327,10 @@
         {
           "label": "ATV",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9kMXN2bWU4Mzl4a2Jzbi5jbG91ZGZyb250Lm5ldC9pbmRleC5tM3U4P1BsYXlsaXN0TTNVQ0w="
+        },
+        {
+          "label": "ATV HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/atv.php"
         }
       ]
     },
@@ -2156,6 +2353,10 @@
         {
           "label": "americatv",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9saXZlLWV2ZzI1LnR2MzYwLmJpdGVsLmNvbS5wZS9iaXRlbC9hbWVyaWNhdHYvcGxheWxpc3QubTN1OD91aWQ9Mzg3MTEyOQ=="
+        },
+        {
+          "label": "America TV HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/americatv.php"
         }
       ]
     },
@@ -2164,17 +2365,21 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq74rCSToXzVeDI1hI7Uh0yaRpPt3tg4jLNY71tD2mS5KigJzhHINzYlOAYREQQu4vIakDIhgaMgcU8i1ApCbXI5OW7zRsFhzkdXw4kUsHBxJeqtMQYFz9lMUk4XgDk4MTSk6ZEcNnO6w/s1600/caracol.jpg",
       "category": "peliculas",
       "options": [
-            {
+        {
           "label": " GOL CARACOL HD",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repro?r=aHR0cHM6Ly90dnR2cGwuY29tL2dsb2JhbDQucGhwP3N0cmVhbT1ldmVudG8x"
         },
-                    {
+        {
           "label": "CARACOL HD",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repro?r=aHR0cHM6Ly9zdHJlYW10cC14LXktei53cy9nbG9iYWwxLnBocD9zdHJlYW09Y2FyYWNvbHR2"
         },
         {
           "label": "CARACOL",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://embed.ksdjugfsddeports.fun/embed2/caracol.html"
+        },
+        {
+          "label": "Caracol HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/caracol.php"
         }
       ]
     },
@@ -2186,6 +2391,10 @@
         {
           "label": "RCN DEPORTES",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repro?r=aHR0cHM6Ly90dnR2cGwuY29tL2dsb2JhbDQucGhwP3N0cmVhbT1ldmVudG8y"
+        },
+        {
+          "label": "RCN HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/rcn.php"
         }
       ]
     },
@@ -2230,6 +2439,10 @@
         {
           "label": "eltrece",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repron?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9saXZlLTAxLTAyLWVsdHJlY2Uudm9kZ2MubmV0L2VsdHJlY2V0di9pbmRleC5tM3U4"
+        },
+        {
+          "label": "El Trece HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/eltrece.php"
         }
       ]
     },
@@ -2428,6 +2641,10 @@
         {
           "label": "antena 3",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/canalplayer?get=QW50ZW5hXzM="
+        },
+        {
+          "label": "Antena 3 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/antena3.php"
         }
       ]
     },
@@ -2483,6 +2700,10 @@
         {
           "label": "HISTORY ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=history"
+        },
+        {
+          "label": "History HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/history.php"
         }
       ]
     },
@@ -2494,6 +2715,10 @@
         {
           "label": "HISTORY 2",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=history2"
+        },
+        {
+          "label": "History 2 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/history2.php"
         }
       ]
     },
@@ -2505,6 +2730,10 @@
         {
           "label": "discovery",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=discovery"
+        },
+        {
+          "label": "Discovery A&E HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/discoveryaye.php"
         }
       ]
     },
@@ -2516,6 +2745,14 @@
         {
           "label": "DISCOVERY id ",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=id"
+        },
+        {
+          "label": "Discovery World HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/discoveryworld.php"
+        },
+        {
+          "label": "Discovery Kids HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/discoverykids.php"
         }
       ]
     },
@@ -2527,6 +2764,18 @@
         {
           "label": "DISCOVERY helth ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://belkaperu.github.io/belkafut/tt.html?channel=homehealth"
+        },
+        {
+          "label": "Discovery Channel HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/discoverychannel.php"
+        },
+        {
+          "label": "Discovery H&H HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/discoveryhyh.php"
+        },
+        {
+          "label": "Discovery Theater HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/discoverytheater.php"
         }
       ]
     },
@@ -2549,6 +2798,10 @@
         {
           "label": "discovery-tlc ",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.ksdjugfsddeports.fun/embed2/discoverytlc.html"
+        },
+        {
+          "label": "Discovery TLC HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/discoverytlc.php"
         }
       ]
     },
@@ -2593,6 +2846,10 @@
         {
           "label": "animal_planet",
           "url": "/p/repro1pelis.html?r=https://belkaperu.github.io/belkafut/repron?r=https://belkaperu.github.io/belkafut/tt.html?channel=animalplanet"
+        },
+        {
+          "label": "Animal Planet HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/animalplanet.php"
         }
       ]
     },
@@ -2650,32 +2907,529 @@
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://dodousd.github.io/stylas/?id=LASEXTA"
         }
       ]
+    },
+    {
+      "title": "ESPN Premium Argentina",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "ESPN Premium Argentina HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espnpremiumargentina.php"
+        }
+      ]
+    },
+    {
+      "title": "ESPN Ar",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "ESPN Ar HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espnar.php"
+        }
+      ]
+    },
+    {
+      "title": "ESPN Col",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "ESPN Col HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espncol.php"
+        }
+      ]
+    },
+    {
+      "title": "DirecTV Sports 2",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "DirecTV Sports 2 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/directvsports2.php"
+        },
+        {
+          "label": "DirecTV Sports Plus HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/directvsportsplus.php"
+        }
+      ]
+    },
+    {
+      "title": "ESPN México",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "ESPN México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espnmexico.php"
+        },
+        {
+          "label": "ESPN 2 México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn2mexico.php"
+        },
+        {
+          "label": "ESPN 3 México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn3mexico.php"
+        },
+        {
+          "label": "ESPN 4 México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn4mexico.php"
+        },
+        {
+          "label": "ESPN 5 México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/espn5mexico.php"
+        }
+      ]
+    },
+    {
+      "title": "Tvc Deportes",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "Tvc Deportes HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tvcdeportes.php"
+        },
+        {
+          "label": "Azteca Deportes HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/aztecadeportes.php"
+        }
+      ]
+    },
+    {
+      "title": "Fox Sports Premium",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "Fox Sports Premium HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/foxsportspremium.php"
+        }
+      ]
+    },
+    {
+      "title": "Movistar La Liga",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "Movistar La Liga HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/movistarlaliga.php"
+        }
+      ]
+    },
+    {
+      "title": "MLB Network",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "MLB Network HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/mlbnetwork.php"
+        }
+      ]
+    },
+    {
+      "title": "Sky Sports México",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "Sky Sports México HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/skysportsmexico.php"
+        }
+      ]
+    },
+    {
+      "title": "Sky Sports Bundesliga",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "Sky Sports Bundesliga HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/skysportsbundesliga.php"
+        }
+      ]
+    },
+    {
+      "title": "Sky Sports F1",
+      "image": "",
+      "category": "deportes",
+      "options": [
+        {
+          "label": "Sky Sports F1 HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/skysportsf1.php"
+        }
+      ]
+    },
+    {
+      "title": "Warner Channel",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Warner Channel HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/warnerchannel.php"
+        }
+      ]
+    },
+    {
+      "title": "Telefe",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Telefe HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/telefe.php"
+        }
+      ]
+    },
+    {
+      "title": "Distrito Comedia",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Distrito Comedia HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/distritocomedia.php"
+        }
+      ]
+    },
+    {
+      "title": "Pasiones",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Pasiones HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/pasiones.php"
+        }
+      ]
+    },
+    {
+      "title": "Azteca Uno",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Azteca Uno HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/aztecauno.php"
+        }
+      ]
+    },
+    {
+      "title": "Galavision",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Galavision HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/galavision.php"
+        }
+      ]
+    },
+    {
+      "title": "Tlnovelas",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Tlnovelas HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tlnovelas.php"
+        },
+        {
+          "label": "TNT Novelas HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tntnovelas.php"
+        }
+      ]
+    },
+    {
+      "title": "Las Estrellas",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Las Estrellas HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/lasestrellas.php"
+        }
+      ]
+    },
+    {
+      "title": "SyFy",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "SyFy HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/syfy.php"
+        }
+      ]
+    },
+    {
+      "title": "Unicable",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Unicable HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/unicable.php"
+        }
+      ]
+    },
+    {
+      "title": "FX",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "FX HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/fx.php"
+        }
+      ]
+    },
+    {
+      "title": "Sony",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Sony HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/sony.php"
+        }
+      ]
+    },
+    {
+      "title": "Studio Universal",
+      "image": "",
+      "category": "películas",
+      "options": [
+        {
+          "label": "Studio Universal HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/studiouniversal.php"
+        }
+      ]
+    },
+    {
+      "title": "Multipremier",
+      "image": "",
+      "category": "películas",
+      "options": [
+        {
+          "label": "Multipremier HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/multipremier.php"
+        }
+      ]
+    },
+    {
+      "title": "AMC",
+      "image": "",
+      "category": "películas",
+      "options": [
+        {
+          "label": "AMC HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/amc.php"
+        }
+      ]
+    },
+    {
+      "title": "Paramount Channel",
+      "image": "",
+      "category": "películas",
+      "options": [
+        {
+          "label": "Paramount Channel HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/paramountchannel.php"
+        }
+      ]
+    },
+    {
+      "title": "DPelicula",
+      "image": "",
+      "category": "películas",
+      "options": [
+        {
+          "label": "DPelicula HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/dpelicula.php"
+        }
+      ]
+    },
+    {
+      "title": "MTV",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "MTV HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/mtv.php"
+        }
+      ]
+    },
+    {
+      "title": "Comedy Central",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Comedy Central HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/comedycentral.php"
+        }
+      ]
+    },
+    {
+      "title": "Nat Geo",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Nat Geo HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/natgeo.php"
+        }
+      ]
+    },
+    {
+      "title": "ID Investigation",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "ID Investigation HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/idinvestigation.php"
+        }
+      ]
+    },
+    {
+      "title": "Everything",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Everything HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/everything.php"
+        }
+      ]
+    },
+    {
+      "title": "El Gourmet",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "El Gourmet HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/elgourmet.php"
+        }
+      ]
+    },
+    {
+      "title": "Disney Jr.",
+      "image": "",
+      "category": "infantiles",
+      "options": [
+        {
+          "label": "Disney Jr. HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/disneyjr.php"
+        }
+      ]
+    },
+    {
+      "title": "Nick",
+      "image": "",
+      "category": "infantiles",
+      "options": [
+        {
+          "label": "Nick HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/nick.php"
+        }
+      ]
+    },
+    {
+      "title": "Nick Jr.",
+      "image": "",
+      "category": "infantiles",
+      "options": [
+        {
+          "label": "Nick Jr. HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/nickjr.php"
+        }
+      ]
+    },
+    {
+      "title": "Cartoon Network",
+      "image": "",
+      "category": "infantiles",
+      "options": [
+        {
+          "label": "Cartoon Network HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/cartoonnetwork.php"
+        }
+      ]
+    },
+    {
+      "title": "Cartoonito",
+      "image": "",
+      "category": "infantiles",
+      "options": [
+        {
+          "label": "Cartoonito HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/cartoonito.php"
+        }
+      ]
+    },
+    {
+      "title": "Tooncast",
+      "image": "",
+      "category": "infantiles",
+      "options": [
+        {
+          "label": "Tooncast HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/tooncast.php"
+        }
+      ]
+    },
+    {
+      "title": "Telemundo Puerto Rico",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Telemundo Puerto Rico HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/telemundopuertorico.php"
+        }
+      ]
+    },
+    {
+      "title": "Global TV",
+      "image": "",
+      "category": "entretenimiento",
+      "options": [
+        {
+          "label": "Global TV HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/globaltv.php"
+        }
+      ]
+    },
+    {
+      "title": "Disney Channel",
+      "image": "",
+      "category": "infantiles",
+      "options": [
+        {
+          "label": "Disney Channel HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/disneychannel.php"
+        }
+      ]
+    },
+    {
+      "title": "FM Hot Kids",
+      "image": "",
+      "category": "infantiles",
+      "options": [
+        {
+          "label": "FM Hot Kids HD",
+          "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repro3.html?r=https://embed.saohgdasregions.fun/embed2/fmhotkids.php"
+        }
+      ]
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
