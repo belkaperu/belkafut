@@ -238,15 +238,15 @@
       "imageUrl": "",
       "servers": [
         {
-          "name": "Embed",
+          "name": "1",
           "url": "https://embed.saohgdasregions.fun/embed2/espncol.php"
         } , 
         {
-          "label": "ESPN  HD",
+          "name": "2",
           "url": "https://stream-xhd.com/live1.php?stream=espn"
         },
         {
-          "label": "ESPN AR  HD",
+          "name": "3",
           "url": "https://stream-xhd.com/live1.php?stream=espnar"
         }
       ],
