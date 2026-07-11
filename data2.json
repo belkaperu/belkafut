@@ -240,6 +240,14 @@
         {
           "name": "Embed",
           "url": "https://embed.saohgdasregions.fun/embed2/espncol.php"
+        } , 
+        {
+          "label": "ESPN  HD",
+          "url": "https://stream-xhd.com/live1.php?stream=espn"
+        },
+        {
+          "label": "ESPN AR  HD",
+          "url": "https://stream-xhd.com/live1.php?stream=espnar"
         }
       ],
       "normalized_name": "espn col"
