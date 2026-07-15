@@ -926,7 +926,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F2e%2FCanal_5_2016.svg%2F1280px-Canal_5_2016.svg.png&w=300&fit=inside&output=png",
       "name": "Canal 5",
       "normalized_name": "canal 5",
       "servers": [
@@ -1158,7 +1158,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fba%2FPasiones_Tv_logo.svg%2F1280px-Pasiones_Tv_logo.svg.png&w=300&fit=inside&output=png",
       "name": "Pasiones",
       "normalized_name": "pasiones",
       "servers": [
@@ -1194,7 +1194,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Tlnovelas_logo_2021.png",
       "name": "Tlnovelas",
       "normalized_name": "tlnovelas",
       "servers": [
@@ -1430,7 +1430,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.tvporinternet2.com%2Fimge%2Fmultipremier.webp&w=300&fit=inside&output=png",
       "name": "Multipremier",
       "normalized_name": "multipremier",
       "servers": [
@@ -1470,7 +1470,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Fde-pelicula-logo-png_seeklogo-493183.png&w=300&fit=inside&output=png",
       "name": "DPelicula",
       "normalized_name": "dpelicula",
       "servers": [
@@ -1630,7 +1630,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F35%2F2%2Feverything-channel-logo-png_seeklogo-350034.png&w=300&fit=inside&output=png",
       "name": "Everything",
       "normalized_name": "everything",
       "servers": [
@@ -2242,7 +2242,7 @@
     },
     {
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F30%2F2%2Fclaro-logo-png_seeklogo-302817.png&w=300&fit=inside&output=png",
       "name": "CLARO",
       "normalized_name": "claro",
       "servers": [
@@ -2342,7 +2342,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fdc%2FSuperSport_logo.svg%2F1280px-SuperSport_logo.svg.png&w=300&fit=inside&output=png",
       "name": "Super Sports",
       "normalized_name": "supersports",
       "servers": [
@@ -2354,7 +2354,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Fmovistar-liga-de-campeones-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "name": "Movistar_Liga_de_Campeones 1",
       "normalized_name": "movistarligadecampeones1",
       "servers": [
@@ -2566,7 +2566,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F8%2F83%2FSSC_Sports_Channel.png&w=300&fit=inside&output=png",
       "name": "SSC SPORTS",
       "normalized_name": "sscsports",
       "servers": [
@@ -2958,7 +2958,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.tvporinternet2.com%2Fimge%2Fdiscoverychannel.webp&w=300&fit=inside&output=png",
       "name": "discovery",
       "normalized_name": "discovery",
       "servers": [
@@ -3046,7 +3046,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F1b%2FLogo_La_1.svg%2F1950px-Logo_La_1.svg.png&w=300&fit=inside&output=png",
       "name": "la 1 es",
       "normalized_name": "la1es",
       "servers": [
@@ -3058,7 +3058,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F1f%2FLogo_La_2.svg%2F1097px-Logo_La_2.svg.png&w=300&fit=inside&output=png",
       "name": "la 2es",
       "normalized_name": "la2es",
       "servers": [
@@ -3070,7 +3070,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F75%2FLaSexta_2024_Logo.svg%2F1280px-LaSexta_2024_Logo.svg.png&w=300&fit=inside&output=png",
       "name": "la_sexta",
       "normalized_name": "lasexta",
       "servers": [
@@ -3107,7 +3107,7 @@
     {
       "name": "Canal A003",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3119,7 +3119,7 @@
     {
       "name": "Canal A002",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3147,7 +3147,7 @@
     {
       "name": "Canal A008",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3159,7 +3159,7 @@
     {
       "name": "Canal 3 - GUA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ffc%2FCanal3Guatemala%252822Logo%2529.webp%2F1280px-Canal3Guatemala%252822Logo%2529.webp.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3183,7 +3183,7 @@
     {
       "name": "Canal A046",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3195,7 +3195,7 @@
     {
       "name": "TN23 GT",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd0%2FTN23_Logo.svg%2F1280px-TN23_Logo.svg.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3207,7 +3207,7 @@
     {
       "name": "Canal 7 - GUA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F31%2FCanal7Guatemala%252822Logo%2529.webp&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3243,7 +3243,7 @@
     {
       "name": "Canal A009",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3295,7 +3295,7 @@
     {
       "name": "Canal A056",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3307,7 +3307,7 @@
     {
       "name": "Canal A058",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3319,7 +3319,7 @@
     {
       "name": "Canal A059",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3359,7 +3359,7 @@
     {
       "name": "Canal A063",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3411,7 +3411,7 @@
     {
       "name": "Canal A065",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3423,7 +3423,7 @@
     {
       "name": "Canal A066",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3475,7 +3475,7 @@
     {
       "name": "Pasiones HD",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fba%2FPasiones_Tv_logo.svg%2F1280px-Pasiones_Tv_logo.svg.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3515,7 +3515,7 @@
     {
       "name": "SEMILLITAS",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F39%2F2%2Fsemillitas-logo-png_seeklogo-390034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3575,7 +3575,7 @@
     {
       "name": "Canal A00U",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3731,7 +3731,7 @@
     {
       "name": "Canal A01P",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3783,7 +3783,7 @@
     {
       "name": "RHEMA TV",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Frhema-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3807,7 +3807,7 @@
     {
       "name": "Canal A01E",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3843,7 +3843,7 @@
     {
       "name": "Canal 3 Telesistemas HND",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F4e%2FTelevicentro_HN_logo_2020.png%2F1280px-Televicentro_HN_logo_2020.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3867,7 +3867,7 @@
     {
       "name": "DE PELICULA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Fde-pelicula-logo-png_seeklogo-493183.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3883,7 +3883,7 @@
     {
       "name": "EVENTOS",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Feventos-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3919,7 +3919,7 @@
     {
       "name": "CANAL 27 GT",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff8%2FCanal_27.svg%2F1280px-Canal_27.svg.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3955,7 +3955,7 @@
     {
       "name": "Canal A03S",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3967,7 +3967,7 @@
     {
       "name": "Canal A03T",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -3979,7 +3979,7 @@
     {
       "name": "Canal 4 - ESA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/1280px-Canal_4_TCS.png",
       "servers": [
         {
           "name": "1",
@@ -4011,7 +4011,7 @@
     {
       "name": "Canal 2 - ESA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/TCS_2_2016.png",
       "servers": [
         {
           "name": "1",
@@ -4047,7 +4047,7 @@
     {
       "name": "MAS TV TOTO",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Fmas-tv-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4123,7 +4123,7 @@
     {
       "name": "Europa HD",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Feuropa-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4171,7 +4171,7 @@
     {
       "name": "Gobierno GUA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Fgobierno-de-guatemala-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4183,7 +4183,7 @@
     {
       "name": "Canal 13-GUA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff2%2FCanal_13_Guatemala_Logo.svg%2F1280px-Canal_13_Guatemala_Logo.svg.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4195,7 +4195,7 @@
     {
       "name": "Canal A05N",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4207,7 +4207,7 @@
     {
       "name": "Canal A05O",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4219,7 +4219,7 @@
     {
       "name": "Canal 11 - GUA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F65%2FCanal_11_Guatemala_2022.webp%2F1280px-Canal_11_Guatemala_2022.webp.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4231,7 +4231,7 @@
     {
       "name": "Canal A05P",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4243,7 +4243,7 @@
     {
       "name": "Canal 14 - NIC",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Fcanal-14-nicaragua-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4255,7 +4255,7 @@
     {
       "name": "Canal A05Q",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4267,7 +4267,7 @@
     {
       "name": "11 - Costa Rica",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F56%2FRepretelCanal112024.svg%2F1280px-RepretelCanal112024.svg.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4279,7 +4279,7 @@
     {
       "name": "6 - Repretel",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F54%2FRepretelCanal62024.svg%2F1280px-RepretelCanal62024.svg.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4291,7 +4291,7 @@
     {
       "name": "Canal A05V",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4315,7 +4315,7 @@
     {
       "name": "Canal A05X",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4379,7 +4379,7 @@
     {
       "name": "Canal A06C",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4455,7 +4455,7 @@
     {
       "name": "DISC THEATHER HD",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.tvporinternet2.com%2Fimge%2Fdiscoverychannel.webp&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4479,7 +4479,7 @@
     {
       "name": "HOLA! TV HD",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F30%2F2%2Fhola-logo-png_seeklogo-302817.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4551,7 +4551,7 @@
     {
       "name": "Canal A035",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4567,7 +4567,7 @@
     {
       "name": "Canal A040",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4583,7 +4583,7 @@
     {
       "name": "Canal A041",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4599,7 +4599,7 @@
     {
       "name": "Canal A043",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4615,7 +4615,7 @@
     {
       "name": "Canal A067",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4627,7 +4627,7 @@
     {
       "name": "Canal A070",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4639,7 +4639,7 @@
     {
       "name": "Canal A072",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4651,7 +4651,7 @@
     {
       "name": "Canal A071",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4663,7 +4663,7 @@
     {
       "name": "Canal A073",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4675,7 +4675,7 @@
     {
       "name": "Canal A074",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4691,7 +4691,7 @@
     {
       "name": "Canal A078",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4703,7 +4703,7 @@
     {
       "name": "Canal A081",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4715,7 +4715,7 @@
     {
       "name": "Canal A082",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4727,7 +4727,7 @@
     {
       "name": "Canal A080",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4739,7 +4739,7 @@
     {
       "name": "Canal A093",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4751,7 +4751,7 @@
     {
       "name": "Canal A094",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4767,7 +4767,7 @@
     {
       "name": "Canal A097",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4783,7 +4783,7 @@
     {
       "name": "Canal A099",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4795,7 +4795,7 @@
     {
       "name": "Canal A098",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4811,7 +4811,7 @@
     {
       "name": "Canal A092",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4823,7 +4823,7 @@
     {
       "name": "Canal A021",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4835,7 +4835,7 @@
     {
       "name": "Canal A023",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4847,7 +4847,7 @@
     {
       "name": "Canal A010",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4859,7 +4859,7 @@
     {
       "name": "Canal A025",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4871,7 +4871,7 @@
     {
       "name": "Canal A038",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4883,7 +4883,7 @@
     {
       "name": "Canal A039",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4895,7 +4895,7 @@
     {
       "name": "Canal A036",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4907,7 +4907,7 @@
     {
       "name": "Canal A037",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4919,7 +4919,7 @@
     {
       "name": "Canal A042",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4935,7 +4935,7 @@
     {
       "name": "Canal A02B",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4947,7 +4947,7 @@
     {
       "name": "Canal A02D",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4959,7 +4959,7 @@
     {
       "name": "Canal A02I",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4975,7 +4975,7 @@
     {
       "name": "Canal A02L",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4987,7 +4987,7 @@
     {
       "name": "Canal A02N",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -4999,7 +4999,7 @@
     {
       "name": "Canal A02U",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5015,7 +5015,7 @@
     {
       "name": "France24",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc1%2FFrance_24_logo_%282013%29.svg%2F1280px-France_24_logo_%282013%29.svg.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5027,7 +5027,7 @@
     {
       "name": "Canal A03A",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5039,7 +5039,7 @@
     {
       "name": "Canal A03B",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5051,7 +5051,7 @@
     {
       "name": "Canal A03C",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5063,7 +5063,7 @@
     {
       "name": "Canal A02S",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5075,7 +5075,7 @@
     {
       "name": "Canal A03P",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5103,7 +5103,7 @@
     {
       "name": "Canal A03Y",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5119,7 +5119,7 @@
     {
       "name": "Canal A04M",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5131,7 +5131,7 @@
     {
       "name": "Canal A04N",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5143,7 +5143,7 @@
     {
       "name": "TV105",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5155,7 +5155,7 @@
     {
       "name": "Canal A04V",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5167,7 +5167,7 @@
     {
       "name": "Canal A04Y",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5179,7 +5179,7 @@
     {
       "name": "Canal A05A",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5191,7 +5191,7 @@
     {
       "name": "Canal A05B",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5203,7 +5203,7 @@
     {
       "name": "Canal A05C",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5215,7 +5215,7 @@
     {
       "name": "Canal A05D",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5239,7 +5239,7 @@
     {
       "name": "Canal A05M",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5251,7 +5251,7 @@
     {
       "name": "Canal A05U",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5263,7 +5263,7 @@
     {
       "name": "Canal A05T",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5275,7 +5275,7 @@
     {
       "name": "Canal A06G",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5287,7 +5287,7 @@
     {
       "name": "Canal A06J",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5299,7 +5299,7 @@
     {
       "name": "Canal A06M",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5311,7 +5311,7 @@
     {
       "name": "Canal A06N",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5335,7 +5335,7 @@
     {
       "name": "Canal A06Z",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5347,7 +5347,7 @@
     {
       "name": "Canal A07A",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5363,7 +5363,7 @@
     {
       "name": "Canal A07B",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5379,7 +5379,7 @@
     {
       "name": "Canal A07C",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5391,7 +5391,7 @@
     {
       "name": "Canal A07O",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5403,7 +5403,7 @@
     {
       "name": "Canal A07P",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5415,7 +5415,7 @@
     {
       "name": "Canal A07U",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5427,7 +5427,7 @@
     {
       "name": "Canal A07V",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5439,7 +5439,7 @@
     {
       "name": "Canal A07W",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5451,7 +5451,7 @@
     {
       "name": "Canal A07Y",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5463,7 +5463,7 @@
     {
       "name": "Canal A07Z",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5475,7 +5475,7 @@
     {
       "name": "Canal A08K",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5487,7 +5487,7 @@
     {
       "name": "Canal A07X",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5499,7 +5499,7 @@
     {
       "name": "Canal A08Q",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5511,7 +5511,7 @@
     {
       "name": "Canal A08V",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5523,7 +5523,7 @@
     {
       "name": "Canal A09B",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5535,7 +5535,7 @@
     {
       "name": "Canal A09C",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5551,7 +5551,7 @@
     {
       "name": "Canal A09K",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5563,7 +5563,7 @@
     {
       "name": "Canal A09A",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5575,7 +5575,7 @@
     {
       "name": "Live",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Flive-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5591,7 +5591,7 @@
     {
       "name": "TV104",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5603,7 +5603,7 @@
     {
       "name": "Canal A09N",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5615,7 +5615,7 @@
     {
       "name": "Canal A09S",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5627,7 +5627,7 @@
     {
       "name": "Canal A02F",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5639,7 +5639,7 @@
     {
       "name": "Canal A02C",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5651,7 +5651,7 @@
     {
       "name": "TV106",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5663,7 +5663,7 @@
     {
       "name": "Canal A011",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5675,7 +5675,7 @@
     {
       "name": "Canal A013",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5687,7 +5687,7 @@
     {
       "name": "Canal A016",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5699,7 +5699,7 @@
     {
       "name": "Canal A017",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5711,7 +5711,7 @@
     {
       "name": "Canal A018",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5747,7 +5747,7 @@
     {
       "name": "Canal A022",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5771,7 +5771,7 @@
     {
       "name": "Canal A024",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5783,7 +5783,7 @@
     {
       "name": "Canal A027",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5807,7 +5807,7 @@
     {
       "name": "Canal A034",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5819,7 +5819,7 @@
     {
       "name": "Canal A033",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5831,7 +5831,7 @@
     {
       "name": "Canal A044",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5843,7 +5843,7 @@
     {
       "name": "Canal A045",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5855,7 +5855,7 @@
     {
       "name": "Canal A049",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5867,7 +5867,7 @@
     {
       "name": "SURAM",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Fsuram-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5879,7 +5879,7 @@
     {
       "name": "Canal A064",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5915,7 +5915,7 @@
     {
       "name": "Canal A079",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5939,7 +5939,7 @@
     {
       "name": "Canal A00K",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5951,7 +5951,7 @@
     {
       "name": "Canal A00P",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5963,7 +5963,7 @@
     {
       "name": "Canal A00Q",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5975,7 +5975,7 @@
     {
       "name": "Canal A00O",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -5987,7 +5987,7 @@
     {
       "name": "Canal A00S",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6035,7 +6035,7 @@
     {
       "name": "RANCHENATO",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Franchenato-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6047,7 +6047,7 @@
     {
       "name": "Canal A01M",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6059,7 +6059,7 @@
     {
       "name": "Canal A01O",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6071,7 +6071,7 @@
     {
       "name": "Canal A01S",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6083,7 +6083,7 @@
     {
       "name": "Canal A01T",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6095,7 +6095,7 @@
     {
       "name": "Canal A01V",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6107,7 +6107,7 @@
     {
       "name": "Canal A01Y",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6119,7 +6119,7 @@
     {
       "name": "Canal A01X",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6143,7 +6143,7 @@
     {
       "name": "Canal A01W",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6155,7 +6155,7 @@
     {
       "name": "Canal A02E",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6203,7 +6203,7 @@
     {
       "name": "Canal A02Y",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6227,7 +6227,7 @@
     {
       "name": "Canal A03L",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6239,7 +6239,7 @@
     {
       "name": "Canal A03K",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6251,7 +6251,7 @@
     {
       "name": "Canal A03M",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6263,7 +6263,7 @@
     {
       "name": "Canal A03N",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6299,7 +6299,7 @@
     {
       "name": "TELENOSTALGIA",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F49%2F2%2Ftelenostalgia-logo-png_seeklogo-490034.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6311,7 +6311,7 @@
     {
       "name": "Canal A03U",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6323,7 +6323,7 @@
     {
       "name": "Canal A03X",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6335,7 +6335,7 @@
     {
       "name": "Canal A03Z",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6383,7 +6383,7 @@
     {
       "name": "Canal A06U",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6407,7 +6407,7 @@
     {
       "name": "Canal A08F",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6419,7 +6419,7 @@
     {
       "name": "Canal A08H",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6431,7 +6431,7 @@
     {
       "name": "Canal A08T",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6443,7 +6443,7 @@
     {
       "name": "Canal A09D",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
@@ -6467,7 +6467,7 @@
     {
       "name": "Canal A09H",
       "category": "Internacionales",
-      "imageUrl": "",
+      "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fimages.seeklogo.com%2Flogo-png%2F26%2F2%2Ftv-logo-png_seeklogo-263076.png&w=300&fit=inside&output=png",
       "servers": [
         {
           "name": "1",
