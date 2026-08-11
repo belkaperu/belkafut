@@ -26,7 +26,7 @@ jobs:
 
       - name: Run embed updater
         id: updater
-        run: node .github/update-embeds.mjs
+        run: node update-embeds.mjs
         env:
           SOURCE_URL: ${{ vars.EMBED_SOURCE_URL || 'https://embed.saohgdasregions.fun/' }}
           TARGET_FILE: ${{ vars.EMBED_TARGET_FILE || 'data1.json' }}
