@@ -16,7 +16,6 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = path.resolve(__dirname, "..");
 
 const SOURCE_URL = process.env.SOURCE_URL || "";
 const TARGET_FILE = process.env.TARGET_FILE || "data1.json";
@@ -80,9 +79,21 @@ function log(...args) {
 }
 
 async function main() {
-  const targetPath = path.join(REPO_ROOT, TARGET_FILE);
-  if (!fs.existsSync(targetPath)) {
-    throw new Error(`Target file not found: ${targetPath}`);
+  // Locate the target file: prioritize the directory of this script,
+  // then process.cwd() as fallback.
+  const candidates = [
+    path.join(__dirname, TARGET_FILE),      // script directory
+    path.join(process.cwd(), TARGET_FILE),  // current working directory
+  ];
+  // Also if TARGET_FILE is absolute, include it directly.
+  if (path.isAbsolute(TARGET_FILE)) {
+    candidates.unshift(TARGET_FILE);
+  }
+  const targetPath = candidates.find((p) => fs.existsSync(p));
+  if (!targetPath) {
+    throw new Error(
+      `Target file not found: ${TARGET_FILE} (tried: ${candidates.join(", ")})`
+    );
   }
   const targetText = fs.readFileSync(targetPath, "utf8");
 
