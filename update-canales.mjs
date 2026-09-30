@@ -59,15 +59,17 @@ async function scrapeChannels() {
 
 async function updateData1Json(newChannels) {
   const data1Path = 'data1.json';
-  let existingData = [];
+  let data = { canales: [] };
 
   try {
-    existingData = JSON.parse(fs.readFileSync(data1Path, 'utf-8'));
+    const content = fs.readFileSync(data1Path, 'utf-8');
+    const parsed = JSON.parse(content);
+    data.canales = parsed.canales || [];
   } catch (err) {
     console.log('Creating new data1.json');
   }
 
-  const merged = [...existingData];
+  const merged = [...data.canales];
   const existingTitles = new Set(merged.map(ch => ch.title));
 
   for (const channel of newChannels) {
@@ -82,7 +84,8 @@ async function updateData1Json(newChannels) {
     }
   }
 
-  fs.writeFileSync(data1Path, JSON.stringify(merged, null, 2));
+  data.canales = merged;
+  fs.writeFileSync(data1Path, JSON.stringify(data, null, 2));
   console.log(`Updated ${merged.length} channels`);
 }
 
