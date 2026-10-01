@@ -2925,7 +2925,7 @@
     },
     {
       "title": "ESPN Ar",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/espn-ar.webp",
       "category": "deportes",
       "options": [
         {
@@ -2936,7 +2936,7 @@
     },
     {
       "title": "ESPN Col",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/espn-col.webp",
       "category": "deportes",
       "options": [
         {
@@ -2947,7 +2947,7 @@
     },
     {
       "title": "DirecTV Sports 2",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/directv-sports-2.webp",
       "category": "deportes",
       "options": [
         {
@@ -3004,7 +3004,7 @@
     },
     {
       "title": "Fox Sports Premium",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/fox-sports-premium.png",
       "category": "deportes",
       "options": [
         {
@@ -3070,7 +3070,7 @@
     },
     {
       "title": "Warner Channel",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/warner-channel.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3081,7 +3081,7 @@
     },
     {
       "title": "Telefe",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/telefe.png",
       "category": "entretenimiento",
       "options": [
         {
@@ -3151,7 +3151,7 @@
     },
     {
       "title": "Las Estrellas",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/las-estrellas.png",
       "category": "entretenimiento",
       "options": [
         {
@@ -3184,7 +3184,7 @@
     },
     {
       "title": "FX",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/fx.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3195,7 +3195,7 @@
     },
     {
       "title": "Sony",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/sony.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3206,7 +3206,7 @@
     },
     {
       "title": "Studio Universal",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/studio-universal.webp",
       "category": "películas",
       "options": [
         {
@@ -3228,7 +3228,7 @@
     },
     {
       "title": "AMC",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/amc.webp",
       "category": "películas",
       "options": [
         {
@@ -3261,7 +3261,7 @@
     },
     {
       "title": "MTV",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/mtv.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3272,7 +3272,7 @@
     },
     {
       "title": "Comedy Central",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/comedy-central.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3283,7 +3283,7 @@
     },
     {
       "title": "Nat Geo",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/nat-geo.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3316,7 +3316,7 @@
     },
     {
       "title": "El Gourmet",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/el-gourmet.svg",
       "category": "entretenimiento",
       "options": [
         {
@@ -3327,7 +3327,7 @@
     },
     {
       "title": "Disney Jr.",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/disney-jr.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3338,7 +3338,7 @@
     },
     {
       "title": "Nick",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/nick.png",
       "category": "infantiles",
       "options": [
         {
@@ -3349,7 +3349,7 @@
     },
     {
       "title": "Nick Jr.",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/nick-jr.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3360,7 +3360,7 @@
     },
     {
       "title": "Cartoon Network",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/cartoon-network.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3371,7 +3371,7 @@
     },
     {
       "title": "Cartoonito",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/cartoonito.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3415,7 +3415,7 @@
     },
     {
       "title": "Disney Channel",
-      "image": "",
+      "image": "https://belkaperu.github.io/belkafut/img/canales/disney-channel.webp",
       "category": "infantiles",
       "options": [
         {

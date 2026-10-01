@@ -1,0 +1,396 @@
+{
+  "fecha": "2026-10-01T08:53:20.335Z",
+  "version": "1.0.0",
+  "archivo": "data1.json",
+  "carpeta": "img/canales",
+  "modo": "apply",
+  "canales_sin_imagen": 45,
+  "descargadas": 21,
+  "sin_coincidencia": 24,
+  "fallidas": 0,
+  "aplicadas": 21,
+  "cambiado": true,
+  "sitios": [
+    "https://www.cablevisionhd.com/",
+    "https://tvlibreonline.st/",
+    "https://futbollibrefullhd.org/",
+    "https://telegratuita.st/",
+    "https://televisionlibre.com.pl/"
+  ],
+  "catalogo": 539,
+  "duracion_seg": 11.1,
+  "detalle": [
+    {
+      "canal": "ESPN Premium Argentina",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "ESPN Col",
+      "estado": "ok",
+      "archivo": "img/canales/espn-col.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/espn-col.webp",
+      "origen": "https://bestleague.pl/img/espn.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 0.92,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 4154
+    },
+    {
+      "canal": "ESPN México",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Tvc Deportes",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "ESPN Ar",
+      "estado": "ok",
+      "archivo": "img/canales/espn-ar.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/espn-ar.webp",
+      "origen": "https://bestleague.pl/img/espn.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 0.92,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 4154
+    },
+    {
+      "canal": "Movistar La Liga",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "MLB Network",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Sky Sports México",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Sky Sports Bundesliga",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Sky Sports F1",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "DirecTV Sports 2",
+      "estado": "ok",
+      "archivo": "img/canales/directv-sports-2.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/directv-sports-2.webp",
+      "origen": "https://bestleague.pl/img/dsports2.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 7476
+    },
+    {
+      "canal": "Warner Channel",
+      "estado": "ok",
+      "archivo": "img/canales/warner-channel.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/warner-channel.webp",
+      "origen": "https://bestleague.pl/img/warner.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 11884
+    },
+    {
+      "canal": "Distrito Comedia",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Pasiones",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Azteca Uno",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Galavision",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Tlnovelas",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Fox Sports Premium",
+      "estado": "ok",
+      "archivo": "img/canales/fox-sports-premium.png",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/fox-sports-premium.png",
+      "origen": "https://bestleague.pl/img/foxnew.png",
+      "sitio": "tvlibreonline.st",
+      "score": 0.92,
+      "tipo": "png",
+      "dimensiones": "442x300",
+      "bytes": 20655
+    },
+    {
+      "canal": "SyFy",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Unicable",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Las Estrellas",
+      "estado": "ok",
+      "archivo": "img/canales/las-estrellas.png",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/las-estrellas.png",
+      "origen": "https://bestleague.pl/img/estrellas.png",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "png",
+      "dimensiones": "360x335",
+      "bytes": 49908
+    },
+    {
+      "canal": "Telefe",
+      "estado": "ok",
+      "archivo": "img/canales/telefe.png",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/telefe.png",
+      "origen": "https://bestleague.pl/img/telefe.png",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "png",
+      "dimensiones": "820x294",
+      "bytes": 131142
+    },
+    {
+      "canal": "FX",
+      "estado": "ok",
+      "archivo": "img/canales/fx.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/fx.webp",
+      "origen": "https://bestleague.pl/img/fx.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 3278
+    },
+    {
+      "canal": "Multipremier",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Sony",
+      "estado": "ok",
+      "archivo": "img/canales/sony.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/sony.webp",
+      "origen": "https://bestleague.pl/img/sony.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 0.95,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 3838
+    },
+    {
+      "canal": "Paramount Channel",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "DPelicula",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "AMC",
+      "estado": "ok",
+      "archivo": "img/canales/amc.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/amc.webp",
+      "origen": "https://bestleague.pl/img/amc.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 5246
+    },
+    {
+      "canal": "MTV",
+      "estado": "ok",
+      "archivo": "img/canales/mtv.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/mtv.webp",
+      "origen": "https://bestleague.pl/img/mtv.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 6186
+    },
+    {
+      "canal": "Studio Universal",
+      "estado": "ok",
+      "archivo": "img/canales/studio-universal.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/studio-universal.webp",
+      "origen": "https://bestleague.pl/img/studio.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 4818
+    },
+    {
+      "canal": "ID Investigation",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Everything",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Comedy Central",
+      "estado": "ok",
+      "archivo": "img/canales/comedy-central.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/comedy-central.webp",
+      "origen": "https://bestleague.pl/img/comedy.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 8958
+    },
+    {
+      "canal": "Nat Geo",
+      "estado": "ok",
+      "archivo": "img/canales/nat-geo.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/nat-geo.webp",
+      "origen": "https://bestleague.pl/img/natgeo.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 7642
+    },
+    {
+      "canal": "El Gourmet",
+      "estado": "ok",
+      "archivo": "img/canales/el-gourmet.svg",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/el-gourmet.svg",
+      "origen": "https://bestleague.pl/img/Group.svg",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "svg",
+      "dimensiones": "46x46",
+      "bytes": 1424
+    },
+    {
+      "canal": "Disney Jr.",
+      "estado": "ok",
+      "archivo": "img/canales/disney-jr.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/disney-jr.webp",
+      "origen": "https://bestleague.pl/img/disneyjr.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 9846
+    },
+    {
+      "canal": "Nick Jr.",
+      "estado": "ok",
+      "archivo": "img/canales/nick-jr.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/nick-jr.webp",
+      "origen": "https://bestleague.pl/img/nickjr.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 5772
+    },
+    {
+      "canal": "Nick",
+      "estado": "ok",
+      "archivo": "img/canales/nick.png",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/nick.png",
+      "origen": "https://bestleague.pl/img/nick.png",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "png",
+      "dimensiones": "350x237",
+      "bytes": 80515
+    },
+    {
+      "canal": "Tooncast",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Telemundo Puerto Rico",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Global TV",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Cartoon Network",
+      "estado": "ok",
+      "archivo": "img/canales/cartoon-network.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/cartoon-network.webp",
+      "origen": "https://bestleague.pl/img/cn.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 5498
+    },
+    {
+      "canal": "FM Hot Kids",
+      "estado": "sin_coincidencia",
+      "motivo": "no se encontró en los sitios de TV libre"
+    },
+    {
+      "canal": "Cartoonito",
+      "estado": "ok",
+      "archivo": "img/canales/cartoonito.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/cartoonito.webp",
+      "origen": "https://bestleague.pl/img/cart.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 4472
+    },
+    {
+      "canal": "Disney Channel",
+      "estado": "ok",
+      "archivo": "img/canales/disney-channel.webp",
+      "url_publica": "https://belkaperu.github.io/belkafut/img/canales/disney-channel.webp",
+      "origen": "https://bestleague.pl/img/disney.webp",
+      "sitio": "tvlibreonline.st",
+      "score": 1,
+      "tipo": "webp",
+      "dimensiones": "360x270",
+      "bytes": 10276
+    }
+  ]
+}
