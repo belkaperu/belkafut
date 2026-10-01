@@ -14,7 +14,7 @@ on:
         type: boolean
         default: true
       search:
-        description: "Buscar reemplazos en la web (DuckDuckGo/Bing)"
+        description: "Buscar en internet (agenda de futbollibre + Google/Bing)"
         type: boolean
         default: true
       only_channel:
@@ -50,7 +50,7 @@ jobs:
       - name: Revisar pruebas del verificador
         run: node test/verify-urls.test.mjs
 
-      - name: Verificar URLs
+      - name: Verificar URLs y arreglar caídas
         id: verify
         env:
           APPLY: ${{ github.event_name != 'workflow_dispatch' || inputs.apply }}

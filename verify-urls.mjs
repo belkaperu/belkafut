@@ -31,75 +31,29 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import {
+  COLORS as C, makeLogger, parseArgs, num, sleep, escapeRe, normalizeText,
+  normSlug, tokens, stripTags, visibleText, safeDecode, decodeBase64Detailed,
+  decodeBase64Maybe, encodeLike, slugScore, hostOf, isLocalUrl, HostGate,
+  mapLimit, urlJoin, httpGet,
+} from "./lib/util.mjs";
+import { FutbolibreCatalog, looksLikeFutbolibre, toBase, toOrigin } from "./lib/futbollibre.mjs";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 
 /* ------------------------------------------------------------------ *
- * Utilidades básicas
+ * Utilidades básicas (logger y CLI viven en lib/util.mjs)
  * ------------------------------------------------------------------ */
 
-const C = {
-  reset: "\x1b[0m", red: "\x1b[31m", green: "\x1b[32m",
-  yellow: "\x1b[33m", blue: "\x1b[36m", gray: "\x1b[90m",
-};
-const useColor = process.stdout.isTTY && !process.env.NO_COLOR;
-const paint = (c, s) => (useColor ? `${c}${s}${C.reset}` : s);
-
-let VERBOSE = false;
-const log = (...a) => console.log("[verify]", ...a);
-const vlog = (...a) => { if (VERBOSE) console.log(paint(C.gray, "[debug]"), ...a); };
-const warn = (...a) => console.warn("[verify]", paint(C.yellow, "!"), ...a);
-const errlog = (...a) => console.error("[verify]", paint(C.red, "x"), ...a);
-
-function parseArgs(argv) {
-  const out = { _: [] };
-  for (const raw of argv) {
-    if (!raw.startsWith("--")) { out._.push(raw); continue; }
-    const body = raw.slice(2);
-    const eq = body.indexOf("=");
-    if (eq === -1) out[body] = true;
-    else out[body.slice(0, eq)] = body.slice(eq + 1);
-  }
-  return out;
-}
-
 const args = parseArgs(process.argv.slice(2));
-VERBOSE = !!args.verbose;
-
-const num = (v, d) => {
-  const n = Number(v);
-  return Number.isFinite(n) ? n : d;
-};
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-function escapeRe(s) {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-function normalizeText(s) {
-  return String(s ?? "")
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/&nbsp;/g, " ")
-    .trim();
-}
-
-function normSlug(s) {
-  return normalizeText(s).replace(/[^a-z0-9]+/g, "");
-}
-
-const STOP_TOKENS = new Set([
-  "hd", "fhd", "uhd", "sd", "4k", "full", "en", "vivo", "online", "tv",
-  "canal", "canales", "channel", "stream", "streaming", "lat", "latam",
-  "hd2", "hd3", "hq", "opcion", "el", "la", "los", "las", "de", "del", "y",
-]);
-
-function tokens(s) {
-  return normalizeText(s)
-    .split(/[^a-z0-9]+/)
-    .filter((t) => t && t.length > 1 && !STOP_TOKENS.has(t));
-}
+const L = makeLogger("verify");
+L.setVerbose(!!args.verbose);
+const paint = L.paint;
+const log = L.log;
+const vlog = L.vlog;
+const warn = L.warn;
+const errlog = L.err;
 
 /* ------------------------------------------------------------------ *
  * Configuración
@@ -134,7 +88,7 @@ const HARD_DEFAULTS = {
   slugAliases: {},
   slugPatterns: ["{base}"],
   search: {
-    enabled: false,
+    enabled: true,
     maxQueries: 25,
     maxResultsPerQuery: 8,
     maxPagesToInspect: 4,
@@ -143,6 +97,23 @@ const HARD_DEFAULTS = {
     queryTemplates: ["{title} en vivo ver online"],
     skipHosts: [],
     engines: [],
+  },
+  // Catálogo de futbollibre: se consulta ANTES de los proveedores cuando hay
+  // algún canal caído (agenda + portada + páginas de canal -> URL real del stream).
+  agenda: {
+    enabled: true,
+    priority: 0,
+    domains: [],
+    paths: ["/", "/agenda"],
+    apiPaths: [],
+    discoverFromSearch: true,
+    searchQueries: ["futbollibre agenda", "futbollibre canales en vivo"],
+    hostPattern: "",
+    maxDomains: 3,
+    maxEntriesPerChannel: 6,
+    maxPagesPerEntry: 1,
+    minNameScore: 0.75,
+    cacheTtlMinutes: 240,
   },
   repair: {
     enabled: true,
@@ -182,7 +153,13 @@ function loadConfig() {
   if (args["concurrency"]) cfg.verification.concurrency = num(args["concurrency"], cfg.verification.concurrency);
   if (args["timeout"]) cfg.verification.timeoutMs = num(args["timeout"], cfg.verification.timeoutMs);
   if (args["search"] === true) cfg.search.enabled = true;
-  if (args["no-search"] === true || args["search"] === "off" || args["search"] === "none") cfg.search.enabled = false;
+  if (args["no-search"] === true || args["search"] === "off" || args["search"] === "none") {
+    cfg.search.enabled = false;
+    cfg.agenda.enabled = false; // sin internet no tiene sentido consultar la agenda
+  }
+  if (args["no-agenda"] === true || args["agenda"] === "off") cfg.agenda.enabled = false;
+  if (args["agenda-domains"]) cfg.agenda.domains = String(args["agenda-domains"]).split(",").map((s) => s.trim()).filter(Boolean);
+  if (args["agenda-queries"]) cfg.agenda.searchQueries = String(args["agenda-queries"]).split("|").map((s) => s.trim()).filter(Boolean);
   if (args["no-repair"] === true) cfg.repair.enabled = false;
   if (args["allow-local"] === true) {
     cfg._allowLocal = true;
@@ -192,6 +169,7 @@ function loadConfig() {
   if (args["slug-sources"]) cfg._slugSources = String(args["slug-sources"]).split(",").map((s) => s.trim()).filter(Boolean);
   vlog(`verificación: timeout=${cfg.verification.timeoutMs}ms concurrencia=${cfg.verification.concurrency} ownHosts=[${cfg.verification.ownHosts.join(",")}]`);
   vlog(`búsqueda: ${cfg.search.enabled ? "activada" : "desactivada"} (${(cfg.search.engines || []).length} motores) · reparación: ${cfg.repair.enabled ? "activada" : "desactivada"}`);
+  vlog(`agenda futbollibre: ${cfg.agenda.enabled ? "activada" : "desactivada"} (semillas: ${(cfg.agenda.domains || []).length}, descubrir por búsqueda: ${cfg.agenda.discoverFromSearch})`);
   return cfg;
 }
 
@@ -199,91 +177,18 @@ function loadConfig() {
  * HTTP: descarga con límites, reintentos y educación por host
  * ------------------------------------------------------------------ */
 
-class HostGate {
-  constructor(perHost, delayMs) {
-    this.perHost = perHost;
-    this.delayMs = delayMs;
-    this.state = new Map();
-  }
-  async acquire(host) {
-    let st = this.state.get(host);
-    if (!st) { st = { active: 0, last: 0, queue: [] }; this.state.set(host, st); }
-    while (st.active >= this.perHost) {
-      await new Promise((res) => st.queue.push(res));
-    }
-    st.active++;
-    const wait = st.last + this.delayMs - Date.now();
-    if (wait > 0) await sleep(wait);
-    st.last = Date.now();
-  }
-  release(host) {
-    const st = this.state.get(host);
-    if (!st) return;
-    st.active = Math.max(0, st.active - 1);
-    const next = st.queue.shift();
-    if (next) next();
-  }
-}
-
-function hostOf(url) {
-  try { return new URL(url).host; } catch { return ""; }
-}
-
-function isLocalUrl(url) {
-  return /^https?:\/\/(127\.0\.0\.1|localhost|\[::1\])(:\d+)?\//i.test(url);
-}
-
 async function fetchRaw(url, cfg, { maxBytes, timeoutMs } = {}) {
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), timeoutMs ?? cfg.verification.timeoutMs);
-  try {
-    const res = await fetch(url, {
-      redirect: "follow",
-      signal: ctrl.signal,
-      headers: {
-        "User-Agent": cfg.verification.userAgent,
-        ...cfg.verification.extraHeaders,
-      },
-    });
-    const limit = maxBytes ?? cfg.verification.maxBodyBytes;
-    let body = "";
-    if (res.body) {
-      const reader = res.body.getReader();
-      const chunks = [];
-      let total = 0;
-      // eslint-disable-next-line no-constant-condition
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        chunks.push(value);
-        total += value.length;
-        if (total >= limit) { try { await reader.cancel(); } catch { /* ignore */ } break; }
-      }
-      body = Buffer.concat(chunks).toString("utf8");
-    }
-    return { netOk: true, status: res.status, finalUrl: res.url || url, headers: res.headers, body, bytes: Buffer.byteLength(body) };
-  } catch (e) {
-    return { netOk: false, error: e, code: e?.cause?.code || e?.code || e?.name || "ERROR", message: e?.message || String(e) };
-  } finally {
-    clearTimeout(timer);
-  }
+  return httpGet(url, {
+    timeoutMs: timeoutMs ?? cfg.verification.timeoutMs,
+    maxBytes: maxBytes ?? cfg.verification.maxBodyBytes,
+    userAgent: cfg.verification.userAgent,
+    headers: cfg.verification.extraHeaders,
+  });
 }
 
 /* ------------------------------------------------------------------ *
  * Clasificación por contenido
  * ------------------------------------------------------------------ */
-
-function visibleText(html) {
-  return String(html)
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
-    .replace(/<!--[\s\S]*?-->/g, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
 
 function cfgFor(url, cfg) {
   const host = hostOf(url);
@@ -436,46 +341,6 @@ class Verifier {
 const URL_RE = /https?:\/\/[^\s"'<>\\]+/g;
 const CHAIN_KEYS = /(?:^|&)(r|embed|url|redirect|src)=/;
 const SLUG_PARAM_RE = /[?&](stream|channel|id|canal)=([^&"'\s]+)/i;
-const B64_RE = /^[A-Za-z0-9+/_=-]{16,}$/;
-
-function safeDecode(s) {
-  try { return decodeURIComponent(s); } catch { return s; }
-}
-
-/** Decodifica base64 devolviendo también el "estilo" usado (normal o duplicado). */
-function decodeBase64Detailed(s) {
-  const clean = String(s).replace(/-/g, "+").replace(/_/g, "/");
-  const tryDec = (p) => {
-    if (!B64_RE.test(p)) return null;
-    const pad = p + "=".repeat((4 - (p.length % 4)) % 4);
-    try {
-      const dec = Buffer.from(pad, "base64").toString("utf8").trim();
-      return /^https?:\/\//i.test(dec) ? dec : null;
-    } catch { return null; }
-  };
-  const whole = tryDec(clean);
-  if (whole) return { text: whole, style: "b64" };
-  if (clean.length % 2 === 0) {
-    const half = tryDec(clean.slice(0, clean.length / 2)); // patrón duplicado: <b64><b64>
-    if (half) return { text: half, style: "b64x2" };
-  }
-  return null;
-}
-
-function decodeBase64Maybe(s) {
-  return decodeBase64Detailed(s)?.text ?? null;
-}
-
-/** Codifica una URL igual que el valor original (para no romper al reproductor). */
-function encodeLike(style, url) {
-  if (style === "b64") return Buffer.from(url, "utf8").toString("base64");
-  if (style === "b64x2") {
-    const b = Buffer.from(url, "utf8").toString("base64");
-    return b + b;
-  }
-  return url;
-}
-
 /**
  * Descompone la URL de una opción en capas:
  *   /p/x.html?r=https://host/wrap.html?r=https://real/stream.php?stream=espn
@@ -814,20 +679,6 @@ function slugVariants(title, label, aliasMap, patterns) {
   return [...out];
 }
 
-function slugScore(title, slug) {
-  const a = normSlug(title), b = normSlug(slug);
-  if (!a || !b) return 0;
-  if (a === b) return 1;
-  if (b.includes(a) || a.includes(b)) {
-    const r = Math.min(a.length, b.length) / Math.max(a.length, b.length);
-    return 0.6 + 0.35 * r;
-  }
-  const ta = tokens(title), tb = tokens(slug);
-  if (!ta.length || !tb.length) return 0;
-  const inter = ta.filter((t) => tb.includes(t)).length;
-  return inter / Math.max(ta.length, tb.length);
-}
-
 function providerTemplatesFor(host, cfg) {
   return cfg.providers.filter((p) => (p.hosts || []).includes(host));
 }
@@ -852,9 +703,12 @@ function parseSearchResults(html, kind, cfg, engine, baseUrl) {
     }
     try {
       const u = new URL(h);
-      // DuckDuckGo envuelve en /l/?uddg=<url real>
-      const uddg = u.searchParams.get("uddg") || u.searchParams.get("url") || u.searchParams.get("q");
-      const real = uddg && /^https?:/i.test(uddg) ? decodeURIComponent(uddg) : u.toString();
+      // Los buscadores envuelven los resultados: Google /url?q=, DuckDuckGo ?uddg=
+      const isRedirect = /\/(url|link|redirect)$/i.test(u.pathname) || u.host !== engineHost;
+      const wrapped = u.searchParams.get("uddg") || u.searchParams.get("url") ||
+        (isRedirect ? u.searchParams.get("q") : null);
+      let real = u.toString();
+      if (wrapped && /^https?:/i.test(decodeURIComponent(wrapped))) real = decodeURIComponent(wrapped);
       const ru = new URL(real);
       const host = ru.host;
       if (skip.some((s) => host === s || host.endsWith(`.${s}`))) return;
@@ -866,6 +720,9 @@ function parseSearchResults(html, kind, cfg, engine, baseUrl) {
 
   if (kind === "bing") {
     for (const m of html.matchAll(/<h2>\s*<a[^>]+href="([^"]+)"/gi)) push(m[1]);
+    for (const m of html.matchAll(/<a[^>]+href="(https?:\/\/[^"]+)"/gi)) push(m[1]);
+  } else if (kind === "google") {
+    for (const m of html.matchAll(/<a[^>]+href="(\/url\?[^"]+|https?:\/\/[^"]+)"/gi)) push(m[1]);
   } else if (kind === "duckduckgo") {
     for (const m of html.matchAll(/<a[^>]+class="[^"]*result__a[^"]*"[^>]+href="([^"]+)"/gi)) push(m[1]);
   } else {
@@ -907,6 +764,46 @@ async function webSearch(query, cfg, cache) {
   return uniq;
 }
 
+/**
+ * Averigua dónde vive futbollibre (semillas de sources.json + búsqueda en los
+ * buscadores configurados), entra a su agenda y arma el catálogo canal -> URL real.
+ */
+async function buildAgendaCatalog(cfg, ctx) {
+  const t0 = Date.now();
+  const catalog = new FutbolibreCatalog({
+    log: { log, warn, vlog },
+    http: (url, opts = {}) => fetchRaw(url, cfg, { timeoutMs: opts.timeoutMs, maxBytes: 400000 }),
+  });
+
+  // Dominios a probar: los configurados + los que aparezcan al buscar "futbollibre"
+  const discovered = [];
+  if (cfg.agenda.discoverFromSearch && cfg.search.enabled) {
+    for (const q of cfg.agenda.searchQueries || []) {
+      const links = await webSearch(q, cfg, ctx.cache);
+      for (const link of links) {
+        if (!looksLikeFutbolibre(link, cfg.agenda.hostPattern)) continue;
+        const origin = toOrigin(link);
+        if (origin && !discovered.includes(origin)) discovered.push(origin);
+      }
+      vlog(`agenda: "${q}" -> ${discovered.length} dominios candidatos`);
+    }
+  }
+  const seeds = (cfg.agenda.domains || []).map(toBase).filter(Boolean);
+  log(`Agenda: buscando catálogo en ${[...seeds, ...discovered].length} dominio(s)…`);
+
+  await catalog.build({
+    domains: seeds,
+    discover: discovered,
+    paths: cfg.agenda.paths,
+    apiPaths: cfg.agenda.apiPaths,
+    maxDomains: cfg.agenda.maxDomains,
+    log: { log, warn, vlog },
+  });
+
+  log(`Agenda: ${catalog.size} entradas de ${catalog.domains.join(", ") || "ningún dominio"} (${Math.round((Date.now() - t0) / 100) / 10}s)`);
+  return catalog;
+}
+
 /** De una página candidata saca iframes/m3u8/enlaces de player. */
 function extractPlayerUrls(html, baseUrl) {
   const out = [];
@@ -942,6 +839,7 @@ class Repairer {
     this.ctx = ctx;
     this.searchQueries = 0;
     this.attempts = 0;
+    this.agendaLookups = 0;
   }
 
   /** Verifica una URL candidata y devuelve el resultado si es ok. */
@@ -1024,11 +922,52 @@ class Repairer {
     return out;
   }
 
+  /**
+   * Candidatos del catálogo de futbollibre: se busca el canal en la agenda /
+   * páginas de canal y de ahí se saca la URL real del stream.
+   */
+  async agendaCandidates(rec) {
+    const cfg = this.cfg;
+    const catalog = this.ctx.agendaCatalog;
+    if (!catalog || !cfg.agenda.enabled || catalog.size === 0) return [];
+
+    let matches = catalog.match(rec.channelTitle, {
+      minScore: cfg.agenda.minNameScore,
+      limit: cfg.agenda.maxEntriesPerChannel || 6,
+    });
+    if (!matches.length) matches = catalog.matchSlug(rec.chain?.slugParam?.slug || rec.label, {
+      limit: cfg.agenda.maxEntriesPerChannel || 6,
+    });
+    if (!matches.length) return [];
+
+    this.agendaLookups++;
+    vlog(`agenda: ${rec.channelTitle} -> ${matches.length} coincidencia(s): ${matches.map((m) => `${m.entry.name}(${m.score.toFixed(2)})`).join(", ")}`);
+
+    const out = [];
+    for (const { entry, score } of matches) {
+      const resolved = await catalog.resolve(entry, {
+        maxPages: cfg.agenda.maxPagesPerEntry ?? 1,
+        timeoutMs: cfg.verification.timeoutMs,
+        userAgent: cfg.verification.userAgent,
+        headers: cfg.verification.extraHeaders,
+        ownHosts: cfg.verification.ownHosts,
+      });
+      for (const r of resolved) {
+        out.push({ url: r.url, source: `${r.source} [${entry.name}]`, score, priority: cfg.agenda.priority ?? 0 });
+      }
+    }
+    return out;
+  }
+
   async repair(rec) {
     const cfg = this.cfg;
     if (!cfg.repair.enabled || !rec.deadUrl) return null;
     const candidates = [];
     const deadHost = hostOf(rec.deadUrl);
+
+    // 0) Agenda de futbollibre: es lo primero que se consulta (busca el canal en
+    //    internet y de ahí saca la URL real del stream).
+    for (const c of await this.agendaCandidates(rec)) candidates.push(c);
 
     // a) mismo proveedor/host, distintas variantes de slug
     for (const c of this.providerCandidates(rec, deadHost)) {
@@ -1136,6 +1075,11 @@ function buildMarkdown(report) {
   lines.push(`| Arregladas | ${r.arregladas} |`);
   lines.push(`| Sin arreglo | ${r.sin_arreglo} |`);
   lines.push(`| Hosts no verificables desde el runner | ${r.hosts_no_verificables.length} |`);
+  if (report.agenda) {
+    lines.push(`| Agenda futbollibre | ${report.agenda.entradas} entradas de ${report.agenda.dominios.join(", ") || "sin dominio"} |`);
+    lines.push(`| Búsquedas web realizadas | ${report.agenda.consultas_busqueda} |`);
+    lines.push(`| Candidatas verificadas | ${report.agenda.urls_candidatas_probadas} |`);
+  }
   lines.push("");
 
   if (report.arreglos.length) {
@@ -1186,19 +1130,6 @@ function buildMarkdown(report) {
 /* ------------------------------------------------------------------ *
  * main
  * ------------------------------------------------------------------ */
-
-function mapLimit(items, limit, fn) {
-  const out = new Array(items.length);
-  let i = 0;
-  const workers = Array.from({ length: Math.max(1, Math.min(limit, items.length)) }, async () => {
-    while (true) {
-      const idx = i++;
-      if (idx >= items.length) return;
-      out[idx] = await fn(items[idx], idx);
-    }
-  });
-  return Promise.all(workers).then(() => out);
-}
 
 async function main() {
   const t0 = Date.now();
@@ -1371,7 +1302,16 @@ async function main() {
   const repairer = new Repairer(cfg, verifier, ctx);
   const arreglos = [];
   if (broken.length && cfg.repair.enabled) {
-    log(`Buscando reemplazos para ${broken.length} opciones caídas (proveedores${cfg.search.enabled ? " + búsqueda web" : ""} + hermanas)…`);
+    // Primero el catálogo de futbollibre: buscar el canal en internet y sacar
+    // de ahí la URL real del stream.
+    if (cfg.agenda.enabled) {
+      try {
+        ctx.agendaCatalog = await buildAgendaCatalog(cfg, ctx);
+      } catch (e) {
+        warn(`No se pudo consultar la agenda de futbollibre: ${e.message}`);
+      }
+    }
+    log(`Buscando reemplazos para ${broken.length} opciones caídas (agenda${cfg.search.enabled ? " + búsqueda web" : ""} + proveedores + hermanas)…`);
     await mapLimit(broken, Math.max(1, Math.min(4, Math.floor(cfg.verification.concurrency / 3))), async (rec) => {
       try {
         const fix = await repairer.repair(rec);
@@ -1453,6 +1393,15 @@ async function main() {
       arregladas: resumenOpciones.arregladas,
       sin_arreglo: resumenOpciones.sin_arreglo,
       hosts_no_verificables: [...ctx.unverifiableHosts],
+    },
+    agenda: {
+      activada: !!ctx.agendaCatalog,
+      dominios: ctx.agendaCatalog?.domains || [],
+      entradas: ctx.agendaCatalog?.size || 0,
+      paginas_leidas: ctx.agendaCatalog?.pagesFetched || 0,
+      canales_consultados: repairer.agendaLookups || 0,
+      consultas_busqueda: repairer.searchQueries || 0,
+      urls_candidatas_probadas: repairer.attempts || 0,
     },
     arreglos,
     canales_rotos: canalesRotos,

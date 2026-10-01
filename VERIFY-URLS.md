@@ -1,10 +1,30 @@
 # Verificación y arreglo automático de URLs
 
 `verify-urls.mjs` revisa los canales de `data1.json`, comprueba **de verdad** que cada
-URL funcione (status HTTP **+ contenido**) y, cuando encuentra una caída, busca un
-reemplazo que también verifica antes de escribirlo.
+URL funcione (status HTTP **+ contenido**) y, cuando encuentra una caída, **sale a
+internet**: busca futbollibre en Google, entra a su agenda, extrae la URL real del
+stream y la verifica antes de escribirla.
+
+`update-canales.mjs` usa el mismo catálogo para **agregar opciones nuevas** a los
+canales existentes (también verificadas).
 
 Todo funciona sin dependencias externas (Node 20+).
+
+```
+                 ┌── ¿la URL responde y tiene reproductor? ──┐
+                 │ sí                                    no │
+                 │                                          ▼
+                 │                       buscar "futbollibre" en Google
+                 │                                          │
+                 │                       entrar a su AGENDA (portada + /agenda)
+                 │                                          │
+                 │              /embed/eventos.html?r=<base64> ──► URL real
+                 │                       páginas /en-vivo/<canal> ──► URL real
+                 │                                          │
+                 │                       verificar candidata ◄┘
+                 │                                  │ sí
+                 └──────────── data1.json ◄──────────┘
+```
 
 ---
 
@@ -59,14 +79,33 @@ Las URLs se analizan **en cadena**, porque en `data1.json` van anidadas:
 
 ## 3. Cómo busca los reemplazos (en este orden)
 
-1. **Mismo proveedor/host, variantes del slug**: `espn` → `espn_hd`, `espn1`,
-   `espn_premium`… usando `slugAliases` y `slugPatterns` de `sources.json`.
-2. **Otros proveedores conocidos** de `sources.json` (`streamxhd`, `la18hd`,
+Cuando falla **una o más** URLs, el verificador sale a internet:
+
+### 3.1 Agenda de futbollibre (primero de todo)
+
+1. **Encuentra el dominio vivo**: prueba las semillas de `sources.json.agenda.domains`
+   y, además, busca `futbollibre agenda` / `futbollibre canales en vivo` en Google
+   (Bing y DuckDuckGo como respaldo) quedándose con los dominios que parecen de
+   la familia futbollibre.
+2. **Entra a la portada y a `/agenda`** y extrae los enlaces de reproducción:
+   `https://<dominio>/embed/eventos.html?r=<base64>` → se decodifica el
+   `?r=` y aparece la **URL real del stream** (ej. `https://tvf90.com/1.php?stream=winsports2`).
+3. **Entra a la página de cada canal** (`/en-vivo/<slug>`) porque ahí suele haber
+   un espejo más fresco que el del embed (la agenda da `1.php`, la página `6.php`).
+4. Empareja por nombre del canal y **verifica cada URL** antes de usarla.
+   El emparejamiento cuida los números (`ESPN` ≠ `ESPN 2`) y acepta calificadores
+   (`| OP2`, `HD`, `Móvil`, país).
+
+Después, si la agenda no tiene el canal:
+
+5. **Mismo host, variantes del slug**: `espn` → `espn_hd`, `espn1`, `espn_premium`…
+   (`slugAliases` y `slugPatterns`).
+6. **Otros proveedores conocidos** de `sources.json` (`streamxhd`, `la18hd`,
    `embed.*`, `streamtp`, `sportsonline`, `jac-tv`, `megadeportes`, players de GitHub…).
-3. **Slugs que ya funcionan para ese canal** en `data1.json`, `data2.json` y `data.json`.
-4. **Opción hermana** del mismo canal que sí responde.
-5. **Búsqueda web** (DuckDuckGo + Bing): busca `"<canal> en vivo"`, abre los
-   resultados y extrae el `iframe`/`<video>`/`.m3u8` real; luego lo verifica.
+7. **Slugs que ya funcionan para ese canal** en `data1.json`, `data2.json` y `data.json`.
+8. **Opción hermana** del mismo canal que sí responde.
+9. **Búsqueda web genérica** (`"<canal> futbollibre en vivo"` y `"<canal> en vivo"`):
+   abre los resultados y extrae el `iframe`/`<video>`/`.m3u8` real; luego lo verifica.
 
 Solo se aplica un reemplazo si la URL nueva pasa la verificación de contenido y si
 **realmente cambia** el valor de la opción (nunca se "arregla" con la misma URL).
@@ -114,7 +153,10 @@ se reconstruye la opción manteniendo el reproductor propio.
 | --- | --- |
 | `--apply` | Escribe los arreglos en el archivo (por defecto solo simula) |
 | `--dry-run` | Fuerza el modo simulación |
-| `--search` / `--no-search` | Activa/desactiva la búsqueda web |
+| `--search` / `--no-search` | Activa/desactiva la búsqueda en internet (y la agenda) |
+| `--agenda-domains=a.com,b.com` | Fuerza los dominios de futbollibre a consultar |
+| `--agenda-queries=q1\|q2` | Cambia las búsquedas con las que descubre el dominio |
+| `--no-agenda` | Desactiva solo el catálogo de la agenda |
 | `--only-channel=ESPN` | Revisa solo los canales que contengan ese texto |
 | `--limit=N` | Revisa solo las primeras N opciones |
 | `--file=data1.json` | Archivo objetivo |
@@ -130,7 +172,29 @@ se reconstruye la opción manteniendo el reproductor propio.
 
 ---
 
-## 7. `sources.json`
+## 7. `update-canales.mjs` (canales nuevos desde futbollibre)
+
+```bash
+node update-canales.mjs                 # simulación: informa qué agregaría
+node update-canales.mjs --apply         # escribe en data1.json
+node update-canales.mjs --apply --only-channel=ESPN --max-options=2
+```
+
+Hace el mismo recorrido que la agenda (buscar dominio → agenda → páginas de
+canal → URL real → verificar) pero para **agregar opciones nuevas** a los canales
+que ya existen en `data1.json`:
+
+* Solo agrega URLs **verificadas** (nunca mete un canal muerto).
+* No toca ni reordena las opciones existentes: inserta texto en el JSON
+  conservando el formato (CRLF, indentación) y no reserializa el archivo.
+* No duplica: si la URL ya estaba, la omite (por eso es idempotente).
+* Deja `canales-reporte.json` y salidas `changed` / `added_options` / `added_channels`.
+
+Corre en `.github/workflows/update-canales.yml` cada 6 horas.
+
+---
+
+## 8. `sources.json`
 
 Es el archivo que se edita para mantener la herramienta al día (sin tocar código):
 
@@ -148,11 +212,34 @@ Es el archivo que se edita para mantener la herramienta al día (sin tocar códi
     "espn": ["espn", "espn_hd", "espn1"],
     "tudn": ["tudn", "tudn_usa", "tudnmx"]
   },
-  "search": { "enabled": true, "maxQueries": 25, "engines": [ /* duckduckgo, bing */ ] },
+  "agenda": {
+    "enabled": true,
+    "priority": 0,                                  // 0 = se prueba antes que los proveedores
+    "domains": ["https://futbollibrefullhd.org"],   // semillas (opcional)
+    "paths": ["/", "/agenda"],
+    "apiPaths": ["/api/agenda?populate=deep"],      // Strapi, si el sitio lo expone
+    "discoverFromSearch": true,
+    "searchQueries": ["futbollibre agenda", "futbollibre canales en vivo"],
+    "hostPattern": "(futbol|pelota|agenda\\d*|rojadirecta|tarjeta)",
+    "maxDomains": 2,
+    "minNameScore": 0.75
+  },
+  "search": {
+    "enabled": true, "maxQueries": 30,
+    "engines": [
+      { "name": "google", "kind": "google", "url": "https://www.google.com/search?q={q}&num=20&hl=es" },
+      { "name": "bing", "kind": "bing", "url": "https://www.bing.com/search?q={q}&count=20" },
+      { "name": "duckduckgo-html", "kind": "duckduckgo", "url": "https://html.duckduckgo.com/html/?q={q}" }
+    ]
+  },
   "verification": { "timeoutMs": 12000, "deepStreamVerdict": "dead", "strictContent": false },
   "repair": { "enabled": true, "allowSiblingCopy": true, "minSlugScore": 0.55 }
 }
 ```
+
+Si el sitio de futbollibre cambia de estructura, basta con ajustar `paths`,
+`apiPaths` o `hostPattern`; si Google bloquea al runner, el orden de `engines`
+ya deja Bing y DuckDuckGo como respaldo.
 
 Para **agregar un proveedor nuevo** basta con saber su URL de canal y escribirla
 con `{slug}`:
@@ -166,12 +253,17 @@ con `{slug}`:
 
 ---
 
-## 8. Pruebas
+## 9. Pruebas
 
 `test/verify-urls.test.mjs` levanta un servidor HTTP local que simula páginas OK,
-404, errores con status 200, dominios parqueados, m3u8 válidos/ inválidos, 403,
-un buscador y un proveedor. Comprueba detección, reparación por proveedor, por
-búsqueda web, preservación de base64/CRLF, idempotencia y salidas para Actions.
+404, errores con status 200, dominios parqueados, m3u8 válidos/inválidos, 403,
+un buscador tipo Google, un proveedor y **un sitio tipo futbollibre** (portada con
+agenda, `/agenda`, páginas `/en-vivo/<slug>` y páginas de embed). Comprueba:
+detección de caídas, reparación desde la agenda (base64 y página de canal),
+prioridad de la agenda sobre los proveedores, emparejamiento de nombres
+(ESPN ≠ ESPN 2), reparación por proveedor y por búsqueda web, preservación de
+base64/CRLF, idempotencia de ambos scripts, cortafuegos sin internet y salidas
+para Actions.
 
 ```bash
 node test/verify-urls.test.mjs      # SHOW_OUT=1 para ver la salida del verificador

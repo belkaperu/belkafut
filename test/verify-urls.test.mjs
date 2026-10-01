@@ -41,6 +41,9 @@ const player = (extra = "") => `<!doctype html><html><body><div class="player">$
   <iframe src="/embed/live.php" allowfullscreen></iframe></div>
   <script src="hls.js"></script><p>${PAD}</p></body></html>`;
 
+const b64 = (s) => Buffer.from(s, "utf8").toString("base64");
+const LIVE_HOST = () => `http://127.0.0.1:${server.address()?.port ?? 0}`;
+
 const server = http.createServer((req, res) => {
   const u = new URL(req.url, "http://localhost");
   const p = u.pathname;
@@ -48,6 +51,68 @@ const server = http.createServer((req, res) => {
     res.writeHead(code, { "content-type": type });
     res.end(body);
   };
+
+  /* --- Sitio tipo futbollibre (agenda + páginas de canal) --- */
+  if (p === "/flibre/") {
+    // Portada: agenda del día (embeds con URL real en base64) + tarjetas de canal
+    return send(200, `<html><body>
+      <h2>Agenda - hoy</h2>
+      <a href="${LIVE_HOST()}/flibre/embed/eventos.html?r=${b64(`${LIVE_HOST()}/flibre/stream/1.php?stream=win-sports`)}"><img alt="Ver" src="i.png">Win Sports + | OP2</a>
+      <a href="${LIVE_HOST()}/flibre/embed/eventos.html?r=${b64(`${LIVE_HOST()}/flibre/lpg.php?stream=espn`)}"><img alt="Ver" src="i.png">ESPN | HD</a>
+      <h2>Canales deportivos</h2>
+      <h3>TUDN</h3><p>Señal mexicana</p>
+      <a href="${LIVE_HOST()}/flibre/en-vivo/tudn">Ver Canal</a>
+      <h3>TUDN 2</h3><p>Señal alterna</p>
+      <a href="${LIVE_HOST()}/flibre/en-vivo/tudn-2">Ver Canal</a>
+      <h3>ESPN 2</h3><p>Señal 2</p>
+      <a href="${LIVE_HOST()}/flibre/en-vivo/espn-2">Ver Canal</a>
+      </body></html>`);
+  }
+  if (p === "/flibre/agenda") {
+    return send(200, `<html><body>
+      <a href="${LIVE_HOST()}/flibre/embed/eventos.html?r=${b64(`${LIVE_HOST()}/flibre/stream/9.php?stream=win-sports`)}"><img alt="Ver">Win Sports + | OP3</a>
+      </body></html>`);
+  }
+  // Página de canal: aquí vive el reproductor real (los enlaces ya no son base64)
+  if (p === "/flibre/en-vivo/tudn") {
+    return send(200, `<html><body><div class="player">
+      <a href="${LIVE_HOST()}/flibre/stream/tudn.php?stream=tudn#">Reproductor</a>
+      <iframe src="${LIVE_HOST()}/flibre/embed/player.php"></iframe>
+      </div>${PAD}</body></html>`);
+  }
+  if (p === "/flibre/en-vivo/espn-2") {
+    return send(200, `<html><body><div class="player">
+      <a href="${LIVE_HOST()}/flibre/stream/5.php?stream=espn2#">Reproductor</a>
+      </div>${PAD}</body></html>`);
+  }
+  if (p === "/flibre/en-vivo/tudn-2") {
+    return send(200, `<html><body><div class="player">
+      <a href="${LIVE_HOST()}/flibre/stream/tudn2.php?stream=tudn2#">Reproductor</a>
+      </div>${PAD}</body></html>`);
+  }
+  if (p === "/flibre/stream/tudn2.php") {
+    return send(200, player("<video src='z.m3u8'></video>"));
+  }
+  if (p === "/flibre/stream/tudn.php" || p === "/flibre/stream/5.php" || p === "/flibre/stream/1.php") {
+    return send(200, player("<video src='x.m3u8'></video>"));
+  }
+  // El embed sirve un espejo distinto al del parámetro r=
+  if (p === "/flibre/embed/eventos.html") {
+    return send(200, player(`<a href="${LIVE_HOST()}/flibre/stream/6.php?stream=win-sports">Reproductor</a>`));
+  }
+  if (p === "/flibre/embed/player.php") return send(200, player("<video src='y.m3u8'></video>"));
+
+  /* --- Buscador tipo Google (enlaces /url?q=...) --- */
+  if (p === "/gsearch") {
+    const q = u.searchParams.get("q") || "";
+    const results = [];
+    if (/futbollibre/i.test(q)) results.push(`${LIVE_HOST()}/flibre/`);
+    else results.push(`${LIVE_HOST()}/web/player.php`);
+    const html = results
+      .map((r) => `<a href="/url?q=${encodeURIComponent(r)}&sa=U&ved=xyz">resultado</a>`)
+      .join("\n");
+    return send(200, `<html><body><div id="search">${html}</div></body></html>`);
+  }
 
   if (p === "/good/player.php") return send(200, player());
   if (p === "/repron.html") return send(200, player());
@@ -156,6 +221,21 @@ function buildFixtures(port) {
           url: `${P}/good/player.php?get=${Buffer.from(`${P}/m3u8/bad.m3u8`).toString("base64")}&key=abc`,
         }],
       },
+      {
+        // Solo se puede arreglar con la agenda (URL real dentro del ?r= en base64)
+        title: "WIN SPORTS",
+        options: [{ label: "WIN SPORTS HD", url: wrap(`${P}/dead/404.php?stream=winsports`) }],
+      },
+      {
+        // No está en la agenda: lo tiene que resolver un proveedor conocido
+        title: "FOX SPORTS",
+        options: [{ label: "FOX SPORTS HD", url: wrap(`${P}/dead/404.php?stream=foxsports`) }],
+      },
+      {
+        // Solo se puede arreglar entrando a la página de canal de la agenda
+        title: "TUDN 2",
+        options: [{ label: "TUDN 2 HD", url: wrap(`${P}/dead/404.php`) }],
+      },
     ],
   };
 
@@ -194,9 +274,48 @@ function buildFixtures(port) {
       skipHosts: ["youtube.com"],
       engines: [{ name: "mock", kind: "generic-links", url: `${P}/search?q={q}`, allowOwnHost: true }],
     },
+    agenda: {
+      enabled: true,
+      domains: [`${P}/flibre`],
+      paths: ["/", "/agenda"],
+      apiPaths: [],
+      discoverFromSearch: true,
+      searchQueries: ["futbollibre agenda"],
+      hostPattern: "127\\.0\\.0\\.1",
+      maxDomains: 2,
+      maxEntriesPerChannel: 4,
+      maxPagesPerEntry: 1,
+      minNameScore: 0.75,
+      cacheTtlMinutes: 0,
+    },
     repair: { enabled: true, allowSiblingCopy: true, maxCandidatesPerChannel: 30, minSlugScore: 0.55 },
   };
   fs.writeFileSync(path.join(FIX, "sources.test.json"), JSON.stringify(sources, null, 2));
+
+  // Config para update-canales.mjs (mismo sitio simulado)
+  const sourcesCanales = {
+    verification: {
+      timeoutMs: 5000, concurrency: 6, perHostConcurrency: 4, perHostDelayMs: 0,
+      minBodyBytes: 180, deadTextPatterns: ["no encontrada"],
+      playerMarkers: ["<iframe", "<video", ".m3u8", "player"],
+    },
+    search: {
+      enabled: true, maxQueries: 5, maxResultsPerQuery: 5, cacheTtlMinutes: 0,
+      skipHosts: ["youtube.com"],
+      engines: [{ name: "mock", kind: "generic-links", url: `${P}/search?q={q}`, allowOwnHost: true }],
+    },
+    agenda: {
+      domains: [`${P}/flibre`],
+      paths: ["/", "/agenda"],
+      apiPaths: [],
+      discoverFromSearch: true,
+      searchQueries: ["futbollibre agenda"],
+      hostPattern: "127\\.0\\.0\\.1",
+      maxDomains: 2,
+      maxPagesPerEntry: 1,
+    },
+  };
+  fs.writeFileSync(path.join(FIX, "sources.canales.test.json"), JSON.stringify(sourcesCanales, null, 2));
   return text;
 }
 
@@ -215,6 +334,23 @@ function runVerifier(extraArgs, env = {}, repoDir = REPO) {
       ...extraArgs,
     ];
     const child = spawn(process.execPath, args, { cwd: ROOT, env: { ...process.env, NO_COLOR: "1", ...env } });
+    let out = "", err = "";
+    child.stdout.on("data", (d) => { out += d; if (process.env.SHOW_OUT) process.stdout.write(d); });
+    child.stderr.on("data", (d) => { err += d; if (process.env.SHOW_OUT) process.stderr.write(d); });
+    child.on("close", (code) => resolve({ code, out, err }));
+  });
+}
+
+/** Ejecuta update-canales.mjs apuntando al mismo servidor simulado. */
+function runCanalesUpdater(extraArgs, repoDir) {
+  return new Promise((resolve) => {
+    const args = [
+      path.join(ROOT, "update-canales.mjs"),
+      `--file=${path.join(repoDir, "data1.json")}`,
+      `--sources=${path.join(FIX, "sources.canales.test.json")}`,
+      ...extraArgs,
+    ];
+    const child = spawn(process.execPath, args, { cwd: ROOT, env: { ...process.env, NO_COLOR: "1" } });
     let out = "", err = "";
     child.stdout.on("data", (d) => { out += d; if (process.env.SHOW_OUT) process.stdout.write(d); });
     child.stderr.on("data", (d) => { err += d; if (process.env.SHOW_OUT) process.stderr.write(d); });
@@ -277,8 +413,13 @@ async function main() {
   const fixOf = (canal, opcion) => repB.arreglos.find((a) => a.canal === canal && a.opcion === opcion);
   const espn404 = fixOf("ESPN", "ESPN 404");
   ok(!!espn404, "ESPN 404 fue arreglada");
-  ok(espn404?.url_nueva.includes("/prov/live1.php?stream=espn"), "usó el proveedor con el slug correcto", espn404?.url_nueva);
-  ok(espn404?.fuente.startsWith("proveedor:"), "marca la fuente del arreglo");
+  ok(espn404?.fuente.startsWith("agenda:"), "se arregló desde la agenda de futbollibre", espn404?.fuente);
+
+  // Canal que no está en la agenda -> debe caer al proveedor conocido
+  const fox = fixOf("FOX SPORTS", "FOX SPORTS HD");
+  ok(!!fox, "FOX SPORTS (no está en la agenda) se arregló por proveedor");
+  ok(fox?.url_nueva.includes("/prov/live1.php?stream=foxsports"), "usó el proveedor con el slug correcto", fox?.url_nueva);
+  ok(fox?.fuente.startsWith("proveedor:"), "marca la fuente del arreglo", fox?.fuente);
 
   const texto = fixOf("ESPN", "ESPN TEXTO");
   ok(!!texto, "página de error (status 200) fue arreglada");
@@ -289,7 +430,24 @@ async function main() {
   ok(!!raro && /\/web\/(embed|player)\.php/.test(raro.url_nueva), "extrajo el iframe real de la página encontrada", raro?.url_nueva);
 
   const tudn = fixOf("TUDN", "TUDN CAIDO");
-  ok(!!tudn, "TUDN CAIDO arreglado (proveedor o hermana)");
+  ok(!!tudn, "TUDN CAIDO arreglado (proveedor, agenda o hermana)");
+  ok(!!tudn && tudn.fuente.startsWith("agenda:"), "la agenda tiene prioridad sobre los proveedores", tudn?.fuente);
+
+  // Agenda: la URL real viene dentro del ?r= en base64 (portada)
+  const win = fixOf("WIN SPORTS", "WIN SPORTS HD");
+  ok(!!win, "arreglado desde la agenda de futbollibre");
+  ok(!!win && /\/flibre\/stream\/1\.php\?stream=win-sports/.test(win.url_nueva), "extrajo la URL real del ?r= en base64", win?.url_nueva);
+
+  // Agenda: página de canal (/en-vivo/<slug>) -> reproductor real
+  const tudn2 = fixOf("TUDN 2", "TUDN 2 HD");
+  ok(!!tudn2, "arreglado entrando a la página de canal de la agenda");
+  ok(!!tudn2 && /\/flibre\/stream\/tudn2\.php/.test(tudn2.url_nueva), "sacó el reproductor real de la página de canal", tudn2?.url_nueva);
+  ok(!!tudn2 && !/espn/.test(tudn2.url_nueva), "no confundió TUDN 2 con ESPN 2");
+
+  // La agenda se reporta en el JSON
+  ok(repB.agenda?.entradas > 0, `la agenda aportó entradas (${repB.agenda?.entradas})`);
+  ok(repB.agenda?.dominios?.length >= 1, "reporta el dominio de futbollibre usado", JSON.stringify(repB.agenda?.dominios));
+  ok(repB.agenda?.canales_consultados > 0, "reporta cuántos canales se consultaron en la agenda");
 
   const externo = fixOf("EXTERNO MUERTO", "WRAP EXTERNO");
   ok(!!externo, "capa externa muerta reemplazada por opción completa");
@@ -297,10 +455,13 @@ async function main() {
 
   // La URL interna de una opción arreglada debe conservar el envoltorio
   const espnOpt = dataAfter.canales.find((c) => c.title === "ESPN")?.options.find((o) => o.label === "ESPN 404");
-  ok(espnOpt?.url.startsWith("/p/foxrepro1.html?r=") && espnOpt.url.includes("/prov/live1.php?stream=espn"),
+  ok(espnOpt?.url.startsWith("/p/foxrepro1.html?r=") && espnOpt.url.includes("/repron.html?r=http"),
     "conserva la cadena de envoltorios al reemplazar la URL interna", espnOpt?.url);
+  const foxOpt = dataAfter.canales.find((c) => c.title === "FOX SPORTS")?.options[0];
+  ok(foxOpt?.url.startsWith("/p/foxrepro1.html?r=") && foxOpt.url.includes("/prov/live1.php?stream=foxsports"),
+    "conserva el envoltorio al arreglar por proveedor", foxOpt?.url);
 
-  ok(JSON.stringify(dataAfter).length > 0 && dataAfter.canales.length === 11, "el JSON sigue siendo válido y completo");
+  ok(JSON.stringify(dataAfter).length > 0 && dataAfter.canales.length === 14, "el JSON sigue siendo válido y completo");
 
   // Stream interno en base64: la página responde 200 pero el manifiesto está caído
   const b64fix = fixOf("B64 PLAYER", "B64 CAIDO");
@@ -362,6 +523,50 @@ async function main() {
   ok(repE.error === "sin_acceso_a_internet", "el reporte marca sin_acceso_a_internet", repE.error);
   ok(repE.resumen.arregladas === 0, "no propone arreglos sin poder verificar");
   ok(fs.readFileSync(path.join(repoB, "data1.json"), "utf8") === textB, "no modificó el archivo");
+
+  /* ---------- F) update-canales.mjs (workflow de canales) ---------- */
+  section("F) Actualizador de canales desde futbollibre");
+  const repoU = path.join(FIX, "repo-update");
+  fs.rmSync(repoU, { recursive: true, force: true });
+  fs.mkdirSync(repoU, { recursive: true });
+  const P2 = `http://127.0.0.1:${port}`;
+  const dataU = {
+    canales: [
+      { title: "TUDN", image: "", category: "deportes", options: [{ label: "vieja", url: `${P2}/dead/404.php` }] },
+      { title: "WIN SPORTS", image: "", category: "deportes", options: [{ label: "vieja", url: `${P2}/dead/404.php` }] },
+      { title: "CANAL SIN AGENDA", image: "", category: "x", options: [{ label: "x", url: `${P2}/good/player.php` }] },
+    ],
+  };
+  const textU = JSON.stringify(dataU, null, 2).replace(/\n/g, "\r\n");
+  fs.writeFileSync(path.join(repoU, "data1.json"), textU);
+
+  const U1 = await runCanalesUpdater([`--report=${path.join(OUT, "report-update.json")}`], repoU);
+  ok(U1.code === 0, "termina sin error", U1.err);
+  ok(fs.readFileSync(path.join(repoU, "data1.json"), "utf8") === textU, "en simulación no escribe");
+  const repU = readJson(path.join(OUT, "report-update.json"));
+  ok(repU.entradas_catalogo > 0, `leyó el catálogo (${repU.entradas_catalogo} entradas)`, JSON.stringify(repU.dominios));
+  ok(repU.opciones_agregadas >= 2, `propuso opciones verificadas (${repU.opciones_agregadas})`);
+  ok(repU.urls_verificadas_ok >= 2, "solo propone URLs que verifican");
+
+  const U2 = await runCanalesUpdater(["--apply", `--report=${path.join(OUT, "report-update2.json")}`], repoU);
+  ok(U2.code === 0, "aplica sin error", U2.err);
+  const afterU = fs.readFileSync(path.join(repoU, "data1.json"), "utf8");
+  ok(/\r\n/.test(afterU), "conserva CRLF");
+  const docU = JSON.parse(afterU);
+  const tudnU = docU.canales.find((c) => c.title === "TUDN");
+  ok(tudnU.options.length > 1, "agregó opciones nuevas al canal existente", JSON.stringify(tudnU.options));
+  ok(tudnU.options.some((o) => o.url.includes("/flibre/")), "la opción nueva apunta al stream de la agenda");
+  ok(tudnU.options[0].label === "vieja", "no toca las opciones existentes");
+  const sinAgenda = docU.canales.find((c) => c.title === "CANAL SIN AGENDA");
+  ok(sinAgenda.options.length === 1, "no inventa opciones para canales que no están en la agenda");
+  // Formato: fuera de las inserciones el archivo debe ser idéntico
+  const strippedA = textU.replace(/\r\n/g, "\n").split("\n").filter((l) => l.trim());
+  const strippedB = afterU.replace(/\r\n/g, "\n").split("\n").filter((l) => l.trim());
+  ok(strippedB.length > strippedA.length && strippedB.slice(0, 2).join() === strippedA.slice(0, 2).join(),
+    "inserta sin reescribir el resto del archivo");
+
+  const U3 = await runCanalesUpdater(["--apply", `--report=${path.join(OUT, "report-update3.json")}`], repoU);
+  ok(fs.readFileSync(path.join(repoU, "data1.json"), "utf8") === afterU, "segunda corrida: no duplica ni cambia nada");
 
   /* ---------- resumen ---------- */
   console.log(`\n\x1b[1mResultado: ${pass} OK, ${fail} fallos\x1b[0m`);

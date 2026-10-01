@@ -10,4 +10,4 @@ verificacion-reporte.md
 # Resultados de las pruebas locales (se generan al ejecutar el test)
 test/fixtures/out/
 test/fixtures/repo*/
-test/fixtures/sources.test.json
+test/fixtures/sources*.test.json

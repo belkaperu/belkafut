@@ -5,8 +5,9 @@
     "test": "node test/verify-urls.test.mjs",
     "verify:urls": "node verify-urls.mjs",
     "verify:urls:apply": "node verify-urls.mjs --apply --search",
-    "update:embeds": "node update-embeds.mjs",
-    "update:canales": "node update-canales.mjs"
+    "update:canales": "node update-canales.mjs",
+    "update:canales:apply": "node update-canales.mjs --apply",
+    "update:embeds": "node update-embeds.mjs"
   },
   "dependencies": {
     "axios": "^1.6.0",

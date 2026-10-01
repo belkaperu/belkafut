@@ -207,12 +207,13 @@
 
   "search": {
     "enabled": true,
-    "maxQueries": 25,
+    "maxQueries": 30,
     "maxResultsPerQuery": 8,
     "maxPagesToInspect": 4,
     "maxCandidatesPerQuery": 6,
     "cacheTtlMinutes": 720,
     "queryTemplates": [
+      "{title} futbollibre en vivo",
       "{title} en vivo ver online",
       "{title} en vivo"
     ],
@@ -224,10 +225,44 @@
       "sportsonline.si", "github.io"
     ],
     "engines": [
+      { "name": "google", "kind": "google", "url": "https://www.google.com/search?q={q}&num=20&hl=es&gl=pe" },
+      { "name": "bing", "kind": "bing", "url": "https://www.bing.com/search?q={q}&count=20&setlang=es" },
       { "name": "duckduckgo-html", "kind": "duckduckgo", "url": "https://html.duckduckgo.com/html/?q={q}" },
-      { "name": "duckduckgo-lite", "kind": "generic-links", "url": "https://lite.duckduckgo.com/lite/?q={q}" },
-      { "name": "bing", "kind": "bing", "url": "https://www.bing.com/search?q={q}&count=20&setlang=es" }
+      { "name": "duckduckgo-lite", "kind": "generic-links", "url": "https://lite.duckduckgo.com/lite/?q={q}" }
     ]
+  },
+
+  "agenda": {
+    "_doc": "Catálogo de futbollibre: se consulta ANTES que los proveedores cuando hay canales caídos. Busca el dominio (semillas + Google), entra a la agenda/portada, extrae los embeds (?r=<base64>) y de la página de cada canal saca la URL real del stream.",
+    "enabled": true,
+    "priority": 0,
+    "domains": [
+      "https://futbollibrefullhd.org",
+      "https://futbol-libre.pe",
+      "https://futbollibres.lat",
+      "https://futbollibretv.lat",
+      "https://futbollibrehd-tv.com",
+      "https://futbollibre.net",
+      "https://futbollibre.com"
+    ],
+    "paths": ["/", "/agenda"],
+    "apiPaths": [
+      "/api/agenda?populate=deep",
+      "/api/eventos?populate=deep",
+      "/api/diaries?populate=deep"
+    ],
+    "discoverFromSearch": true,
+    "searchQueries": [
+      "futbollibre agenda",
+      "futbollibre canales en vivo",
+      "futbollibre"
+    ],
+    "hostPattern": "(futbol|pelota|agenda\\d*|rojadirecta|tarjeta)",
+    "maxDomains": 2,
+    "maxEntriesPerChannel": 6,
+    "maxPagesPerEntry": 1,
+    "minNameScore": 0.75,
+    "cacheTtlMinutes": 240
   },
 
   "repair": {
