@@ -1,0 +1,25 @@
+name: Pruebas del verificador de URLs
+
+on:
+  push:
+    paths:
+      - "verify-urls.mjs"
+      - "sources.json"
+      - "test/**"
+      - ".github/workflows/test.yml"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Ejecutar pruebas (servidor simulado local)
+        run: node test/verify-urls.test.mjs
