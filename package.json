@@ -2,7 +2,7 @@
   "name": "belkafut",
   "private": true,
   "scripts": {
-    "test": "node test/verify-urls.test.mjs",
+    "test": "node test/verify-urls.test.mjs && node test/futbollibre-parse.test.mjs",
     "verify:urls": "node verify-urls.mjs",
     "verify:urls:apply": "node verify-urls.mjs --apply --search",
     "update:canales": "node update-canales.mjs",
