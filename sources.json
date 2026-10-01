@@ -1,0 +1,274 @@
+{
+  "_doc": "Configuracion de verify-urls.mjs: proveedores conocidos, alias de slugs, reglas de verificacion y busqueda web. Editar libremente; ver VERIFY-URLS.md",
+
+  "targets": {
+    "files": ["data1.json"],
+    "urlKeys": ["url"]
+  },
+
+  "verification": {
+    "timeoutMs": 12000,
+    "maxBodyBytes": 200000,
+    "minBodyBytes": 220,
+    "retries": 1,
+    "retryDelayMs": 800,
+    "concurrency": 10,
+    "perHostConcurrency": 2,
+    "perHostDelayMs": 250,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "extraHeaders": {
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "es-ES,es;q=0.9,en;q=0.8"
+    },
+    "blockedStatuses": [401, 403, 429, 451, 503],
+    "unverifiableHostThreshold": 4,
+    "ownHosts": ["belkaperu.github.io"],
+    "ownHostFallbackToLocalFiles": true,
+    "checkOwnHostOverHttp": true,
+    "localPageIndex": ["*.html", "*.htm", "*.PNG", "*.png", "*.json", "*.m3u"],
+    "m3u8MustStartWithExtm3u": true,
+    "strictContent": false,
+    "deepStreamVerdict": "dead",
+    "deadTextPatterns": [
+      "no encontrado",
+      "página no existe",
+      "pagina no existe",
+      "error 404",
+      "404 not found",
+      "not found",
+      "this page could not be found",
+      "domain for sale",
+      "this domain is for sale",
+      "buy this domain",
+      "dominio en venta",
+      "parked domain",
+      "domain parking",
+      "this domain is parked",
+      "sedoparking",
+      "account suspended",
+      "cuenta suspendida",
+      "website is currently unavailable",
+      "video no disponible",
+      "stream not found",
+      "streaming not found",
+      "lo sentimos, el video no",
+      "el canal no está disponible",
+      "canal no disponible",
+      "no signal",
+      "señal no disponible",
+      "channel not available",
+      "content unavailable",
+      "este sitio web no está disponible",
+      "la página que buscas no existe"
+    ],
+    "playerMarkers": [
+      "<iframe",
+      "<video",
+      "<source",
+      "file:",
+      "source:",
+      ".m3u8",
+      "m3u8",
+      "jwplayer",
+      "clappr",
+      "videojs",
+      "hls.js",
+      "hlsjs",
+      "dash.js",
+      "shaka",
+      "player",
+      "embed",
+      "reproductor"
+    ],
+    "hostOverrides": {
+      "embed.saohgdasregions.fun": {
+        "playerMarkers": ["<iframe", "embed2", "m3u8", "file:", "player", "embed"]
+      }
+    }
+  },
+
+  "providers": [
+    {
+      "id": "streamxhd",
+      "label": "StreamXHD",
+      "hosts": ["streamxhd.com", "streamx-hd.com", "streamhdx.com"],
+      "templates": [
+        "https://streamxhd.com/live1.php?stream={slug}",
+        "https://streamx-hd.com/live1.php?stream={slug}",
+        "https://streamhdx.com/live1.php?stream={slug}"
+      ],
+      "kind": "page"
+    },
+    {
+      "id": "la18hd",
+      "label": "La18HD",
+      "hosts": ["la18hd.su", "la20hd.com", "la18hd.com"],
+      "templates": [
+        "https://la18hd.su/vivo/canal.php?stream={slug}",
+        "https://la18hd.su/vivo/canales.php?stream={slug}",
+        "https://la20hd.com/vivo/canal.php?stream={slug}"
+      ],
+      "kind": "page"
+    },
+    {
+      "id": "embedfun",
+      "label": "Embed (embed.*)",
+      "hosts": ["embed.saohgdasregions.fun"],
+      "templates": [
+        "https://embed.saohgdasregions.fun/embed2/{slug}.php"
+      ],
+      "kind": "page"
+    },
+    {
+      "id": "streamtp",
+      "label": "StreamTP",
+      "hosts": ["streamtp1.com", "streamx996.one", "tvtvpl.com"],
+      "templates": [
+        "https://streamtp1.com/global1.php?channel={slug}",
+        "https://streamx996.one/global1.php?channel={slug}",
+        "https://streamx996.one/global1.php?stream={slug}"
+      ],
+      "kind": "page"
+    },
+    {
+      "id": "sportsonline",
+      "label": "SportsOnline",
+      "hosts": ["sportsonline.si", "v2.sportsonline.si"],
+      "templates": [
+        "https://v2.sportsonline.si/channels/hd/hd{slug}.php",
+        "https://sportsonline.si/channels/hd/hd{slug}.php"
+      ],
+      "kind": "page"
+    },
+    {
+      "id": "jac-tv",
+      "label": "JacTV",
+      "hosts": ["jac-tv.com"],
+      "templates": ["https://jac-tv.com/embed/{slug}.php"],
+      "kind": "page"
+    },
+    {
+      "id": "megadeportes",
+      "label": "MegaDeportes",
+      "hosts": ["megadeportes.xyz"],
+      "templates": ["https://megadeportes.xyz/embed/{slug}.php"],
+      "kind": "page"
+    },
+    {
+      "id": "github-players",
+      "label": "Reproductores GitHub Pages",
+      "hosts": ["alilus.github.io", "dodousd.github.io"],
+      "templates": [
+        "https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?channel={slug}",
+        "https://dodousd.github.io/stylas/canalplayerid2?channel={slug}"
+      ],
+      "kind": "page"
+    }
+  ],
+
+  "slugAliases": {
+    "espn": ["espn", "espn_hd", "espn1"],
+    "espn 2": ["espn2", "espn_2"],
+    "espn 3": ["espn3"],
+    "espn 4": ["espn4", "espn_extra", "espnextra"],
+    "espn premium": ["espnpremium", "espnpremiumlat", "espn_premium"],
+    "espn deportes": ["espndeportes", "espn_deportes"],
+    "fox sports": ["foxsports", "fox_sports"],
+    "fox sports 2": ["foxsports2", "fox_sports_2"],
+    "fox sports 3": ["foxsports3", "fox_sports_3"],
+    "fox sports premium": ["foxsportspremium", "fox_sports_premium"],
+    "fox deportes": ["foxdeportes", "fox_deportes", "fox_deportes_usa"],
+    "fox sports mexico": ["foxsportsmexico", "foxsportsmex", "fox_sports_mexico"],
+    "tudn": ["tudn", "tudn_usa", "tudnmx"],
+    "tnt sports": ["tntsports", "tnt_sports"],
+    "tyc sports": ["tycsports", "tyc_sports"],
+    "directv sports": ["directvsports", "directv_sports"],
+    "directv sports plus": ["directvsportsplus", "directv_sports_plus"],
+    "goltv": ["goltv", "goltvusa", "gol_tv"],
+    "dazn 1": ["dazn1", "dazn_1"],
+    "dazn 2": ["dazn2", "dazn_2"],
+    "liga 1 max": ["liga1max", "liga_1_max", "liga1maxpe"],
+    "movistar deportes": ["movistardeportes", "movistar_deportes"],
+    "movistar laliga": ["movistarlaliga", "movistar_laliga"],
+    "caracol": ["caracol", "caracoltv"],
+    "discovery tlc": ["discoverytlc", "tlc", "discovery_tlc"],
+    "star channel": ["starchannel", "star_channel"],
+    "win sports": ["winsports", "win_sports", "winsportsplus"],
+    "el canal del futbol": ["elcanaldelfutbol", "ecdf", "ecdf_ligapro"]
+  },
+
+  "slugPatterns": [
+    "{base}",
+    "{base}_hd",
+    "{base}hd",
+    "{base}_1",
+    "{base}1"
+  ],
+
+  "search": {
+    "enabled": true,
+    "maxQueries": 30,
+    "maxResultsPerQuery": 8,
+    "maxPagesToInspect": 4,
+    "maxCandidatesPerQuery": 6,
+    "cacheTtlMinutes": 720,
+    "queryTemplates": [
+      "{title} futbollibre en vivo",
+      "{title} en vivo ver online",
+      "{title} en vivo"
+    ],
+    "extraTerms": ["en vivo", "hd"],
+    "skipHosts": [
+      "google.com", "bing.com", "duckduckgo.com", "youtube.com", "facebook.com",
+      "twitter.com", "x.com", "instagram.com", "tiktok.com", "wikipedia.org",
+      "reddit.com", "mercadolibre.com", "blogspot.com", "blogger.com",
+      "sportsonline.si", "github.io"
+    ],
+    "engines": [
+      { "name": "google", "kind": "google", "url": "https://www.google.com/search?q={q}&num=20&hl=es&gl=pe" },
+      { "name": "bing", "kind": "bing", "url": "https://www.bing.com/search?q={q}&count=20&setlang=es" },
+      { "name": "duckduckgo-html", "kind": "duckduckgo", "url": "https://html.duckduckgo.com/html/?q={q}" },
+      { "name": "duckduckgo-lite", "kind": "generic-links", "url": "https://lite.duckduckgo.com/lite/?q={q}" }
+    ]
+  },
+
+  "agenda": {
+    "_doc": "Catálogo de futbollibre: se consulta ANTES que los proveedores cuando hay canales caídos. Busca el dominio (semillas + Google), entra a la agenda/portada, extrae los embeds (?r=<base64>) y de la página de cada canal saca la URL real del stream.",
+    "enabled": true,
+    "priority": 0,
+    "domains": [
+      "https://futbollibrefullhd.org",
+      "https://futbol-libre.pe",
+      "https://futbollibres.lat",
+      "https://futbollibretv.lat",
+      "https://futbollibrehd-tv.com",
+      "https://futbollibre.net",
+      "https://futbollibre.com"
+    ],
+    "paths": ["/", "/agenda"],
+    "apiPaths": [
+      "/api/agenda?populate=deep",
+      "/api/eventos?populate=deep",
+      "/api/diaries?populate=deep"
+    ],
+    "discoverFromSearch": true,
+    "searchQueries": [
+      "futbollibre agenda",
+      "futbollibre canales en vivo",
+      "futbollibre"
+    ],
+    "hostPattern": "(futbol|pelota|agenda\\d*|rojadirecta|tarjeta)",
+    "maxDomains": 2,
+    "maxEntriesPerChannel": 6,
+    "maxPagesPerEntry": 1,
+    "minNameScore": 0.75,
+    "cacheTtlMinutes": 240
+  },
+
+  "repair": {
+    "enabled": true,
+    "allowSiblingCopy": true,
+    "maxCandidatesPerChannel": 40,
+    "minSlugScore": 0.55
+  }
+}

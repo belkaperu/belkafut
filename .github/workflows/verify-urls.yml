@@ -1,0 +1,113 @@
+name: Verificar y arreglar URLs de canales
+
+# Revisa data1.json: comprueba que cada URL funcione de verdad (status + contenido)
+# y reemplaza las caídas por alternativas verificadas (proveedores conocidos,
+# otras opciones del mismo canal o búsqueda web).
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"   # cada 6 horas (desfasado de los otros workflows)
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Aplicar los arreglos a data1.json"
+        type: boolean
+        default: true
+      search:
+        description: "Buscar en internet (agenda de futbollibre + Google/Bing)"
+        type: boolean
+        default: true
+      only_channel:
+        description: "Revisar solo un canal (por ejemplo: ESPN). Vacío = todos"
+        type: string
+        default: ""
+      limit:
+        description: "Máximo de opciones a revisar (0 = todas)"
+        type: string
+        default: "0"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: verify-urls
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Revisar pruebas del verificador
+        run: node test/verify-urls.test.mjs
+
+      - name: Verificar URLs y arreglar caídas
+        id: verify
+        env:
+          APPLY: ${{ github.event_name != 'workflow_dispatch' || inputs.apply }}
+          SEARCH: ${{ github.event_name != 'workflow_dispatch' || inputs.search }}
+          ONLY_CHANNEL: ${{ github.event_name == 'workflow_dispatch' && inputs.only_channel || '' }}
+          LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.limit || '0' }}
+        run: |
+          set -u
+          ARGS="--report=verificacion-reporte"
+          if [ "${APPLY}" = "true" ]; then ARGS="$ARGS --apply"; fi
+          if [ "${SEARCH}" != "true" ]; then ARGS="$ARGS --no-search"; fi
+          if [ -n "${ONLY_CHANNEL}" ]; then ARGS="$ARGS --only-channel=${ONLY_CHANNEL}"; fi
+          if [ -n "${LIMIT}" ] && [ "${LIMIT}" != "0" ]; then ARGS="$ARGS --limit=${LIMIT}"; fi
+
+          set +e
+          # shellcheck disable=SC2086
+          node verify-urls.mjs $ARGS
+          CODE=$?
+          set -e
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+
+          # 0 = todo bien · 3 = sin acceso a internet (no se tocó nada)
+          if [ "$CODE" -eq 0 ] || [ "$CODE" -eq 3 ]; then exit 0; fi
+          exit "$CODE"
+
+      - name: Commit de los arreglos
+        if: steps.verify.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data1.json
+          git commit -m "chore: arreglar URLs caídas (${{ steps.verify.outputs.fixed }} arregladas)"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push
+
+      - name: Guardar reporte
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verificacion-reporte
+          path: |
+            verificacion-reporte.json
+            verificacion-reporte.md
+          if-no-files-found: ignore
+
+      - name: Avisar en un issue si quedan canales rotos
+        if: always() && steps.verify.outputs.unfixed != '0' && steps.verify.outputs.unfixed != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          TITLE="🚨 Canales con URLs caídas (sin arreglo automático)"
+          BODY="$(cat verificacion-reporte.md 2>/dev/null || echo 'Ver el artifact verificacion-reporte')"
+          NUM=$(gh issue list --label urls-rotas --state open --limit 1 --json number --jq '.[0].number // empty' || true)
+          if [ -n "$NUM" ]; then
+            printf '%s\n\n---\n\n%s\n' "Actualizado el $(date -u '+%Y-%m-%d %H:%M UTC')" "$BODY" | gh issue comment "$NUM" --body-file -
+          else
+            gh label create urls-rotas --color FBCA04 --description "Canales con URLs caídas" 2>/dev/null || true
+            printf '%s\n\n%s\n' "Generado automáticamente por verify-urls.yml" "$BODY" | gh issue create --title "$TITLE" --label urls-rotas --body-file -
+          fi

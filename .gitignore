@@ -1,0 +1,13 @@
+node_modules/
+
+# Caché de búsquedas de verify-urls.mjs (se regenera solo)
+.verify-cache.json
+
+# Reportes de verificación (se suben como artifact en Actions)
+verificacion-reporte.json
+verificacion-reporte.md
+
+# Resultados de las pruebas locales (se generan al ejecutar el test)
+test/fixtures/out/
+test/fixtures/repo*/
+test/fixtures/sources*.test.json

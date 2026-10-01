@@ -1,15 +1,38 @@
-name: Update channels from sources
+name: Actualizar canales desde futbollibre
+
+# Busca el dominio vivo de futbollibre (Google/Bing/DuckDuckGo + semillas de
+# sources.json), entra a su agenda y a las páginas de canal, extrae la URL real
+# del stream, la verifica y la agrega a data1.json solo si responde.
+
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "15 */6 * * *"   # cada 6 horas, desfasado de los otros workflows
   workflow_dispatch:
+    inputs:
+      apply:
+        description: "Escribir los cambios en data1.json"
+        type: boolean
+        default: true
+      only_channel:
+        description: "Procesar solo un canal (ej. ESPN). Vacío = todos"
+        type: string
+        default: ""
+      max_options:
+        description: "Máximo de opciones nuevas por canal"
+        type: string
+        default: "3"
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-canales
+  cancel-in-progress: false
+
 jobs:
   update-channels:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,18 +42,39 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install dependencies
-        run: npm install axios cheerio
+      # El script no usa dependencias: no hace falta npm install.
 
-      - name: Run channel scraper
-        run: node update-canales.mjs
+      - name: Pruebas del verificador
+        run: node test/verify-urls.test.mjs
+
+      - name: Buscar canales en futbollibre
+        id: updater
         env:
-          BASE_URL: https://embed.saohgdasregions.fun/
+          APPLY: ${{ github.event_name != 'workflow_dispatch' || inputs.apply }}
+          ONLY_CHANNEL: ${{ github.event_name == 'workflow_dispatch' && inputs.only_channel || '' }}
+          MAX_OPTIONS: ${{ github.event_name == 'workflow_dispatch' && inputs.max_options || '3' }}
+        run: |
+          set -u
+          ARGS="--report=canales-reporte --max-options=${MAX_OPTIONS}"
+          if [ "${APPLY}" = "true" ]; then ARGS="$ARGS --apply"; fi
+          if [ -n "${ONLY_CHANNEL}" ]; then ARGS="$ARGS --only-channel=${ONLY_CHANNEL}"; fi
+          # shellcheck disable=SC2086
+          node update-canales.mjs $ARGS
 
-      - name: Commit changes
+      - name: Commit de los canales nuevos
+        if: steps.updater.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data1.json
-          git commit -m "chore: update channels from sources" || echo "No changes"
+          git add -- data1.json
+          git commit -m "chore: agregar opciones desde futbollibre (${{ steps.updater.outputs.added_options }})"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push
+
+      - name: Guardar reporte
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: canales-reporte
+          path: canales-reporte.json
+          if-no-files-found: ignore
