@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "verify-urls.mjs"
+      - "update-canales.mjs"
+      - "lib/**"
       - "sources.json"
       - "test/**"
       - ".github/workflows/test.yml"
@@ -21,5 +23,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Ejecutar pruebas (servidor simulado local)
+      - name: Pruebas del verificador (servidor simulado local)
         run: node test/verify-urls.test.mjs
+      - name: Pruebas del parser con markup real de futbollibre
+        run: node test/futbollibre-parse.test.mjs
