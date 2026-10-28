@@ -2,7 +2,7 @@
   "canales": [
     {
       "title": "ESPN",
-      "image": "https://espnpressroom.com/us/files/2023/08/ESPN_RED2-2.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-8.webp",
       "category": "general",
       "options": [
         {
@@ -53,7 +53,7 @@
     },
     {
       "title": "ESPN 2",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhlo8xUKeiHN1pAW-F-12xWVWnL_CVG9t0ynWAIneSfQeIle8yYomzyc2SGZ89XKkGYJ3GWLhJwV1FcSJ4TFY3EztVazm8TyRaZxBML43XxwtqNm5chu-3oMEj6v8W3S2gK2wg2V0NgM/s1600/espn2.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-2-2.webp",
       "category": "general",
       "options": [
         {
@@ -104,7 +104,7 @@
     },
     {
       "title": "ESPN 3",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiou7Y2IkpdushU89uLtColXEv-WuPEYZv6uK2uyYji5Zsl-ll8-uFMQ5uNTuwFdLqHB6JagxOIC50Dind_Gy4YjtFOLtS26QGNt3uI1jeL0vWRv6wDUNolMZKjAEhRxLmD13h-1r7nhUE/s1600/espn3.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-3-2.webp",
       "category": "general",
       "options": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "title": "ESPN 4.5,6,7",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYhFb3LN6WxGGGnHl4b3nnKq7K_vspKmEAozjXPMCJjTPOIuvfCzCKkFAkwHsGM_oCszF7-IqSJCOPhRUxj0BJKPBT7Ge0TxLaqMa1s7Lkqo5tngHRJcHSAzGtneLuXZAv7xd7pvK8To4/h120/ESPN-logo_220.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-4-5-6-7.jpg",
       "category": "general",
       "options": [
         {
@@ -226,7 +226,7 @@
     },
     {
       "title": "ESPN DEPORTES",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidqlgoL9wuNOIKhmPBNkejsH_XdVLfwxr64lpNzFj6qydnhYFeqMiWYWrb2HN3je6igCvKHNM6gGILRJeuxykdoG7dFkSxbqBbDkfaxhkBXXN96-toP-axODNBf5bLGzaROxyzZZ7JKUw/h120/espn-deportes.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-deportes.jpg",
       "category": "general",
       "options": [
         {
@@ -241,7 +241,7 @@
     },
     {
       "title": "ESPN PREMIUM",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkbRnkJQeQElm3yDyqAcXvyEKPpT1iFO3-kBQG9Sw8sL9Pj3vE1eP6mcn7QsEqkR3LRtdHeLdai4oEtfm0zQa8x7JmG7UmYH_njF4fSW4vxwMlw9JqWXT0ibV2ceJVKrdMw6EnJr2Dx7f90AuQaWrgC1szFh1rSgjaOkhLiyx9Rs9oE6xprB3c2l0R/s1600/espnpremium.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-premium-2.webp",
       "category": "general",
       "options": [
         {
@@ -260,7 +260,7 @@
     },
     {
       "title": "FOX SPORTS",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinKpJEDyd9Imhsxkwkya1Q0-DL1GKs1dJNW_CyD4G-3V8l_1XaAkyEFOFhyphenhyphenEj6Iw1H6Pas4R5buTvx9Tw-qUeMZK3pYakrZWT8b2Bqnspwo_0Cvpo0lPW8WQVUiiIM8QMT1yJ7vhIz49Y/h120/Fox_Sports.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-4.webp",
       "category": "general",
       "options": [
         {
@@ -287,14 +287,14 @@
     },
     {
       "title": "FOX SPORTS 2 ar",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi13WTvt-hhrsaZCcGlwo33BycpcRuIE-_bL4xAnKLQVItMbloqJfnte4PQOi4q_9Lv7mbgz_1cxmH5uaVjxVTPM6JQT2j9Qa_0oRnlxoEHOIom5iJjCeu7kaWBO_IBJE0tdUSMhPNup3o/h120/Fox_Sports_2.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-2-ar.png",
       "category": "general",
       "options": [
         {
           "label": "FOX SPORTS 2 HD GLOBAL",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://streamxhd.com/live1.php?stream=fox2ar"
         },
-		    {
+        {
           "label": "Fox Sports 2 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports2.php"
         },
@@ -314,7 +314,7 @@
     },
     {
       "title": "FOX SPORTS 3 ar",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2cAo_c6e9id6o8-cu0dqPDQlsBfUN87msPYeg98GaNXNmHoWzZdWBUJWIdAUEjTdaCFz0cOZZFOeB7I7jyR9OO0IXUJY3YueaLXeCvaZqJc03QbZ-aiD4Zxs44YpzS4xz0UZBGBo_j-s/h120/Fox_Sports_3.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-3-ar.png",
       "category": "general",
       "options": [
         {
@@ -325,7 +325,6 @@
           "label": "FOX SPORTS 3 HD GLOBAL2",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://la18hd.su/vivo/canal.php?stream=foxsports3"
         },
-    
         {
           "label": "Fox Sports 3 HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports3.php"
@@ -342,7 +341,7 @@
     },
     {
       "title": "FOX SPORTS mex",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4q7lohqnDxcelhGeHTbqd46cj5ZA0FeQvOKBRWTJRy_Mp6q4AiTygHwTn5-WSiZX-qBdLXSSISEcoVPcklxxEDZD2_yWizpvOPqf3A4jXI7Oc2Bc87m0FM_33Y21mslDvkbKX9bKIAcY/h120/foxsportsmexico.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-mex.png",
       "category": "general",
       "options": [
         {
@@ -397,7 +396,7 @@
     },
     {
       "title": "Foxdeportes",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO-cIdDN8tJzusrqpZEwLDgZxUs2LkDf_2nELrED4R8EQrW3QQka_SoVQBr9x3ZPTF2Q9wlYSkbAd1zzCGqCznBHyOnfTLmVKqfWLt7InQfbqDNaWuTIsv-MAR9-4hh3jzPG8d5WHE-NA/h120/Untitled+1.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/foxdeportes.png",
       "category": "general",
       "options": [
         {
@@ -420,7 +419,7 @@
     },
     {
       "title": "Fox PREMIUM",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGpXhv6ygY-Oq7QSGGgulvyEdCWPgbnnQ5lwW8C2RqNvH6TeWDTLjcZn3j3V-CxHIUIeiOybmCb_J98QHcYwqFGKTnhvfD6wxn3M9tnCjRLmiyT0BEnFgGmDHP8e97bTFUx7Z2u7vokkY/h120/fxprime.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-premium.png",
       "category": "general",
       "options": [
         {
@@ -443,7 +442,7 @@
     },
     {
       "title": "foxusa1",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/1280px-2015_Fox_Sports_1_logo.svg.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/foxusa1.png",
       "category": "deportes",
       "options": [
         {
@@ -454,7 +453,7 @@
     },
     {
       "title": "FS2",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/1280px-FS2_logo_2015.svg.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fs2.png",
       "category": "deportes",
       "options": [
         {
@@ -469,7 +468,7 @@
     },
     {
       "title": "ECDF",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFeAu42t3MlafgQKKCFNRoiELhMLXsw57A517r8TEzdnut7y0O6rfwKleoGszPqXIM9lL3yj1AuRxoXrmq4Fca1FWEBJLfy0JWdfV7-ZjvvSWyqiceeNH15p_0fsJdH2TdCMy-35G67jk/h120/ECDF.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/ecdf.png",
       "category": "deportes",
       "options": [
         {
@@ -480,7 +479,7 @@
     },
     {
       "title": "Zapping EC",
-      "image": "https://images.seeklogo.com/logo-png/64/3/zapping-logo-png_seeklogo-641524.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/zapping-ec.png",
       "category": "all",
       "options": [
         {
@@ -491,7 +490,7 @@
     },
     {
       "title": "NBA",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPzfMUd5_NH2-NpgbXfPFh6kk_2vA63g6g-DpleDSbJKUflC2Hayq7LjfdxZ7kjGrmBc1U8R1zfI5vLR47XuDp4nDFJDgJVYc0NI7ji22yBMWfwYDaxpLxqzEf5iyhwvVbVEmbxFCJQVY/h120/nba.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nba.png",
       "category": "all",
       "options": [
         {
@@ -506,7 +505,7 @@
     },
     {
       "title": "GOLtv",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTUc6WQnfPXekvea97iAQ_gp4YBdnG8_9cE7qPtlCIU2pSrCx4XnlJkJf7pzWBHszHhdTMdN0kCPo4z2jQROCEFvlXaoaGH9-2MqsL7DSR7aYwyr0QgdREum5PdFaj1K6wz3RBJxfg0ac/s1600/goltv.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/goltv.jpg",
       "category": "general",
       "options": [
         {
@@ -525,7 +524,7 @@
     },
     {
       "title": "MOVISTAR DEPORTES",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFF8jKpTRlI0DLP9YJbNGN7vn7KqxO4T_E0oJJDAGA7lmqgMGjR5A3yalfEZlv-A_clwJrW3eJwHvlk_xkOxIl1vaQmBUr3Ex_kwFZrlyErHWP-5XkXt-eVKABwY380UkfezD3RGwSfH4/s1600/movistardeportes.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/movistar-deportes.jpg",
       "category": "general",
       "options": [
         {
@@ -564,7 +563,7 @@
     },
     {
       "title": "GOLPERU",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjntCIE91XgZITBJ0p25iV44wOp9C65QO2oeJSaY7uKVnJXhdYxvludxIstsefI6EuiD4Zva7TxyfxzOmuWqwx2Q6hCLYw4PTDCZ_ErkssEI1QAF5wDj8gMMY4HGBUHj6gVhTyClu4AstI/s1600/golperu.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golperu.jpg",
       "category": "general",
       "options": [
         {
@@ -587,7 +586,7 @@
     },
     {
       "title": "liga 1max",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiAvbkd_qE_cqpbfX3GU59i5BqwTJZ398jZp0EZnHgad7PtCJiRBiK_z9Oicpr-zvr8B-t6RZPeD1By7X1uuSzudHMj2jlMWlUFciCg4x-wzO0nNyP466Fwq4_RlCl-1OeyNwShfTxlKtzW5UxE9uCGdvW_aj2vyE7VwdqipOAO9ses-RTrNMEP2LG/s1600/liga1max.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/liga-1max.jpg",
       "category": "general",
       "options": [
         {
@@ -622,7 +621,7 @@
     },
     {
       "title": "TNT SPORTS ",
-      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhfENuRRd0Bb7rQX_1lDevi9qUs9k062nkgi4q5MDdeDeyc6LcqjxBENGF3xSrU-Y7zjtwEPiV7IQdW-VsnQvIvS5hXRPfzZoh5r4_z9b4JZfmnlVvAIcAt0W2uGErolMHvYyMPzYkUlDfQmw2nfcCVyqDpk9rqzYgGSd-Dwo61lgOMjYANJEk-N2Vu",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-sports.webp",
       "category": "general",
       "options": [
         {
@@ -645,7 +644,7 @@
     },
     {
       "title": "TNT SPORTS chile",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWMldEg04Nj6Ddw8JGqr3bWi1FRdWOCyL5zrKw7kG94SqfLRkidetVp8qqBPKBhAmZ6WFytJxS6iLfDOjBPczVP0X309dCZNaALIUIB0BTTHvLQmecPYMFE_8-tkSFnkivwX3kMzCzO0E/h120/TNTCHILE.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-sports-chile.png",
       "category": "general",
       "options": [
         {
@@ -668,7 +667,7 @@
     },
     {
       "title": "directvsportsMotor",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVN2bhhyphenhyphenpz926BJt3xgh_B17Tfup-QSsopJWmCFtxown_dKXM0U9Z3jd79DL4_794CLYA6nce0xD8fhTinxSvbaN6_nQWWkHYzN39AD0zb3-KuQaV5WCOeep8Q20IWHglnyTQfSC6sMKw/h120/dsportsmotor.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/directvsportsmotor.jpg",
       "category": "all",
       "options": [
         {
@@ -683,7 +682,7 @@
     },
     {
       "title": "DSPORTS",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWuoNfMv3luOCLV7NrMmUtAtsXHZ69G9PKAjNSsk_WnVE3EK1DB9qTuQx4oFdx1NL4HC3PYk9HL39sIMVrxEgxevy8HiKa5cA3LR3tuA_GzvuHUoRiGVJL09OdL7xUr8IIelnI-nIIfa0/h120/DSports.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dsports.png",
       "category": "general",
       "options": [
         {
@@ -714,7 +713,7 @@
     },
     {
       "title": "DSPORTS 2",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6U5x-PjIOTDxU97nFPPKPiUZ0MndV0dOG3GMMlqVH_T-n_53gdx_Ru56lgxYt2vuWOiW11_aWl6SYvraIoyfCIiYlSLW0dRU4-nKxE5QR3siGmm45YFW_xX5N9lxcD6jHDG_4H5bQTY8/h120/DSports_2.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dsports-2.png",
       "category": "general",
       "options": [
         {
@@ -741,7 +740,7 @@
     },
     {
       "title": "DSPORTS PLUS",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDKxUDV6VhktYdDfOvyd4FZihQVARLppCvjEk47jkLUY7gwXOnC7vXJIPEJ7fFkhlCTDr-YWNsR-RI4sSCp9DPLNBjjsEUZlPhiJ6vA_XOlQsknfvAQFwcHoXjGlTuus7i1a0uH1f3i-U/h120/DSports_Plus.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dsports-plus.png",
       "category": "general",
       "options": [
         {
@@ -787,7 +786,7 @@
     },
     {
       "title": "TYC SPORTS",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEqFtkQkGN_GDQVV36x738QL9aRC1K-TTPBjVBSZD8rheQr2NmTGJxH3-x1sHggCLqyLroqzT_vV0VCj9aTqprqdJUqlMwOBhUi5e8EkqObe-3GKZTCnNDNPemloixUs5jwFhUh9caAw8/s1600/tyc.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tyc-sports-2.webp",
       "category": "general",
       "options": [
         {
@@ -818,7 +817,7 @@
     },
     {
       "title": "tvpublica",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEdXQ7E1Y9zYg-PAN0X-tUQ-bUasywvBFL56tOHrKNHDFwe9twQRchvNHNfpQCPevN6q5XEcMXBZCEdLau6eNped9joesJ8WRvNYi_ez-kujLAGEO1qbps0FpuuTWAa6Ky35zHGNPsTUw/s0/tvpublica.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tvpublica.jpg",
       "category": "general",
       "options": [
         {
@@ -841,7 +840,7 @@
     },
     {
       "title": "deportv",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkMnJYWipuIGqIyc2kvEWyxY1rqPkYb-I4gXzeHjXnhvHqvzllN14S2Zk90de0pPv_DjaJ2VN5iHw_wuwDj2MaxogpknQukCd7q-VGjK8tW29pZMHLOecIBoLQLMP-U080YwmF_hYIqtw/h120/DeporTV.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/deportv.png",
       "category": "all",
       "options": [
         {
@@ -852,7 +851,7 @@
     },
     {
       "title": "TUDN",
-      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhQ3A3aYm-qseXPXrRtCqMn_q86OqBCKuw7CsrMllnESMrn51egzJ2DeK2tlshsKoh1k-VA7eqwQoe6ogcIBminIfqaUd4dVWlpkTpGmnGOs1vEwGEL3FFHdMSM2eEmTo-jMgKTHJwdQgEWYH7isGY8uuuPWNwGvclUnKUD8uMbW75BqbTMQjQaq1qb",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tudn-2.webp",
       "category": "general",
       "options": [
         {
@@ -895,7 +894,7 @@
     },
     {
       "title": "azteca7",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQjdHzb-KvRNZDXTkbI-F1cDCyLhnICGBTbhMsYHD90pJozTDQtlmwnBTQBVpvHDyKNclfaYwqoujjWqRaptFOlTK1ftxx-hwZnkEvOpRXx63x_VFISd3VyTC-cp2mTez2eqEFvriUSbg/h120/azteca7.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/azteca7.png",
       "category": "general",
       "options": [
         {
@@ -922,7 +921,7 @@
     },
     {
       "title": "canal5mx",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF3YBg5nRFiObvHUDGzuNzd4llUAbRtM5xS41tO3VrHQS7-Rn_y4EApcUHmEBhHpKL6QMQC0fkwln-2sz_DfUsiHjwUIyJL8piyTi7nQ0KMM4u-aV_9HwqV4qWqTx4-XwLb3uHiMFcdFA/h120/canal5.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/canal5mx.png",
       "category": "general",
       "options": [
         {
@@ -949,7 +948,7 @@
     },
     {
       "title": "CLARO",
-      "image": "https://gainblers.com/imagenes/casas/caliente/caliente.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/claro.png",
       "category": "all",
       "options": [
         {
@@ -960,7 +959,7 @@
     },
     {
       "title": "Telemundo",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Telemundo-nuevo-logo.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telemundo.png",
       "category": "all",
       "options": [
         {
@@ -979,7 +978,7 @@
     },
     {
       "title": "univision",
-      "image": "https://prensa.televisa.com/wp-content/uploads/2022/02/univision.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/univision-2.webp",
       "category": "all",
       "options": [
         {
@@ -994,7 +993,7 @@
     },
     {
       "title": "WIN SPORTS+",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0lnG8YZu7qx8J82v_1M87nFPAys2jCwJ3ILodlHTxhHr447hN8by5Y_cG4WF67j8SOHr7w6hIImYTuEgtOKCzFkeTz8agD-anVDEwo4yCRDLMfIp_HI50ZTmTjIzHj0BGYiLXBYLJofo/s1600/winmas.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/win-sports.jpg",
       "category": "general",
       "options": [
         {
@@ -1025,7 +1024,7 @@
     },
     {
       "title": "WIN SPORTS",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu8x3r3kxTjOBh1oedzM2Y1hpaBl5x1lq4YayQWTReRmMtyQOc0fxLjKIj_7h7lK3JYIIaMQQlg0yoPWu8q9mxvl9I-GGpXc0lq7aWE84Nb2_jVE5_WAiQz7J-O7M4jviz8tlZFaIe3Js/h120/win.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/win-sports.jpg",
       "category": "all",
       "options": [
         {
@@ -1040,7 +1039,7 @@
     },
     {
       "title": "la-liga",
-      "image": "https://e7.pngegg.com/pngimages/40/1023/png-clipart-2017-18-la-liga-atletico-madrid-spain-real-madrid-c-f-fc-barcelona-fc-barcelona-text-sport-thumbnail.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/la-liga.png",
       "category": "general",
       "options": [
         {
@@ -1055,7 +1054,7 @@
     },
     {
       "title": "real madrid tv",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSUvb2PnOMCa4ohJhFwPu8fRt0k6Ynsewi9lVa7-FCBpTTkikIV9abbBNwbMF8jWeigq9Ub2njl1pafmtDY7tCwhbWYiKr-MDDtcFrbUsuNLgwPXhpVt2yBeHftpEA47q09_9xN1qRNAY/h120/1.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real-madrid-tv.png",
       "category": "general",
       "options": [
         {
@@ -1078,7 +1077,7 @@
     },
     {
       "title": "TIGO SPORTS",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxNaz-ZMFYzLWCGznWyJbePX022YnfEJXpccEQuLR-L_Rq7SUmLwVqlUAunSzsWluVuUxl-fkB6ZUceOWqGDKakDMQjTJnH2GUlFjELmyRfm2HyDLA-BxUa7cl6jVLYPvMLBy9hLLJwTA/h120/TIGOSPORTS.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tigo-sports.jpg",
       "category": "general",
       "options": [
         {
@@ -1101,7 +1100,7 @@
     },
     {
       "title": "BEIN SPORTS es",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3EsD3QXsvTOgeWKEIEYRs5dn-Xf8e_WK5LCCM6owflhHglQELJRQItQok0OqoFq_y8Gt9URHfxxKTUVsXisRoUa-nlgnT5sgWemy80VKMhslVdUTpoToYPPuuimMAHehBruvn2uOpbcw/h120/biensports%25C3%25B1.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/bein-sports-es.png",
       "category": "general",
       "options": [
         {
@@ -1116,7 +1115,7 @@
     },
     {
       "title": "BEIN SPORTS EXTRA",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUn63aCzvm_BfUpfpIQ0YdXigFDT53517ZCZ39QJvndbHsU52XKVP8N3Z-W9kDLJyvSKAtMXoB9fH-UBcdxSPyli9L2OxAik827i5iJuQlcSReN9BKMAN14XiGUynbRW0peorYmTk-W0Y/h120/bienetra%25C3%25B1.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/bein-sports-extra.png",
       "category": "general",
       "options": [
         {
@@ -1139,7 +1138,7 @@
     },
     {
       "title": "real",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx-lg4sEvjv7L-MERgnZpMDh01YYwiZkfp2FlLhlDCG_9bj1RoRxj9pVGSUnUpw11c1z7IXBt82xvJltcEPzPFUFPThy6V1PN6GRDRxXBBzfV1jXGyA8-HGz2zYD6pxgmpu8rZXN-BfdM/h120/unnamed.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real.png",
       "category": "all",
       "options": [
         {
@@ -1150,7 +1149,7 @@
     },
     {
       "title": "Milantv",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj89matxjYrsVolVvevG8QHgiK9P_oAG7-lPFJIFIX6iaT1nlQ3R1IOIWBQmchcR_OtIs2H0tCd6J0O7hOdtGZToasdy1enQvN9ws-zvJot21md9LUYZKfsxmSGCstgwyhTeSjwxzdZf68/h120/milantv.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/milantv.png",
       "category": "all",
       "options": [
         {
@@ -1161,7 +1160,7 @@
     },
     {
       "title": "real",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9uXiydDBnaEapk5G2uA1LAlGqfeyVUakzyKipQGjTCXXYQh3pzP5Jm9YpVO2f_aH2gDZHwcZFa_TRj0yG-2J9b5AnbQosFtMBz5CpMJQOvWL62oWbw5GO5zdsBCeZ7Q8B6Y8yQf6pvME/h120/intertv.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real.png",
       "category": "all",
       "options": [
         {
@@ -1172,7 +1171,7 @@
     },
     {
       "title": "real",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijx9Unf8OrQrhwRNIh4TupmeyGgpPcJ5FeluJk3AGQ9T4t8iFSnWrJ5EmP8FPT-MtNi-5KtIOrAJf3A4Tp0D8RbWWuSuFzYpfgF27xz7ZWYFC3wyTtZmWWADztPLJbohyDkVjt5ovCPv4/h120/bienmy.PNG",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real.png",
       "category": "all",
       "options": [
         {
@@ -1183,7 +1182,7 @@
     },
     {
       "title": "real",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgohfYaHk58L_XF_QKgAjqnAIM01pn2rtBxnfaP4W1YWTZRU_DXjYgoLQIMaI98V3SLf_25wfFzFZcb9naWd62RLzm3E0U-DmZAxq1ZIRvI9fO1rzpqieOr6hvICF-DuPpOhRTSYsdpK9g/h120/bienmy2.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real.png",
       "category": "all",
       "options": [
         {
@@ -1194,7 +1193,7 @@
     },
     {
       "title": "real",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlbp71E1rVk0ZhZU6a9BocZua92Vmm4ukYYiVhqVVv4fHhheN8p5VGyaHPMjuPIMwGa-flnmtkCFTfbwz11CMZ7bk9547Vs0u8XHh6PNBOHTwHCADJ30RMrY-sGJHwVpyX8OKph-c5cFo/h120/bienmy3.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real.png",
       "category": "all",
       "options": [
         {
@@ -1205,7 +1204,7 @@
     },
     {
       "title": "dazn 1 es",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-bekIcIyJd_vSiLaGRH0Bd6qNyRp8xx_naQzK9plf0VNKmNdnza_H_h5f1HzEalmYv7PQNRnMUk6LtL1yA3rxAkKgASRSYrjl25auNL2yQskrRwm3ysiQ6zK6CDzxaMX6TI9_ofYKnQ/h120/tv-station-dazn-1-deutschland-2703.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dazn-1-es.png",
       "category": "general",
       "options": [
         {
@@ -1228,7 +1227,7 @@
     },
     {
       "title": "dazn 2 es",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRN6Y8hfqTH9YAxqS8HmoGclacoHHb81cmKIeBE1sMrdcX6t2pFHkp0Q4m1MHhyphenhyphenKY4F9CoGkwFtPNxBtP-VE2KC631nIHQK5u-XVif3qU4hZT7tZR69HZXFd1JZcSArHRyJgyj0OZDqkE/h120/DAZN2ES.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dazn-2-es.png",
       "category": "general",
       "options": [
         {
@@ -1247,7 +1246,7 @@
     },
     {
       "title": "daznliga",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmh5QgDiFx6dXBkA9GbxluFhsxLXiBMAw_8R0uaGooOIFte4t1koMaXiYtdXLrQ3StWR499yzUd22b7OCzdgHsylveZkfcgWjYXEGQGzFUeo3Yp9yS_t_nm4ObHnYxtvPgSbUiGG2doIw/h120/dazenlaliga.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/daznliga.png",
       "category": "general",
       "options": [
         {
@@ -1274,7 +1273,7 @@
     },
     {
       "title": "DAZN f1",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7wW37fPsiTyaPS2MRHDydzfn_TjU84jEVnrJWthQZcnhR3lW-m9_lmuiWUEJwk5CMhxsRWqXv76AG9ZkT-9dbjdlrZ-l1b_Nrp8EVm7JzSzYTRWvWin4MJqc2BxVBBzVoiCKnpsEC4LE/h120/daznf1.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dazn-f1.png",
       "category": "general",
       "options": [
         {
@@ -1339,7 +1338,7 @@
     },
     {
       "title": "vamos",
-      "image": "https://www.hipodromos.org/wp-content/uploads/2022/04/Vamos-por-M_Color-Positivo_RGB-1024x551.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/vamos.jpg",
       "category": "all",
       "options": [
         {
@@ -1350,7 +1349,7 @@
     },
     {
       "title": "logo-movistar-laliga",
-      "image": "https://www.neeo.es/wp-content/uploads/2019/07/logo-movistar-laliga.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/logo-movistar-laliga.png",
       "category": "all",
       "options": [
         {
@@ -1388,7 +1387,7 @@
     },
     {
       "title": "real",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuZgr3LN5lNI8EnQsXHziDWjqphLI6qyZdWIn4djN19Q3QwM6577lCortg9gywryPtUA7Oiw4DfTUwu1UUwPGdWh3oNjBkuvvLQJ1iJH1W3DMjL9dnsS_nNqRNY2QeVNm_WppNd0_8w4E/h120/golplay.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real.png",
       "category": "all",
       "options": [
         {
@@ -1399,7 +1398,7 @@
     },
     {
       "title": "EUROSPORTS 1",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh57OSIjdsXDQkDs5lrdyL2sNrXrAIWPAjQ7dyxiw-a4CZZ5A49ydT7RTZoFZ_B2_pNfUVjgIY-25IvzDoWFbtnsqRblg08868e3dbk8aGfRXypjTQ2kAShgAQvPgUBM9h-fEAWxIWFXk8/h120/png-transparent-eurosport-2-logo-television-eurosport-1-sport1-television-blue-text.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/eurosports-1.png",
       "category": "general",
       "options": [
         {
@@ -1414,7 +1413,7 @@
     },
     {
       "title": "EUROSPORTS 2",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfjhBhyphenhyphenye3WvwTJdyz0qbiga-z-VJydlIpkYItnKkfOzep-L3SYevC_ugFU4KVohC7rPXY8i_42qXg0W3yIMrDUNj9kjkTLqFUkZ3_5fkXIEZENQ5q7nS4Ch0vIBxH8f4cAkI6ZbLAEnU/h120/EUROSPORT2.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/eurosports-2.png",
       "category": "general",
       "options": [
         {
@@ -1429,7 +1428,7 @@
     },
     {
       "title": "premiere",
-      "image": "https://s3.glbimg.com/v1/AUTH_f486c675dfaf4c6e96c25f0c21f85eb5/prod/home-share-1b75cdaa.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/premiere.png",
       "category": "general",
       "options": [
         {
@@ -1476,7 +1475,7 @@
     },
     {
       "title": "bandsports",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj05KWv8frtLIhFkoKohtI0V1D03-CSrdzrNxTI04xi-1SlU7l6B-dgw7H8_L7NeoQA_RZK4Z0av_rQTpuhx_CDPCnvEAfxf9LDOOOSszgwH3Kej7qoS0VsAigXBQuVu7oPFuzf16UaDZo/h120/bandsports.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/bandsports.png",
       "category": "all",
       "options": [
         {
@@ -1487,7 +1486,7 @@
     },
     {
       "title": "Globo",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Globo_logo_and_wordmark.svg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/globo.svg",
       "category": "all",
       "options": [
         {
@@ -1545,7 +1544,7 @@
     },
     {
       "title": "sportvbra",
-      "image": "https://logodownload.org/wp-content/uploads/2017/07/sportv-logo-8.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sportvbra.png",
       "category": "all",
       "options": [
         {
@@ -1578,7 +1577,7 @@
     },
     {
       "title": "ELEVEN PT",
-      "image": "https://m.media-amazon.com/images/I/91q0-aVybXL.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/eleven-pt.png",
       "category": "general",
       "options": [
         {
@@ -1629,7 +1628,7 @@
     },
     {
       "title": "Sport TV PT",
-      "image": "https://www.mxgp.com/sites/default/files/news/image/Sport%20TV%20MXGP.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sport-tv-pt.png",
       "category": "general",
       "options": [
         {
@@ -1688,7 +1687,7 @@
     },
     {
       "title": "DAZN 2 DE",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGWzjPC0CfG8KxcK6zLXy2Cnv_oygNIYZbWo_IqoaoOUR5UG4L-6b6hOX1wW18vo-iavnQY7Y6E_Vj4weKFKFE4DleicGH0f2aAHfp-OerY-W07MuLEetIecehBMuQmSLKZjSx2E_aRhw/h120/DAZN2DE.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dazn-2-de.png",
       "category": "all",
       "options": [
         {
@@ -1699,7 +1698,7 @@
     },
     {
       "title": "DANZ 1 DE",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiixQ6w8Fhpj2pqzaU6rsUiJcLZyhHivt9e042ki8i1FE8z4ZJANuxkRHM-q29hZ5oqPdjdVbLnCsxTVbwRMp0u9azgjk9NFqQfYvtG1ONpHWBDk-y499f1eEKIjB6bwJsDDvWDCxGFp2c/h120/tv-station-dazn-1-deutschland-2703.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/danz-1-de.png",
       "category": "all",
       "options": [
         {
@@ -1710,7 +1709,7 @@
     },
     {
       "title": "zonadaznit ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs0yrq35eMo1jXehSfoe5lbq__0Dr4wB_gEPkhA81XXfeERh0Wcz1gc_Y6hJxyaCKU0lTOTYMcyhkJmxZNGk6e1UsyyTGW6TnqKGHSpClj-SLszNM6dtMAQ9fo6F3BGvZGQKCG3jBXzwQ/h120/zonadaznit.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/zonadaznit.png",
       "category": "all",
       "options": [
         {
@@ -1721,7 +1720,7 @@
     },
     {
       "title": "SPORTS degital",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYnJreaF4jozgrG9Hf3jaF008uwVxRXbFOYh2d1bK5Xcz3VY-PfW21FAi8qloYTf5MHGPybxVDFcbN2liRYgciww73hMuiDLLDoYAlPVuee4huhx7iS23uXZ7l5bw3nCJQ6TesgCFvs14/h120/wTY0aAym_400x400.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sports-degital.jpg",
       "category": "general",
       "options": [
         {
@@ -1759,7 +1758,7 @@
     },
     {
       "title": "Arena-Sports",
-      "image": "https://wave-seven.co.uk/wp-content/uploads/logo-design-for-Arena-Sports.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/arena-sports.jpg",
       "category": "general",
       "options": [
         {
@@ -1853,7 +1852,7 @@
     },
     {
       "title": "dragon ball z ",
-      "image": "https://staticg.sportskeeda.com/editor/2022/01/ef46e-16412281982156-1920.jpg?w=840",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dragon-ball-z.jpg",
       "category": "general",
       "options": [
         {
@@ -1864,7 +1863,7 @@
     },
     {
       "title": "AXN ",
-      "image": "https://download.logo.wine/logo/AXN_(India)/AXN_(India)-Logo.wine.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/axn-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -1890,7 +1889,7 @@
     },
     {
       "title": "cinecanal ",
-      "image": "   https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1f7w5bezO4yDZRV70UrXqmqgY-IKqnF-yruJaswuOEU09zW5vwncMU_FLjx0LgMjWZVXQEiXnq_WXocUprFhZ0XOQNct0Er8-pnCbfAYQXKQd-8AMcc8MW9ZJmCFwXThyphenhyphenTzhQ-j_jZ2o/h120/cine.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cinecanal-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -1905,7 +1904,7 @@
     },
     {
       "title": "tntserie ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMiU5zmSGTsM4efGqWsHBENE0_LuU1hNevXfUsdeAQ53lABBQWDnuqJwzVjDBrDvxo56XMJnc6xbWxClv-19LDNRsFG4rmGx2GXf-xQxnnkbpKGAJZRXhFMENqrgzyPX_8hCdofAFqOLA/h120/tntserie.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tntserie.png",
       "category": "peliculas",
       "options": [
         {
@@ -1931,7 +1930,7 @@
     },
     {
       "title": "tbs",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZhmV6Zn5qFLuGhNpSbGtsEk7X2m_iENQp3_bch4FW1kcqXMRbPNISReUOrO5N7agmTxxdKA2LsEq88P_m3KdbdoZgD8s_F0qySZBdoKggrM-r9jFDXNtezyseywO48cCRyjpVhv2HTg4/h120/tbs.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tbs.png",
       "category": "peliculas",
       "options": [
         {
@@ -1942,7 +1941,7 @@
     },
     {
       "title": "TNT",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaodD2_dSAJN-ogWN1NYiVFAeMMSFxVSchPjrxV7swIQpGC99nClayDCiMbmBOcciG4o3xtoB8SKQOpA3KJIN0AKePx0dkwzYeccT5lC5cSZotySiQExt3wr3Hb-AXdNelgrp7GD8r1PY/h120/tnt.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -1957,7 +1956,7 @@
     },
     {
       "title": "star channel",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2jUxYQvfWLorKHnWEmH94CjEGFo3TB8_jSpEBNEvfLAY9wYBxdN7ZG1HcBHQEj8pfwGBZdAcMxUfn4nmErUPR41Ox8G4OmQdoZutKq4YGkfIP4h_ndH8Mp2UJGIH20pzRB-HVIN_sp94/h120/starchannel.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/star-channel-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -1972,7 +1971,7 @@
     },
     {
       "title": "CINEMAX",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTSV9qzWcNkltz9kD5bFZ6b4ILXNwHs5fQMIn7T3rJqZyefCMiECGTnV183suklVkfMXFDrQSed9i93C0_y1-3biJZ31SAriAbiL5O5BbpAs54yRyBnQFHY9-Zkr0eUZBA5WKpzNfaCa8/h120/cinemax.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cinemax-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -1987,7 +1986,7 @@
     },
     {
       "title": "space",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0Xr48Ov5Ovf1qJVmqtPygKR8ggcsnR2BmgvdtMcGdnMVUlB1scbIybXSuefR94VKQyGeqJmcmTPupc-MWTGEG0vncJZtTOQUlxoJ0PfFsMyYcRglsfxsCBSGy9I-YX883dIuR02DybwA/h120/space.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/space-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2002,7 +2001,7 @@
     },
     {
       "title": "deseny channel",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqV65hwTu5GtpxL1uDSqzfNUXsWPrNlzfZYphJ6lj_4UNvqEbdBv3-z3z1NVUxKLOrdUbtiZr0u8ImVyJkaJ-JyygwgMKuKTQQjfPiSJdy-n4_94432PKvq2jzZ4Ew8ZZBRe0CZqL4Cxk/h120/desny.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/deseny-channel.png",
       "category": "peliculas",
       "options": [
         {
@@ -2013,7 +2012,7 @@
     },
     {
       "title": "desny junior",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyej8h_cZxrggA-fMpJKGYYvwPz9rSf3FDYd_0OVmeDJRkLCUgBK-2p6UQtTBPPv219E1FLsjohw5UcDD1RDCq9ouHLL8KSW-l5KPEWR4QNLf50SM5QWWIPfxHt3pRTs73JKtgtAKc6xE/h120/junior.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/desny-junior.png",
       "category": "peliculas",
       "options": [
         {
@@ -2024,7 +2023,7 @@
     },
     {
       "title": "cn",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQl5notMQyjD8rttn1DfkpCS0FmbgvdkZV3GWYOtQpfuafAC4AHprGZotidgPF6F8GaH2HvgrBVVFEdcFVZaLv1OrfELPfKEb00_W2vWbGmBSd6rSVre4vACx9UuBujrbgSUzLMh_P_t8/h120/images.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cn.png",
       "category": "peliculas",
       "options": [
         {
@@ -2035,7 +2034,7 @@
     },
     {
       "title": "GOLDEN ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjehsRbjJqZLm7Sp2USVZny-vznka-lny5g-08zNCye3S-RcasAytWdzo8QOzOkJ4NmuJy5rMp6ovlhf5t2tpxfW4EnNW5psCXDbvv9lfM45xYtEcLiEs_r4_9YEbEEZcwbHsoA-bBv33k/h120/golden.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golden-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2046,7 +2045,7 @@
     },
     {
       "title": "GOLDEN EDGE ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgMdhjDiWtIRYCusk9AtBC8WystiV7SxcBEY8-HRpiKYg7NOxa1k47xyi-d0gXEBnuf3i4usRuX0HYtc8D1hIt5tSRsvOBB3iNOEAaKuj5kIzxtjVmGEVE72o1NLgPfhuXJA8UqzguSQ/h120/goldenedge.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golden-edge-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2061,7 +2060,7 @@
     },
     {
       "title": "GOLDEN PLUS ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMcAklBfRrurMSxU4EOn_MyS0O-13X3DBThx-O1g4BDFpIP1JiByoogtG4E88TXhkudFOsHYt0kdvnWggxPlGVCxTq7OnAlH_k-NqpuVvfEYOk9j4V4uCwkIwM579K3wsbnGq2vJAX0wc/h120/goldenplus.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golden-plus-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2076,7 +2075,7 @@
     },
     {
       "title": "GOLDEN PREMIER ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBWfXKZLcn7EvfbtSpeD5wpAzaRkuNq7dcAzrL3-g878uj7bqeNSvJ1RSRfqUIfYHygJEZ17vRzJphd5fUW77TYzA_U6t1MZRpEdllIFjw0m1wAZc2ni5zGQnbU5OSCRulVN0BQr9451E/h120/golden_premier.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golden-premier-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2095,7 +2094,7 @@
     },
     {
       "title": "sonny tv ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOoJu3yr-k7SonbT7Xaq0sqPeFsv-ANCCCpXlKmh9kNg_UGoAwbKOYdikfGMVVtH34efk9VqBdHTyHH0b50mQD3KuTAftwrb7sLlX532fnS-kkgRCtH6XJGHzpfyjtmbEko4nRzMADisI/h120/sonnytv.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sonny-tv.png",
       "category": "peliculas",
       "options": [
         {
@@ -2106,7 +2105,7 @@
     },
     {
       "title": "sony movie",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-YIIsqVI6GvXnz9VM6NVv6kfWUOAYJ2S94sl-gSfw8cGz3KSf0ertXDLR3XeyKSepDlWDh_-5HH2tfqiqXgKPtc6-DnAM9TfRE78JZHfma5ZXNC5cLaZgtpDqt6q6B8EE55t74ntpCWA/h120/sonmovie.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sony-movie.png",
       "category": "peliculas",
       "options": [
         {
@@ -2117,7 +2116,7 @@
     },
     {
       "title": "sony novelas",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnKSnXUbgbMWZHCS8SanimvZx7FHDB_BX_cqdSUwuSyzhpvAobaNFkyMTPNouoOT0YYM85-Kp6a9BwMcFjQbCxuDw9F5SBe7_mK17pY08fSp0lbkPQGI-AvmQQqPUAMtbCxMscPz8uDMM/h120/sonynovelas.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sony-novelas.jpg",
       "category": "peliculas",
       "options": [
         {
@@ -2128,7 +2127,7 @@
     },
     {
       "title": "sony competeciones",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUtrzs99YlSpJPrfi7AjFdDA7mkIe3qP0GjxLXVvs9KjcSp7j9OxOJqgwS_Oepydqe0bMBi3EaZh2-B__ww5KkYWyZuzGjIdhbq8A7Tff-HPrpMEVVT0XxKuxyRwiN4hjh5MoscpkRNFc/h120/sonnycompit.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sony-competeciones.png",
       "category": "peliculas",
       "options": [
         {
@@ -2139,7 +2138,7 @@
     },
     {
       "title": "HBO",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg37FHooefXdeS2Xc5KpMwygljLnGE1e5vdabgDtD5_t7IQkXxj6XKOxB5kbmaVwNPn9Ueg-7jVwKKNe2JwvseDFMfNjthnzfX2ppQ_9DamLd9dP_MeGlijX5h3O3RuqD39BGrO_PM_WoU/h120/HBO.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo.png",
       "category": "peliculas",
       "options": [
         {
@@ -2150,7 +2149,7 @@
     },
     {
       "title": "HBO 2",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2OOsNkItfJcUUHgs2AmY3nOJwndKPGTJd_dAqLJo3n5eRGRpALNQ5oYuN88Yzscgjf8hil1GuhhnI_ZvIUYm_OATwA9WJarM_6OPalqMmcZLswQ3aW_z0i30_Oa4qf6NAmkT0YseZQLY/h120/HBO2.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-2.png",
       "category": "peliculas",
       "options": [
         {
@@ -2161,7 +2160,7 @@
     },
     {
       "title": "HBO xtreme",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoBpBfNuusqPB4oK-23eLUIhpaOi8TB2GDRt4CCYYYsP1df9BAknI8y2yGuoWDYFfpGcje9P1vk3TbbNIupuk0PRbe3ymrxHO-GDwhGoDsbDBo3s4oPuF7D0L4UPGFnUq9_s0EVZkCSTg/h120/xtreme.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-xtreme.png",
       "category": "peliculas",
       "options": [
         {
@@ -2172,7 +2171,7 @@
     },
     {
       "title": "HBO pop",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvvB_laqzWSOOGjAadf4ASYQccdT_pzJQDBt5VysxbkNizOas9hEaGTU6CthbxF-wHhIp2O_i7Lv7kYGz1MsjUTRNChKjZ97iqPUR6iPUm0lVmbwSuISOhEwh4SAIi2SqrNYPybJuru2w/h120/pop.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-pop.png",
       "category": "peliculas",
       "options": [
         {
@@ -2183,7 +2182,7 @@
     },
     {
       "title": "HBO Mundi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOow8Gw7JVCIX0uAMHU9ShtXjWDd1UNynQngqw-XOBc6jaJYCC_f75TPiM079VZOiOruzQkZXiJsMPMxUDPthZ3HtChH2WU2iVsAIjP0Ko2-oi3P5aK8vDC37P1LtfdsiHSwuUJ1qkpN8/h120/mundi.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-mundi.png",
       "category": "peliculas",
       "options": [
         {
@@ -2194,7 +2193,7 @@
     },
     {
       "title": "HBO PLUS",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKncYeK-pKcOtPlku-xekS5GImu9H7K1u1DrPqXUxF8uuO1NwEbuHHubAsEAyeofupcLigD9zR8Xm_78ynsGP0wd3iwRC-4bdkI7uvkSDg6XIvxgHkM4TA5W9UBS9scrP-YcsVKpn0sQk/h120/HBOplus.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-plus.png",
       "category": "peliculas",
       "options": [
         {
@@ -2205,7 +2204,7 @@
     },
     {
       "title": "HBO Signature",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHXsnesvaCnvxmBBtPP1ATOTp7aldrh_QxW6BFSAB-8UGs4nO38ZI4UMaCM7dIRY-r1s7ZNdk27M1u8zEQMlnOPc9ryx8BzWOCrN3XQy7wzzt7kPwfLm5dJXsiEmFKuuKISdpU6xXhulI/h120/HBOsig.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-signature.png",
       "category": "peliculas",
       "options": [
         {
@@ -2216,7 +2215,7 @@
     },
     {
       "title": "HBO FAMILY",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYN7UZTfCQYcBYHPr4sSycUsR9vvGymtPcZPxnVyVtGU8U7ZMvrud6-kf07RcPVySSYdfMIB48BKUnP1_0Lbv4CdcLUjm92V5Uwd3mME-w_U5xKMc0XPCvX_pOcujvAYAoxlYx-v9G_aA/h120/HBOfamily.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-family.png",
       "category": "peliculas",
       "options": [
         {
@@ -2227,7 +2226,7 @@
     },
     {
       "title": "universaltv ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyZa2PPh-lhMHrsJXbJPMoj90Zjh4FPu1W7FBx39ebAW7lrtQkTE_i7P4Z19Q6fN-NQReh67A-1Di970vNKbAAW7_sI0lkxH8itCDCsA8TN5E52r4T1FJR5uhTOQ2Pl_O0d2r4x6E8A4c/h120/utv.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universaltv.png",
       "category": "peliculas",
       "options": [
         {
@@ -2238,7 +2237,7 @@
     },
     {
       "title": "universalcine",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz0qlGW7YDUoCGCnY6Xevk76EspUouODynbrLvRNHMOJKbv9rBgQGjqNc3UMfuQxF0zrDIsSRXbbEv8sQTjIFvtyuhE-FP7D7S2-9l34mZi64kYRi_6I37SI2It_DZB0NSaOYGDuEt4u0/h120/ucinema.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universalcine.png",
       "category": "peliculas",
       "options": [
         {
@@ -2257,7 +2256,7 @@
     },
     {
       "title": "universalcrime",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKgVY7KDOcHCEmc5X2FBbCHp-q4wj_0H7gUEVm6U5nKRnQyQqzFZhF04ZmD0SNLYNIK_XpmJ_Sncgn7bzf9urub0kOEBIQkZ_UNFUbiIB9q0ZT07CiFUqBVnmJRK8QEPNSKZZau_Jij2w/h120/ucrimen.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universalcrime.png",
       "category": "peliculas",
       "options": [
         {
@@ -2268,7 +2267,7 @@
     },
     {
       "title": "universalcomedy",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZGufXBeG1h8VkVtVuTHwj0mU7t3kotAgK0gtrtveR7fMseMNHKg2Kyuf0E_ZJKP8Yg26xloR8igUBlDBFJ_AcVg1g2uCXhNimrYLqmmQN0wMndJJbxhDMe65CN3Go8-RipmvKfNbkMGY/h120/ucomedy.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universalcomedy.png",
       "category": "peliculas",
       "options": [
         {
@@ -2279,7 +2278,7 @@
     },
     {
       "title": "universalreal",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1W0DgHHxa2YD709Fz9u3Mtim0yKnUMjiwsLg8CO8w8g8-pacZch1K6E0w4NyWEY5Oqg0FSRDs1fK90rTnedWQbuq5137bgQK7LwmDcnAuU6E5hSAz7FPjth7BN5PePwjOhfjfx4BOgew/h120/urealty.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universalreal.png",
       "category": "peliculas",
       "options": [
         {
@@ -2301,7 +2300,7 @@
     },
     {
       "title": "RT",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqQYtCgWW1Ij3585lR8KO4hFAtQPRQStiPaX8LWZcU0i7lru-6er3pnSAcVXcB-JvsX2_IHw-dIrne-meaEB37n1gWuSnikgl2rldyWC_BbDF7y32KvLA7fX2nGAqzPIYsLE1Jc1hnn0A/h120/Russia-today-logo.svg.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/rt.png",
       "category": "noticias",
       "options": [
         {
@@ -2312,7 +2311,7 @@
     },
     {
       "title": "CNN ESPAÑOL",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb2FF1pst_QrBFD9yNAEJWdTTJPexu0DPFiyCLBVqB45MAHgjj8G85RsHD3Mo2LMmu_m6LdvHjPQtGHC8_Zk2Q1D0iCKxXMLfTzrWfVLpzU33gP4E0lSBQsv9B-Nf2pkqauZdXP5OGfx0/h120/logo-cnnee.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cnn-espanol.png",
       "category": "noticias",
       "options": [
         {
@@ -2323,7 +2322,7 @@
     },
     {
       "title": "CNN chile",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii8y6RxhL2Wf6FXxwXyDVSB4HlbiRipG0qUwZscU1i2D0F0CL5yV8mynzBzWXcgmRwsQglRGK98HJ02hpXGuy8VDKxjkzU4sHWKCFfgMVjdISbv2abgEubZpc0EpQFpyHmCSwmhRG0mgI/h120/cnnchile.PNG",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cnn-chile.png",
       "category": "noticias",
       "options": [
         {
@@ -2334,7 +2333,7 @@
     },
     {
       "title": "latina",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfzd5_vpxT0N08_c9398su1KWZ_ubg49okYZ1VCMXPTo3VgJo8aZ_-RPAYNW9xZAvRIrPEgoFsuO2JcL9aYBGXXrZJa09EWYbzYjZ29reNWA6m-4Gz5HqhWNQ1b9mGEQX3xntAkJhYsdc/s1600/latina.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/latina-2.webp",
       "category": "noticias",
       "options": [
         {
@@ -2349,7 +2348,7 @@
     },
     {
       "title": "TV PERU",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZtW_ff-2X9U5vNJ91zaGckC4GqBk1QZ2wB40zKGpBErP5vqgZTGbMVdmeIUNXhusxIjkcp3t1ErjrkwIQJghm7T5xkLUuQTVYweH1KPLSMv5EXmZK-X_1gT4hVx86F0QmgptMCIweMho/h120/Untitled+1.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tv-peru.png",
       "category": "noticias",
       "options": [
         {
@@ -2360,7 +2359,7 @@
     },
     {
       "title": "Panamericana TV",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGwzOpZDbeZFhh87Jw8jYGnpP_ZA2M16OO0x41d-KZic7qL2PDweotiQ7qE4VsIfmaEptsgiIwvcbhL7g8dKqVKlX-N4BNWmrAqNIUvc2rSxhgvBWAnRBsrZcKdsWJIRdoWOFsKYjuRy8/h120/Panamericana.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/panamericana-tv.png",
       "category": "noticias",
       "options": [
         {
@@ -2371,7 +2370,7 @@
     },
     {
       "title": "EXITOSA TV",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOr3A6Q4NtDEnByslQDpimpRv7HRdTpxXMkWORakltcLelde2afxMMpww92K9jOwzOvtO8pBQ9zZ_CRXjQkOj_ffCBOL2f0SupuNHKZOSUyQK-wLfbLUwNnD-6jDyZ2m45dyqr1JOQDOw/s640/exitosa-tv.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/exitosa-tv.jpg",
       "category": "noticias",
       "options": [
         {
@@ -2382,7 +2381,7 @@
     },
     {
       "title": "wilax",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjObMRlt1KhpxSIlIdHsmOtcSK8fpSYD1Djop4agv7kcRzf6YkcFyNOpwWozMVG3dHCoYY4JHZFxF6A6f3_F4L0jLUHlxrJ5lRksm95N9IupOZlCrGJVx80BsizSdx_l0hCIv7enmxRMFs/h120/images.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/wilax.png",
       "category": "noticias",
       "options": [
         {
@@ -2397,7 +2396,7 @@
     },
     {
       "title": "ATV",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbiDJE3WMA8tHkJEa0ZcaefSuhsW5YEi6DqdidvcxpkUF4cIInEvqjISxSAncCzMTANfH0omFpSSnejYc9cEHkORSPQRt9-77cTlQf04Y_ntytXilk9s7wWZhdZxrAb4LHu1qmr5jSh9k/h120/ATV_logo.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/atv-2.webp",
       "category": "noticias",
       "options": [
         {
@@ -2412,7 +2411,7 @@
     },
     {
       "title": "planetatv",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg99YX-InGUfMQ763cspSS4Ply7WQn8RN7dE7gwMGI_FUEE-kWuIubKkyHn6cak7ve-SK3yj44rVYd-yt0FX0HD_FqZf6UbCVll4quIv5w01UZEnjp5MxfjowADAMk-Uw70Ba0OseonBjQ/h120/planetatv.PNG",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/planetatv.png",
       "category": "noticias",
       "options": [
         {
@@ -2423,7 +2422,7 @@
     },
     {
       "title": "americatv",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi12UrOhhaikPGakth1FXuPtdhVdOYNMIZbLkZ_d4UkGPxctxT4i0M-IniU_AyjsfM7vyNHejoEHLaG0frTIa2ZNci8ia0Qf62R_hF6KblXIjm7IN7kfLslth-U2tfuKLDqtsBFhcpXaSU/h120/americatv.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/americatv.png",
       "category": "noticias",
       "options": [
         {
@@ -2434,15 +2433,15 @@
           "label": "America TV HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/americatv.php"
         },
-		     {
+        {
           "label": "America TV HD",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://streamxhd.com/live1.php?stream=americatv"
-        } 
+        }
       ]
     },
     {
       "title": "CARACOL",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq74rCSToXzVeDI1hI7Uh0yaRpPt3tg4jLNY71tD2mS5KigJzhHINzYlOAYREQQu4vIakDIhgaMgcU8i1ApCbXI5OW7zRsFhzkdXw4kUsHBxJeqtMQYFz9lMUk4XgDk4MTSk6ZEcNnO6w/s1600/caracol.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/caracol-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2465,7 +2464,7 @@
     },
     {
       "title": "rcn ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjBpM1W_yZymxkV_DC5ftARIcwdLNM3NnPqpiKhzAgGKiStRmFK3igYAe1IxsAn3Hw0l5mILXMTWl2fof78lFIpN2YcDfK-I0G2wRIy1s81x1R7-pNU20vB3WTA0oOVVJV7pdRbe_NH_o/h120/RCN.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/rcn-2.webp",
       "category": "noticias",
       "options": [
         {
@@ -2480,7 +2479,7 @@
     },
     {
       "title": "Canal Señal Colombia ",
-      "image": "https://www.chatytvgratishd.me/wp-content/uploads/2014/11/logo-senal-colombia-tv.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/canal-senal-colombia.png",
       "category": "general",
       "options": [
         {
@@ -2491,7 +2490,7 @@
     },
     {
       "title": "rcn EXTRA ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGEwSZqLBhBX7a2pGRISYCdAuG0vznxvBgLIAqRFfZ_LtoW1SxgZj0kwHZCmU61fdayh2vX_hH0LqiTLmiELvUly-CsGSQYIz_CzkW1uYcp3ftUwHtefL5v9hWcaTS7T6fOa-bJi3psbMh/h120/Rcn-xtra_2.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/rcn-extra.png",
       "category": "noticias",
       "options": [
         {
@@ -2502,7 +2501,7 @@
     },
     {
       "title": "telefe.html",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivsOxc83elf2C-lNyfGYQg2KGxNaW7NIGYFmF0Lwn_FZnfdsqK-BWVWZLssPpFt1yzHSx4Dl-J9-2HKVEFSscLeLaaqZM5ey9BHA6YzBzXUVjw2WcJwllwCiIXSPPb0scjTpqPqqnLVVE/h120/telefe.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telefe-html.png",
       "category": "noticias",
       "options": [
         {
@@ -2513,7 +2512,7 @@
     },
     {
       "title": "eltrece",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtSjUxe9L0Q0spIYJbFd0BmPA2IzIJLuCvQ8O-if8q1Qbej65Z6yts5QBKNjBUgg0iGd8S5NmUuZPcolP-48IR-r5b29Uc4MDxEldFjDYCqaM-loRKcwwcTY26SSkBw9I09c2vOdqzuFw/h120/eltrece.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/eltrece.png",
       "category": "general",
       "options": [
         {
@@ -2528,7 +2527,7 @@
     },
     {
       "title": "americatvar.html",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU0-ZPp6PgaR41ZTEgVCBZkP2ihKJwe2jRrRI0iDRr2c0GYX9CuAEolI24Ebu6Ev_NCiPvhBDpI2J3U6VNOtdUTYU5gQZbQQFrvOoDBarT9qEp3MM4TLqP-MmSLu2dCZFzRunkCUqNHG8/h120/Logotipo_de_America_TV.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/americatvar-html.jpg",
       "category": "noticias",
       "options": [
         {
@@ -2539,7 +2538,7 @@
     },
     {
       "title": "a24",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBI65hxtT8egm_nsW6jVu_hWVK8hLXs8pHsXBKhC_Wd5qtXK0p8wGsOXcMoYTcteSZTS-8reM7o0l03lWPjG3wdlRSPjamcVcCg_VjlTboNIWmCTAU3TTrvn43b4E2JmsJ4PHXvv2W7rc/h120/A24.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/a24.jpg",
       "category": "noticias",
       "options": [
         {
@@ -2550,7 +2549,7 @@
     },
     {
       "title": "canal26",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYFGJX0llqLCxCQYvTAo_voWX-s5cmSeQ1iRZm_f9c7k0zEQFayoD0ZWUkQWZqO13FqAfoIbLgslJfmaHi-17CRXazZCv1qNj5B6mr8E1SKZC09Q6_N1Mm8pr6O3RbL7LkkyUzk0z8neg/h120/canal26.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/canal26.png",
       "category": "noticias",
       "options": [
         {
@@ -2561,7 +2560,7 @@
     },
     {
       "title": "canal9",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaL-E50q0i8Ti8Qbh0iY5BARnPKepHJbb_Quf4LfZPU4MWjxKEuxYBgs-AmQpKPRa8fK9Ytn30H09b7J3IC-ANHuKf5bxpuGgd3jo4i_eYWmTsMy3tHThn_YAiG-WMIW_kMZNsyqn6734/h120/elnueve.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/canal9.png",
       "category": "noticias",
       "options": [
         {
@@ -2572,7 +2571,7 @@
     },
     {
       "title": "c5n",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIzkfVjL_Yc9hyphenhyphenMVt5AaHBQNsCbu0CJ_GZw6ZKd7E-dS2VlYJsVNO9rYHB2DFiJJ5qT343iJ-fS6LonzllgWwa5-l01Sm-Y88ij273bVzrR3SsBI6d3r-GL3JskuLYEWzw8so3xKosbkc/h120/C5N_%25282017%2529.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/c5n.png",
       "category": "noticias",
       "options": [
         {
@@ -2583,7 +2582,7 @@
     },
     {
       "title": "TN",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_qyPW1-YZMZ1AweBygpSNnFzK6tLCT8oeaR-OM0vDRkOSfaqLITo9WAu4AOWLYpCS-Eg5LKgDmwCFH6Q3v_NhT9FpPM1vQwxg28377xeRGfKTeY1ggb276AOJ9_fEw4fWArKbudQbvuU/h120/TN.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tn.png",
       "category": "noticias",
       "options": [
         {
@@ -2594,7 +2593,7 @@
     },
     {
       "title": "LNplus",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLoplXCxnFOMUQRz1YYeYv48_p73l4A9hB1iwoq06oA3MVNeWPkjE0q5xWrKQmUApwDBT3rsNz0nr6jhYOGPZWmVccuy16P60W1QjJM6qdG9eMoKUTresYNH0c1oq3qt3LcJJNldYFsAg/h120/LN%252B.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/lnplus.png",
       "category": "noticias",
       "options": [
         {
@@ -2605,7 +2604,7 @@
     },
     {
       "title": "dnews",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_rKRnnnO6zTcv1VNTP4ChVHqtvyGt4twv9pI4b7U8iaC1QbiqLooHfS0bQpVeyIt1n5gCB-H-lv-gw2wjvo-Kfb437A_NQ1iI9KgJn0ovxWeKX7NSbNhiFmCzo1kQjkO-yQspi44FsUU/h120/dnews.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dnews.png",
       "category": "noticias",
       "options": [
         {
@@ -2616,7 +2615,7 @@
     },
     {
       "title": "canal10",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigRyO1fKs3oSZtzmb-yG7LRt6y4UYdE3xL6N89XQBgt8u_ToirjKxGHdmequtgkW6WYsWq8cnteIKFgd9ecDYEq_PniXClvzCP2p444peDb31RYMUHtBY1JkBj_e1CRaokvhccfsRmupA/h120/canal10.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/canal10.png",
       "category": "noticias",
       "options": [
         {
@@ -2627,7 +2626,7 @@
     },
     {
       "title": "DAXERY",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5eKVzsEbmlsHes8haCJoEfZvrk2pwW4b2zSsLsHO5B1vsD60UcWG7w-nL_zW_tzTxEh30FsJB7i-FubRmTUBtK5kTaZnQGl0EMsMGwy0iYN9JM6CqEabVHmUAmkmw82BzSStb_Tq8UaU/h120/dexary.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/daxery.png",
       "category": "noticias",
       "options": [
         {
@@ -2638,7 +2637,7 @@
     },
     {
       "title": "chilevision",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-yD6F4A5N4ixgPI8LAXZrvS5Irbfdzhi4kuOr5bZCIwwyRy1SKpxZHddbTJ1nNI6HQHgPe3omb1pvKjMJayvyPIriO33-hXtOUICmNT8iswzuTFbztqUL6FCvsdiBLInZ43f1-4AeNu8/h120/chilevision.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/chilevision.png",
       "category": "noticias",
       "options": [
         {
@@ -2649,7 +2648,7 @@
     },
     {
       "title": "teleamazonas",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPoOk9uid_-vdoQ2HUEg6mBU1e9H0buCZG_Tke6DSe2j0ANjB-_c31-Ftq49s4x_ErDZStJIcdysKYquz_fbiWaSUgsr45Xjfs_ovmR0KhJhwkRb8ic6BspciOpndyeJBZxKWtNaK14Eo/h120/download.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/teleamazonas.png",
       "category": "noticias",
       "options": [
         {
@@ -2660,7 +2659,7 @@
     },
     {
       "title": "teledoce",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIP-TFQOtlCKT2uORJKG0BuyXtEdQzT0g0DJZFN1tX-yOzDEVE6kL2EZOX2CZlXghwA6L7qFcy6Sv1w_1931pWibw1psZzUYeWy5Une1MtLIqbt2C5Z75sh4g0Vh1DAmo_hn0XMqQC46I/h120/teledoce.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/teledoce.png",
       "category": "noticias",
       "options": [
         {
@@ -2671,7 +2670,7 @@
     },
     {
       "title": "13",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDnK_WJ_kwyqqahSNqwNhdMZi8n48LR7hP4wLGsnzQ1NfEvfhxDYhxyYfiEWEP1wCfUys4xcV4l__oWVUdXvjjpGyZQPK4ndA4ttqZRNZqB6xNvnl_XOBtMCVrryPiiB9ltWZt2-qIcoU/h120/13-chile.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/13.png",
       "category": "noticias",
       "options": [
         {
@@ -2682,7 +2681,7 @@
     },
     {
       "title": "TV 5 MONDE",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8g0AGBm7XoKbXs6EZKWFvzIwFPC6sX5koq2vcwJhpVWS_adhM2wm55mS655YD1DbIDNc7ZMmy13xPh6HZ5xZvgY5Ri4bHxi42v2Ts3QtfOseO9virdwqD0nup22d7vHh-CyXjXgq2dsA/h120/tv5monde.PNG",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tv-5-monde.png",
       "category": "noticias",
       "options": [
         {
@@ -2693,7 +2692,7 @@
     },
     {
       "title": "TV 5 MONDE",
-      "image": "https://i.goalzz.com/?i=o%2Fh%2F1%2F842%2Ftv5-monde-amerique-1.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tv-5-monde.png",
       "category": "noticias",
       "options": [
         {
@@ -2704,7 +2703,7 @@
     },
     {
       "title": "TVE Internacional",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkIZjp-AsecsgXEe_stWhEOaady0lET9QF65mx57oufq-bVJWQe-Q9rGJzCNWZhkB3yKR5h4MH9MUjplOr5tfyLpE_m4jp_DopuUohYIZR1HKtL_yxOg26ExmbBZBHVjvdvBBoqNesCOM/h120/tve.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tve-internacional.png",
       "category": "noticias",
       "options": [
         {
@@ -2715,7 +2714,7 @@
     },
     {
       "title": "antena 3",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhKr_EP8UokP2YhZFtaVCDHoC2qX9iGfBAkHA1gPkHpC1J6kaLVyW0GAGqxFwlJnV7TvKgGBrqTGwTsXdBGPX9sy-KCDRe9yDM2GakL9-KyC-OPDClbj7bZcc7PexZ5fFA1cyrnLP4x3s/h120/antena3.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/antena-3-2.webp",
       "category": "noticias",
       "options": [
         {
@@ -2730,7 +2729,7 @@
     },
     {
       "title": "TELE SUR",
-      "image": "https://www.telesurtv.net/export/sites/telesur/arte/Logo_350x200_xTelesurx-01.png_328146155.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tele-sur.png",
       "category": "noticias",
       "options": [
         {
@@ -2741,7 +2740,7 @@
     },
     {
       "title": "TVg2es",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVsQs4J4eJWW9PbcODzfTqrdaKsG8yY8yuK_Cxo-Tpf_3GiGGTOqplHmioL03szidSqqUjzaRc8vNMYd000OuH2JDouYaO7ozjZCNBjYLvckQ6dLdlotTtW6yHfu9VgJW7Pma_1O9u4Ik/h120/tvg2es.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tvg2es.png",
       "category": "noticias",
       "options": [
         {
@@ -2752,7 +2751,7 @@
     },
     {
       "title": "TELEMUNDO",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsKNBshgfYyT_hS-yOV-SFoGMGKhq8PPFLMLCDiKfZCPOfg9708Jm237V0N3h3kX3xmOHvzAiR0K4BYggoQqsDEq9zm5BZ36Ez62jGtE68YxrIpuTlqx56843qTndQPf_9A1rDsJPtNuc/h120/telemundo.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telemundo.png",
       "category": "noticias",
       "options": [
         {
@@ -2774,7 +2773,7 @@
     },
     {
       "title": "HISTORY ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUiAk2tvocyGJ0X2qvuu4GHlUfeRkFSdRsdQSlr0MykRiQFXISCBjSbBNFqe07RDzqyGFPZvvZrEcLssPjN1d0SJGmVpiQc7x8XEPLvEN516S0wXiFFwUlget1vUhrtcTmY1jT3OQC6d0/h120/history.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/history-3.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2789,7 +2788,7 @@
     },
     {
       "title": "HISTORY 2",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiorjZFBraVM6mA2UXEl30bbemqduawCvLgJb2xVpJyVJLEfarfiVrSUq0RztRTtRDxK6FvvcxBKUkaS7PCz3g685PkXyKwhuNy6cYqFXokxAiQZRF_dr44Hj06KRnviSpHoRQCGBLWA44/h120/history2.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/history-2-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2819,7 +2818,7 @@
     },
     {
       "title": "DISCOVERY id ",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-id.png",
       "category": "entretenimiento",
       "options": [
         {
@@ -2838,7 +2837,7 @@
     },
     {
       "title": "DISCOVERY helth ",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ee/d2/92/eed29246-59fd-b806-2360-311564c09003/source/512x512bb.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-helth.jpg",
       "category": "peliculas",
       "options": [
         {
@@ -2861,7 +2860,7 @@
     },
     {
       "title": "DISCOVERY turbo ",
-      "image": "https://cdn.mitvstatic.com/channels/5345f2b8-0871-4da8-b21b-d046ff9588ff_m.jpg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-turbo.jpg",
       "category": "peliculas",
       "options": [
         {
@@ -2872,7 +2871,7 @@
     },
     {
       "title": "discovery-tlc ",
-      "image": "https://cdn.mitvstatic.com/channels/pe_discovery-tlc_m.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-tlc.png",
       "category": "peliculas",
       "options": [
         {
@@ -2887,7 +2886,7 @@
     },
     {
       "title": "discovery-Science ",
-      "image": "https://iconape.com/wp-content/files/yc/301701/png/301701.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-science.png",
       "category": "peliculas",
       "options": [
         {
@@ -2909,7 +2908,7 @@
     },
     {
       "title": "love nature",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT9_UZ6aeU21lRr6QC_iJRf2by9dnBKUyh9kYCnlnBTF77oaQoiACRymARGLHYQw_1fi0-sjkHAesoiJPpRpQqdqtR5CqGbR-C0r21a65UBKI9SLC8FdcLYC5JEpe9l7QdypPVyreXq6M/h120/lovenatur.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/love-nature.png",
       "category": "peliculas",
       "options": [
         {
@@ -2920,7 +2919,7 @@
     },
     {
       "title": "animal_planet",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD9YNNfCQUvCswpqiwpXWg32GZm2rYyYKdlpfsBvDfYFfw2CjPzXGPEuJPuzB4uzoxLBT7kD5_t-hMnSnB0tQiAJCS8YU0wxJ9iq9wwOsVjPN23OykxEzEuEse9aVqYz5f0xxqJDdFrpE/h120/animal_planet.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/animal-planet-2.webp",
       "category": "peliculas",
       "options": [
         {
@@ -2935,7 +2934,7 @@
     },
     {
       "title": "WARNER BROS TV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Warner2018LA.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/warner-bros-tv.png",
       "category": "noticias",
       "options": [
         {
@@ -3001,7 +3000,7 @@
     },
     {
       "title": "ESPN Ar",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/espn-ar.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-ar.webp",
       "category": "deportes",
       "options": [
         {
@@ -3012,7 +3011,7 @@
     },
     {
       "title": "ESPN Col",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/espn-col.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-col.webp",
       "category": "deportes",
       "options": [
         {
@@ -3023,7 +3022,7 @@
     },
     {
       "title": "DirecTV Sports 2",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/directv-sports-2.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/directv-sports-2-3.webp",
       "category": "deportes",
       "options": [
         {
@@ -3038,7 +3037,7 @@
     },
     {
       "title": "ESPN México",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-mexico-2.webp",
       "category": "deportes",
       "options": [
         {
@@ -3080,7 +3079,7 @@
     },
     {
       "title": "Fox Sports Premium",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/fox-sports-premium.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-premium-2.webp",
       "category": "deportes",
       "options": [
         {
@@ -3091,7 +3090,7 @@
     },
     {
       "title": "Movistar La Liga",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/movistar-la-liga-2.webp",
       "category": "deportes",
       "options": [
         {
@@ -3146,7 +3145,7 @@
     },
     {
       "title": "Warner Channel",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/warner-channel.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/warner-channel-3.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3157,7 +3156,7 @@
     },
     {
       "title": "Telefe",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/telefe.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telefe-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3168,7 +3167,7 @@
     },
     {
       "title": "Distrito Comedia",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/distrito-comedia-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3179,7 +3178,7 @@
     },
     {
       "title": "Pasiones",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/pasiones-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3190,7 +3189,7 @@
     },
     {
       "title": "Azteca Uno",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/azteca-uno-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3212,7 +3211,7 @@
     },
     {
       "title": "Tlnovelas",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tlnovelas-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3227,7 +3226,7 @@
     },
     {
       "title": "Las Estrellas",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/las-estrellas.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/las-estrellas-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3249,7 +3248,7 @@
     },
     {
       "title": "Unicable",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/unicable-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3260,7 +3259,7 @@
     },
     {
       "title": "FX",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/fx.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fx-3.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3271,7 +3270,7 @@
     },
     {
       "title": "Sony",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/sony.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sony.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3282,7 +3281,7 @@
     },
     {
       "title": "Studio Universal",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/studio-universal.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/studio-universal-3.webp",
       "category": "películas",
       "options": [
         {
@@ -3293,7 +3292,7 @@
     },
     {
       "title": "Multipremier",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/multipremier-2.webp",
       "category": "películas",
       "options": [
         {
@@ -3304,7 +3303,7 @@
     },
     {
       "title": "AMC",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/amc.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/amc-3.webp",
       "category": "películas",
       "options": [
         {
@@ -3337,7 +3336,7 @@
     },
     {
       "title": "MTV",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/mtv.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/mtv.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3348,7 +3347,7 @@
     },
     {
       "title": "Comedy Central",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/comedy-central.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/comedy-central.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3359,7 +3358,7 @@
     },
     {
       "title": "Nat Geo",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/nat-geo.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nat-geo-3.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3370,7 +3369,7 @@
     },
     {
       "title": "ID Investigation",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/id-investigation-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3392,7 +3391,7 @@
     },
     {
       "title": "El Gourmet",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/el-gourmet.svg",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/el-gourmet.svg",
       "category": "entretenimiento",
       "options": [
         {
@@ -3403,7 +3402,7 @@
     },
     {
       "title": "Disney Jr.",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/disney-jr.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/disney-jr.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3414,7 +3413,7 @@
     },
     {
       "title": "Nick",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/nick.png",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nick.png",
       "category": "infantiles",
       "options": [
         {
@@ -3425,7 +3424,7 @@
     },
     {
       "title": "Nick Jr.",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/nick-jr.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nick-jr.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3436,7 +3435,7 @@
     },
     {
       "title": "Cartoon Network",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/cartoon-network.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cartoon-network-3.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3447,7 +3446,7 @@
     },
     {
       "title": "Cartoonito",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/cartoonito.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cartoonito.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3458,7 +3457,7 @@
     },
     {
       "title": "Tooncast",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tooncast-2.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3469,7 +3468,7 @@
     },
     {
       "title": "Telemundo Puerto Rico",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telemundo-puerto-rico-2.webp",
       "category": "entretenimiento",
       "options": [
         {
@@ -3491,7 +3490,7 @@
     },
     {
       "title": "Disney Channel",
-      "image": "https://belkaperu.github.io/belkafut/img/canales/disney-channel.webp",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/disney-channel-3.webp",
       "category": "infantiles",
       "options": [
         {
@@ -3502,7 +3501,7 @@
     },
     {
       "title": "FM Hot Kids",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fm-hot-kids-2.webp",
       "category": "infantiles",
       "options": [
         {

@@ -34,7 +34,7 @@
   "channels": [
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tudn.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tudn-2.webp",
       "name": "TUDN",
       "normalized_name": "tudn",
       "servers": [
@@ -98,7 +98,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tycsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tyc-sports-2.webp",
       "name": "TyC Sports",
       "normalized_name": "tyc sports",
       "servers": [
@@ -122,7 +122,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-4.webp",
       "name": "Fox Sports",
       "normalized_name": "fox sports",
       "servers": [
@@ -150,7 +150,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports2.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-2-2.webp",
       "name": "Fox Sports 2",
       "normalized_name": "fox sports 2",
       "servers": [
@@ -162,7 +162,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports3.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-3-2.webp",
       "name": "Fox Sports 3",
       "normalized_name": "fox sports 3",
       "servers": [
@@ -198,7 +198,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-8.webp",
       "name": "ESPN",
       "normalized_name": "espn",
       "servers": [
@@ -250,7 +250,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-ar.webp",
       "name": "ESPN Ar",
       "normalized_name": "espn ar",
       "servers": [
@@ -262,7 +262,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-col.webp",
       "name": "ESPN Col",
       "normalized_name": "espn col",
       "servers": [
@@ -286,7 +286,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn2.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-2-2.webp",
       "name": "ESPN 2",
       "normalized_name": "espn 2",
       "servers": [
@@ -330,7 +330,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn3.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-3-2.webp",
       "name": "ESPN 3",
       "normalized_name": "espn 3",
       "servers": [
@@ -374,7 +374,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn4.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-4-2.webp",
       "name": "ESPN 4",
       "normalized_name": "espn 4",
       "servers": [
@@ -394,7 +394,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn5.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-5-2.webp",
       "name": "ESPN 5",
       "normalized_name": "espn 5",
       "servers": [
@@ -410,7 +410,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn6.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-6-2.webp",
       "name": "ESPN 6",
       "normalized_name": "espn 6",
       "servers": [
@@ -426,7 +426,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn7.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-7-2.webp",
       "name": "ESPN 7",
       "normalized_name": "espn 7",
       "servers": [
@@ -442,7 +442,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/directvsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/directv-sports-3.webp",
       "name": "DirecTV Sports",
       "normalized_name": "directv sports",
       "servers": [
@@ -462,7 +462,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/directvsports2.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/directv-sports-2-3.webp",
       "name": "DirecTV Sports 2",
       "normalized_name": "directv sports 2",
       "servers": [
@@ -482,7 +482,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/directvsportsplus.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/directv-sports-plus-2.webp",
       "name": "DirecTV Sports Plus",
       "normalized_name": "directv sports plus",
       "servers": [
@@ -494,7 +494,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsportsmx.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-mexico-2.webp",
       "name": "Fox Sports México",
       "normalized_name": "fox sports méxico",
       "servers": [
@@ -506,7 +506,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports2mx.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-2-mexico-2.webp",
       "name": "Fox Sports 2 México",
       "normalized_name": "fox sports 2 méxico",
       "servers": [
@@ -518,7 +518,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports3mexico.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-3-mexico-2.webp",
       "name": "Fox Sports 3 México",
       "normalized_name": "fox sports 3 méxico",
       "servers": [
@@ -530,7 +530,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espnmexico.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-mexico-2.webp",
       "name": "ESPN México",
       "normalized_name": "espn méxico",
       "servers": [
@@ -542,7 +542,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn2mexico.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-2-mexico-2.webp",
       "name": "ESPN 2 México",
       "normalized_name": "espn 2 méxico",
       "servers": [
@@ -554,7 +554,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn3mexico.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-3-mexico-2.webp",
       "name": "ESPN 3 México",
       "normalized_name": "espn 3 méxico",
       "servers": [
@@ -566,7 +566,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn4mexico.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-4-mexico-2.webp",
       "name": "ESPN 4 México",
       "normalized_name": "espn 4 méxico",
       "servers": [
@@ -578,7 +578,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn5mexico.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-5-mexico-2.webp",
       "name": "ESPN 5 México",
       "normalized_name": "espn 5 méxico",
       "servers": [
@@ -602,7 +602,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/liga1.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/liga-1-2.webp",
       "name": "Liga 1",
       "normalized_name": "liga 1",
       "servers": [
@@ -614,7 +614,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/liga1max.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/liga-1-max-2.webp",
       "name": "Liga 1 Max",
       "normalized_name": "liga 1 max",
       "servers": [
@@ -634,7 +634,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsportspremium.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-premium-2.webp",
       "name": "Fox Sports Premium",
       "normalized_name": "fox sports premium",
       "servers": [
@@ -650,7 +650,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/movistarlaliga.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/movistar-deportes.jpg",
       "name": "Movistar Deportes",
       "normalized_name": "movistar deportes",
       "servers": [
@@ -678,7 +678,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/daznf1.jpg",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dazn-f1.png",
       "name": "DAZN F1",
       "normalized_name": "dazn f1",
       "servers": [
@@ -702,7 +702,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/movistarligadecampeones.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/movistar-liga-de-campeones-2.webp",
       "name": "Movistar Liga de Campeones",
       "normalized_name": "movistar liga de campeones",
       "servers": [
@@ -714,7 +714,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/winsportsplus.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/win-sports.jpg",
       "name": "Win Sports",
       "normalized_name": "win sports",
       "servers": [
@@ -762,7 +762,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/beinsportsxtra.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/bein-sports-xtra-2.webp",
       "name": "BeIN Sports Xtra",
       "normalized_name": "bein sports xtra",
       "servers": [
@@ -774,7 +774,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/movistarlaliga.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/movistar-la-liga-2.webp",
       "name": "Movistar La Liga",
       "normalized_name": "movistar la liga",
       "servers": [
@@ -786,7 +786,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/mlbnetwork.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nba.png",
       "name": "NBA",
       "normalized_name": "nba",
       "servers": [
@@ -814,7 +814,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/aztecadeportes.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/azteca-deportes-2.webp",
       "name": "Azteca Deportes",
       "normalized_name": "azteca deportes",
       "servers": [
@@ -830,7 +830,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tntsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-sports-chile.png",
       "name": "TNT Sports Chile",
       "normalized_name": "tnt sports chile",
       "servers": [
@@ -898,7 +898,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/azteca7.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/azteca-7-2.webp",
       "name": "Azteca 7",
       "normalized_name": "azteca 7",
       "servers": [
@@ -926,7 +926,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/canal5.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/canal-5-2.webp",
       "name": "Canal 5",
       "normalized_name": "canal 5",
       "servers": [
@@ -938,7 +938,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/latina.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/latina-2.webp",
       "name": "Latina",
       "normalized_name": "latina",
       "servers": [
@@ -954,7 +954,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/americatv.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/america-tv-2.webp",
       "name": "America TV",
       "normalized_name": "america tv",
       "servers": [
@@ -970,7 +970,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/space.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/space-2.webp",
       "name": "Space",
       "normalized_name": "space",
       "servers": [
@@ -986,7 +986,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/warnerbrostv.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/warner-channel-3.webp",
       "name": "Warner Channel",
       "normalized_name": "warner channel",
       "servers": [
@@ -998,7 +998,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tnt.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-2.webp",
       "name": "TNT",
       "normalized_name": "tnt",
       "servers": [
@@ -1014,7 +1014,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/star.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/star-channel-2.webp",
       "name": "Star Channel",
       "normalized_name": "star channel",
       "servers": [
@@ -1030,7 +1030,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinemax.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cinemax-2.webp",
       "name": "Cinemax",
       "normalized_name": "cinemax",
       "servers": [
@@ -1054,7 +1054,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinecanal.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cinecanal-2.webp",
       "name": "Cinecanal",
       "normalized_name": "cinecanal",
       "servers": [
@@ -1070,7 +1070,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/telefe.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telefe-2.webp",
       "name": "Telefe",
       "normalized_name": "telefe",
       "servers": [
@@ -1082,7 +1082,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/eltrece.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/el-trece-2.webp",
       "name": "El Trece",
       "normalized_name": "el trece",
       "servers": [
@@ -1098,7 +1098,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/distritocomedia.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/distrito-comedia-2.webp",
       "name": "Distrito Comedia",
       "normalized_name": "distrito comedia",
       "servers": [
@@ -1114,7 +1114,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/telemundo51.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telemundo-51-2.webp",
       "name": "Telemundo 51",
       "normalized_name": "telemundo 51",
       "servers": [
@@ -1126,7 +1126,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/history.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/history-3.webp",
       "name": "History",
       "normalized_name": "history",
       "servers": [
@@ -1142,7 +1142,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/history2.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/history-2-2.webp",
       "name": "History 2",
       "normalized_name": "history 2",
       "servers": [
@@ -1158,7 +1158,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/pasiones.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/pasiones-2.webp",
       "name": "Pasiones",
       "normalized_name": "pasiones",
       "servers": [
@@ -1170,7 +1170,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/aztecauno.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/azteca-uno-2.webp",
       "name": "Azteca Uno",
       "normalized_name": "azteca uno",
       "servers": [
@@ -1194,7 +1194,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tlnovelas.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tlnovelas-2.webp",
       "name": "Tlnovelas",
       "normalized_name": "tlnovelas",
       "servers": [
@@ -1214,7 +1214,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/lasestrellas.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/las-estrellas-2.webp",
       "name": "Las Estrellas",
       "normalized_name": "las estrellas",
       "servers": [
@@ -1242,7 +1242,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/caracol.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/caracol-2.webp",
       "name": "Caracol",
       "normalized_name": "caracol",
       "servers": [
@@ -1262,7 +1262,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/atv.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/atv-2.webp",
       "name": "ATV",
       "normalized_name": "atv",
       "servers": [
@@ -1278,7 +1278,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/univision.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/univision-2.webp",
       "name": "Univision",
       "normalized_name": "univision",
       "servers": [
@@ -1294,7 +1294,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/unicable.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/unicable-2.webp",
       "name": "Unicable",
       "normalized_name": "unicable",
       "servers": [
@@ -1306,7 +1306,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/fx.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fx-3.webp",
       "name": "FX",
       "normalized_name": "fx",
       "servers": [
@@ -1318,7 +1318,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/goldenplus.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golden-plus-2.webp",
       "name": "Golden Plus",
       "normalized_name": "golden plus",
       "servers": [
@@ -1334,7 +1334,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/goldenedge.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golden-edge-2.webp",
       "name": "Golden Edge",
       "normalized_name": "golden edge",
       "servers": [
@@ -1350,7 +1350,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/goldenpremier.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golden-premier-2.webp",
       "name": "Golden Premier",
       "normalized_name": "golden premier",
       "servers": [
@@ -1378,7 +1378,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tntseries.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-series-2.webp",
       "name": "TNT Series",
       "normalized_name": "tnt series",
       "servers": [
@@ -1394,7 +1394,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/axn.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/axn-2.webp",
       "name": "AXN",
       "normalized_name": "axn",
       "servers": [
@@ -1410,7 +1410,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/studiouniversal.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/studio-universal-3.webp",
       "name": "Studio Universal",
       "normalized_name": "studio universal",
       "servers": [
@@ -1430,7 +1430,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/multipremier.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/multipremier-2.webp",
       "name": "Multipremier",
       "normalized_name": "multipremier",
       "servers": [
@@ -1446,7 +1446,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/amc.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/amc-3.webp",
       "name": "AMC",
       "normalized_name": "amc",
       "servers": [
@@ -1482,7 +1482,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/panico.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/mtv.webp",
       "name": "MTV",
       "normalized_name": "mtv",
       "servers": [
@@ -1494,7 +1494,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/distritocomedia.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/comedy-central.webp",
       "name": "Comedy Central",
       "normalized_name": "comedy central",
       "servers": [
@@ -1506,7 +1506,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/natgeo.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nat-geo-3.webp",
       "name": "Nat Geo",
       "normalized_name": "nat geo",
       "servers": [
@@ -1518,7 +1518,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/animalplanet.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/animal-planet-2.webp",
       "name": "Animal Planet",
       "normalized_name": "animal planet",
       "servers": [
@@ -1542,7 +1542,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/discoverychannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-channel-2.webp",
       "name": "Discovery Channel",
       "normalized_name": "discovery channel",
       "servers": [
@@ -1570,7 +1570,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/idinvestigation.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/id-investigation-2.webp",
       "name": "ID Investigation",
       "normalized_name": "id investigation",
       "servers": [
@@ -1594,7 +1594,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/discoveryhyh.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-tlc.png",
       "name": "Discovery TLC",
       "normalized_name": "discovery tlc",
       "servers": [
@@ -1642,7 +1642,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/discoveryhyh.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/el-gourmet.svg",
       "name": "El Gourmet",
       "normalized_name": "el gourmet",
       "servers": [
@@ -1654,7 +1654,7 @@
     },
     {
       "category": "Infantiles",
-      "imageUrl": "https://www.tvporinternet2.com/imge/disneychannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/disney-jr.webp",
       "name": "Disney Jr.",
       "normalized_name": "disney jr.",
       "servers": [
@@ -1670,7 +1670,7 @@
     },
     {
       "category": "Infantiles",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cartoonnetwork.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nick.png",
       "name": "Nick",
       "normalized_name": "nick",
       "servers": [
@@ -1682,7 +1682,7 @@
     },
     {
       "category": "Infantiles",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cartoonnetwork.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nick-jr.webp",
       "name": "Nick Jr.",
       "normalized_name": "nick jr.",
       "servers": [
@@ -1694,7 +1694,7 @@
     },
     {
       "category": "Infantiles",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cartoonnetwork.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cartoon-network-3.webp",
       "name": "Cartoon Network",
       "normalized_name": "cartoon network",
       "servers": [
@@ -1714,7 +1714,7 @@
     },
     {
       "category": "Infantiles",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cartoonnetwork.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cartoonito.webp",
       "name": "Cartoonito",
       "normalized_name": "cartoonito",
       "servers": [
@@ -1730,7 +1730,7 @@
     },
     {
       "category": "Infantiles",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tooncast.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tooncast-2.webp",
       "name": "Tooncast",
       "normalized_name": "tooncast",
       "servers": [
@@ -1762,7 +1762,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/telemundopuertorico.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telemundo-puerto-rico-2.webp",
       "name": "Telemundo Puerto Rico",
       "normalized_name": "telemundo puerto rico",
       "servers": [
@@ -1798,7 +1798,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/rcn.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/rcn-2.webp",
       "name": "RCN",
       "normalized_name": "rcn",
       "servers": [
@@ -1810,7 +1810,7 @@
     },
     {
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/antena3.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/antena-3-2.webp",
       "name": "Antena 3",
       "normalized_name": "antena 3",
       "servers": [
@@ -1842,7 +1842,7 @@
     },
     {
       "category": "Infantiles",
-      "imageUrl": "https://www.tvporinternet2.com/imge/disneychannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/disney-channel-3.webp",
       "name": "Disney Channel",
       "normalized_name": "disney channel",
       "servers": [
@@ -1854,7 +1854,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tntnovelas.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-novelas-2.webp",
       "name": "TNT Novelas",
       "normalized_name": "tnt novelas",
       "servers": [
@@ -1882,7 +1882,7 @@
     },
     {
       "category": "Infantiles",
-      "imageUrl": "https://www.tvporinternet2.com/imge/fmhotkids.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fm-hot-kids-2.webp",
       "name": "FM Hot Kids",
       "normalized_name": "fm hot kids",
       "servers": [
@@ -1894,7 +1894,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn4.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-4-5-6-7.jpg",
       "name": "ESPN 4.5,6,7",
       "normalized_name": "espn4567",
       "servers": [
@@ -1950,7 +1950,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espn.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-deportes.jpg",
       "name": "ESPN DEPORTES",
       "normalized_name": "espndeportes",
       "servers": [
@@ -1966,7 +1966,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/espnpremium.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-premium-2.webp",
       "name": "ESPN PREMIUM",
       "normalized_name": "espnpremium",
       "servers": [
@@ -1982,7 +1982,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports2.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-2-ar.png",
       "name": "FOX SPORTS 2 ar",
       "normalized_name": "foxsports2ar",
       "servers": [
@@ -1998,7 +1998,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports3.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-3-ar.png",
       "name": "FOX SPORTS 3 ar",
       "normalized_name": "foxsports3ar",
       "servers": [
@@ -2014,7 +2014,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsportsmx.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-mex.png",
       "name": "FOX SPORTS mex",
       "normalized_name": "foxsportsmex",
       "servers": [
@@ -2058,7 +2058,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsportspremium.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-premium.png",
       "name": "Fox PREMIUM",
       "normalized_name": "foxpremium",
       "servers": [
@@ -2078,7 +2078,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/foxusa1.png",
       "name": "foxusa1",
       "normalized_name": "foxusa1",
       "servers": [
@@ -2090,7 +2090,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports2.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fs2.png",
       "name": "FS2",
       "normalized_name": "fs2",
       "servers": [
@@ -2102,7 +2102,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/ecdf.png",
       "name": "ECDF",
       "normalized_name": "ecdf",
       "servers": [
@@ -2114,7 +2114,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/goltv.jpg",
       "name": "GOLtv",
       "normalized_name": "goltv",
       "servers": [
@@ -2130,7 +2130,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tntsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-sports.webp",
       "name": "TNT SPORTS ",
       "normalized_name": "tntsports",
       "servers": [
@@ -2146,7 +2146,7 @@
     },
     {
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/directvsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/directvsportsmotor.jpg",
       "name": "directvsportsMotor",
       "normalized_name": "directvsportsmotor",
       "servers": [
@@ -2158,7 +2158,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/directvsports2.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dsports-2.png",
       "name": "DSPORTS 2",
       "normalized_name": "dsports2",
       "servers": [
@@ -2174,7 +2174,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/directvsportsplus.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dsports-plus.png",
       "name": "DSPORTS PLUS",
       "normalized_name": "dsportsplus",
       "servers": [
@@ -2210,7 +2210,7 @@
     },
     {
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/deportv.png",
       "name": "deportv",
       "normalized_name": "deportv",
       "servers": [
@@ -2222,7 +2222,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/canal5.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/canal5mx.png",
       "name": "canal5mx",
       "normalized_name": "canal5mx",
       "servers": [
@@ -2242,7 +2242,7 @@
     },
     {
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/directvsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/claro.png",
       "name": "CLARO",
       "normalized_name": "claro",
       "servers": [
@@ -2254,7 +2254,7 @@
     },
     {
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/telemundo51.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telemundo.png",
       "name": "Telemundo",
       "normalized_name": "telemundo",
       "servers": [
@@ -2274,7 +2274,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/daznlaliga1.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/la-liga.png",
       "name": "la-liga",
       "normalized_name": "laliga",
       "servers": [
@@ -2286,7 +2286,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/skysportslaliga.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real-madrid-tv.png",
       "name": "real madrid tv",
       "normalized_name": "realmadridtv",
       "servers": [
@@ -2306,7 +2306,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/directvsports.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tigo-sports.jpg",
       "name": "TIGO SPORTS",
       "normalized_name": "tigosports",
       "servers": [
@@ -2318,7 +2318,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/beinsportsxtra.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/bein-sports-es.png",
       "name": "BEIN SPORTS es",
       "normalized_name": "beinsportses",
       "servers": [
@@ -2330,7 +2330,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/beinsportsxtra.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/bein-sports-extra.png",
       "name": "BEIN SPORTS EXTRA",
       "normalized_name": "beinsportsextra",
       "servers": [
@@ -2370,7 +2370,7 @@
     },
     {
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/skysportslaliga.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/real.png",
       "name": "real",
       "normalized_name": "real",
       "servers": [
@@ -2382,7 +2382,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/skysportslaliga.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/eurosports-1.png",
       "name": "EUROSPORTS 1",
       "normalized_name": "eurosports1",
       "servers": [
@@ -2394,7 +2394,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/skysportslaliga.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/eurosports-2.png",
       "name": "EUROSPORTS 2",
       "normalized_name": "eurosports2",
       "servers": [
@@ -2406,7 +2406,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/foxsportspremium.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/premiere.png",
       "name": "premiere",
       "normalized_name": "premiere",
       "servers": [
@@ -2454,7 +2454,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/skysportslaliga.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/eleven-pt.png",
       "name": "ELEVEN PT",
       "normalized_name": "elevenpt",
       "servers": [
@@ -2498,7 +2498,7 @@
     },
     {
       "category": "Deportes",
-      "imageUrl": "https://www.tvporinternet2.com/imge/skysportslaliga.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sport-tv-pt.png",
       "name": "Sport TV PT",
       "normalized_name": "sporttvpt",
       "servers": [
@@ -2554,7 +2554,7 @@
     },
     {
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/daznlaliga1.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/zonadaznit.png",
       "name": "zonadaznit ",
       "normalized_name": "zonadaznit",
       "servers": [
@@ -2622,7 +2622,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tntseries.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tntserie.png",
       "name": "tntserie ",
       "normalized_name": "tntserie",
       "servers": [
@@ -2646,7 +2646,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/golden.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/golden-2.webp",
       "name": "GOLDEN ",
       "normalized_name": "golden",
       "servers": [
@@ -2666,7 +2666,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/canalsony.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sony-movie.png",
       "name": "sony movie",
       "normalized_name": "sonymovie",
       "servers": [
@@ -2678,7 +2678,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinemax.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo.png",
       "name": "HBO",
       "normalized_name": "hbo",
       "servers": [
@@ -2690,7 +2690,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinemax.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-2.png",
       "name": "HBO 2",
       "normalized_name": "hbo2",
       "servers": [
@@ -2702,7 +2702,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinemax.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-xtreme.png",
       "name": "HBO xtreme",
       "normalized_name": "hboxtreme",
       "servers": [
@@ -2718,7 +2718,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinemax.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-pop.png",
       "name": "HBO pop",
       "normalized_name": "hbopop",
       "servers": [
@@ -2730,7 +2730,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinemax.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-mundi.png",
       "name": "HBO Mundi",
       "normalized_name": "hbomundi",
       "servers": [
@@ -2742,7 +2742,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinemax.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-signature.png",
       "name": "HBO Signature",
       "normalized_name": "hbosignature",
       "servers": [
@@ -2754,7 +2754,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/cinemax.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/hbo-family.png",
       "name": "HBO FAMILY",
       "normalized_name": "hbofamily",
       "servers": [
@@ -2766,7 +2766,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/universalchannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universaltv.png",
       "name": "universaltv ",
       "normalized_name": "universaltv",
       "servers": [
@@ -2778,7 +2778,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/universalchannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universalcine.png",
       "name": "universalcine",
       "normalized_name": "universalcine",
       "servers": [
@@ -2790,7 +2790,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/universalchannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universalcrime.png",
       "name": "universalcrime",
       "normalized_name": "universalcrime",
       "servers": [
@@ -2802,7 +2802,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/universalchannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universalcomedy.png",
       "name": "universalcomedy",
       "normalized_name": "universalcomedy",
       "servers": [
@@ -2814,7 +2814,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/universalchannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/universalreal.png",
       "name": "universalreal",
       "normalized_name": "universalreal",
       "servers": [
@@ -2838,7 +2838,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/dw.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/rt.png",
       "name": "RT",
       "normalized_name": "rt",
       "servers": [
@@ -2850,7 +2850,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/dw.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/cnn-espanol.png",
       "name": "CNN ESPAÑOL",
       "normalized_name": "cnnespanol",
       "servers": [
@@ -2862,7 +2862,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/latina.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tv-peru.png",
       "name": "TV PERU",
       "normalized_name": "tvperu",
       "servers": [
@@ -2874,7 +2874,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/latina.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/panamericana-tv.png",
       "name": "Panamericana TV",
       "normalized_name": "panamericanatv",
       "servers": [
@@ -2886,7 +2886,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/latina.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/exitosa-tv.jpg",
       "name": "EXITOSA TV",
       "normalized_name": "exitosatv",
       "servers": [
@@ -2898,7 +2898,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/latina.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/planetatv.png",
       "name": "planetatv",
       "normalized_name": "planetatv",
       "servers": [
@@ -2910,7 +2910,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/rcn.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/rcn-extra.png",
       "name": "rcn EXTRA ",
       "normalized_name": "rcnextra",
       "servers": [
@@ -2922,7 +2922,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/telefe.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telefe-html.png",
       "name": "telefe.html",
       "normalized_name": "telefehtml",
       "servers": [
@@ -2934,7 +2934,7 @@
     },
     {
       "category": "Noticias",
-      "imageUrl": "https://www.tvporinternet2.com/imge/caracol.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/teleamazonas.png",
       "name": "teleamazonas",
       "normalized_name": "teleamazonas",
       "servers": [
@@ -2970,7 +2970,7 @@
     },
     {
       "category": "Entretenimiento",
-      "imageUrl": "https://www.tvporinternet2.com/imge/idinvestigation.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-id.png",
       "name": "DISCOVERY id ",
       "normalized_name": "discoveryid",
       "servers": [
@@ -2982,7 +2982,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/discoveryhyh.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-helth.jpg",
       "name": "DISCOVERY helth ",
       "normalized_name": "discoveryhelth",
       "servers": [
@@ -2994,7 +2994,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/discoverychannel.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/discovery-turbo.jpg",
       "name": "DISCOVERY turbo ",
       "normalized_name": "discoveryturbo",
       "servers": [
@@ -3022,7 +3022,7 @@
     },
     {
       "category": "Películas",
-      "imageUrl": "https://www.tvporinternet2.com/imge/animalplanet.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/love-nature.png",
       "name": "love nature",
       "normalized_name": "lovenature",
       "servers": [
@@ -3539,7 +3539,7 @@
     {
       "name": "TBS",
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/tnt.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tbs.png",
       "servers": [
         {
           "name": "1",
@@ -3795,7 +3795,7 @@
     {
       "name": "SONY",
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/canalsony.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/sony.webp",
       "servers": [
         {
           "name": "1",
@@ -3907,7 +3907,7 @@
     {
       "name": "TELE SUR",
       "category": "Internacionales",
-      "imageUrl": "https://www.tvporinternet2.com/imge/dw.webp",
+      "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tele-sur.png",
       "servers": [
         {
           "name": "1",
