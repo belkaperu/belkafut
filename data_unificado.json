@@ -194,7 +194,7 @@
       "title": "AMC",
       "normalized_name": "amc",
       "category": "películas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/amc-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/amc-3.webp",
       "servers": [
         {
           "name": "Embed",
@@ -231,7 +231,7 @@
       "title": "America TV",
       "normalized_name": "america tv",
       "category": "Entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/america-tv.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/america-tv-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -285,7 +285,7 @@
       "title": "animal_planet",
       "normalized_name": "animal planet",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/animal-planet.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/animal-planet-2.webp",
       "servers": [
         {
           "name": "2",
@@ -334,7 +334,7 @@
       "title": "antena 3",
       "normalized_name": "antena 3",
       "category": "noticias",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/antena-3.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/antena-3-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -371,7 +371,7 @@
       "title": "ATV",
       "normalized_name": "atv",
       "category": "noticias",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/atv.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/atv-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -398,7 +398,7 @@
       "title": "AXN ",
       "normalized_name": "axn",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/axn.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/axn-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -467,7 +467,7 @@
       "title": "Azteca 7",
       "normalized_name": "azteca 7",
       "category": "Entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/azteca-7.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/azteca-7-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -497,7 +497,7 @@
       "title": "Azteca Deportes",
       "normalized_name": "azteca deportes",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/azteca-deportes.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/azteca-deportes-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -515,7 +515,7 @@
       "title": "Azteca Uno",
       "normalized_name": "azteca uno",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/azteca-uno.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/azteca-uno-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -672,7 +672,7 @@
       "title": "BeIN Sports Xtra",
       "normalized_name": "bein sports xtra",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/bein-sports-xtra.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/bein-sports-xtra-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -834,7 +834,7 @@
       "title": "Canal 5",
       "normalized_name": "canal 5",
       "category": "Entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/canal-5.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/canal-5-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -3123,7 +3123,7 @@
       "title": "CARACOL",
       "normalized_name": "caracol",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/caracol.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/caracol-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -3158,7 +3158,7 @@
       "title": "Cartoon Network",
       "normalized_name": "cartoon network",
       "category": "infantiles",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/cartoon-network-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/cartoon-network-3.webp",
       "servers": [
         {
           "name": "Embed",
@@ -3250,7 +3250,7 @@
       "title": "cinecanal ",
       "normalized_name": "cinecanal",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/cinecanal.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/cinecanal-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -3295,7 +3295,7 @@
       "title": "CINEMAX",
       "normalized_name": "cinemax",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/cinemax.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/cinemax-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -3705,7 +3705,7 @@
       "title": "DirecTV Sports",
       "normalized_name": "directv sports",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/directv-sports.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/directv-sports-3.webp",
       "servers": [
         {
           "name": null,
@@ -3727,7 +3727,7 @@
       "title": "DirecTV Sports 2",
       "normalized_name": "directv sports 2",
       "category": "deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/directv-sports-2-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/directv-sports-2-3.webp",
       "servers": [
         {
           "name": null,
@@ -3758,7 +3758,7 @@
       "title": "DirecTV Sports Plus",
       "normalized_name": "directv sports plus",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/directv-sports-plus.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/directv-sports-plus-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -3846,7 +3846,7 @@
       "title": "Discovery Channel",
       "normalized_name": "discovery channel",
       "category": "Entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/discovery-channel.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/discovery-channel-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -4126,7 +4126,7 @@
       "title": "Disney Channel",
       "normalized_name": "disney channel",
       "category": "infantiles",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/disney-channel-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/disney-channel-3.webp",
       "servers": [
         {
           "name": "Embed",
@@ -4168,7 +4168,7 @@
       "title": "Distrito Comedia",
       "normalized_name": "distrito comedia",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/distrito-comedia.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/distrito-comedia-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -4408,7 +4408,7 @@
       "title": "El Trece",
       "normalized_name": "el trece",
       "category": "Entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/el-trece.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/el-trece-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -4531,7 +4531,7 @@
       "title": "ESPN",
       "normalized_name": "espn",
       "category": "general",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-8.webp",
       "servers": [
         {
           "name": "1",
@@ -4622,7 +4622,7 @@
       "title": "ESPN 2",
       "normalized_name": "espn 2",
       "category": "general",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-2-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -4731,7 +4731,7 @@
       "title": "ESPN 2 México",
       "normalized_name": "espn 2 mexico",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-2-mexico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-2-mexico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -4745,7 +4745,7 @@
       "title": "ESPN 3",
       "normalized_name": "espn 3",
       "category": "general",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-3.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-3-2.webp",
       "servers": [
         {
           "name": "2",
@@ -4858,7 +4858,7 @@
       "title": "ESPN 3 México",
       "normalized_name": "espn 3 mexico",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-3-mexico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-3-mexico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -4872,7 +4872,7 @@
       "title": "ESPN 4",
       "normalized_name": "espn 4",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-4.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-4-2.webp",
       "servers": [
         {
           "name": "1",
@@ -5015,7 +5015,7 @@
       "title": "ESPN 4 México",
       "normalized_name": "espn 4 mexico",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-4-mexico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-4-mexico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5029,7 +5029,7 @@
       "title": "ESPN 5",
       "normalized_name": "espn 5",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-5.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-5-2.webp",
       "servers": [
         {
           "name": "1",
@@ -5061,7 +5061,7 @@
       "title": "ESPN 5 México",
       "normalized_name": "espn 5 mexico",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-5-mexico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-5-mexico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5075,7 +5075,7 @@
       "title": "ESPN 6",
       "normalized_name": "espn 6",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-6.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-6-2.webp",
       "servers": [
         {
           "name": "1",
@@ -5093,7 +5093,7 @@
       "title": "ESPN 7",
       "normalized_name": "espn 7",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-7.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-7-2.webp",
       "servers": [
         {
           "name": "1",
@@ -5220,7 +5220,7 @@
       "title": "ESPN México",
       "normalized_name": "espn mexico",
       "category": "deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-mexico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-mexico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5255,7 +5255,7 @@
       "title": "ESPN PREMIUM",
       "normalized_name": "espn premium",
       "category": "general",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-premium.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/espn-premium-2.webp",
       "servers": [
         {
           "name": "Espnpremium GLOB HD",
@@ -5469,7 +5469,7 @@
       "title": "FM Hot Kids",
       "normalized_name": "fm hot kids",
       "category": "infantiles",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fm-hot-kids.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fm-hot-kids-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5619,7 +5619,7 @@
       "title": "FOX SPORTS",
       "normalized_name": "fox sports",
       "category": "general",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-4.webp",
       "servers": [
         {
           "name": "1",
@@ -5670,7 +5670,7 @@
       "title": "Fox Sports 2",
       "normalized_name": "fox sports 2",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-2-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5723,7 +5723,7 @@
       "title": "Fox Sports 2 México",
       "normalized_name": "fox sports 2 mexico",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-2-mexico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-2-mexico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5737,7 +5737,7 @@
       "title": "Fox Sports 3",
       "normalized_name": "fox sports 3",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-3.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-3-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5790,7 +5790,7 @@
       "title": "Fox Sports 3 México",
       "normalized_name": "fox sports 3 mexico",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-3-mexico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-3-mexico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5899,7 +5899,7 @@
       "title": "Fox Sports México",
       "normalized_name": "fox sports mexico",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-mexico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-mexico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -5913,7 +5913,7 @@
       "title": "Fox Sports Premium",
       "normalized_name": "fox sports premium",
       "category": "deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-premium.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fox-sports-premium-2.webp",
       "servers": [
         {
           "name": "1",
@@ -6032,7 +6032,7 @@
       "title": "FX",
       "normalized_name": "fx",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fx-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/fx-3.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6172,7 +6172,7 @@
       "title": "GOLDEN ",
       "normalized_name": "golden",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/golden.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/golden-2.webp",
       "servers": [
         {
           "name": "GOLDEN ",
@@ -6199,7 +6199,7 @@
       "title": "GOLDEN EDGE ",
       "normalized_name": "golden edge",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/golden-edge.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/golden-edge-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6226,7 +6226,7 @@
       "title": "GOLDEN PLUS ",
       "normalized_name": "golden plus",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/golden-plus.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/golden-plus-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6253,7 +6253,7 @@
       "title": "GOLDEN PREMIER ",
       "normalized_name": "golden premier",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/golden-premier.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/golden-premier-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6559,7 +6559,7 @@
       "title": "HISTORY ",
       "normalized_name": "history",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/history.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/history-3.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6586,7 +6586,7 @@
       "title": "HISTORY 2",
       "normalized_name": "history 2",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/history-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/history-2-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6691,7 +6691,7 @@
       "title": "ID Investigation",
       "normalized_name": "id investigation",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/id-investigation.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/id-investigation-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6846,7 +6846,7 @@
       "title": "Las Estrellas",
       "normalized_name": "las estrellas",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/las-estrellas.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/las-estrellas-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6883,7 +6883,7 @@
       "title": "latina",
       "normalized_name": "latina",
       "category": "noticias",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/latina.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/latina-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6910,7 +6910,7 @@
       "title": "Liga 1",
       "normalized_name": "liga 1",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/liga-1.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/liga-1-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -6924,7 +6924,7 @@
       "title": "Liga 1 Max",
       "normalized_name": "liga 1 max",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/liga-1-max.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/liga-1-max-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -7203,7 +7203,7 @@
       "title": "Movistar La Liga",
       "normalized_name": "movistar la liga",
       "category": "deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/movistar-la-liga.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/movistar-la-liga-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -7222,7 +7222,7 @@
       "title": "Movistar Liga de Campeones",
       "normalized_name": "movistar liga de campeones",
       "category": "Deportes",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/movistar-liga-de-campeones.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/movistar-liga-de-campeones-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -7282,7 +7282,7 @@
       "title": "Multipremier",
       "normalized_name": "multipremier",
       "category": "películas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/multipremier.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/multipremier-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -7324,7 +7324,7 @@
       "title": "Nat Geo",
       "normalized_name": "nat geo",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/nat-geo-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/nat-geo-3.webp",
       "servers": [
         {
           "name": "Embed",
@@ -7488,7 +7488,7 @@
       "title": "Pasiones",
       "normalized_name": "pasiones",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/pasiones.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/pasiones-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -7677,7 +7677,7 @@
       "title": "rcn ",
       "normalized_name": "rcn",
       "category": "noticias",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/rcn.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/rcn-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8015,7 +8015,7 @@
       "title": "space",
       "normalized_name": "space",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/space.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/space-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8284,7 +8284,7 @@
       "title": "star channel",
       "normalized_name": "star channel",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/star-channel.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/star-channel-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8339,7 +8339,7 @@
       "title": "Studio Universal",
       "normalized_name": "studio universal",
       "category": "películas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/studio-universal-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/studio-universal-3.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8567,7 +8567,7 @@
       "title": "Telefe",
       "normalized_name": "telefe",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/telefe.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/telefe-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8686,7 +8686,7 @@
       "title": "Telemundo 51",
       "normalized_name": "telemundo 51",
       "category": "Entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/telemundo-51.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/telemundo-51-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8714,7 +8714,7 @@
       "title": "Telemundo Puerto Rico",
       "normalized_name": "telemundo puerto rico",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/telemundo-puerto-rico.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/telemundo-puerto-rico-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8784,7 +8784,7 @@
       "title": "Tlnovelas",
       "normalized_name": "tlnovelas",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tlnovelas.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tlnovelas-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8843,7 +8843,7 @@
       "title": "TNT",
       "normalized_name": "tnt",
       "category": "peliculas",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tnt.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tnt-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8884,7 +8884,7 @@
       "title": "TNT Novelas",
       "normalized_name": "tnt novelas",
       "category": "Entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tnt-novelas.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tnt-novelas-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -8902,7 +8902,7 @@
       "title": "TNT Series",
       "normalized_name": "tnt series",
       "category": "Entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tnt-series.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tnt-series-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -9023,7 +9023,7 @@
       "title": "Tooncast",
       "normalized_name": "tooncast",
       "category": "infantiles",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tooncast.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tooncast-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -9060,7 +9060,7 @@
       "title": "TUDN",
       "normalized_name": "tudn",
       "category": "general",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tudn.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tudn-2.webp",
       "servers": [
         {
           "name": "1",
@@ -9347,7 +9347,7 @@
       "title": "TYC SPORTS",
       "normalized_name": "tyc sports",
       "category": "general",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tyc-sports.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/tyc-sports-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -9394,7 +9394,7 @@
       "title": "Unicable",
       "normalized_name": "unicable",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/unicable.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/unicable-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -9563,7 +9563,7 @@
       "title": "univision",
       "normalized_name": "univision",
       "category": "all",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/univision.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/univision-2.webp",
       "servers": [
         {
           "name": "Embed",
@@ -9677,7 +9677,7 @@
       "title": "Warner Channel",
       "normalized_name": "warner channel",
       "category": "entretenimiento",
-      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/warner-channel-2.webp",
+      "imageUrl": "https://github.com/belkaperu/belkafut/tree/main/img/canales/warner-channel-3.webp",
       "servers": [
         {
           "name": "Embed",
