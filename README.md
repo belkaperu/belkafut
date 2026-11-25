@@ -11,11 +11,13 @@ Canales de deportes para la app (listas en `data.json`, `data1.json`, `data2.jso
 | `.github/workflows/verify-urls.yml` | Verifica las URLs de `data1.json` (status **+ contenido**) y **arregla las caídas buscando en internet**: Google → agenda de futbollibre → URL real del stream → verificación. Deja reporte y avisa por issue. | cada 6 h (:30) |
 | `.github/workflows/update-canales.yml` | **Agrega opciones nuevas** desde la agenda/páginas de canal de futbollibre, solo si la URL verifica. | cada 6 h (:15) |
 | `.github/workflows/main.yml` | Actualiza los dominios `embed.*` cuando el sitio rota de dominio. | cada 6 h (:00) |
+| `.github/workflows/verificar-enlaces.yml` | Comprueba los enlaces de `data_unificado.json` **por su destino real** (desenvuelve `/p/…?r=…` hasta el stream) y borra solo los caídos en dos pasadas que dejen al canal con otro enlace vivo. | manual |
 | `.github/workflows/test.yml` | Pruebas de los scripts en cada push (servidor simulado local). | push/PR |
 
 Ver **[UNIFICADO.md](UNIFICADO.md)** para el catálogo unificado.
 
-Ver **[VERIFY-URLS.md](VERIFY-URLS.md)** para la documentación completa.
+Ver **[VERIFY-URLS.md](VERIFY-URLS.md)** y **[VERIFICAR-ENLACES.md](VERIFICAR-ENLACES.md)**
+para la documentación completa.
 
 ```bash
 node verify-urls.mjs                  # simulación: informa y propone arreglos
@@ -26,6 +28,8 @@ node test/verify-urls.test.mjs        # pruebas (75 casos, servidor simulado loc
 node build-unificado.mjs              # simulación: resume el catálogo unificado
 node build-unificado.mjs --apply      # regenera data_unificado.json
 node test/unificado.test.mjs          # pruebas del unificador
+node verificar-enlaces.mjs            # simulación: qué enlaces están caídos de verdad
+node verificar-enlaces.mjs --apply    # borra los confirmados (nunca deja un canal vacío)
 ```
 
 Sin dependencias: todo funciona con Node 20+ (`npm install` solo hace falta para
