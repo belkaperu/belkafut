@@ -11,3 +11,7 @@ verificacion-reporte.md
 test/fixtures/out/
 test/fixtures/repo*/
 test/fixtures/sources*.test.json
+
+# Informes del verificador de enlaces (los sube el workflow)
+verificacion-enlaces.json
+salida-verificacion.txt
