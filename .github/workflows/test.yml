@@ -31,3 +31,5 @@ jobs:
         run: node test/futbollibre-parse.test.mjs
       - name: Pruebas del unificador
         run: node test/unificado.test.mjs
+      - name: Pruebas del verificador de enlaces
+        run: node test/verificar-enlaces.test.mjs

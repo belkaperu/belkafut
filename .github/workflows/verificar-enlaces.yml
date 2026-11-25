@@ -1,0 +1,90 @@
+name: Verificar enlaces de data_unificado.json
+
+# Comprueba de verdad los enlaces del catálogo. Las `options` son envoltorios
+# anidados (/p/foxrepro1.html?r=…repron.html?r=…repro.html?r=<base64>), así que
+# se desenvuelven y se comprueba el DESTINO REAL, no el envoltorio.
+#
+# Un enlace se borra solo si el destino no responde en DOS pasadas y el canal
+# conserva otro enlace vivo. Nunca se borra por host.
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Borrar los enlaces confirmados muertos (si no, solo informa)"
+        type: boolean
+        default: false
+      solo_options:
+        description: "Comprobar solo las options (más rápido)"
+        type: boolean
+        default: false
+      timeout:
+        description: "Timeout por petición en ms"
+        type: string
+        default: "10000"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verificar-enlaces
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Las options viven en el propio repo (belkaperu.github.io/belkafut/…),
+      # así que GitHub Pages debe estar publicado para que sean accesibles.
+      - name: Comprobar el archivo
+        run: |
+          test -f data_unificado.json
+          node -e 'const d=require("./data_unificado.json");console.log("canales:",d.channels.length)'
+
+      - name: Verificar (simulación)
+        run: |
+          node verificar-enlaces.mjs \
+            --timeout=${{ inputs.timeout }} \
+            --reintentos=2 \
+            --pasadas=2 \
+            --reporte=verificacion-enlaces.json \
+            ${{ inputs.solo_options && '--solo-options' || '' }}
+        continue-on-error: false
+
+      - name: Aplicar borrado
+        if: ${{ inputs.apply }}
+        run: |
+          node verificar-enlaces.mjs \
+            --timeout=${{ inputs.timeout }} \
+            --reintentos=2 \
+            --pasadas=2 \
+            --apply \
+            --reporte=verificacion-enlaces.json
+
+      - name: Guardar el informe
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verificacion-enlaces
+          path: verificacion-enlaces.json
+          if-no-files-found: warn
+
+      - name: Confirmar cambios
+        if: ${{ inputs.apply }}
+        run: |
+          if git diff --quiet -- data_unificado.json; then
+            echo "Sin cambios que confirmar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data_unificado.json
+          git commit -m "Limpia enlaces caídos de data_unificado.json"
+          git push
