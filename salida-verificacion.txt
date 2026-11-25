@@ -2,9 +2,116 @@
 [enlaces] Canales: 642 · Enlaces: 1670
 [enlaces]   servers: 1433 · options: 237
 [enlaces]   con envoltorio: 216 · destinos distintos: 86
-[enlaces]   timeout 0 ms · concurrencia 4/host · pausa 250 ms · 2 pasada(s)
+[enlaces]   timeout 10000 ms · concurrencia 4/host · pausa 250 ms · 2 pasada(s)
 [enlaces] 
-
-✘ Sin salida a internet en este entorno.
-  Todos los enlaces saldrían caídos, así que no se comprueba nada.
-  Ejecútalo en GitHub Actions, o usa --sin-canario si sabes lo que haces.
+[enlaces] canario: hay red ✔
+[enlaces] 
+Pasada 1/2: 1670 enlace(s)
+  comprobados 50/1670…  comprobados 100/1670…  comprobados 150/1670…  comprobados 200/1670…  comprobados 250/1670…  comprobados 300/1670…  comprobados 350/1670…  comprobados 400/1670…  comprobados 450/1670…  comprobados 500/1670…  comprobados 550/1670…  comprobados 600/1670…  comprobados 650/1670…  comprobados 700/1670…  comprobados 750/1670…  comprobados 800/1670…  comprobados 850/1670…  comprobados 900/1670…  comprobados 950/1670…  comprobados 1000/1670…  comprobados 1050/1670…  comprobados 1100/1670…  comprobados 1150/1670…  comprobados 1200/1670…  comprobados 1250/1670…  comprobados 1300/1670…  comprobados 1350/1670…  comprobados 1400/1670…  comprobados 1450/1670…  comprobados 1500/1670…  comprobados 1550/1670…  comprobados 1600/1670…  comprobados 1650/1670…  comprobados 1670/1670…[enlaces] 
+Pasada 2/2: 842 enlace(s)
+  comprobados 50/842…  comprobados 100/842…  comprobados 150/842…  comprobados 200/842…  comprobados 250/842…  comprobados 300/842…  comprobados 350/842…  comprobados 400/842…  comprobados 450/842…  comprobados 500/842…  comprobados 550/842…  comprobados 600/842…  comprobados 650/842…  comprobados 700/842…  comprobados 750/842…  comprobados 800/842…  comprobados 842/842…
+[enlaces] 
+[enlaces] ✔ vivos: 844
+[enlaces] ✘ muertos: 826
+[enlaces] ⚠ protegidos (último enlace del canal): 221
+[enlaces]   canales que se quedarían vacíos: 175
+[enlaces] 
+FALLOS POR HOST (solo los que fallan en TODOS sus enlaces = host caído)
+[enlaces]   host                                     fallos/total
+[enlaces]   104.238.205.28:8989                         39/39    CAÍDO
+[enlaces]   138.0.228.250:44380                         24/24    CAÍDO
+[enlaces]   179.49.163.34:45000                          6/6     CAÍDO
+[enlaces]   179.51.136.19:8000                          35/35    CAÍDO
+[enlaces]   181.119.85.222:8000                         25/25    CAÍDO
+[enlaces]   181.119.86.68:8000                          37/37    CAÍDO
+[enlaces]   181.143.230.202:8000                         1/1     CAÍDO
+[enlaces]   181.189.244.253:8000                         4/4     CAÍDO
+[enlaces]   181.205.130.194:4000                         5/5     CAÍDO
+[enlaces]   181.78.106.127:9000                         56/56    CAÍDO
+[enlaces]   181.78.82.6:46090                            3/3     CAÍDO
+[enlaces]   181.78.85.53:9002                           16/16    CAÍDO
+[enlaces]   185.189.225.157                              1/1     CAÍDO
+[enlaces]   190.102.149.68:1234                         17/17    CAÍDO
+[enlaces]   190.60.33.237:1010                           1/1     CAÍDO
+[enlaces]   190.60.42.86:8000                            1/1     CAÍDO
+[enlaces]   200.115.96.66:4000                           3/3     CAÍDO
+[enlaces]   200.92.227.238:8000                          1/1     CAÍDO
+[enlaces]   23.237.104.106:8080                          2/2     CAÍDO
+[enlaces]   38.180.133.31:8000                          34/34    CAÍDO
+[enlaces]   38.211.242.128:8001                         10/10    CAÍDO
+[enlaces]   38.44.109.41:8003                            1/1     CAÍDO
+[enlaces]   45.5.119.43:4000                             1/1     CAÍDO
+[enlaces]   alilus.github.io                            14/14    CAÍDO
+[enlaces]   amg00090-blueantllc-lovenature-xumo-7ap4k.amagi.tv     1/1     CAÍDO
+[enlaces]   anceprov.best                                1/1     CAÍDO
+[enlaces]   belami.top                                 282/282   CAÍDO
+[enlaces]   cdn.streamhispanatv.net:3859                 1/1     CAÍDO
+[enlaces]   dmidspta.cdn.mgmlcdn.com                     1/1     CAÍDO
+[enlaces]   dmitwlvvll.cdn.mgmlcdn.com                   2/2     CAÍDO
+[enlaces]   dodousd.github.io                           11/11    CAÍDO
+[enlaces]   drewlive24.duckdns.org:4123                  5/5     CAÍDO
+[enlaces]   fl1.moveonjoy.com                            1/1     CAÍDO
+[enlaces]   freetv.stream.olympusatmedia.com             1/1     CAÍDO
+[enlaces]   la20hd.com                                  57/57    CAÍDO
+[enlaces]   live-01-02-eltrece.vodgc.net                 1/1     CAÍDO
+[enlaces]   live.sportstv.com.tr                         1/1     CAÍDO
+[enlaces]   smsbusinesshub.com                           1/1     CAÍDO
+[enlaces]   ssh101.bozztv.com                            1/1     CAÍDO
+[enlaces]   stream-xhd.com                              16/16    CAÍDO
+[enlaces]   … y 7 hosts más
+[enlaces] 
+HOSTS CON FALLOS PARCIALES (estos NO se borran enteros: están vivos)
+[enlaces]   host                                     fallos/total
+[enlaces]   181.188.216.5:18000                         37/107   35%
+[enlaces]   190.60.32.178:8178                           5/7     71%
+[enlaces]   200.10.30.241:8000                           2/97    2%
+[enlaces]   45.228.234.30:16000                          1/146   1%
+[enlaces]   belkaperu.github.io                          1/49    2%
+[enlaces]   streamtp1.com                                1/2     50%
+[enlaces]   45.71.254.1:8000                             1/21    5%
+[enlaces] 
+--- MUESTRA DE FALLOS (primeros 40) ---
+[enlaces]   5 Uruguay | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278796/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   A&E | server | 104.238.205.28:8989 | ECONNREFUSED | http://104.238.205.28:8989/278390_.m3u8
+[enlaces]   A&E | server | 181.78.106.127:9000 | ECONNREFUSED | http://181.78.106.127:9000/play/ca086/index.m3u8
+[enlaces]   A&E | server | 38.180.133.31:8000 | 20 | http://38.180.133.31:8000/play/a0or/index.m3u8
+[enlaces]   A&E | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278389/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   Abu Dhabi Sports 1 | server | vo-live-media.cdb.cdn.orange.com | ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR | https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
+[enlaces]   Adult Swim | server | 104.238.205.28:8989 | ECONNREFUSED | http://104.238.205.28:8989/278392_.m3u8
+[enlaces]   Adult Swim | server | 181.78.85.53:9002 | ECONNREFUSED | http://181.78.85.53:9002/play/a00y/index.m3u8
+[enlaces]   Adult Swim | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278392/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   AMC | server | 104.238.205.28:8989 | ECONNREFUSED | http://104.238.205.28:8989/278393_.m3u8
+[enlaces]   AMC | server | 181.78.106.127:9000 | ECONNREFUSED | http://181.78.106.127:9000/play/ca080/index.m3u8
+[enlaces]   AMC | server | 181.78.85.53:9002 | ECONNREFUSED | http://181.78.85.53:9002/play/a04l/index.m3u8
+[enlaces]   AMC | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278811/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   AMC | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278393/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   AMC | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278394/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   América TV | server | 179.51.136.19:8000 | ECONNREFUSED | http://179.51.136.19:8000/play/a1aq/index.m3u8
+[enlaces]   América TV | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278899/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   América TV | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278889/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   Animal Planet | server | 181.78.85.53:9002 | ECONNREFUSED | http://181.78.85.53:9002/play/a00k/index.m3u8
+[enlaces]   Antena 3 | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278812/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   ATLAS | server | 181.119.85.222:8000 | ECONNREFUSED | http://181.119.85.222:8000/play/a03d/index.m3u8
+[enlaces]   ATV | server | alilus.github.io | SIN_VIDEO | https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9kMXN2bWU4Mzl4a2Jzbi5jbG91ZGZyb250Lm5
+[enlaces]   AXN | server | 104.238.205.28:8989 | ECONNREFUSED | http://104.238.205.28:8989/278385_.m3u8
+[enlaces]   AXN | server | 138.0.228.250:44380 | ECONNREFUSED | http://138.0.228.250:44380/play/a02i/index.m3u8
+[enlaces]   AXN | server | 179.51.136.19:8000 | ECONNREFUSED | http://179.51.136.19:8000/play/a1br/index.m3u8
+[enlaces]   AXN | server | 181.119.85.222:8000 | ECONNREFUSED | http://181.119.85.222:8000/play/a01y/index.m3u8
+[enlaces]   AXN | server | 181.188.216.5:18000 | HTTP 404 | http://181.188.216.5:18000/play/a0pa/index.m3u8
+[enlaces]   AXN | server | 181.78.106.127:9000 | ECONNREFUSED | http://181.78.106.127:9000/play/ca085/index.m3u8
+[enlaces]   AXN | server | 181.78.85.53:9002 | ECONNREFUSED | http://181.78.85.53:9002/play/a00n/index.m3u8
+[enlaces]   AXN | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278814/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   AXN | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278386/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   AXN Movies | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278815/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   Aym Sport | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/158797/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   Az Cinema | server | 104.238.205.28:8989 | ECONNREFUSED | http://104.238.205.28:8989/278465_.m3u8
+[enlaces]   Azteca 7 | server | la20hd.com | ENOTFOUND | https://la20hd.com/vivo/canales.php?stream=azteca7
+[enlaces]   Azteca 7 | server | streamx-hd.com | 20 | https://streamx-hd.com/live1.php?stream=azteca_deportes
+[enlaces]   Azteca Deportes | server | 138.0.228.250:44380 | ECONNREFUSED | http://138.0.228.250:44380/play/a01x/index.m3u8
+[enlaces]   Azteca Deportes | server | 181.119.85.222:8000 | ECONNREFUSED | http://181.119.85.222:8000/play/a04e/index.m3u8
+[enlaces]   Azteca Deportes | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278576/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces]   Azteca Deportes | server | belami.top | HTTP 404 | http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278577/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8
+[enlaces] 
+Informe escrito en verificacion-enlaces.json
+[enlaces] 
+Simulación. Se borrarían 605 enlace(s). Usa --apply para aplicarlo.
