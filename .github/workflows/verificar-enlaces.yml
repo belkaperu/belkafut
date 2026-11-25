@@ -26,6 +26,10 @@ on:
         type: string
         default: "10000"
 
+env:
+  # En push no hay inputs: estos son los valores por defecto de la ejecución.
+  TIMEOUT: ${{ inputs.timeout || '10000' }}
+
 permissions:
   contents: write
 
@@ -55,7 +59,7 @@ jobs:
         id: verificar
         run: |
           node verificar-enlaces.mjs \
-            --timeout=${{ inputs.timeout }} \
+            --timeout=${{ env.TIMEOUT }} \
             --reintentos=2 \
             --pasadas=2 \
             --reporte=verificacion-enlaces.json \
@@ -66,7 +70,7 @@ jobs:
         if: ${{ inputs.apply }}
         run: |
           node verificar-enlaces.mjs \
-            --timeout=${{ inputs.timeout }} \
+            --timeout=${{ env.TIMEOUT }} \
             --reintentos=2 \
             --pasadas=2 \
             --apply \
