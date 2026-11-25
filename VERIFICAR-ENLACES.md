@@ -52,6 +52,8 @@ Un enlace se borra **solo si se cumplen las tres**:
 | 200 con cuerpo vacío | `VACIO` |
 | 200 con página de error o dominio en venta | `VACIO` |
 | `.m3u8` que no empieza por `#EXTM3U` | `VACIO` |
+| 200 con reproductor que no carga vídeo | `SIN_VIDEO` |
+| página que apunta a un `.m3u8` que no existe | `SIN_VIDEO` |
 
 ### NO se consideran caídos
 
@@ -116,6 +118,50 @@ node verificar-enlaces.mjs --reporte=r.json # informe en JSON
   push. El nuevo JSON entra en el siguiente `build-unificado.mjs` como fuente.
 
 El runner de GitHub sí tiene internet, que es lo que falta en entornos aislados.
+
+
+## El caso que engaña: 200 sin vídeo
+
+Comprobado a mano, con lo que devuelve cada destino:
+
+| Destino | Respuesta | Veredicto |
+| --- | --- | --- |
+| `ztnr.rtve.es/ztnr/1694255.m3u8` | manifiesto HLS real (`#EXTM3U`) | **vivo** |
+| `la18hd.su/vivo/canales.php?stream=espn` | 200 + *"Could not play video. Error code: hls:networkError_manifestLoadError"* | **muerto** |
+| `la18hd.su/vivo/canal.php?stream=espn` | igual | **muerto** |
+| `tvf90.com/online/canal.php?stream=dsports` | igual | **muerto** |
+| `streamxhd.sbs/live1.php?stream=espn` | 200, ni reproductor ni vídeo | **muerto** |
+| `alilus.github.io/…/m3u8player.html` | *"Este archivo de video no se puede reproducir (102630)"* | **muerto** |
+
+Un chequeo que solo mire el status daría **vivo** a los cinco últimos. Por eso:
+
+1. Si el cuerpo contiene un mensaje de error de reproductor
+   (`Could not play video`, `hls:networkError_manifestLoadError`,
+   `no se puede reproducir`, `102630`), el enlace está muerto aunque sea 200.
+2. Si la página referencia un `.m3u8`, **se comprueba ese manifiesto**. La página
+   puede ser un cascarón: lo que manda es el manifiesto que carga.
+
+## Advertencia: puede que casi todo esté muerto
+
+De los 237 `options`, el destino real se reparte así:
+
+| Host destino | Enlaces | Estado comprobado |
+| --- | --- | --- |
+| `streamxhd.com` | 127 | sin vídeo (redirige a `streamxhd.sbs`) |
+| `la18hd.su` | 58 | sin vídeo |
+| `tvf90.com` | 21 | sin vídeo |
+| `embed.saohgdasregions.fun` | 14 | sin comprobar |
+| `alilus.github.io` | 3 | sin vídeo |
+| resto (11 hosts) | 14 | varios vivos (`rtve.es`, …) |
+
+Es decir: **209 de 237 (88 %)** apuntan a hosts que hoy no sirven vídeo. Si la
+verificación lo confirma en dos pasadas, el catálogo se quedará con muy pocas
+`options`. Eso es un dato, no un fallo del script: los enlaces están caídos de
+verdad. Antes de aplicar conviene:
+
+1. Ejecutar en simulación y leer el informe.
+2. Regenerar el catálogo con `build-unificado.mjs --apply` después, porque los
+   enlaces vivos de `data1.json` (fuente) siguen entrando.
 
 ## Esquema intacto
 
