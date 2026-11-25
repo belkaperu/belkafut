@@ -53,6 +53,12 @@ export const CATEGORIES = [
   { name: "Internacionales", display_name: "Canales Internacionales", icon: "🌍" },
 ];
 const CATEGORY_ORDER = new Map(CATEGORIES.map((c, i) => [c.name, i]));
+
+/**
+ * Esquema ORIGINAL del archivo (no ampliarlo): un canal solo tiene estas
+ * claves, en este orden, y la raíz solo {categories, channels}.
+ */
+export const CHANNEL_FIELDS = ["name", "title", "normalized_name", "category", "imageUrl", "servers", "options"];
 const QUALITY_SUFFIX = /\s+(hd|fhd|uhd|sd|4k|8k|h265|hevc|h\.?264|full|opc?|op\d)\s*$/i;
 const CATEGORY_BY_KEY = new Map(
   CATEGORIES.flatMap((c) => [
@@ -593,8 +599,9 @@ const JUNK_PATTERNS = [
   /^\d+$/,                                          // "31", "54"
   /^\d{4}\s+\d{1,2}\s+\d{2}\s*(?:am|pm)?\s*(?:est|edt)?$/, // "2025 4 00 pm est"
   /^\d{4}\s+\d{1,2}\s*(?:am|pm)\s*(?:est|edt)?$/,
-  /^canal\s+a[0-9a-z]{3,4}$/,                       // placeholders del proveedor
-  /^(?:canal\s+)?a[0-9a-z]{3}$/,
+  // OJO: "Canal A0xx" NO es basura; son canales del proveedor que el archivo
+  // original ya listaba en `channels`. Solo se descartan nombres sin ningún
+  // dato (números sueltos, "NO LO SE", restos de fecha/hora).
 ];
 
 /**
@@ -1042,14 +1049,14 @@ function assignImages(channels, imageIndex) {
   for (const { ch, list } of requests) {
     for (const c of list) flat.push({ ch, ...c });
   }
-  flat.sort((a, b) => b.score - a.score || a.ch.id.localeCompare(b.ch.id));
+  flat.sort((a, b) => b.score - a.score || a.ch.normalized_name.localeCompare(b.ch.normalized_name));
   const usedUrls = new Set();
   const assigned = new Set();
   for (const item of flat) {
-    if (assigned.has(item.ch.id)) continue;
+    if (assigned.has(item.ch.normalized_name)) continue;
     if (usedUrls.has(item.url) && item.score < 0.99) continue;
     usedUrls.add(item.url);
-    assigned.add(item.ch.id);
+    assigned.add(item.ch.normalized_name);
     item.ch.imageUrl = item.url;
   }
   for (const ch of channels) if (!ch.imageUrl) ch.imageUrl = null;
@@ -1367,7 +1374,7 @@ function dedupeAcrossChannels(channels) {
   }
   const removals = []; // { ch, kind, index, keeper }
   for (const [id, items] of byTarget) {
-    if (new Set(items.map((i) => i.ch.id)).size < 2) continue;
+    if (new Set(items.map((i) => i.ch.normalized_name)).size < 2) continue;
     // ¿A qué canal "pertenece" la URL? (sus palabras dentro de la URL)
     const idText = keyOf(id.replace(/[?&=#/._-]+/g, " "));
     const scoreOf = (ch) => {
@@ -1389,7 +1396,7 @@ function dedupeAcrossChannels(channels) {
     );
     const keeper = ranked[0];
     for (const item of ranked.slice(1)) {
-      if (item.ch.id === keeper.ch.id) continue;
+      if (item.ch.normalized_name === keeper.ch.normalized_name) continue;
       removals.push({ ...item, keeper });
     }
   }
@@ -1498,7 +1505,6 @@ export function buildUnified(docs, opts = {}) {
     groups.get(key).push(rec);
   }
 
-  const usedIds = new Set();
   const usedKeys = new Set();
   const channels = [];
   const stats = {
@@ -1547,25 +1553,27 @@ export function buildUnified(docs, opts = {}) {
     const sources = [...new Set(recs.map((r) => r.source))];
 
     channels.push({
-      id: uniqueSlug(display, usedIds),
       name: display,
       title: display,
       normalized_name: key,
       category,
       imageUrl: null,
-      updated: updatedAt,
-      aliases,
-      sources,
       servers,
       options,
+      // metadatos internos (se usan al asignar imágenes y se quitan al final)
       _imageRefs: recs.map((r) => r.image).filter(Boolean),
       _sourceNames: names,
+      _aliases: aliases,
+      _sources: sources,
     });
   }
 
   assignImages(channels, imageIndex);
   dedupeOptionLabels(channels);
-  for (const ch of channels) { delete ch._imageRefs; delete ch._imgList; delete ch._sourceNames; }
+  for (const ch of channels) {
+    delete ch._imageRefs; delete ch._imgList; delete ch._sourceNames;
+    delete ch._aliases; delete ch._sources;
+  }
   const crossResult = dedupeAcrossChannels(channels);
   stats.urls_compartidas_eliminadas = crossResult.removed;
   stats.canales_con_stream_compartido = crossResult.keptShared;
@@ -1579,12 +1587,8 @@ export function buildUnified(docs, opts = {}) {
     if (idx !== -1) channels.splice(idx, 1);
   }
 
-  channels.sort((a, b) => {
-    const ca = CATEGORY_ORDER.get(a.category) ?? 99;
-    const cb = CATEGORY_ORDER.get(b.category) ?? 99;
-    if (ca !== cb) return ca - cb;
-    return a.name.localeCompare(b.name, "es");
-  });
+  // Mismo orden que el archivo original: alfabético por nombre.
+  channels.sort((a, b) => a.name.localeCompare(b.name, "es"));
 
   // Canales sin nombre útil: se conservan aparte, sin mezclarse con el catálogo
   const unidentGroups = new Map();
@@ -1599,8 +1603,8 @@ export function buildUnified(docs, opts = {}) {
   const motivoDe = (key) => {
     if (/^\d+$/.test(key)) return "numericos";
     if (/^\d{4}\s/.test(key)) return "restos_de_eventos";
-    // "canal a02b", "a063", "canal a 0 f 1" (la clave separa letras y números)
-    if (/^(?:canal\s+)?a[\s0-9a-z]*$/.test(key)) return "placeholders_proveedor";
+    // Los "Canal A0xx" NO se apartan: así estaban en el archivo original y
+    // quitarlos cambiaría el contenido del catálogo, no solo su estructura.
     return null;
   };
   for (const [key, recs] of [...unidentGroups.entries()].sort((a, b) => a[0].localeCompare(b[0], "es"))) {
@@ -1647,46 +1651,41 @@ export function buildUnified(docs, opts = {}) {
 
   const cross = dedupeAcrossSections(channels, sinIdentificar);
   stats.enlaces_duplicados_entre_secciones = cross.removed;
+  // Los canales sin nombre útil NO entran al archivo: solo se informan por
+  // consola para no cambiar el esquema (raíz = categories + channels).
   const sinIdentificarFiltrado = sinIdentificar.filter((x) => x.servers.length || x.options?.length);
 
+  // Se quitan los metadatos internos y se dejan SOLO los campos originales,
+  // en el mismo orden que el archivo de siempre.
+  const channelsOut = channels.map((ch) =>
+    Object.fromEntries(CHANNEL_FIELDS.map((k) => [k, ch[k]])),
+  );
+
   const doc = {
-    meta: {
-      version: VERSION,
-      generado: generatedAt,
-      generador: "build-unificado.mjs",
-      fuentes: {
-        "data.json": docs.data?.channels?.length ?? 0,
-        "data1.json": docs.data1?.canales?.length ?? 0,
-        "data2.json": docs.data2?.channels?.length ?? 0,
-      },
-      totales: {
-        canales: channels.length,
-        enlaces: channels.reduce((n, c) => n + c.servers.length + c.options.length, 0),
-        con_servidores: channels.filter((c) => c.servers.length).length,
-        con_opciones: channels.filter((c) => c.options.length).length,
-        con_imagen: channels.filter((c) => c.imageUrl).length,
-        sin_identificar: sinIdentificarFiltrado.length,
-        enlaces_sin_identificar: unidentifiedStreams,
-      },
-      fusiones: {
-        canales_fusionados: stats.canales_fusionados,
-        nombres_absorvidos: stats.nombres_absorvidos,
-        urls_repetidas_eliminadas: stats.urls_exactas_eliminadas,
-        urls_compartidas_eliminadas: stats.urls_compartidas_eliminadas,
-        canales_con_stream_compartido: stats.canales_con_stream_compartido,
-        canales_duplicados_descartados: stats.canales_descartados,
-        canales_absorbidos_por_stream_compartido: stats.canales_absorbidos,
-      },
-      avisos: {
-        canales_sin_imagen: stats.canales_sin_imagen,
-        canales_sin_enlaces: stats.canales_sin_enlaces,
-        duplicados_entre_secciones: stats.enlaces_duplicados_entre_secciones,
-      },
-    },
-    categories: CATEGORIES.map((c) => ({ ...c })),
-    channels,
-    sin_identificar: sinIdentificarFiltrado,
+    // Mismo orden de claves que el archivo original: display_name, icon, name.
+    categories: CATEGORIES.map((c) => ({ display_name: c.display_name, icon: c.icon, name: c.name })),
+    channels: channelsOut,
   };
+  // Resumen para la CLI: propiedad NO enumerable, así JSON.stringify y
+  // Object.keys solo ven {categories, channels}.
+  Object.defineProperty(doc, "summary", { value: {
+    generado: generatedAt,
+    fuentes: {
+      "data.json": docs.data?.channels?.length ?? 0,
+      "data1.json": docs.data1?.canales?.length ?? 0,
+      "data2.json": docs.data2?.channels?.length ?? 0,
+    },
+    servidores: channelsOut.reduce((n, c) => n + c.servers.length, 0),
+    opciones: channelsOut.reduce((n, c) => n + c.options.length, 0),
+    con_imagen: channelsOut.filter((c) => c.imageUrl).length,
+    fusionados: stats.canales_fusionados,
+    nombres_absorvidos: stats.nombres_absorvidos,
+    urls_repetidas_eliminadas: stats.urls_exactas_eliminadas,
+    urls_compartidas_eliminadas: stats.urls_compartidas_eliminadas,
+    canales_absorbidos: stats.canales_absorbidos,
+    canales_sin_imagen: stats.canales_sin_imagen,
+    sin_identificar: sinIdentificarFiltrado,
+  }, enumerable: false });
   return doc;
 }
 
@@ -1697,16 +1696,22 @@ export function buildUnified(docs, opts = {}) {
 /** Comprueba que no queden ids, claves ni URLs repetidas. */
 export function validateUnified(doc) {
   const problems = [];
-  const ids = new Set();
   const keys = new Set();
   const catNames = new Set();
   for (const c of doc.categories || []) {
     if (catNames.has(c.name)) problems.push(`categoría repetida: ${c.name}`);
     catNames.add(c.name);
+    for (const k of Object.keys(c)) {
+      if (!["name", "display_name", "icon"].includes(k)) problems.push(`campo extra en categoría: ${k}`);
+    }
+  }
+  for (const k of Object.keys(doc)) {
+    if (!["categories", "channels"].includes(k)) problems.push(`sección extra en la raíz: ${k}`);
   }
   for (const ch of doc.channels || []) {
-    if (ids.has(ch.id)) problems.push(`id repetido: ${ch.id}`);
-    ids.add(ch.id);
+    for (const k of Object.keys(ch)) {
+      if (!CHANNEL_FIELDS.includes(k)) problems.push(`campo extra en ${ch.name}: ${k}`);
+    }
     if (keys.has(ch.normalized_name)) problems.push(`clave repetida: ${ch.normalized_name}`);
     keys.add(ch.normalized_name);
     const urls = new Set();
@@ -1742,17 +1747,20 @@ function main() {
   const doc = buildUnified(docs, { imageIndex });
   const problems = validateUnified(doc);
 
-  const t = doc.meta.totales;
-  log(`Fuentes: data.json ${doc.meta.fuentes["data.json"]} · data1.json ${doc.meta.fuentes["data1.json"]} · data2.json ${doc.meta.fuentes["data2.json"]}`);
-  log(`Canales: ${t.canales} (${doc.meta.fusiones.canales_fusionados} fusionados, ${doc.meta.fusiones.nombres_absorvidos} nombres absorbidos)`);
-  log(`Enlaces: ${t.enlaces} (${doc.meta.fusiones.urls_repetidas_eliminadas} URLs repetidas eliminadas)`);
-  log(`Con imagen: ${t.con_imagen}/${t.canales} · sin imagen: ${doc.meta.avisos.canales_sin_imagen}`);
-  log(`Sin identificar (aparte): ${t.sin_identificar} entradas, ${t.enlaces_sin_identificar} enlaces`);
+  const S = doc.summary;
+  const total = doc.channels.length;
+  log(`Fuentes: data.json ${S.fuentes["data.json"]} · data1.json ${S.fuentes["data1.json"]} · data2.json ${S.fuentes["data2.json"]}`);
+  log(`Canales: ${total} (${S.fusionados} fusionados, ${S.nombres_absorvidos} nombres absorbidos)`);
+  log(`Enlaces: ${S.servidores + S.opciones} (${S.urls_repetidas_eliminadas} URLs repetidas eliminadas)`);
+  log(`Con imagen: ${S.con_imagen}/${total} · sin imagen: ${S.canales_sin_imagen}`);
+  const sinId = S.sin_identificar;
+  const sinIdEnlaces = sinId.reduce((n, x) => n + x.servers.length + (x.options?.length || 0), 0);
+  log(`Sin identificar (descartados, no van al archivo): ${sinId.length} entradas, ${sinIdEnlaces} enlaces`);
   if (problems.length) {
     warn(`Validación: ${problems.length} problema(s)`);
     problems.slice(0, 20).forEach((p) => warn(`  - ${p}`));
   } else {
-    log("Validación: sin ids, claves ni URLs repetidas ✔");
+    log("Validación: esquema original y sin claves ni URLs repetidas ✔");
   }
 
   if (args.verbose) {
