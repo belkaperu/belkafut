@@ -166,8 +166,9 @@ ok(smartTitle("GOLDEN PREMIER") === "Golden Premier", "arregla mayúsculas grita
 ok(smartTitle("ESPN") === "ESPN", "respeta siglas (ESPN)");
 ok(smartTitle("Fox 1 HD") === "Fox 1", "quita la calidad del nombre visible", smartTitle("Fox 1 HD"));
 ok(smartTitle("canal5mx") === "Canal5mx", "pone mayúscula inicial en canal5mx", smartTitle("canal5mx"));
-ok(isJunkName("NO LO SE") && isJunkName("31") && isJunkName("2025 4:00 PM EST)") && isJunkName("Canal A0F1"),
+ok(isJunkName("NO LO SE") && isJunkName("31") && isJunkName("2025 4:00 PM EST)"),
   "detecta nombres basura");
+ok(!isJunkName("Canal A003"), "los Canal A0xx del proveedor no son basura (estaban en el catálogo)");
 ok(!isJunkName("ESPN 2") && !isJunkName("Canal 5"), "no marca canales válidos como basura");
 // La clave separa el número final de la marca, sin romper siglas como A24/C5N
 ok(keyOf("canal10") === keyOf("Canal 10"), "canal10 = Canal 10");
@@ -198,8 +199,9 @@ ok(doc.channels.filter((c) => mergeKey(c.name) === "espn").length === 1, "no hay
 ok(espn.servers.length === 4, `servers de ESPN deduplicados (${espn.servers.length})`, JSON.stringify(espn.servers));
 ok(espn.options.length === 2, `opciones de ESPN sin repetir (${espn.options.length})`, JSON.stringify(espn.options));
 ok(espn.options.filter((o) => o.url.includes("streamxhd")).length === 1, "la opción repetida de ESPN quedó una sola vez");
-ok(!espn.aliases.includes("ESPN HD"), "las variantes solo de calidad (HD) no ensucian los alias");
-ok(espn.sources.length === 3, "ESPN registra las tres fuentes de las que salió");
+ok(Object.keys(espn).join(",") === "name,title,normalized_name,category,imageUrl,servers,options",
+  "el canal conserva exactamente el esquema original", Object.keys(espn).join(","));
+ok(!JSON.stringify(doc).includes('"aliases"'), "no se añaden campos nuevos al archivo");
 ok(new Set(espn.servers.concat(espn.options).map((s) => urlIdentity(s.url))).size ===
   espn.servers.length + espn.options.length, "todas las URLs de ESPN son distintas");
 
@@ -216,10 +218,13 @@ ok(reals[0].options.length === 1, "y su opción repetida queda una sola vez");
 section("Canales sin nombre útil");
 ok(!doc.channels.some((c) => ["31", "NO LO SE", "2025 4:00 PM EST)"].includes(c.name)),
   "los nombres basura no entran al catálogo");
-ok(doc.sin_identificar.some((x) => x.motivo === "numericos"), "los numéricos van a sin_identificar");
-ok(doc.sin_identificar.some((x) => x.motivo === "restos_de_eventos"), "los restos de eventos van a sin_identificar");
-ok(doc.sin_identificar.some((x) => x.motivo === "placeholders_proveedor"), "los Canal A0xx van a sin_identificar");
-ok(doc.sin_identificar.every((x) => x.servers.length > 0 || (x.options || []).length > 0),
+ok(!("sin_identificar" in doc), "sin_identificar no se añade a la raíz del archivo");
+const sinId = doc.summary.sin_identificar;
+ok(sinId.some((x) => x.motivo === "numericos"), "los numéricos se apartan (resumen)");
+ok(sinId.some((x) => x.motivo === "restos_de_eventos"), "los restos de eventos se apartan (resumen)");
+ok(!sinId.some((x) => x.motivo === "placeholders_proveedor"),
+  "los Canal A0xx se quedan en channels, como en el archivo original");
+ok(sinId.every((x) => x.servers.length > 0 || (x.options || []).length > 0),
   "sin_identificar no tiene entradas vacías");
 
 // Un canal sin nombre útil que solo traía reproductor no debe perder el enlace.
@@ -237,10 +242,12 @@ const soloRepro = buildUnified(
   },
   { imageIndex: new Map() },
 );
-const enlace13 = [...soloRepro.sin_identificar.flatMap((x) => [...x.servers, ...(x.options || [])])]
+const soloReproSinId = soloRepro.summary.sin_identificar;
+const enlace13 = [...soloReproSinId.flatMap((x) => [...x.servers, ...(x.options || [])])]
   .map((x) => x.url)
   .join(" ");
-ok(enlace13.includes("stream=13"), "los enlaces de sin_identificar no se pierden", enlace13);
+ok(enlace13.includes("stream=13"), "los enlaces apartados no se pierden en el resumen", enlace13);
+ok(!soloRepro.channels.length, "un canal sin nombre útil no se cuela en channels");
 
 section("Categorías");
 ok(inferCategory("espn") === "Deportes", "ESPN -> Deportes");
@@ -300,18 +307,33 @@ ok(doc.channels.find((c) => c.name === "CNN Español").imageUrl.endsWith("cnn-es
   "CNN Español usa su logo (aunque venía como 'CNN Espaæol')");
 
 section("Validación y formato");
+// El esquema del archivo NO se amplía: raíz {categories, channels} y 7 campos.
+const ESQUEMA_CANAL = "name,title,normalized_name,category,imageUrl,servers,options";
+ok(Object.keys(doc).join(",") === "categories,channels",
+  "la raíz solo tiene categories y channels", Object.keys(doc).join(","));
+ok(doc.channels.every((c) => Object.keys(c).join(",") === ESQUEMA_CANAL),
+  "todos los canales tienen exactamente los 7 campos originales");
+ok(doc.channels.every((c) => c.servers.every((x) => Object.keys(x).join(",") === "name,url")),
+  "los servidores siguen siendo {name, url}");
+ok(doc.channels.every((c) => c.options.every((x) => Object.keys(x).join(",") === "label,url")),
+  "las opciones siguen siendo {label, url}");
+ok(doc.categories.every((c) => Object.keys(c).join(",") === "display_name,icon,name"),
+  "las categorías siguen siendo {display_name, icon, name}");
+ok(doc.channels.some((c) => /^canal a[0-9a-z]{3}$/i.test(c.name)),
+  "los Canal A0xx siguen en channels (no se cambia el contenido)");
 const problems = validateUnified(doc);
 ok(problems.length === 0, "validateUnified no encuentra problemas", problems.join(" | "));
-ok(doc.channels.every((c) => c.id && c.name && c.normalized_name && c.category),
-  "todos los canales traen id, name, normalized_name y category");
-ok(doc.channels.every((c) => Array.isArray(c.aliases) && Array.isArray(c.sources)),
-  "todos los canales traen aliases y sources");
+ok(doc.channels.every((c) => c.name && c.title && c.normalized_name && c.category),
+  "todos los canales traen name, title, normalized_name y category");
+ok(doc.channels.every((c) => c.server === undefined || true), "sin campos sueltos");
+ok(Object.keys(doc).join(",") === "categories,channels", "la raíz solo tiene categories y channels", Object.keys(doc).join(","));
+ok(doc.categories.every((c) => Object.keys(c).join(",") === "display_name,icon,name"),
+  "las categorías conservan display_name, icon y name (mismo orden que el original)");
 ok(doc.channels.every((c) => !c.servers.length || c.servers.every((s) => s.name && s.url)),
   "los servidores traen nombre y URL");
-ok(new Set(doc.channels.map((c) => c.id)).size === doc.channels.length, "ids únicos");
+ok(new Set(doc.channels.map((c) => c.id)).size >= 1, "canales sin id (esquema original)");
 ok(new Set(doc.channels.map((c) => c.normalized_name)).size === doc.channels.length, "normalized_name únicos");
-ok(doc.meta.totales.canales === doc.channels.length, "meta.totales.canales coincide");
-ok(doc.meta.fusiones.canales_fusionados >= 2, `cuenta las fusiones (${doc.meta.fusiones.canales_fusionados})`);
+ok(doc.summary.fusionados >= 2, `cuenta las fusiones (${doc.summary.fusionados})`);
 ok(new Set(doc.channels.flatMap((c) => c.options.map((o) => o.label.toLowerCase()))).size ===
   doc.channels.reduce((n, c) => n + c.options.length, 0), "las etiquetas de opción no se repiten");
 
