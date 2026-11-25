@@ -1,6 +1,8 @@
 # belkafut
 
 Canales de deportes para la app (listas en `data.json`, `data1.json`, `data2.json`).
+`data_unificado.json` es el catálogo consolidado de los tres, generado con
+`build-unificado.mjs`.
 
 ## Automatizaciones
 
@@ -11,6 +13,8 @@ Canales de deportes para la app (listas en `data.json`, `data1.json`, `data2.jso
 | `.github/workflows/main.yml` | Actualiza los dominios `embed.*` cuando el sitio rota de dominio. | cada 6 h (:00) |
 | `.github/workflows/test.yml` | Pruebas de los scripts en cada push (servidor simulado local). | push/PR |
 
+Ver **[UNIFICADO.md](UNIFICADO.md)** para el catálogo unificado.
+
 Ver **[VERIFY-URLS.md](VERIFY-URLS.md)** para la documentación completa.
 
 ```bash
@@ -19,6 +23,9 @@ node verify-urls.mjs --apply          # arregla las caídas (agenda + Google + p
 node update-canales.mjs               # simulación: canales nuevos desde futbollibre
 node update-canales.mjs --apply       # los agrega a data1.json
 node test/verify-urls.test.mjs        # pruebas (75 casos, servidor simulado local)
+node build-unificado.mjs              # simulación: resume el catálogo unificado
+node build-unificado.mjs --apply      # regenera data_unificado.json
+node test/unificado.test.mjs          # pruebas del unificador
 ```
 
 Sin dependencias: todo funciona con Node 20+ (`npm install` solo hace falta para

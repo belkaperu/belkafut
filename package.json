@@ -2,12 +2,14 @@
   "name": "belkafut",
   "private": true,
   "scripts": {
-    "test": "node test/verify-urls.test.mjs && node test/futbollibre-parse.test.mjs",
+    "test": "node test/verify-urls.test.mjs && node test/futbollibre-parse.test.mjs && node test/unificado.test.mjs",
     "verify:urls": "node verify-urls.mjs",
     "verify:urls:apply": "node verify-urls.mjs --apply --search",
     "update:canales": "node update-canales.mjs",
     "update:canales:apply": "node update-canales.mjs --apply",
-    "update:embeds": "node update-embeds.mjs"
+    "update:embeds": "node update-embeds.mjs",
+    "unificado": "node build-unificado.mjs",
+    "unificado:apply": "node build-unificado.mjs --apply"
   },
   "dependencies": {
     "axios": "^1.6.0",

@@ -5,9 +5,11 @@ on:
     paths:
       - "verify-urls.mjs"
       - "update-canales.mjs"
+      - "build-unificado.mjs"
       - "lib/**"
       - "sources.json"
       - "test/**"
+      - "data*.json"
       - ".github/workflows/test.yml"
   pull_request:
   workflow_dispatch:
@@ -27,3 +29,5 @@ jobs:
         run: node test/verify-urls.test.mjs
       - name: Pruebas del parser con markup real de futbollibre
         run: node test/futbollibre-parse.test.mjs
+      - name: Pruebas del unificador
+        run: node test/unificado.test.mjs
