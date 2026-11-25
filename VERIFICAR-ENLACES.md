@@ -141,6 +141,35 @@ Un chequeo que solo mire el status daría **vivo** a los cinco últimos. Por eso
 2. Si la página referencia un `.m3u8`, **se comprueba ese manifiesto**. La página
    puede ser un cascarón: lo que manda es el manifiesto que carga.
 
+## Resultado de la verificación real (main, 1670 enlaces)
+
+Ejecutada en GitHub Actions, con internet:
+
+| Métrica | Valor |
+| --- | --- |
+| Enlaces comprobados | 1670 (1433 servers + 237 options) |
+| Vivos | **844** |
+| Muertos confirmados (2 pasadas) | **826** |
+| Protegidos (último del canal) | 221 |
+| Hosts caídos al 100 % | **47** |
+| Canales que se quedarían vacíos | **175** |
+
+Los hosts caídos: `belami.top`, `104.238.205.28:8989`, `181.78.106.127:9000`,
+`38.180.133.31:8000`, `181.119.86.68:8000`, `179.51.136.19:8000`,
+`181.119.85.222:8000`, `138.0.228.250:44380`, `190.102.149.68:1234`, …
+
+Hosts con fallos parciales que **no** se tocan:
+`45.228.234.30:16000` (1/146), `200.10.30.241:8000` (2/97),
+`181.188.216.5:18000` (37/107, 35 %).
+
+### Y aun así el catálogo estaba casi vacío
+
+De las 237 `options`, solo **6 fallaron** por HTTP (las 6 son URLs directas).
+Las 209 de `la18hd.su` y `streamxhd.com` **pasan el chequeo HTTP y no
+reproducen**: el reproductor pinta "Could not play video" pero el status es 200.
+
+Por eso el borrado por HTTP no basta y se añadió el bloqueo en el generador.
+
 ## Advertencia: puede que casi todo esté muerto
 
 De los 237 `options`, el destino real se reparte así:
@@ -162,6 +191,42 @@ verdad. Antes de aplicar conviene:
 1. Ejecutar en simulación y leer el informe.
 2. Regenerar el catálogo con `build-unificado.mjs --apply` después, porque los
    enlaces vivos de `data1.json` (fuente) siguen entrando.
+
+## Bloqueo en el generador (`SIN_VIDEO`)
+
+Borrar en `data_unificado.json` no sirve de mucho: el archivo **se regenera**
+desde `data.json`, `data1.json` y `data2.json`, así que los enlaces muertos
+volverían en la siguiente pasada del cron.
+
+La corrección está en `build-unificado.mjs`: la lista `SIN_VIDEO` descarta los
+destinos comprobados como sin vídeo **al construir** el catálogo.
+
+| Host bloqueado | Motivo |
+| --- | --- |
+| `streamxhd.com` | redirige a `streamxhd.sbs`, sin reproductor |
+| `streamxhd.sbs` | sin reproductor |
+| `streamx-hd.com`, `stream-xhd.com`, `streamx996.one`, `streamhdx.com` | sin reproductor |
+| `la18hd.su` | `hls:networkError_manifestLoadError` |
+| `la20hd.com` | ENOTFOUND |
+| `tvf90.com` | `hls:networkError_manifestLoadError` |
+| `alilus.github.io` | "no se puede reproducir" (102630) |
+| `belami.top` | 404 en todos sus enlaces |
+
+Efecto (regenerado con `--apply`):
+
+| | Antes | Ahora |
+| --- | --- | --- |
+| Canales | 642 | **493** |
+| Enlaces | 1670 | **1040** |
+| `options` | 237 | **29** |
+| Canales sin enlace | 0 | **0** |
+
+`esSinVideo()` también mira dentro de los envoltorios: si el destino es un host
+bloqueado, el envoltorio se descarta igual. Los hosts con fallos parciales
+(`45.228.234.30:16000`, 1 de 146) **no** se bloquean.
+
+Para readmitir un host, basta quitarlo de `SIN_VIDEO` cuando vuelva a
+reproducir.
 
 ## Esquema intacto
 

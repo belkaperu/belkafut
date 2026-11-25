@@ -51,8 +51,12 @@ que el esquema no puede ampliarse por accidente.
 | `tvenvivo.webp` usado como logo de 148 canales distintos | Solo la coincidencia real por canal |
 | Mojibake (`CNN Espaæol`, `Venezolana de Televisiðn`) y espacios sobrantes | Corregidos |
 
-Cifras actuales: **642 canales**, 1670 enlaces, 192 con logo, **0 claves
-repetidas, 0 URLs repetidas y 0 canales sin enlace**.
+Cifras actuales: **493 canales**, 1040 enlaces, **0 claves repetidas, 0 URLs
+repetidas y 0 canales sin enlace**.
+
+Los destinos comprobados que no reproducen (aunque respondan 200) se descartan
+al construir: ver `SIN_VIDEO` en `build-unificado.mjs` y
+**[VERIFICAR-ENLACES.md](VERIFICAR-ENLACES.md)**.
 
 ## Datos que no entran al archivo
 

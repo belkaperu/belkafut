@@ -14,6 +14,7 @@ import { fileURLToPath } from "node:url";
 import {
   buildUnified, validateUnified, mergeKey, keyOf, cleanName, fixMojibake,
   smartTitle, resolveTarget, urlIdentity, isJunkName, inferCategory, scoreImage,
+  esSinVideo, SIN_VIDEO,
 } from "../build-unificado.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -62,42 +63,42 @@ const data1 = {
       options: [
         {
           label: "ESPN HD",
-          url: `/p/foxrepro1.html?r=${"https://streamxhd.com/live1.php?stream=espn"}`,
+          url: `/p/foxrepro1.html?r=${"https://proveedor.example/live1.php?stream=espn"}`,
         },
         {
           label: "ESPN HD 2",
-          url: "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://la18hd.su/vivo/canal.php?stream=espn",
+          url: "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://portal.example/vivo/canal.php?stream=espn",
         },
         // misma URL que la primera, envuelta igual: debe quedar una sola
         {
           label: "ESPN repetido",
-          url: "/p/foxrepro1.html?r=https://streamxhd.com/live1.php?stream=espn",
+          url: "/p/foxrepro1.html?r=https://proveedor.example/live1.php?stream=espn",
         },
       ],
     },
     {
       title: "ESPN 2", category: "general", image: "",
-      options: [{ label: "ESPN2", url: "/p/repro1.html?r=https://streamxhd.com/live1.php?stream=espn2" }],
+      options: [{ label: "ESPN2", url: "/p/repro1.html?r=https://proveedor.example/live1.php?stream=espn2" }],
     },
     {
       title: "Win Sports", category: "all", image: "",
-      options: [{ label: "WIN", url: "/p/repro1.html?r=https://streamxhd.com/live1.php?stream=winsports" }],
+      options: [{ label: "WIN", url: "/p/repro1.html?r=https://proveedor.example/live1.php?stream=winsports" }],
     },
     {
       title: "Win Sports+", category: "general", image: "",
-      options: [{ label: "WIN+", url: "/p/repro1.html?r=https://streamxhd.com/live1.php?stream=winsportsplus" }],
+      options: [{ label: "WIN+", url: "/p/repro1.html?r=https://proveedor.example/live1.php?stream=winsportsplus" }],
     },
     {
       title: "CNN Espaæol", category: "noticias", image: "",
-      options: [{ label: "CNN", url: "/p/repro1noticias.html?r=https://streamxhd.com/live1.php?stream=cnnes" }],
+      options: [{ label: "CNN", url: "/p/repro1noticias.html?r=https://proveedor.example/live1.php?stream=cnnes" }],
     },
     {
       title: "real", category: "all", image: "",
-      options: [{ label: "real", url: "/p/repro1.html?r=https://streamxhd.com/live1.php?stream=real" }],
+      options: [{ label: "real", url: "/p/repro1.html?r=https://proveedor.example/live1.php?stream=real" }],
     },
     {
       title: "real", category: "all", image: "",
-      options: [{ label: "real", url: "/p/repro1.html?r=https://streamxhd.com/live1.php?stream=real" }],
+      options: [{ label: "real", url: "/p/repro1.html?r=https://proveedor.example/live1.php?stream=real" }],
     },
   ],
 };
@@ -183,10 +184,10 @@ ok(mergeKey("COMEDIA CENTRAL") === mergeKey("Comedy Central"), "COMEDIA CENTRAL 
 ok(mergeKey("Trece") !== mergeKey("El Trece"), "Trece (Paraguay) no se mezcla con El Trece");
 
 section("Cadenas de URL y duplicados");
-const chain = resolveTarget("/p/x.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://la18hd.su/vivo/canal.php?stream=espn");
-ok(chain.target === "https://la18hd.su/vivo/canal.php?stream=espn", "sigue la cadena /p/?r=repron?r= hasta el destino", chain.target);
-const b64 = Buffer.from("https://streamxhd.com/live1.php?stream=espn", "utf8").toString("base64");
-ok(resolveTarget(`/p/repro.html?r=${b64}`).target === "https://streamxhd.com/live1.php?stream=espn",
+const chain = resolveTarget("/p/x.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://portal.example/vivo/canal.php?stream=espn");
+ok(chain.target === "https://portal.example/vivo/canal.php?stream=espn", "sigue la cadena /p/?r=repron?r= hasta el destino", chain.target);
+const b64 = Buffer.from("https://proveedor.example/live1.php?stream=espn", "utf8").toString("base64");
+ok(resolveTarget(`/p/repro.html?r=${b64}`).target === "https://proveedor.example/live1.php?stream=espn",
   "decodifica el destino en base64");
 ok(urlIdentity("HTTP://Host.Example:80/a/index.m3u8#x") === urlIdentity("http://host.example/a/index.m3u8"),
   "la identidad de URL ignora mayúsculas y fragmentos");
@@ -198,7 +199,7 @@ ok(!!espn, "ESPN existe una sola vez");
 ok(doc.channels.filter((c) => mergeKey(c.name) === "espn").length === 1, "no hay dos canales ESPN");
 ok(espn.servers.length === 4, `servers de ESPN deduplicados (${espn.servers.length})`, JSON.stringify(espn.servers));
 ok(espn.options.length === 2, `opciones de ESPN sin repetir (${espn.options.length})`, JSON.stringify(espn.options));
-ok(espn.options.filter((o) => o.url.includes("streamxhd")).length === 1, "la opción repetida de ESPN quedó una sola vez");
+ok(espn.options.filter((o) => o.url.includes("proveedor.example")).length === 1, "la opción repetida de ESPN quedó una sola vez");
 ok(Object.keys(espn).join(",") === "name,title,normalized_name,category,imageUrl,servers,options",
   "el canal conserva exactamente el esquema original", Object.keys(espn).join(","));
 ok(!JSON.stringify(doc).includes('"aliases"'), "no se añaden campos nuevos al archivo");
@@ -235,7 +236,7 @@ const soloRepro = buildUnified(
         {
           title: "13",
           category: "all",
-          options: [{ label: "13", url: "/p/repro1.html?r=https://streamxhd.com/live1.php?stream=13" }],
+          options: [{ label: "13", url: "/p/repro1.html?r=https://proveedor.example/live1.php?stream=13" }],
         },
       ],
     },
@@ -305,6 +306,18 @@ ok(scoreImage("A24", "a24") === 1, "A24 reconoce a24.jpg");
 ok(scoreImage("Canal 5 MX", "canal5mx") === 1, "canal5mx casa después de expandir letras y números");
 ok(doc.channels.find((c) => c.name === "CNN Español").imageUrl.endsWith("cnn-espanol.png"),
   "CNN Español usa su logo (aunque venía como 'CNN Espaæol')");
+
+section("Destinos sin vídeo (comprobados a mano)");
+ok(esSinVideo("https://streamxhd.com/live1.php?stream=espn"), "streamxhd.com está bloqueado (redirige a .sbs)");
+ok(esSinVideo("https://la18hd.su/vivo/canales.php?stream=espn"), "la18hd.su está bloqueado (manifestLoadError)");
+ok(esSinVideo("https://tvf90.com/online.php?stream=dsports"), "tvf90.com está bloqueado");
+ok(esSinVideo("https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?channel=x"), "alilus.github.io está bloqueado");
+ok(esSinVideo("https://belami.top/L0K0TV/x/index.m3u8?kt=1"), "belami.top está bloqueado (404)");
+ok(esSinVideo("/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://la18hd.su/vivo/canales.php?stream=espn"),
+  "también se detecta cuando el destino está dentro de un envoltorio");
+ok(!esSinVideo("https://ztnr.rtve.es/ztnr/1694255.m3u8"), "un destino que sí reproduce no se bloquea");
+ok(SIN_VIDEO.length >= 10 && SIN_VIDEO.every((x) => x.host && x.motivo), "la lista de bloqueo documenta el motivo");
+ok(!esSinVideo("http://45.228.234.30:16000/play/a005/index.m3u8"), "un host con fallos parciales no se bloquea entero");
 
 section("Validación y formato");
 // El esquema del archivo NO se amplía: raíz {categories, channels} y 7 campos.

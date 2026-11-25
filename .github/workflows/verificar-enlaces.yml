@@ -8,9 +8,6 @@ name: Verificar enlaces de data_unificado.json
 # conserva otro enlace vivo. Nunca se borra por host.
 
 on:
-  push:
-    branches:
-      - "arena/c5fd7ca1-belkafut"
   workflow_dispatch:
     inputs:
       apply:
@@ -77,17 +74,21 @@ jobs:
             --reporte=verificacion-enlaces.json 2>&1 | tee -a salida-verificacion.txt
         continue-on-error: true
 
-      - name: Publicar el informe en la rama
+      - name: Resumen en el job
         if: always()
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in verificacion-enlaces.json salida-verificacion.txt; do
-            [ -f "$f" ] && git add -f "$f"
-          done
-          git diff --cached --quiet && exit 0
-          git commit -m "Informe de verificación de enlaces [skip ci]" || exit 0
-          git push || exit 0
+          echo "## Verificación de enlaces" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f verificacion-enlaces.json ]; then
+            node -e "
+              const r=require('./verificacion-enlaces.json').resumen;
+              const m=['| Métrica | Valor |','| --- | --- |'];
+              for(const k of Object.keys(r)) m.push('| '+k+' | '+r[k]+' |');
+              console.log(m.join('\n'));
+            " >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          head -80 salida-verificacion.txt >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
 
       - name: Guardar el informe
         if: always()
