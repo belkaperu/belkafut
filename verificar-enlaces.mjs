@@ -83,8 +83,30 @@ function looksLikeContent(finalUrl, status, body, bytes) {
   const low = txt.toLowerCase();
   if (ERROR_TXT.some((m) => low.includes(m)) && bytes < 4000) return false;
 
+  // Mensajes que el propio reproductor pinta cuando el vídeo no carga.
+  // (la18hd.su, tvf90.com y streamxhd.* los devuelven con status 200)
+  if (/error code:\s*hls:|manifestloaderror|networkerror_manifest|no se puede reproducir|could not play video|102630|error de reproducci/i.test(txt)) {
+    return false;
+  }
+
   // Página de reproductor: debe mencionar vídeo o un iframe
   return /<video|hls\.js|\.m3u8|allowfullscreen|<iframe/i.test(txt) || bytes > 8000;
+}
+
+/**
+ * Si la página apunta a un manifiesto .m3u8, se comprueba ESE.
+ * Una página de reproductor puede responder 200 y no servir nada: lo que
+ * manda es el manifiesto que carga.
+ */
+function manifiestoDe(body) {
+  if (!body) return null;
+  const m = body.match(/https?:\/\/[^\s"'\\<>]+\.m3u8[^\s"'\\<>]*/i)
+    || body.match(/["']([^"']*\.m3u8[^"']*)["']/i);
+  if (!m) return null;
+  let u = m[1] || m[0];
+  try {
+    return new URL(u.replace(/\\\//g, "/"), "https://x/").href.startsWith("https://x/") ? u : u;
+  } catch { return u; }
 }
 
 /**
@@ -109,10 +131,19 @@ async function comprobar(url) {
     const cuerpo = buf.subarray(0, 60000).toString("utf8");
 
     if (res.status === 200) {
-      if (!looksLikeContent(res.url || url, res.status, cuerpo, buf.length)) {
-        return { ok: false, status: 200, code: "VACIO", motivo: "responde 200 pero no trae contenido útil", bytes: buf.length };
+      const manifiesto = manifiestoDe(cuerpo);
+      if (manifiesto) {
+        // La página solo envuelve un .m3u8: manda el manifiesto.
+        const real = manifiesto.startsWith("http") ? manifiesto : new URL(manifiesto, res.url || url).href;
+        const sub = await comprobar(real);
+        if (sub.ok) return { ...sub, code: "OK", motivo: "", manifiesto: real };
+        return { ...sub, code: sub.code === "OK" ? "SIN_VIDEO" : sub.code, manifiesto: real,
+                 motivo: sub.motivo || "el manifiesto HLS no responde" };
       }
-      return { ok: true, status: 200, code: "OK", motivo: "", bytes: buf.length };
+      if (!looksLikeContent(res.url || url, res.status, cuerpo, buf.length)) {
+        return { ok: false, status: 200, code: "SIN_VIDEO", motivo: "responde 200 pero el reproductor no carga vídeo", bytes: buf.length, cuerpo };
+      }
+      return { ok: true, status: 200, code: "OK", motivo: "", bytes: buf.length, cuerpo };
     }
 
     if (INCONCLUYENTE.has(res.status)) {

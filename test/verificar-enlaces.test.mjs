@@ -36,6 +36,7 @@ const section = (t) => console.log(`\n\x1b[1m${t}\x1b[0m`);
 /* ---------------- servidor simulado ---------------- */
 
 const PAD = "x".repeat(600);
+let BASE_GLOBAL = "";
 const server = http.createServer((req, res) => {
   const u = new URL(req.url, "http://127.0.0.1");
   const p = u.pathname;
@@ -48,6 +49,24 @@ const server = http.createServer((req, res) => {
   if (p.startsWith("/falso-m3u8")) {
     res.writeHead(200, { "content-type": "application/vnd.apple.mpegurl" });
     res.end("<html>no soy un m3u8</html>");
+    return;
+  }
+  if (p.startsWith("/pagina-m3u8-roto")) {
+    res.writeHead(200, { "content-type": "text/html" });
+    res.end(`<!doctype html><html><body><script>var src="${BASE_GLOBAL}/no-existe/manifiesto.m3u8";</script>
+      <video id="v"></video><p>${PAD}</p></body></html>`);
+    return;
+  }
+  if (p.startsWith("/pagina-m3u8-bueno")) {
+    res.writeHead(200, { "content-type": "text/html" });
+    res.end(`<!doctype html><html><body><script>var src="${BASE_GLOBAL}/live/manifiesto.m3u8";</script>
+      <video id="v"></video><p>${PAD}</p></body></html>`);
+    return;
+  }
+  if (p.startsWith("/sin-video")) {
+    res.writeHead(200, { "content-type": "text/html" });
+    res.end(`<!doctype html><html><body><p>Could not play video.</p>
+      <p>Error code: hls:networkError_manifestLoadError</p><p>${PAD}</p></body></html>`);
     return;
   }
   if (p.startsWith("/vacio")) {
@@ -76,6 +95,7 @@ const server = http.createServer((req, res) => {
 });
 await new Promise((r) => server.listen(0, "127.0.0.1", r));
 const BASE = `http://127.0.0.1:${server.address().port}`;
+BASE_GLOBAL = BASE;
 
 const b64 = (s) => Buffer.from(s, "utf8").toString("base64");
 
@@ -108,6 +128,12 @@ const doc = {
     canal("Fox", [srv(`${BASE}/live.m3u8`), srv(`${BASE}/falso-m3u8.m3u8`)], []),
     // puerto cerrado -> muerto
     canal("Star", [srv(`${BASE}/ok`), srv("http://127.0.0.1:9/nada")], []),
+    // página 200 cuyo m3u8 no existe -> SIN_VIDEO, se borra
+    canal("ESPN2", [srv(`${BASE}/ok`), srv(`${BASE}/pagina-m3u8-roto`)], []),
+    // página 200 cuyo m3u8 sí existe -> se conserva
+    canal("ESPN3", [srv(`${BASE}/ok`), srv(`${BASE}/pagina-m3u8-bueno`)], []),
+    // "Could not play video" con 200 -> SIN_VIDEO, se borra
+    canal("TVC", [srv(`${BASE}/ok`), srv(`${BASE}/sin-video`)], []),
   ],
 };
 
@@ -143,13 +169,14 @@ ok(nextHop("https://la18hd.su/vivo/canales.php?stream=espn") === null, "el desti
 section("Veredicto por destino real (simulación)");
 const sim = await correr(["--timeout=4000", "--pausa=20", "--reintentos=2", "--espera-pasada=200"]);
 ok(sim.code === 0, "termina sin error", `exit ${sim.code}`);
-ok(/vivos: 8/.test(sim.out), "8 enlaces vivos", sim.out.match(/vivos: \d+/)?.[0]);
-ok(/muertos: 6/.test(sim.out), "6 enlaces muertos (sin duplicar)", sim.out.match(/muertos: \d+/)?.[0]);
+ok(/vivos: 12/.test(sim.out), "12 enlaces vivos", sim.out.match(/vivos: \d+/)?.[0]);
+ok(/muertos: 8/.test(sim.out), "8 enlaces muertos (sin duplicar)", sim.out.match(/muertos: \d+/)?.[0]);
 ok(!/pasada 2.*muertos.*12/.test(sim.out), "los fallos no se cuentan dos veces");
 ok(/protegidos \(último enlace del canal\): 1/.test(sim.out), "1 protegido por ser el último del canal");
-ok(/Simulación\. Se borrarían 5/.test(sim.out), "simulación: borraría 5");
-ok(/HTTP 404/.test(sim.out) && /VACIO/.test(sim.out) && /SIN_CONEXION/.test(sim.out),
-  "distingue 404, cuerpo vacío y puerto cerrado");
+ok(/Simulación\. Se borrarían 7/.test(sim.out), "simulación: borraría 7");
+ok(/SIN_VIDEO/.test(sim.out), "distingue 200 con reproductor sin vídeo");
+ok(/HTTP 404/.test(sim.out) && /SIN_VIDEO/.test(sim.out) && /SIN_CONEXION/.test(sim.out),
+  "distingue 404, 200 sin vídeo y puerto cerrado");
 ok(!/HBO \|/.test(sim.out), "un 403 no se marca como muerto");
 ok(/127\.0\.0\.1:9\s+1\/1\s+CAÍDO/.test(sim.out), "detecta el host realmente caído");
 
@@ -171,7 +198,7 @@ const rep = path.join(TMP, "reporte.json");
 fs.copyFileSync(FIXTURE, path.join(TMP, "antes.json"));
 const app = await correr(["--timeout=4000", "--pausa=20", "--reintentos=2", "--espera-pasada=200", "--apply", `--reporte=${rep}`]);
 ok(app.code === 0, "termina sin error al aplicar");
-ok(/Borrados 5 enlace/.test(app.out), "borra exactamente 5", app.out.match(/Borrados[^\n]*/)?.[0]);
+ok(/Borrados 7 enlace/.test(app.out), "borra exactamente 7", app.out.match(/Borrados[^\n]*/)?.[0]);
 
 const despues = JSON.parse(fs.readFileSync(FIXTURE, "utf8"));
 ok(JSON.stringify(Object.keys(despues)) === '["categories","channels"]', "la raíz sigue siendo {categories, channels}");
@@ -191,9 +218,15 @@ ok(despues.channels.find((c) => c.name === "ESPN").options.length === 1, "la opt
 ok(despues.channels.find((c) => c.name === "AXN").options.length === 0, "la option muerta se borra");
 ok(despues.channels.find((c) => c.name === "CNN").servers.length === 1, "se borra el 200 vacío, no el vivo");
 ok(despues.channels.find((c) => c.name === "Fox").servers.length === 1, "se borra el falso m3u8 (HTML), no el real");
+ok(despues.channels.find((c) => c.name === "ESPN2").servers.length === 1,
+  "se borra la página cuyo manifiesto .m3u8 no existe");
+ok(despues.channels.find((c) => c.name === "ESPN3").servers.length === 2,
+  "se conserva la página cuyo manifiesto .m3u8 sí responde");
+ok(despues.channels.find((c) => c.name === "TVC").servers.length === 1,
+  "se borra el 200 que dice 'Could not play video'");
 ok(fs.existsSync(rep), "escribe el informe en JSON");
 const informe = JSON.parse(fs.readFileSync(rep, "utf8"));
-ok(informe.resumen.muertos === 6 && informe.resumen.protegidos === 1, "el informe cuadra con la pantalla");
+ok(informe.resumen.muertos === 8 && informe.resumen.protegidos === 1, "el informe cuadra con la pantalla");
 ok(informe.fallos.every((f) => f.canal && f.destino && f.code), "cada fallo dice canal, destino y motivo");
 
 /* ---------------- cierre ---------------- */
