@@ -721,6 +721,41 @@ export function resolveTarget(raw) {
   return { layers, target: absolute.length ? absolute[absolute.length - 1] : layers[layers.length - 1] };
 }
 
+/**
+ * Destinos comprobados que NO sirven vídeo aunque respondan 200.
+ *
+ * Se verificó a mano: devuelven "Could not play video /
+ * hls:networkError_manifestLoadError" o redirigen a un dominio aparcado.
+ * Se descartan en el generador para que el catálogo no se vuelva a llenar de
+ * enlaces muertos al regenerarlo desde las fuentes.
+ *
+ * Para volver a admitir uno, bórralo de esta lista y revisa que reproduzca.
+ */
+export const SIN_VIDEO = [
+  { host: "streamxhd.com", motivo: "redirige a streamxhd.sbs, sin reproductor" },
+  { host: "streamxhd.sbs", motivo: "sin reproductor" },
+  { host: "streamx-hd.com", motivo: "sin reproductor" },
+  { host: "stream-xhd.com", motivo: "sin reproductor" },
+  { host: "streamx996.one", motivo: "sin reproductor" },
+  { host: "streamhdx.com", motivo: "sin reproductor" },
+  { host: "la18hd.su", motivo: "hls:networkError_manifestLoadError" },
+  { host: "la20hd.com", motivo: "dominio inexistente (ENOTFOUND)" },
+  { host: "tvf90.com", motivo: "hls:networkError_manifestLoadError" },
+  { host: "alilus.github.io", motivo: "m3u8player: 'no se puede reproducir' (102630)" },
+  { host: "belami.top", motivo: "HTTP 404 en todos sus enlaces" },
+];
+
+const SIN_VIDEO_HOSTS = new Set(SIN_VIDEO.map((x) => x.host));
+
+/** ¿La URL (o el destino al que apunta) está en la lista de sin vídeo? */
+export function esSinVideo(url) {
+  for (const u of [url, resolveTarget(url).target]) {
+    const h = hostOf(u);
+    if (h && SIN_VIDEO_HOSTS.has(h.replace(/^www\./, ""))) return true;
+  }
+  return false;
+}
+
 /** Identidad estable de una URL (para comparar sin falsos negativos). */
 export function urlIdentity(url) {
   const s = String(url ?? "").trim();
@@ -1212,12 +1247,14 @@ function cleanLabel(raw, fallback) {
 export function mergeStreams(records) {
   const byTarget = new Map();
   let exactDropped = 0;
+  let sinVideoDropped = 0;
   const seenExact = new Set();
 
   for (const r of records) {
     for (const st of r.streams) {
       const id = urlIdentity(st.url);
       if (!id) continue;
+      if (esSinVideo(st.url)) { sinVideoDropped++; continue; }
       if (seenExact.has(id)) { exactDropped++; continue; }
       seenExact.add(id);
       const { layers, target } = resolveTarget(st.url);
@@ -1331,7 +1368,7 @@ export function mergeStreams(records) {
     optionOut.push({ label: base, url: o.url });
   }
 
-  return { servers: serverOut, options: optionOut, exactDropped, targetDropped: exactDropped + 0 };
+  return { servers: serverOut, options: optionOut, exactDropped, sinVideoDropped, targetDropped: exactDropped + 0 };
 }
 
 function uniqueSlug(base, used) {

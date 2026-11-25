@@ -23,6 +23,10 @@ on:
         type: string
         default: "10000"
 
+env:
+  # En push no hay inputs: estos son los valores por defecto de la ejecución.
+  TIMEOUT: ${{ inputs.timeout || '10000' }}
+
 permissions:
   contents: write
 
@@ -49,24 +53,42 @@ jobs:
           node -e 'const d=require("./data_unificado.json");console.log("canales:",d.channels.length)'
 
       - name: Verificar (simulación)
+        id: verificar
         run: |
           node verificar-enlaces.mjs \
-            --timeout=${{ inputs.timeout }} \
+            --timeout=${{ env.TIMEOUT }} \
             --reintentos=2 \
             --pasadas=2 \
             --reporte=verificacion-enlaces.json \
-            ${{ inputs.solo_options && '--solo-options' || '' }}
-        continue-on-error: false
+            ${{ inputs.solo_options && '--solo-options' || '' }} 2>&1 | tee salida-verificacion.txt
+        continue-on-error: true
 
       - name: Aplicar borrado
         if: ${{ inputs.apply }}
         run: |
           node verificar-enlaces.mjs \
-            --timeout=${{ inputs.timeout }} \
+            --timeout=${{ env.TIMEOUT }} \
             --reintentos=2 \
             --pasadas=2 \
             --apply \
-            --reporte=verificacion-enlaces.json
+            --reporte=verificacion-enlaces.json 2>&1 | tee -a salida-verificacion.txt
+        continue-on-error: true
+
+      - name: Resumen en el job
+        if: always()
+        run: |
+          echo "## Verificación de enlaces" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f verificacion-enlaces.json ]; then
+            node -e "
+              const r=require('./verificacion-enlaces.json').resumen;
+              const m=['| Métrica | Valor |','| --- | --- |'];
+              for(const k of Object.keys(r)) m.push('| '+k+' | '+r[k]+' |');
+              console.log(m.join('\n'));
+            " >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          head -80 salida-verificacion.txt >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
 
       - name: Guardar el informe
         if: always()
