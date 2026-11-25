@@ -1,0 +1,10 @@
+[enlaces] Archivo: data_unificado.json
+[enlaces] Canales: 642 · Enlaces: 1670
+[enlaces]   servers: 1433 · options: 237
+[enlaces]   con envoltorio: 216 · destinos distintos: 86
+[enlaces]   timeout 0 ms · concurrencia 4/host · pausa 250 ms · 2 pasada(s)
+[enlaces] 
+
+✘ Sin salida a internet en este entorno.
+  Todos los enlaces saldrían caídos, así que no se comprueba nada.
+  Ejecútalo en GitHub Actions, o usa --sin-canario si sabes lo que haces.
