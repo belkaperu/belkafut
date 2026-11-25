@@ -23,6 +23,7 @@
  *   node verificar-enlaces.mjs --solo-options     # comprobar solo las options
  *   node verificar-enlaces.mjs --max-caido=1      # desactivar el tope de caídos
  *   node verificar-enlaces.mjs --sin-canario      # saltar la prueba de conexión
+ *   node verificar-enlaces.mjs --canario=URL      # destinos de la prueba de conexión
  */
 
 import fs from "node:fs";
@@ -199,7 +200,10 @@ log("");
  * ------------------------------------------------------------------ */
 
 if (!args["sin-canario"]) {
-  const CANARIO = ["https://example.com/", "https://www.google.com/generate_204"];
+  // --canario= permite forzar destinos (útil para probar la salvaguarda).
+  const CANARIO = args.canario
+    ? String(args.canario).split(",").map((x) => x.trim()).filter(Boolean)
+    : ["https://example.com/", "https://www.google.com/generate_204"];
   let hayRed = false;
   for (const u of CANARIO) {
     // eslint-disable-next-line no-await-in-loop

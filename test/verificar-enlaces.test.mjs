@@ -155,7 +155,9 @@ ok(/127\.0\.0\.1:9\s+1\/1\s+CAÍDO/.test(sim.out), "detecta el host realmente ca
 
 section("Salvaguarda de entorno sin red");
 const sinRed = await new Promise((resolve) => {
-  const p = spawn(process.execPath, [path.join(ROOT, "verificar-enlaces.mjs"), `--archivo=${FIXTURE}`, "--timeout=2000"]);
+  // Canario apuntando a un puerto cerrado: así el caso "sin red" es determinista
+  // y no depende de que el runner de CI tenga internet.
+  const p = spawn(process.execPath, [path.join(ROOT, "verificar-enlaces.mjs"), `--archivo=${FIXTURE}`, "--timeout=2000", "--canario=http://127.0.0.1:9/"]);
   let out = "";
   p.stdout.on("data", (d) => { out += d; });
   p.stderr.on("data", (d) => { out += d; });
