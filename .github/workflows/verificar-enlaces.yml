@@ -8,6 +8,9 @@ name: Verificar enlaces de data_unificado.json
 # conserva otro enlace vivo. Nunca se borra por host.
 
 on:
+  push:
+    branches:
+      - "arena/c5fd7ca1-belkafut"
   workflow_dispatch:
     inputs:
       apply:
@@ -67,6 +70,17 @@ jobs:
             --pasadas=2 \
             --apply \
             --reporte=verificacion-enlaces.json
+
+      - name: Publicar el informe en la rama
+        if: always()
+        run: |
+          if [ -f verificacion-enlaces.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -f verificacion-enlaces.json
+            git commit -m "Informe de verificación de enlaces [skip ci]" || exit 0
+            git push || exit 0
+          fi
 
       - name: Guardar el informe
         if: always()
