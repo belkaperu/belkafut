@@ -1257,7 +1257,7 @@ function streamName(url) {
   }
 }
 
-function serverLabel(url) {
+export function serverLabel(url) {
   const host = hostOf(url);
   if (host) return host;
   const kind = classifyUrl(url);
@@ -1369,8 +1369,8 @@ export function mergeStreams(records, opts = {}) {
   for (const s of servers) {
     let base;
     if (s.envuelto) {
-      // Los embed se nombran con su propia URL, igual que los demás servidores.
-      base = s.url;
+      // Nombre normal, no la URL: "Embed", "Embed (2)"…
+      base = "Embed";
     } else {
       const raw = cleanLabel(s.label, "");
       const generic = !raw || /^\d{1,2}$/.test(raw) || PALABRAS_PROVEEDOR.has(raw.toLowerCase());

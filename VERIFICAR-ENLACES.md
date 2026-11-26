@@ -247,7 +247,7 @@ fallan. Por eso el generador ahora:
 1. detecta la página embed (`esPaginaEmbed`),
 2. la envuelve → `https://belkaperu.github.io/belkafut/repron.html?r=<embed>`,
 3. la deja en **`servers`** como un enlace más,
-4. la nombra con su propia URL, igual que el resto de servidores.
+4. la bautiza **`Embed`** (y `Embed (2)`, `Embed (3)`… si hay varias), como el resto de servidores: nombre corto, no la URL.
 
 Antes de este cambio había **107** páginas embed sueltas en `servers`. Y **42
 canales solo tenían ese enlace**: se veían rotos.
