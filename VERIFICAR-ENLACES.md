@@ -246,16 +246,16 @@ fallan. Por eso el generador ahora:
 
 1. detecta la página embed (`esPaginaEmbed`),
 2. la envuelve → `https://belkaperu.github.io/belkafut/repron.html?r=<embed>`,
-3. la manda a **`options`** (es donde el sitio guarda lo que va al reproductor),
-4. la etiqueta con el nombre del canal: `Gol Perú · embed`.
+3. la deja en **`servers`** como un enlace más,
+4. la nombra con su propia URL, igual que el resto de servidores.
 
 Antes de este cambio había **107** páginas embed sueltas en `servers`. Y **42
 canales solo tenían ese enlace**: se veían rotos.
 
 | | Antes | Ahora |
 | --- | --- | --- |
-| Páginas embed sueltas en `servers` | 107 | **0** |
-| Canales con embed envuelto en `options` | — | **115** |
+| Páginas embed sueltas (sin envolver) | 107 | **0** |
+| Embeds envueltos en `servers` | — | **113** |
 
 ### Trampa: no envolver dos veces
 

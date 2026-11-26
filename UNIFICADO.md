@@ -35,9 +35,9 @@ con exactamente estas 7 claves, en este orden:
 ```
 
 - `servers`: `{name, url}` · `options`: `{label, url}`.
-- Las **páginas embed** (`/embed2/espn.php`) van envueltas en
-  `repron.html?r=<página>` y dentro de `options`: sueltas no se pueden abrir,
-  solo cargan dentro de un `iframe`.
+- Las **páginas embed** (`/embed2/espn.php`) van en `servers` envueltas en
+  `repron.html?r=<página>`: sueltas no se pueden abrir, solo cargan dentro de
+  un `iframe`.
 - Las categorías mantienen `display_name`, `icon` y `name`.
 - Los canales van en orden alfabético, como antes.
 
