@@ -1338,7 +1338,8 @@ export function mergeStreams(records, opts = {}) {
       const candidate = {
         url: urlFinal,
         label: st.label,
-        section: esEmbed ? "options" : st.section,
+        // El embed envuelto se queda en servers, como el resto de enlaces.
+        section: st.section,
         source: r.source,
         layers,
         target: tid,
@@ -1366,9 +1367,15 @@ export function mergeStreams(records, opts = {}) {
   const serverOut = [];
   const usedNames = new Map();
   for (const s of servers) {
-    const raw = cleanLabel(s.label, "");
-    const generic = !raw || /^\d{1,2}$/.test(raw) || PALABRAS_PROVEEDOR.has(raw.toLowerCase());
-    const base = generic ? serverLabel(s.url) : raw;
+    let base;
+    if (s.envuelto) {
+      // Los embed se nombran con su propia URL, igual que los demás servidores.
+      base = s.url;
+    } else {
+      const raw = cleanLabel(s.label, "");
+      const generic = !raw || /^\d{1,2}$/.test(raw) || PALABRAS_PROVEEDOR.has(raw.toLowerCase());
+      base = generic ? serverLabel(s.url) : raw;
+    }
     const n = (usedNames.get(base) || 0) + 1;
     usedNames.set(base, n);
     serverOut.push({ name: n === 1 ? base : `${base} (${n})`, url: s.url });
@@ -1393,11 +1400,6 @@ export function mergeStreams(records, opts = {}) {
   for (const o of options) {
     const host = playerName(o.url);
     // Los enlaces que envuelvo yo no traen etiqueta: se les pone el canal.
-    if (o.envuelto) {
-      const nombre = String(opts.channel || "").trim();
-      optionOut.push({ label: nombre ? `${nombre} · embed` : "embed", url: o.url });
-      continue;
-    }
     // Partes de la etiqueta original: "ESPN2 · tvf90.com" -> ["ESPN2", "tvf90"]
     const parts = cleanLabel(o.label, host)
       .split("·")

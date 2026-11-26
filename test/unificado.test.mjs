@@ -322,7 +322,7 @@ ok(!esSinVideo("https://ztnr.rtve.es/ztnr/1694255.m3u8"), "un destino que sí re
 ok(SIN_VIDEO.length >= 10 && SIN_VIDEO.every((x) => x.host && x.motivo), "la lista de bloqueo documenta el motivo");
 ok(!esSinVideo("http://45.228.234.30:16000/play/a005/index.m3u8"), "un host con fallos parciales no se bloquea entero");
 
-section("Páginas embed: van envueltas a options");
+section("Páginas embed: van envueltas, dentro de servers");
 const EMBED = "https://embed.saohgdasregions.fun/embed2/espn.php";
 ok(esPaginaEmbed(EMBED), "detecta la página embed");
 ok(!esPaginaEmbed(`${REPRON}?r=${EMBED}`), "no vuelve a envolver lo ya envuelto");
@@ -332,6 +332,7 @@ ok(!esPaginaEmbed("http://45.228.234.30:16000/play/a005/index.m3u8"), "un m3u8 n
 ok(!esPaginaEmbed("/p/repro1.html?r=x"), "el reproductor del sitio no es página embed");
 ok(envolverEmbed(EMBED) === `${REPRON}?r=${EMBED}`, "envuelve en repron.html?r=", envolverEmbed(EMBED));
 ok(envolverEmbed(`${REPRON}?r=${EMBED}`) === `${REPRON}?r=${EMBED}`, "envolver es idempotente");
+ok(EMBED.startsWith("https://embed.") && envolverEmbed(EMBED).startsWith(REPRON), "el formato es repron.html?r=<embed>");
 
 section("Validación y formato");
 // El esquema del archivo NO se amplía: raíz {categories, channels} y 7 campos.

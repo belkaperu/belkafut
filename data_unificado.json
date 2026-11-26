@@ -110,14 +110,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a05a/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "A&E · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoveryaye.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoveryaye.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ABN",
@@ -203,14 +202,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a05b/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "AMC · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/amc.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/amc.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "América TV",
@@ -222,16 +220,16 @@
         {
           "name": "179.51.136.19:8000",
           "url": "http://179.51.136.19:8000/play/a1aq/index.m3u8"
+        },
+        {
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/americatv.php",
+          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/americatv.php"
         }
       ],
       "options": [
         {
           "label": "americatv · playlist",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9saXZlLWV2ZzI1LnR2MzYwLmJpdGVsLmNvbS5wZS9iaXRlbC9hbWVyaWNhdHYvcGxheWxpc3QubTN1OD91aWQ9Mzg3MTEyOQ=="
-        },
-        {
-          "label": "América TV · embed",
-          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/americatv.php"
         }
       ]
     },
@@ -261,14 +259,13 @@
         {
           "name": "animal_planet",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=animalplanet"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Animal Planet · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/animalplanet.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/animalplanet.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Antena 3",
@@ -276,13 +273,13 @@
       "normalized_name": "antena 3",
       "category": "Noticias",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/antena-3.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Antena 3 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/antena3.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/antena3.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ATLAS",
@@ -308,14 +305,13 @@
         {
           "name": "ATV",
           "url": "https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9kMXN2bWU4Mzl4a2Jzbi5jbG91ZGZyb250Lm5ldC9pbmRleC5tM3U4P1BsYXlsaXN0TTNVQ0w="
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ATV · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/atv.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/atv.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "AXN",
@@ -359,14 +355,13 @@
         {
           "name": "AXN",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=axn"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "AXN · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/axn.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/axn.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Aym Sport",
@@ -452,14 +447,13 @@
         {
           "name": "azteca7 HD",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=azteca7"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Azteca 7 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/azteca7.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/azteca7.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Azteca Deportes",
@@ -489,13 +483,13 @@
       "normalized_name": "azteca uno",
       "category": "Entretenimiento",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/azteca-uno.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Azteca Uno · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/aztecauno.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/aztecauno.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Baby TV",
@@ -587,13 +581,13 @@
       "normalized_name": "bein sports xtra",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/bein-sports-xtra.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "BeIN Sports Xtra · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/beinsportsxtra.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/beinsportsxtra.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Bethel TV",
@@ -861,14 +855,13 @@
         {
           "name": "canal5 HD",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=canal5"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Canal 5 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/canal5.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/canal5.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Canal 5 AR",
@@ -3234,14 +3227,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a04e/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Caracol · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/caracol.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/caracol.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Cartoon Network",
@@ -3269,14 +3261,13 @@
         {
           "name": "M3U (2)",
           "url": "http://45.228.234.30:16000/play/a00f/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Cartoon Network · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/cartoonnetwork.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/cartoonnetwork.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Cartoonito",
@@ -3288,14 +3279,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a00h/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Cartoonito · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/cartoonito.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/cartoonito.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Cdn Deportes",
@@ -3457,14 +3447,13 @@
         {
           "name": "cinecanal",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=cinecanal"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Cinecanal · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/cinecanal.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/cinecanal.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Cinema Azteca",
@@ -3518,14 +3507,13 @@
         {
           "name": "CINEMAX",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=cinemax"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Cinemax · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/cinemax.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/cinemax.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Cinemax 2",
@@ -3705,14 +3693,13 @@
         {
           "name": "181.78.106.127:9000",
           "url": "http://181.78.106.127:9000/play/ca050/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Comedy Central · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/comedycentral.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/comedycentral.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Concert Channel",
@@ -3790,13 +3777,13 @@
       "normalized_name": "dazn f1",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dazn-f1.png",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "DAZN F1 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/daznf1.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/daznf1.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "DAZN LaLiga",
@@ -3804,13 +3791,13 @@
       "normalized_name": "dazn la liga",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/daznliga.png",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "DAZN LaLiga · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/daznlaliga.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/daznlaliga.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "De Película",
@@ -3858,14 +3845,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a03e/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "De Película · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/dpelicula.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/dpelicula.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "De Película Plus",
@@ -3921,14 +3907,13 @@
         {
           "name": "discovery",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=discovery"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Discovery Channel · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoverychannel.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoverychannel.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Discovery Home & Health",
@@ -3956,14 +3941,13 @@
         {
           "name": "DISCOVERY helth",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=homehealth"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Discovery Home & Health · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoveryhyh.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoveryhyh.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Discovery Kids",
@@ -3979,14 +3963,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a01s/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Discovery Kids · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoverykids.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoverykids.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Discovery Science",
@@ -4012,14 +3995,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a06q/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Discovery Theater · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoverytheater.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoverytheater.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Discovery Turbo",
@@ -4049,14 +4031,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a068/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Discovery World · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoveryworld.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoveryworld.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Disney",
@@ -4090,14 +4071,13 @@
         {
           "name": "181.78.106.127:9000",
           "url": "http://181.78.106.127:9000/play/ca053/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Disney Channel · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/disneychannel.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/disneychannel.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Disney Jr.",
@@ -4117,14 +4097,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a00i/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Disney Jr. · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/disneyjr.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/disneyjr.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Distrito Comedia",
@@ -4136,14 +4115,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a035/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Distrito Comedia · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/distritocomedia.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/distritocomedia.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Dragon Ball Z",
@@ -4213,14 +4191,13 @@
         {
           "name": "190.102.149.68:1234 (2)",
           "url": "http://190.102.149.68:1234/play/a1ax/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "DSports · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/directvsports.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/directvsports.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "DSports 2",
@@ -4232,14 +4209,13 @@
         {
           "name": "179.51.136.19:8000",
           "url": "http://179.51.136.19:8000/play/a112/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "DSports 2 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/directvsports2.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/directvsports2.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "DSports Motor",
@@ -4261,13 +4237,13 @@
       "normalized_name": "dsports plus",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/dsports-plus.png",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "DSports+ · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/directvsportsplus.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/directvsportsplus.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Dubai Sports 1",
@@ -4367,13 +4343,13 @@
       "normalized_name": "el gourmet",
       "category": "Entretenimiento",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/el-gourmet.svg",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "El Gourmet · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/elgourmet.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/elgourmet.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "El Trece",
@@ -4381,15 +4357,16 @@
       "normalized_name": "el trece",
       "category": "Internacionales",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/eltrece.png",
-      "servers": [],
+      "servers": [
+        {
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/eltrece.php",
+          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/eltrece.php"
+        }
+      ],
       "options": [
         {
           "label": "eltrece · index",
           "url": "/p/repro1.html?r=https://belkaperu.github.io/belkafut/repron?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9saXZlLTAxLTAyLWVsdHJlY2Uudm9kZ2MubmV0L2VsdHJlY2V0di9pbmRleC5tM3U4"
-        },
-        {
-          "label": "El Trece · embed",
-          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/eltrece.php"
         }
       ]
     },
@@ -4525,14 +4502,13 @@
         {
           "name": "181.205.130.194:4000 (4)",
           "url": "http://181.205.130.194:4000/play/a07s"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 2",
@@ -4612,14 +4588,13 @@
         {
           "name": "ESPN2 MX HD",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=espn2"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN 2 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn2.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn2.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 2 México",
@@ -4627,13 +4602,13 @@
       "normalized_name": "espn 2 mexico",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-2-mexico.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "ESPN 2 México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn2mexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn2mexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 3",
@@ -4697,14 +4672,13 @@
         {
           "name": "ESPN MX HD",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=espn3"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN 3 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn3.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn3.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 3 México",
@@ -4720,14 +4694,13 @@
         {
           "name": "190.60.32.178:8178",
           "url": "http://190.60.32.178:8178/play/a015/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN 3 México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn3mexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn3mexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 4",
@@ -4791,14 +4764,13 @@
         {
           "name": "45.71.254.1:8000 (2)",
           "url": "http://45.71.254.1:8000/play/a0b8/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN 4 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn4.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn4.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 4 México",
@@ -4810,14 +4782,13 @@
         {
           "name": "181.78.106.127:9000",
           "url": "http://181.78.106.127:9000/play/ca036/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN 4 México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn4mexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn4mexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 4.5, 6 y 7",
@@ -4875,14 +4846,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a02o/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN 5 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn5.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn5.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 5 México",
@@ -4890,13 +4860,13 @@
       "normalized_name": "espn 5 mexico",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-5-mexico.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "ESPN 5 México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn5mexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn5mexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 6",
@@ -4932,14 +4902,13 @@
         {
           "name": "181.205.130.194:4000",
           "url": "http://181.205.130.194:4000/play/a07t"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN 6 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn6.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn6.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN 6 México",
@@ -4985,14 +4954,13 @@
         {
           "name": "59d39900ebfb8.streamlock.net",
           "url": "https://59d39900ebfb8.streamlock.net:443/8312/8312/playlist.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN 7 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn7.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espn7.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN AR",
@@ -5000,13 +4968,13 @@
       "normalized_name": "espn argentina",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-ar.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "ESPN AR · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espnar.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espnar.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN CO",
@@ -5014,13 +4982,13 @@
       "normalized_name": "espn colombia",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/espn-col.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "ESPN CO · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espncol.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espncol.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN México",
@@ -5036,14 +5004,13 @@
         {
           "name": "38.180.133.31:8000",
           "url": "http://38.180.133.31:8000/play/a0ox/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "ESPN México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espnmexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/espnmexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "ESPN Premium",
@@ -5125,13 +5092,13 @@
       "normalized_name": "everything",
       "category": "Entretenimiento",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Everything · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/everything.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/everything.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "EWTN",
@@ -5231,13 +5198,13 @@
       "normalized_name": "fm hot kids",
       "category": "Infantiles",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fm-hot-kids.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "FM Hot Kids · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/fmhotkids.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/fmhotkids.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "FMH Family",
@@ -5327,14 +5294,13 @@
         {
           "name": "drewlive24.duckdns.org:4123",
           "url": "http://drewlive24.duckdns.org:4123?url=https%3A%2F%2Fdokko1new.newkso.ru%2Fdokko1%2Fpremium643%2Fmono.m3u8&data=T3JpZ2luPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5enxSZWZlcmVyPWh0dHBzOi8vZm9yY2VkdG9wbGF5Lnh5ei98VXNlci1hZ2VudD1Nb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMzkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMzkuMA%3D%3D"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Fox Deportes · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxdeportes.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxdeportes.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Fox NIC",
@@ -5372,14 +5338,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a03p/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Fox Sports · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Fox Sports 1",
@@ -5413,14 +5378,13 @@
         {
           "name": "23.237.104.106:8080",
           "url": "http://23.237.104.106:8080/USA_FS2/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Fox Sports 2 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports2.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports2.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Fox Sports 2 México",
@@ -5428,13 +5392,13 @@
       "normalized_name": "fox sports 2 mexico",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-2-mexico.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Fox Sports 2 México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports2mexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports2mexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Fox Sports 3",
@@ -5450,14 +5414,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a00r/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Fox Sports 3 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports3.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports3.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Fox Sports 3 México",
@@ -5465,13 +5428,13 @@
       "normalized_name": "fox sports 3 mexico",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/fox-sports-3-mexico.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Fox Sports 3 México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports3mexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsports3mexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Fox Sports México",
@@ -5495,14 +5458,13 @@
         {
           "name": "FOX SPORTS 3 Mx/HD",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=foxsports3"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Fox Sports México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsportsmexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsportsmexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Fox Sports Premium",
@@ -5522,14 +5484,13 @@
         {
           "name": "FOX PREMIUM HD 1",
           "url": "https://dodousd.github.io/stylas/playerros.html?id=FSPMX"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Fox Sports Premium · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsportspremium.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/foxsportspremium.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "France 24",
@@ -5633,14 +5594,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a05d/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "FX · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/fx.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/fx.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "FX TV",
@@ -5662,13 +5622,13 @@
       "normalized_name": "galavision",
       "category": "Entretenimiento",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Galavisión · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/galavision.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/galavision.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Global TV",
@@ -5676,13 +5636,13 @@
       "normalized_name": "global tv",
       "category": "Internacionales",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Global TV · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/globaltv.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/globaltv.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Globo",
@@ -5736,14 +5696,13 @@
         {
           "name": "38.211.242.128:8001",
           "url": "http://38.211.242.128:8001/play/a09j/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Gol Perú · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/golperu.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/golperu.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Golden",
@@ -5821,14 +5780,13 @@
         {
           "name": "GOLDEN EDGE",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=goldenedge"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Golden Edge · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/goldenedge.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/goldenedge.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Golden Plus",
@@ -5840,14 +5798,13 @@
         {
           "name": "GOLDEN PLUS",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=goldenplus"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Golden Plus · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/goldenplus.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/goldenplus.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Golden Premier",
@@ -5863,14 +5820,13 @@
         {
           "name": "GOLDEN PREMIER",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=goldenpremier"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Golden Premier · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/goldenpremier.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/goldenpremier.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Golden Premier 2",
@@ -5882,14 +5838,13 @@
         {
           "name": "45.71.254.1:8000",
           "url": "http://45.71.254.1:8000/play/a0a6/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Golden Premier 2 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/goldenpremier2.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/goldenpremier2.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "GOLTV",
@@ -6202,14 +6157,13 @@
         {
           "name": "HISTORY",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=history"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "History · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/history.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/history.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "History 2",
@@ -6229,14 +6183,13 @@
         {
           "name": "HISTORY 2",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=history2"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "History 2 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/history2.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/history2.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "History Channel",
@@ -6330,14 +6283,13 @@
         {
           "name": "DISCOVERY id",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=id"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Investigation Discovery · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/idinvestigation.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/idinvestigation.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "IU TV",
@@ -6509,14 +6461,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a004/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Las Estrellas · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/lasestrellas.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/lasestrellas.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Latin America Sport",
@@ -6538,12 +6489,13 @@
       "normalized_name": "latina",
       "category": "Internacionales",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/latina.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Latina · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/latina.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/latina.php"
-        },
+        }
+      ],
+      "options": [
         {
           "label": "latina · playlist",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6Ly9qaXJlaC0xLWhscy12aWRlby1hci1pc3AuZHBzLmxpdmUvaGxzLXZpZGVvLzU2N2ZmZGUzZmEzMTlmYWRmMzQxOWVmZGEyNTYxOTQ1NjIzMWRmZWEvbGF0aW5hL2xhdGluYS5zbWlsL3BsYXlsaXN0Lm0zdTg="
@@ -6556,13 +6508,13 @@
       "normalized_name": "liga 1",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/liga-1.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Liga 1 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/liga1.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/liga1.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Liga 1 Max",
@@ -6570,13 +6522,13 @@
       "normalized_name": "liga 1 max",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/liga-1-max.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Liga 1 Max · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/liga1max.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/liga1max.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "LIM TV",
@@ -6686,13 +6638,13 @@
       "normalized_name": "mlb network",
       "category": "Deportes",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "MLB Network · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/mlbnetwork.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/mlbnetwork.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Movistar Deportes",
@@ -6708,18 +6660,17 @@
         {
           "name": "38.211.242.128:8001",
           "url": "http://38.211.242.128:8001/play/a09i/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Movistar Deportes · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/movistardeportes.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/movistardeportes.php"
         },
         {
-          "label": "Movistar Deportes · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/movistardeporteses.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/movistardeporteses.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Movistar LaLiga",
@@ -6731,14 +6682,13 @@
         {
           "name": "181.78.106.127:9000",
           "url": "http://181.78.106.127:9000/play/ca027/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Movistar LaLiga · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/movistarlaliga.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/movistarlaliga.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Movistar Liga de Campeones",
@@ -6754,14 +6704,13 @@
         {
           "name": "MOVISTAR Ligadecampeones 3",
           "url": "https://streamtp1.com/global1.php?stream=movistarligadecampeones3"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Movistar Liga de Campeones · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/movistarligadecampeones.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/movistarligadecampeones.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "MTV",
@@ -6769,13 +6718,13 @@
       "normalized_name": "mtv",
       "category": "Entretenimiento",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/mtv.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "MTV · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/mtv.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/mtv.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Multicanal",
@@ -6817,14 +6766,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a025/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Multipremier · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/multipremier.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/multipremier.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Nat Geo",
@@ -6852,14 +6800,13 @@
         {
           "name": "nacionalwd",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=natgeo"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Nat Geo · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/natgeo.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/natgeo.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "NBA",
@@ -6871,14 +6818,13 @@
         {
           "name": "NBA",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=nba"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "NBA · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/nba.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/nba.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "NEOX",
@@ -6928,13 +6874,13 @@
       "normalized_name": "nick",
       "category": "Infantiles",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nick.png",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Nick · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/nick.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/nick.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Nick Jr.",
@@ -6942,13 +6888,13 @@
       "normalized_name": "nick jr",
       "category": "Infantiles",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/nick-jr.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Nick Jr. · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/nickjr.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/nickjr.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Nickelodeon",
@@ -7004,14 +6950,13 @@
         {
           "name": "38.180.133.31:8000",
           "url": "http://38.180.133.31:8000/play/a0nj/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Paramount · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/paramountchannel.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/paramountchannel.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Pasiones",
@@ -7027,14 +6972,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a069/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Pasiones · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/pasiones.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/pasiones.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Planeta TV",
@@ -7146,14 +7090,13 @@
         {
           "name": "190.60.32.178:8178",
           "url": "http://190.60.32.178:8178/play/a0ao/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "RCN · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/rcn.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/rcn.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "RCN Extra",
@@ -7360,13 +7303,13 @@
       "normalized_name": "sky sports bundesliga",
       "category": "Deportes",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Sky Sports Bundesliga · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/skysportsbundesliga.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/skysportsbundesliga.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Sky Sports F1",
@@ -7374,13 +7317,13 @@
       "normalized_name": "sky sports f1",
       "category": "Deportes",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Sky Sports F1 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/skysportsf1.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/skysportsf1.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Sky Sports México",
@@ -7388,13 +7331,13 @@
       "normalized_name": "sky sports mexico",
       "category": "Deportes",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Sky Sports México · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/skysportsmexico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/skysportsmexico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Sky Sports Premier League",
@@ -7545,14 +7488,13 @@
         {
           "name": "space",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=space"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Space · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/space.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/space.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Sport TV PT",
@@ -7714,14 +7656,13 @@
         {
           "name": "star channel",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=star"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Star Channel · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/starchannel.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/starchannel.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Star Tve",
@@ -7773,14 +7714,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a028/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Studio Universal · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/studiouniversal.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/studiouniversal.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Super Sports",
@@ -7830,13 +7770,13 @@
       "normalized_name": "syfy",
       "category": "Entretenimiento",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "SyFy · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/syfy.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/syfy.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Tabil Sports",
@@ -8017,12 +7957,13 @@
       "normalized_name": "telefe",
       "category": "Internacionales",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telefe.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Telefe · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/telefe.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/telefe.php"
-        },
+        }
+      ],
+      "options": [
         {
           "label": "telefe",
           "url": "/p/repro1noticias.html?r=https://belkaperu.github.io/belkafut/repron?r=https://sage-sopapillas-90cdd3.netlify.app/withcod.html?get=dGVsZWZl"
@@ -8108,13 +8049,13 @@
       "normalized_name": "telemundo 51",
       "category": "Entretenimiento",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telemundo-51.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Telemundo 51 · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/telemundo51.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/telemundo51.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Telemundo Puerto Rico",
@@ -8122,13 +8063,13 @@
       "normalized_name": "telemundo puerto rico",
       "category": "Entretenimiento",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/telemundo-puerto-rico.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Telemundo Puerto Rico · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/telemundopuertorico.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/telemundopuertorico.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "TELENOSTALGIA",
@@ -8252,14 +8193,13 @@
         {
           "name": "38.180.133.31:8000",
           "url": "http://38.180.133.31:8000/play/a0p5/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "TIGO Sports · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://anceprov.best/embed/tigopy.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://anceprov.best/embed/tigopy.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Tigo Sports El Salvador",
@@ -8289,14 +8229,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a01j/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "TLC · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoverytlc.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/discoverytlc.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "TLN",
@@ -8326,13 +8265,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a031/index.m3u8"
+        },
+        {
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tlnovelas.php",
+          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tlnovelas.php"
         }
       ],
       "options": [
-        {
-          "label": "Tlnovelas · embed",
-          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tlnovelas.php"
-        },
         {
           "label": "TNT Novelas HD · tntnovelas",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tntnovelas.php"
@@ -8387,14 +8326,13 @@
         {
           "name": "45.228.234.30:16000 (2)",
           "url": "http://45.228.234.30:16000/play/a06p/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "TNT · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tnt.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tnt.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "TNT Novelas",
@@ -8460,14 +8398,13 @@
         {
           "name": "tntserie",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=tntseries"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "TNT Series · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tntseries.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tntseries.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "TNT Sports",
@@ -8497,13 +8434,13 @@
       "normalized_name": "tnt sports chile",
       "category": "Deportes",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tnt-sports-chile.png",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "TNT Sports Chile · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tntsportschile.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tntsportschile.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "TNT Sports Premium",
@@ -8541,14 +8478,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a019/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Tooncast · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tooncast.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tooncast.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Trece",
@@ -8612,14 +8548,13 @@
         {
           "name": "TUDN HD",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=tudn"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "TUDN · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tudn.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tudn.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "TV Agro",
@@ -8669,13 +8604,13 @@
       "normalized_name": "tv publica",
       "category": "Internacionales",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/tvpublica.jpg",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "TV Pública · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tvpublica.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tvpublica.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "TV Retro",
@@ -8711,15 +8646,16 @@
       "normalized_name": "tvc deportes",
       "category": "Deportes",
       "imageUrl": null,
-      "servers": [],
+      "servers": [
+        {
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tvcdeportes.php",
+          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tvcdeportes.php"
+        }
+      ],
       "options": [
         {
           "label": "Azteca Deportes HD · aztecadeportes",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/aztecadeportes.php"
-        },
-        {
-          "label": "TVC Deportes · embed",
-          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tvcdeportes.php"
         }
       ]
     },
@@ -8795,14 +8731,13 @@
         {
           "name": "38.211.242.128:8001",
           "url": "http://38.211.242.128:8001/play/a09t/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "TyC Sports · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tycsports.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/tycsports.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Unicable",
@@ -8810,13 +8745,13 @@
       "normalized_name": "unicable",
       "category": "Entretenimiento",
       "imageUrl": "https://raw.githubusercontent.com/belkaperu/belkafut/main/img/canales/unicable.webp",
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Unicable · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/unicable.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/unicable.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Unido 2 Sports",
@@ -8864,13 +8799,13 @@
         {
           "name": "universalcine",
           "url": "https://belkaperu.github.io/belkafut/tt.html?channel=universal"
+        },
+        {
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/universalcinema.php",
+          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/universalcinema.php"
         }
       ],
       "options": [
-        {
-          "label": "Universal Cinema · embed",
-          "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/universalcinema.php"
-        },
         {
           "label": "Universal Channel HD · universaltv",
           "url": "/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/universaltv.php"
@@ -9035,14 +8970,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a06a/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Univision · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/univision.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/univision.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "USA",
@@ -9204,14 +9138,13 @@
         {
           "name": "45.228.234.30:16000",
           "url": "http://45.228.234.30:16000/play/a01o/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Warner Channel · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/warnerchannel.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/warnerchannel.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Willax",
@@ -9233,13 +9166,13 @@
       "normalized_name": "willax",
       "category": "Internacionales",
       "imageUrl": null,
-      "servers": [],
-      "options": [
+      "servers": [
         {
-          "label": "Willax · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/willax.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/willax.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Win Sports",
@@ -9259,14 +9192,13 @@
         {
           "name": "181.78.85.53:9002",
           "url": "http://181.78.85.53:9002/play/a05k/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Win Sports · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/winsports.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/winsports.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Win Sports+",
@@ -9282,14 +9214,13 @@
         {
           "name": "181.78.85.53:9002",
           "url": "http://181.78.85.53:9002/play/a003/index.m3u8"
-        }
-      ],
-      "options": [
+        },
         {
-          "label": "Win Sports+ · embed",
+          "name": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/winsportsplus.php",
           "url": "https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/winsportsplus.php"
         }
-      ]
+      ],
+      "options": []
     },
     {
       "name": "Матч! Футбол 3 HD 🇷🇺",
