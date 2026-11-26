@@ -14,7 +14,7 @@ import { fileURLToPath } from "node:url";
 import {
   buildUnified, validateUnified, mergeKey, keyOf, cleanName, fixMojibake,
   smartTitle, resolveTarget, urlIdentity, isJunkName, inferCategory, scoreImage,
-  esSinVideo, SIN_VIDEO, SIN_VIDEO_ENLACES, esPaginaEmbed, envolverEmbed, REPRON,
+  esSinVideo, SIN_VIDEO, SIN_VIDEO_ENLACES, esPaginaEmbed, envolverEmbed, REPRON, serverLabel,
 } from "../build-unificado.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -333,6 +333,10 @@ ok(!esPaginaEmbed("/p/repro1.html?r=x"), "el reproductor del sitio no es página
 ok(envolverEmbed(EMBED) === `${REPRON}?r=${EMBED}`, "envuelve en repron.html?r=", envolverEmbed(EMBED));
 ok(envolverEmbed(`${REPRON}?r=${EMBED}`) === `${REPRON}?r=${EMBED}`, "envolver es idempotente");
 ok(EMBED.startsWith("https://embed.") && envolverEmbed(EMBED).startsWith(REPRON), "el formato es repron.html?r=<embed>");
+ok(envolverEmbed(EMBED) === `${REPRON}?r=${EMBED}`, "el embed se envuelve entero, sin recortar");
+
+section("Nombre de los embeds");
+ok(!/^https?:/.test(serverLabel(envolverEmbed(EMBED))), "el nombre del embed no es la URL", serverLabel(envolverEmbed(EMBED)));
 
 section("Validación y formato");
 // El esquema del archivo NO se amplía: raíz {categories, channels} y 7 campos.
