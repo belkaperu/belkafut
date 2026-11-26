@@ -35,6 +35,9 @@ con exactamente estas 7 claves, en este orden:
 ```
 
 - `servers`: `{name, url}` · `options`: `{label, url}`.
+- Las **páginas embed** (`/embed2/espn.php`) van envueltas en
+  `repron.html?r=<página>` y dentro de `options`: sueltas no se pueden abrir,
+  solo cargan dentro de un `iframe`.
 - Las categorías mantienen `display_name`, `icon` y `name`.
 - Los canales van en orden alfabético, como antes.
 
@@ -51,7 +54,7 @@ que el esquema no puede ampliarse por accidente.
 | `tvenvivo.webp` usado como logo de 148 canales distintos | Solo la coincidencia real por canal |
 | Mojibake (`CNN Espaæol`, `Venezolana de Televisiðn`) y espacios sobrantes | Corregidos |
 
-Cifras actuales: **493 canales**, 1040 enlaces, **0 claves repetidas, 0 URLs
+Cifras actuales: **499 canales**, 1050 enlaces, **0 claves repetidas, 0 URLs
 repetidas y 0 canales sin enlace**.
 
 Los destinos comprobados que no reproducen (aunque respondan 200) se descartan

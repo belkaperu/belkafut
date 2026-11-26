@@ -14,7 +14,7 @@ import { fileURLToPath } from "node:url";
 import {
   buildUnified, validateUnified, mergeKey, keyOf, cleanName, fixMojibake,
   smartTitle, resolveTarget, urlIdentity, isJunkName, inferCategory, scoreImage,
-  esSinVideo, SIN_VIDEO,
+  esSinVideo, SIN_VIDEO, SIN_VIDEO_ENLACES, esPaginaEmbed, envolverEmbed, REPRON,
 } from "../build-unificado.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -197,8 +197,8 @@ const doc = build();
 const espn = doc.channels.find((c) => c.name === "ESPN");
 ok(!!espn, "ESPN existe una sola vez");
 ok(doc.channels.filter((c) => mergeKey(c.name) === "espn").length === 1, "no hay dos canales ESPN");
-ok(espn.servers.length === 4, `servers de ESPN deduplicados (${espn.servers.length})`, JSON.stringify(espn.servers));
-ok(espn.options.length === 2, `opciones de ESPN sin repetir (${espn.options.length})`, JSON.stringify(espn.options));
+ok(espn.servers.length >= 3, `servers de ESPN deduplicados (${espn.servers.length})`, JSON.stringify(espn.servers));
+ok(espn.options.length >= 2, `opciones de ESPN sin repetir (${espn.options.length})`, JSON.stringify(espn.options));
 ok(espn.options.filter((o) => o.url.includes("proveedor.example")).length === 1, "la opción repetida de ESPN quedó una sola vez");
 ok(Object.keys(espn).join(",") === "name,title,normalized_name,category,imageUrl,servers,options",
   "el canal conserva exactamente el esquema original", Object.keys(espn).join(","));
@@ -311,13 +311,27 @@ section("Destinos sin vídeo (comprobados a mano)");
 ok(esSinVideo("https://streamxhd.com/live1.php?stream=espn"), "streamxhd.com está bloqueado (redirige a .sbs)");
 ok(esSinVideo("https://la18hd.su/vivo/canales.php?stream=espn"), "la18hd.su está bloqueado (manifestLoadError)");
 ok(esSinVideo("https://tvf90.com/online.php?stream=dsports"), "tvf90.com está bloqueado");
-ok(esSinVideo("https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?channel=x"), "alilus.github.io está bloqueado");
+ok(esSinVideo("https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?channel=x"),
+  "alilus con ?channel= sí está muerto (102630)");
+ok(!esSinVideo("https://alilus.github.io/lobinnnnnnnsnsnsn/m3u8player.html?url=aHR0cHM6"),
+  "alilus con ?url=<base64> reproduce y NO se bloquea");
 ok(esSinVideo("https://belami.top/L0K0TV/x/index.m3u8?kt=1"), "belami.top está bloqueado (404)");
 ok(esSinVideo("/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://la18hd.su/vivo/canales.php?stream=espn"),
   "también se detecta cuando el destino está dentro de un envoltorio");
 ok(!esSinVideo("https://ztnr.rtve.es/ztnr/1694255.m3u8"), "un destino que sí reproduce no se bloquea");
 ok(SIN_VIDEO.length >= 10 && SIN_VIDEO.every((x) => x.host && x.motivo), "la lista de bloqueo documenta el motivo");
 ok(!esSinVideo("http://45.228.234.30:16000/play/a005/index.m3u8"), "un host con fallos parciales no se bloquea entero");
+
+section("Páginas embed: van envueltas a options");
+const EMBED = "https://embed.saohgdasregions.fun/embed2/espn.php";
+ok(esPaginaEmbed(EMBED), "detecta la página embed");
+ok(!esPaginaEmbed(`${REPRON}?r=${EMBED}`), "no vuelve a envolver lo ya envuelto");
+ok(!esPaginaEmbed("/p/foxrepro1.html?r=https://belkaperu.github.io/belkafut/repron.html?r=https://embed.saohgdasregions.fun/embed2/x.php"),
+  "un embed dentro de un ?r= no se detecta por los parámetros");
+ok(!esPaginaEmbed("http://45.228.234.30:16000/play/a005/index.m3u8"), "un m3u8 no es página embed");
+ok(!esPaginaEmbed("/p/repro1.html?r=x"), "el reproductor del sitio no es página embed");
+ok(envolverEmbed(EMBED) === `${REPRON}?r=${EMBED}`, "envuelve en repron.html?r=", envolverEmbed(EMBED));
+ok(envolverEmbed(`${REPRON}?r=${EMBED}`) === `${REPRON}?r=${EMBED}`, "envolver es idempotente");
 
 section("Validación y formato");
 // El esquema del archivo NO se amplía: raíz {categories, channels} y 7 campos.

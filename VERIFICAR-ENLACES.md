@@ -228,6 +228,55 @@ bloqueado, el envoltorio se descarta igual. Los hosts con fallos parciales
 Para readmitir un host, basta quitarlo de `SIN_VIDEO` cuando vuelva a
 reproducir.
 
+
+## Páginas embed: hay que envolverlas
+
+Las páginas del proveedor (`https://embed.saohgdasregions.fun/embed2/espn.php`)
+**no se pueden abrir directamente**: el navegador las bloquea en el top frame y
+solo cargan dentro de un `iframe`.
+
+El reproductor del sitio ya las pinta así:
+
+```html
+<iframe src="repron.html?r=https://embed.saohgdasregions.fun/embed2/espn.php">
+```
+
+Si se ponen tal cual en `servers`, el cliente las abre como enlace directo y
+fallan. Por eso el generador ahora:
+
+1. detecta la página embed (`esPaginaEmbed`),
+2. la envuelve → `https://belkaperu.github.io/belkafut/repron.html?r=<embed>`,
+3. la manda a **`options`** (es donde el sitio guarda lo que va al reproductor),
+4. la etiqueta con el nombre del canal: `Gol Perú · embed`.
+
+Antes de este cambio había **107** páginas embed sueltas en `servers`. Y **42
+canales solo tenían ese enlace**: se veían rotos.
+
+| | Antes | Ahora |
+| --- | --- | --- |
+| Páginas embed sueltas en `servers` | 107 | **0** |
+| Canales con embed envuelto en `options` | — | **115** |
+
+### Trampa: no envolver dos veces
+
+`esPaginaEmbed` mira **solo host y ruta, nunca los parámetros**. Si mirase la URL
+entera, un enlace ya envuelto (`/p/…?r=…repron.html?r=…embed2/…`) volvería a
+envolverse y se crearía un canal duplicado.
+
+### Trampa: `alilus.github.io` no es un host muerto
+
+Ese reproductor **depende del parámetro**:
+
+| Enlace | Resultado |
+| --- | --- |
+| `m3u8player.html?channel=foxpremium` | "no se puede reproducir (102630)" |
+| `m3u8player.html?url=<base64 del m3u8>` | **reproduce** |
+
+Bloquear el host entero borraba canales que solo tenían ese enlace bueno (se
+perdían BeIN Sports Extra, DSports Motor, Fox Sports 2/3 Argentina…). Ahora se
+bloquea **el enlace concreto** (`SIN_VIDEO_ENLACES`), no el host.
+
+
 ## Esquema intacto
 
 El borrado solo quita elementos de `servers` y `options`. La raíz sigue siendo
