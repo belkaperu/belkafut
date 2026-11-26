@@ -741,8 +741,20 @@ export const SIN_VIDEO = [
   { host: "la18hd.su", motivo: "hls:networkError_manifestLoadError" },
   { host: "la20hd.com", motivo: "dominio inexistente (ENOTFOUND)" },
   { host: "tvf90.com", motivo: "hls:networkError_manifestLoadError" },
-  { host: "alilus.github.io", motivo: "m3u8player: 'no se puede reproducir' (102630)" },
   { host: "belami.top", motivo: "HTTP 404 en todos sus enlaces" },
+];
+
+/**
+ * Enlaces concretos muertos de un host que SÍ sirve otros.
+ *
+ * `alilus.github.io/m3u8player.html` reproduce con `?url=<base64 del m3u8>`
+ * pero devuelve "102630" con `?channel=`. Por eso no se bloquea el host: se
+ * bloquea el patrón del enlace que falla. Bloquear el host entero hacía
+ * desaparecer canales que solo tenían ese enlace bueno.
+ */
+export const SIN_VIDEO_ENLACES = [
+  { host: "alilus.github.io", ruta: "/m3u8player.html", soloSi: /[?&]channel=/i,
+    motivo: "con ?channel= da 102630; con ?url=<base64> sí reproduce" },
 ];
 
 const SIN_VIDEO_HOSTS = new Set(SIN_VIDEO.map((x) => x.host));
@@ -750,8 +762,16 @@ const SIN_VIDEO_HOSTS = new Set(SIN_VIDEO.map((x) => x.host));
 /** ¿La URL (o el destino al que apunta) está en la lista de sin vídeo? */
 export function esSinVideo(url) {
   for (const u of [url, resolveTarget(url).target]) {
-    const h = hostOf(u);
-    if (h && SIN_VIDEO_HOSTS.has(h.replace(/^www\./, ""))) return true;
+    const h = (hostOf(u) || "").replace(/^www\./, "");
+    if (!h) continue;
+    if (SIN_VIDEO_HOSTS.has(h)) return true;
+    // Enlaces concretos de un host que por lo demás sí sirve.
+    for (const regla of SIN_VIDEO_ENLACES) {
+      if (h !== regla.host) continue;
+      if (regla.ruta && !String(u).includes(regla.ruta)) continue;
+      if (regla.soloSi && !regla.soloSi.test(String(u))) continue;
+      return true;
+    }
   }
   return false;
 }
@@ -785,6 +805,53 @@ export function classifyUrl(url) {
   }
   if (/\/embed[\d/]|embed\.|\.php(\?|$)/.test(lower)) return "embed";
   return "page";
+}
+
+/* ------------------------------------------------------------------ *
+ * Envoltorio para páginas que solo se pueden ver embebidas
+ * ------------------------------------------------------------------ */
+
+export const REPRON = "https://belkaperu.github.io/belkafut/repron.html";
+
+/**
+ * Páginas que el navegador NO puede abrir directamente (bloquean el top frame)
+ * pero sí cargan dentro de un iframe: `/embed2/espn.php` y similares.
+ *
+ * El reproductor del sitio las pinta dentro de un iframe (`repron.html?r=…`).
+ * Puestas tal cual en `servers`, el cliente las abre como enlace directo y
+ * fallan. Aquí se envuelven y se mandan a `options`, que es donde el sitio ya
+ * guarda lo que se ve en el reproductor.
+ */
+export function esPaginaEmbed(url) {
+  const raw = String(url || "").trim();
+  if (!raw) return false;
+  // Ya envuelta: no volver a envolver.
+  if (/[?&](?:r|embed|url)=/i.test(raw)) return false;
+
+  let u;
+  try {
+    u = new URL(raw, "https://belkaperu.github.io/belkafut/");
+  } catch {
+    return false;
+  }
+  // Solo se mira el host y la RUTA, nunca los parámetros: dentro de un ?r=
+  // puede haber otra página embed y eso no la hace embebible.
+  if (!/^https?:$/.test(u.protocol)) return false;
+  const host = u.hostname.toLowerCase();
+  const path = u.pathname.toLowerCase();
+
+  if (/\.(m3u8|mpd)$/.test(path)) return false;          // streams: ya sirven
+  if (/^(repro|repron|repro1|repro3|tt|canalmas)\.html$/.test(path.replace(/^\//, ""))) return false;
+
+  return /^embed\./.test(host) || /\/embed\d*\//.test(path) || /\/embed2?\//.test(path);
+}
+
+/** Envuelve una página embed en el reproductor del sitio. */
+export function envolverEmbed(url) {
+  const raw = String(url || "").trim();
+  if (!raw) return raw;
+  if (/^[a-z]+:\/\/.*repron\.html\?r=/i.test(raw)) return raw;   // ya envuelta
+  return `${REPRON}?r=${raw}`;
 }
 
 function isWrapped(url) {
@@ -1244,10 +1311,11 @@ function cleanLabel(raw, fallback) {
  * Une registros del mismo canal y deduplica enlaces.
  * Devuelve { servers, options, urlsEliminadas }.
  */
-export function mergeStreams(records) {
+export function mergeStreams(records, opts = {}) {
   const byTarget = new Map();
   let exactDropped = 0;
   let sinVideoDropped = 0;
+  let embedEnvuelto = 0;
   const seenExact = new Set();
 
   for (const r of records) {
@@ -1255,18 +1323,28 @@ export function mergeStreams(records) {
       const id = urlIdentity(st.url);
       if (!id) continue;
       if (esSinVideo(st.url)) { sinVideoDropped++; continue; }
-      if (seenExact.has(id)) { exactDropped++; continue; }
-      seenExact.add(id);
-      const { layers, target } = resolveTarget(st.url);
-      const tid = urlIdentity(target) || id;
+
+      // Páginas embed: el navegador no las abre sueltas, solo dentro de un
+      // iframe. Se envuelven en repron.html y van a options, donde el sitio ya
+      // guarda lo que se ve en el reproductor.
+      const esEmbed = esPaginaEmbed(st.url);
+      const urlFinal = esEmbed ? envolverEmbed(st.url) : st.url;
+      const idFinal = esEmbed ? urlIdentity(urlFinal) : id;
+
+      if (seenExact.has(idFinal)) { exactDropped++; continue; }
+      seenExact.add(idFinal);
+      const { layers, target } = resolveTarget(urlFinal);
+      const tid = urlIdentity(target) || idFinal;
       const candidate = {
-        url: st.url,
+        url: urlFinal,
         label: st.label,
-        section: st.section,
+        section: esEmbed ? "options" : st.section,
         source: r.source,
         layers,
         target: tid,
+        envuelto: esEmbed,
       };
+      if (esEmbed) embedEnvuelto += 1;
       const prev = byTarget.get(tid);
       if (!prev || compareCandidates(candidate, prev) < 0) byTarget.set(tid, candidate);
     }
@@ -1314,6 +1392,12 @@ export function mergeStreams(records) {
   };
   for (const o of options) {
     const host = playerName(o.url);
+    // Los enlaces que envuelvo yo no traen etiqueta: se les pone el canal.
+    if (o.envuelto) {
+      const nombre = String(opts.channel || "").trim();
+      optionOut.push({ label: nombre ? `${nombre} · embed` : "embed", url: o.url });
+      continue;
+    }
     // Partes de la etiqueta original: "ESPN2 · tvf90.com" -> ["ESPN2", "tvf90"]
     const parts = cleanLabel(o.label, host)
       .split("·")
@@ -1368,7 +1452,7 @@ export function mergeStreams(records) {
     optionOut.push({ label: base, url: o.url });
   }
 
-  return { servers: serverOut, options: optionOut, exactDropped, sinVideoDropped, targetDropped: exactDropped + 0 };
+  return { servers: serverOut, options: optionOut, exactDropped, sinVideoDropped, embedEnvuelto, targetDropped: exactDropped + 0 };
 }
 
 function uniqueSlug(base, used) {
@@ -1562,7 +1646,7 @@ export function buildUnified(docs, opts = {}) {
     usedKeys.add(key);
     const names = [...new Set(recs.map((r) => cleanName(r.name)))];
     const display = pickDisplayName(key, recs, displayNames);
-    const { servers, options, exactDropped } = mergeStreams(recs);
+    const { servers, options, exactDropped } = mergeStreams(recs, { channel: display });
     stats.urls_exactas_eliminadas += exactDropped;
 
     if (names.length > 1 || recs.length > 1) {
@@ -1648,7 +1732,7 @@ export function buildUnified(docs, opts = {}) {
     const names = [...new Set(recs.map((r) => cleanName(r.name)))];
     // Se conservan servidores y reproductores: antes solo se miraban los
     // servidores y un canal que únicamente traía reproductor perdía su enlace.
-    const { servers, options } = mergeStreams(recs);
+    const { servers, options } = mergeStreams(recs, { channel: names[0] || "" });
     const enlaces = [...servers, ...options];
     if (!enlaces.length) continue;
     unidentifiedStreams += enlaces.length;
